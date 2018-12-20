@@ -1,0 +1,550 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Нет</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Главная страница</string><!--Home-->
+    <string name="Nav_collectible">Коллекция</string><!--Collectibles--> 
+    <string name="Nav_request">Запросить</string><!--Request-->
+    <string name="Nav_receive">Получить</string><!--Receive-->
+    <string name="Nav_shop">Купить</string><!--Shop-->
+    <string name="home_recovering">Восстановление...</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">Выполняется восстановление, подождите.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">Источник курсов валют: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Управление порядком</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">Параметры</string><!--Settings-->
+    <string name="tool_help">Справка</string><!--Help-->
+    <string name="tool_sort_by">Сортировать по</string><!--Sort by-->
+    <string name="tool_sort_custom">Пользовательский</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">По алфавиту</string><!--Alphabetical-->
+    <string name="tool_sort_value">Значение</string><!--Value-->
+
+    <string name="Create_wallet">Создать новый кошелек</string><!--Create a new wallet-->
+    <string name="total_assets">Всего активов</string><!--Total assets--> 
+    <string name="last_update">Последнее обновление: %1$d минут назад.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">Нет подключения к Интернету</string><!--No internet connection-->
+    <string name="retry_button">Параметры</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">Мои монеты (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">Кошелек еще не добавлен</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">Управление кошельком</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Купить/продать</string><!--Buy/Sell-->
+    <string name="shop_buy">Купить</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Купить или продать на Maicoin</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">Покупка, продажа или любая транзакция («Транзакция») с криптовалютой будет проводиться с помощью сторонних поставщиков обменных услуг.  Вся такая Транзакция будет подлежать соответствующим условиям обслуживания между вами и сторонними поставщиками обменных услуг. Прежде чем использовать услуги сторонних поставщиков обменных услуг, внимательно прочитайте эти условия. HTC не несет ответственности за любые операции между вами и сторонними поставщиками обменных услуг.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">Больше не напоминать.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">Система</string><!--System-->
+    <string name="gen_wallet_title">Кошелек</string><!--Wallet-->
+    <string name="gen_now">сейчас</string><!--now-->
+    <string name="gen_screenshot">Не удалось сохранить снимок экрана</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">Снимки экрана не разрешены по соображениям безопасности</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">Принять транзакцию</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">Вы получили %1$s от</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">ПОДРОБНЕЕ</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">Транзакция завершена</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">Ваша %1$s транзакция на %2$s подтверждена</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">Сбой транзакции</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">Не удалось выполнить транзакцию на %1$s, отправленную %2$s %3$s к %4$s</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">Доступна новая версия</string><!--New version available-->
+    <string name="gen_new_version_hint">Обновите приложение до более новой версии для повышения безопасности и удобства использования.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">Выпущены новые настройки безопасности. Для вашей защиты необходимо обновить систему. Обновите, чтобы продолжить.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">ОБНОВИТЬ</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">Загружаются настройки безопасности. Подождите.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">В вашем телефоне разрешен корневой доступ</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">Ваш кошелек заблокирован, так как в вашем телефоне разрешен корневой доступ. Это мера предосторожности. Обратитесь в службу поддержки, чтобы узнать свои дальнейшие действия.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">Ваш телефон взломан</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">Ваш кошелек заблокирован, так как ваш телефон взломан. Это мера предосторожности. Обратитесь в службу поддержки, чтобы узнать свои дальнейшие действия.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">Важная оговорка. Это продукт раннего доступа, в котором используется блокчейн-технология. Криптовалюты, обмен токенами и блокчейн — это новые технологии, с которыми могут быть связаны непредвиденные риски. Например, у третьих сторон могут быть слабые места в устройствах, приложениях кошельков или блокчейн-сетях, которые могут мешать прохождению блокчейн-транзакций или приводить к потере вашей криптовалюты. Всегда храните в безопасном месте свою фразу восстановления из 12 слов (блочный криптоалгоритм) и пароль. Вы несете исключительную ответственность за защиту своих ключей восстановления. Продолжая, вы признаете и соглашаетесь принять на себя все связанные с этим риски.\n\nСпасибо, что попробовали наши продукты. Мы всемерно стремимся улучшить наши технологии и искренне благодарим вас за <a href="mailto:exodus@htc.com">отзыв</a>.</string>
+    <string name="gen_feedback">отзыв</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Коллекция</string><!--Collectibles-->
+    <string name="no_collectible">Еще нет коллекции</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">Здесь будет показана ваша коллекция.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">Купить токены</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">Нажмите, чтобы увидеть свою коллекцию</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Добавить еще</string><!--Add more-->
+    <string name="addwallet_search_wallet">Поиск кошелька</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">Купить монеты</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">Запросить</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">Отправить</string><!--Send-->
+    <string name="addwallet_hint">Здесь будут показаны ваши транзакции.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">У вас нет транзакций</string><!--You have no transactions-->
+    <string name="no_wallet_found">Кошелек не найден</string><!--No wallet found-->
+    <string name="addwallet_add_btn">Добавить</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Управление списком кошельков</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">Знакомьтесь: <b>Zion</b></string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">Многофункциональный защищенный кошелек на основе технологии «блокчейн».</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Создайте свой кошелек Zion</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">Восстановите свой кошелек</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Запросы Social Key Recovery</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">Продолжая, я подтверждаю, что прочитал(а) и принимаю условия %1$s и %2$s.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">Условия использования</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">Правила конфиденциальности HTC</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">Хотите помочь другу?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">Я прочитал(а) и принимаю условия %1$s и %2$s.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Условия предоставления услуг Zion</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">Политика конфиденциальности</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Создайте пароль.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">Создайте новый пароль.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">Этот пароль требуется для всех транзакций и для разблокирования вашего кошелька.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">Подтвердите пароль.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">Подтвердите новый пароль.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">Пароли не совпадают. Повторите попытку.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">Фраза восстановления из 12 слов для резервного копирования и восстановления</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">Этот набор слов — единственный способ восстановить ваш кошелек, если вы потеряете свой телефон или забудете пароль.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">Создать фразу восстановления из 12 слов</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">Запишите 12 слов фразы восстановления в правильном порядке</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">Обязательно запишите все 12 слов фразы восстановления в правильном порядке и сохраните их в безопасном месте.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">Слова записаны</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">Проверьте свою фразу восстановления из 12 слов (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">Чтобы убедиться, что слова записаны правильно, введите слова в правильном порядке.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">Далее</string><!--Next-->
+    <string name="verify_key_1_not_match">Одно или несколько слов не совпадают. Повторите попытку.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">Проверьте свою фразу восстановления из 12 слов (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">Проверьте свою фразу восстановления из 12 слов (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">Поздравляем! Ваш кошелек настроен.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">Чтобы разблокировать кошелек, включите использование отпечатка пальца.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">Перейдите в свой кошелек.</string><!--Go to your wallet.-->
+
+    <string name="restoring">Восстановление</string><!--Restoring-->
+    <string name="preparing_secure_ui">Подготовка защищенного интерфейса пользователя</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">Для восстановления кошелька введите фразу восстановления из 12 слов (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">Введите фразу восстановления из 12 слов в правильном порядке.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">Для восстановления кошелька введите фразу восстановления из 12 слов (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">Для восстановления кошелька введите фразу восстановления из 12 слов (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">Поздравляем!</string><!--Congratulations!-->
+    <string name="wallet_restored">Ваш кошелек восстановлен.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Разблокируйте свой кошелек</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">Использовать отпечаток пальца</string><!--Use fingerprint-->
+    <string name="use_passcode">Пароль</string><!--Passcode-->
+    <string name="or">или</string><!--or-->
+    <string name="use_fingerprint_to_unlock">Используйте отпечаток пальца для разблокирования</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">Повторите попытку</string><!--Try again-->
+    <string name="use_passcode_to_unlock">Использовать пароль для разблокирования</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">Изменена настройка отпечатка пальца</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">Похоже, вы недавно изменили настройки отпечатка пальца. Для использования этой функции настройте новый отпечаток пальца.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">Настроить</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">Чтобы разблокировать кошелек, введите пароль</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">Доступна новая версия</string><!--New version available-->
+    <string name="new_version_hint">Обновите приложение до более новой версии для повышения безопасности и удобства использования.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">Обновить позже</string><!--Update later-->
+    <string name="update_now">Обновить</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Отправить</string><!--Send-->
+    <string name="select_wallet">Выберите кошелек</string><!--Select a wallet--> 
+    <string name="send_to">КОМУ</string><!--TO-->
+    <string name="send_amount">СУММА</string><!--AMOUNT-->
+    <string name="hint_amount">Введите сумму</string><!--Enter amount-->
+    <string name="to_paste_addr">Вставить адрес</string><!--Paste address-->
+    <string name="to_scan_QR">Сканировать QR-код</string><!--Scan QR code-->
+    <string name="to_select_QR_image">Выбрать сохраненное изображение</string><!--Select saved image-->
+    <string name="to_enter_address">Введите адрес</string><!--Enter address-->
+    <string name="to_paste_addr2">Вставить адрес из буфера обмена</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">Добавить из сохраненных изображений</string><!--Add from saved images-->
+    <string name="enter_address_hint">Введите адрес</string><!--Enter a address-->
+    <string name="send_address">Адрес</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">МАКС</string><!--MAX-->
+    <string name="send_review_btn">Просмотреть транзакцию</string><!--Review transaction-->
+    <string name="fee">Комиссия за транзакцию</string><!--Transaction Fee-->
+    <string name="select_wallet_error">Недостаточно средств.</string><!--Insufficient funds.-->
+    <string name="amount_hint">Баланс:</string><!--Balance:-->
+    <string name="address_error">Неверный адрес %s.</string><!--Invalid %s address.-->
+    <string name="amount_input_error">Недостаточно средств для оплаты комиссии за транзакцию.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">Сумма должна быть не меньше %s</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">ОТМЕНА</string><!--CANCEL-->
+    <string name="enteraddr_save">СОХРАНИТЬ</string><!--SAVE-->
+    <string name="payment_urgent">Срочный</string><!--Urgent-->
+    <string name="payment_priority">Важность</string><!--Priority-->
+    <string name="payment_regular">Обычный</string><!--Regular-->
+    <string name="payment_economy">Экономия</string><!--Economy-->
+    <string name="payment_title">Выберите важность платежа</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 мин.</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 час</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 час</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 часа</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">Описание комиссии за транзакцию</string><!--Transaction fee description-->
+    <string name="send_review">Просмотрите свою транзакцию</string><!--Review your transaction-->
+    <string name="send_note">ПАМЯТКА</string><!--MEMO-->
+    <string name="send_note_hint">(НЕОБЯЗАТЕЛЬНО)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">Транзакция выполнена!</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">Время выполнения транзакции зависит от сетевого трафика и комиссии за транзакцию.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">OK</string><!--OK-->
+    <string name="fee_error">Ошибка на сервере: неизвестный платеж</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">Не удалось выполнить транзакцию</string><!--Transaction not successful--> 
+    <string name="review_send_to">ОТПРАВИТЬ К</string><!--SEND TO-->
+    <string name="review_fee">КОМИССИЯ</string><!--FEE-->
+    <string name="review_edit">Изменить</string><!--Edit-->
+    <string name="review_enter_pin">Пароль</string><!--Passcode-->
+    <string name="review_cancel">Отменить транзакцию</string><!--Cancel transaction-->
+    <string name="send_server_no_response">Сервер не отвечает. Повторите попытку позже.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">Комиссию за транзакции удерживают третьи стороны, а не HTC. Более высокий приоритет оплачивается по более высокому тарифу. Описание временного интервала для приоритета основано на статистике реального времени блокчейн-сети и предоставляется только для справки. Ваш выбор приоритета не гарантирует успешное выполнение транзакции или выполнение ее в течение указанного периода.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">Пользователь %s добавил вас в качестве доверенного контакта</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">Шаг 1. Введите свое имя и получите контрольный код от %s.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">Шаг 2. Ваш контрольный код создан в телефоне пользователя %s. Запросите у него код и введите его.</string> 
+    <string name="ver_enter_name_hint">Введите свое имя</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Запросить код</string><!--Request code--> 
+    <string name="ver_remain_time">Осталось времени: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">Введите пароль, чтобы создать контрольный код</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">Отправить этот код %s</string><!--Share this code to %s-->
+    <string name="ver_sharing_remind_name">Новый запрос от %s</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">M: %s\nчерез %s</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">ОТКЛОНИТЬ</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Новый запрос от %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">Нажмите, чтобы увидеть контрольный код и передать его %s.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">ПОКАЗАТЬ КОНТРОЛЬНЫЙ КОД</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Нет ответа? Вы можете сделать новый запрос через %s</string>
+    <string name="ver_verify">Проверить</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Теперь вы доверенный контакт для %s.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">Теперь вы сможете помочь пользователю %s в восстановлении кошелька в случае его утери или кражи. Приложение Zion зашифровало и сохранило часть данных восстановления кошелька этого пользователя на вашем устройстве. Не удаляйте приложение Zion или данные приложения Zion, иначе данные для восстановления будут потеряны. Zion будет периодически сверять с %s действительность данных восстановления.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">Готово</string><!--Done-->
+    <string name="ver_pin_error_hint">Этот код недействителен, повторите попытку.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">Уведомление</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Вы уже являетесь доверенным контактом пользователя %s</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Спасибо за помощь в резервном копировании данных пользователя %s</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">Контрольный код отправлен</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Ожидание проверки... После завершения проверки вы станете доверенным контактом %s.</string><!--Waiting for verifying. You will be %s’s trusted contact when verification is completed.-->
+    <string name="ver_dialog_restore_verifying_subtitle">Идет проверка...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">Информация проверки отправлена</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">Проверка...</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">Неизвестно</string><!--Unknown-->
+    <string name="ver_unknown_name">Неизвестно</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">Считать контрольный код</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">Спасибо за помощь!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">Пользователь %s уже достиг предела в 5 доверенных контактов.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Срок действия этой ссылки истек. Попросите %s отправить обновленную ссылку.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">Истекло время ожидания запроса, повторите попытку позже.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Повторите попытку позже</string><!--Please try again later-->
+    <string name="try_too_often_message">Вы делаете слишком частые попытки, повторите через %d минут</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Параметры</string><!--Settings-->
+    <string name="setting_tag1">Предпочтения</string><!--Preferences--> 
+    <string name="setting_currency">Предпочитаемая валюта</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">Безопасность</string><!--Security--> 
+    <string name="setting_notification">Разрешить push-уведомления</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">Уведомлять об исходящих и входящих транзакциях</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">Включить снимки экрана</string><!--Enable screenshots--> 
+    <string name="setting_pin">Изменить PIN-код</string><!--Change PIN-->
+    <string name="setting_fingerprint">Отпечаток пальца</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">Используется только для разблокирования приложения</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">Кошелек</string><!--Wallet--> 
+    <string name="setting_show_key">Показать фразу восстановления из 12 слов</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Сбросить кошелек</string><!--Reset wallet-->
+    <string name="setting_tag4">О программе</string><!--About--> 
+    <string name="setting_learn_more">Узнать больше</string><!--Learn more-->
+    <string name="setting_service">Условия предоставления услуг</string><!--Terms of service--> 
+    <string name="setting_policy">Политика конфиденциальности</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Что такое Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Функция Social Key Recovery может помочь вам восстановить кошелек с помощью ваших доверенных друзей или близких.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Пригласите от 3 до 5 человек в качестве доверенных контактов, которые смогут помочь восстановить ваш кошелек.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Ваши доверенные контакты могут отправить код, который поможет вам восстановить кошелек.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Настройка</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Не сейчас</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Сделайте резервную копию списка ваших доверенных контактов</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Для восстановления кошелька с помощью Social Key Recovery выберите учетную запись Google, чтобы создать резервную копию ваших доверенных контактов. Список доверенных контактов будет сохранен на Google Диске.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Добавить учетную запись</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Отмена</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Продолжить</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">Доверенный контакт</string><!--Trusted contact--> 
+    <string name="backup_null_contact">У вас еще нет доверенных контактов.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Функция Social Key Recovery доступна, если у вас есть от 3 до 5 доверенных контактов.</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Пригласите друзей быть вашими \n доверенными контактами</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Пригласите от 3 до 5 друзей или близких в качестве доверенных контактов, которые помогут вам восстановить кошелек.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">Ваше имя</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">Введите свое имя</string><!--Enter your name-->
+    <string name="backup_invitation_hi">Добрый день, %s!</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">Отправить приглашение</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Неактивен</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Активен</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Добрый день! \n\n Я выбрал(а) вас в качестве своего доверенного контакта для восстановления кошелька Zion с помощью Social Key Recovery. \n Пожалуйста, выполните приведенные ниже действия \n для создания резервной копии моих данных для восстановления.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Перейдите по этой ссылке, чтобы загрузить и установить Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) По завершении не забудьте \n запросить у меня контрольный код.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Спасибо!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Время последней проверки: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">Нажмите здесь, чтобы создать код.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Отправить еще раз</string><!--Resend-->
+    <string name="backup_bottom_request_show">Запросы от друзей</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Удалить доверенный контакт</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">Отмена</string><!--Cancel-->
+    <string name="backup_remove_button_delete">Удалить (%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">Удалить доверенный контакт</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Выход</string>
+    <string name="backup_pending_target_toolbar">Запросы от друзей</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">В данный момент нет запросов.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Резервное копирование на том же устройстве не поддерживается.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Выполнить резервное копирование с помощью доверенных контактов?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">Ссылка для доступа</string><!--Share link-->
+    <string name="restore_request">Запрос на восстановление от %s</string><!--Restore request from %s-->
+    <string name="show">Показать</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Эта учетная запись использована на другом устройстве</string><!--This account has been used in another device-->
+    <string name="db_security_concern">По соображениям безопасности каждая учетная запись может использоваться только для одного устройства.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Вы все равно хотите использовать эту учетную запись или воспользуетесь другой, чтобы запустить функцию Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Использовать эту учетную запись</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Список ваших предыдущих доверенных контактов будет безвозвратно потерян.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Использовать другую учетную запись</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Сохраните предыдущие данные и создайте новые.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Вы действительно хотите использовать эту учетную запись?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">Список ваших предыдущих доверенных контактов будет безвозвратно потерян.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">Для продолжения введите PIN-код</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">Как вы хотите восстановить свой кошелек\?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">Использовать фразу восстановления из 12 слов</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">С помощью Social Key Recovery</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">Введите фразу восстановления из 12 слов, которую вы записали, когда создавали кошелек.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">Обратитесь за помощью к своим доверенным контактам.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Добрый день! \n\n Так как вы мой надежный контакт, я прошу вас помочь мне в восстановлении кошелька Zion.\nДля восстановления проделайте, пожалуйста, следующее.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Нажмите эту ссылку и создайте контрольный код.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Отправьте мне код.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Спасибо!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Подождите...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Выполняется вход...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Эта учетная запись не активирована для Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Попробуйте другую учетную запись или используйте фразу восстановления из 12 слов, чтобы восстановить кошелек</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Подождите...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Создание ссылки...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Войдите в свою учетную запись</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Для восстановления кошелька с помощью Social Key Recovery выберите учетную запись Google, в которой вы ранее сохранили список доверенных контактов.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Не удалось создать ссылку для отправки</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Повторите попытку позже.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Не удалось выполнить вход</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Повторите попытку позже.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Обратитесь за помощью к своим доверенным контактам</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Свяжитесь с тремя из ваших доверенных контактов и передайте им эту ссылку.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Каждый из контактов даст вам код. Введите каждый код ниже:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Один или несколько кодов неверны. Повторите попытку.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Введите код</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Отмена</string><!--Cancel-->
+    <string name="social_restore_btn_next">Далее</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">Повторите попытку позже</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">Вы делаете слишком частые попытки, повторите через %s минут</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">Один или несколько кодов неверны.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">Проверьте правильность всех кодов и повторите попытку.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">На вашем устройстве нет резервной копии %s.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Не удалось восстановить</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Попробуйте использовать другую учетную запись или фразу из 12 слов для восстановления.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Приглашение от %s</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Нажмите, чтобы принять.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Запрос поддержки для восстановления от %s</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">Нажмите, чтобы создать код.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">Для этой учетной записи функция Social Key Recovery не настроена.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">Попробуйте использовать другую учетную запись или фразу из 12 слов для восстановления.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">Обновить состояние резервного копирования</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">Подтвердите удаление доверенных контактов</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">Введите пароль для удаления</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Выполнить резервное копирование с помощью доверенных контактов?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">Вы также можете настроить Social Key Recovery с доверенными контактами, которые помогут вам создать резервную копию кошелька.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">Подробнее</string><!--Tell me more-->
+    <string name="social_backup_not_now">Не сейчас</string><!--Not now-->
+    <string name="social_backup_oops_inactive">К сожалению, некоторые из ваших доверенных контактов неактивны.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Свяжитесь со своим доверенным контактом по вопросу надежности связей.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Вы использовали эту учетную запись на другом устройстве</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Все ваши данные Social Key Recovery станут недоступны. Чтобы продолжить использовать Social Key Recovery, вам необходимо будет войти в другую учетную запись.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">Принимаю</string><!--Agree-->
+    <string name="social_key_recovery_disagree">Не принимаю</string><!--Disagree-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %s, %s again.</string>-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">Сведения о транзакции</string><!--Transaction details--> 
+    <string name="Amount">Общая сумма</string><!--Total Amount-->
+    <string name="Date">Дата</string><!--Date-->
+    <string name="Send_to">Отправить к</string><!--Send to-->
+    <string name="Receive_From">Получить от</string><!--Receive from-->
+    <string name="Memo">Памятка</string><!--Memo-->
+    <string name="transaction_amount_send">Сумма для отправки</string><!--Amount to send-->
+    <string name="transaction_amount_receive">Сумма для получения</string><!--Amount to receive-->
+    <string name="transaction_amount">Значение</string><!--Value-->
+    <string name="Transaction_Fee">Комиссия за транзакцию</string><!--Transaction fee--> 
+    <string name="Status">Состояние</string><!--Status-->
+    <string name="Transcation_ID">Идентификатор транзакции</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">Просканируйте QR-код %1$s</string><!--Scan %1$s QR code-->
+    <string name="Settings">Параметры</string><!--Settings-->
+    <string name="Help">Справка</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">Запросить</string><!--Request-->
+    <string name="WALLET_ADDRESS">АДРЕС КОШЕЛЬКА</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">УЧЕТНАЯ ЗАПИСЬ ДЛЯ КРЕДИТА</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">ЗАПРОСИТЬ СУММУ (НЕОБЯЗАТЕЛЬНО)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">Опубликовать QR-код</string><!--Share QR code-->
+    <string name="Copy_as_text">Скопировать как текст</string><!--Copy as text-->
+    <string name="copy_toast">Адрес кошелька скопирован в буфер обмена.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">Некоторые кошельки сторонних производителей могут не поддерживать количество запросов, содержащееся в ссылках или QR-кодах.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">Сканировать QR-код</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">Для использования сканер QR-кодов предоставьте доступ к своей камере.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">Включить доступ к камере</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Разрешить Zion делать снимки и записывать видео</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">Больше не спрашивать</string><!--Never ask again-->
+    <string name="DENY">ОТКЛОНИТЬ</string><!--DENY-->
+    <string name="ALLOW">РАЗРЕШИТЬ</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">Просканируйте адрес в QR-коде %1$s(%2$s)</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">Выровняйте код по рамке</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">Недопустимый открытый адрес</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">Не удалось подключиться.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Для использования этого приложения требуется сетевое подключение. На странице «Настройки» включите мобильный Интернет или Wi-Fi.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Отмена</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+    <string name="You_have_no_transaction">У вас нет транзакций.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Здесь будет показана ваша транзакция, когда вы будете отправлять и получать средства в криптовалюте.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Попробовать Social Key Recovery\?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">Помимо восстановления кошелька посредством фразы восстановления из 12 слов, функция Social Key Recovery может помочь вам легко восстановить кошелек с помощью доверенных контактов.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">УЖЕ СКОРО ДЛЯ IOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+	<string name="transaction_confirmation">Подтверждение</string>
+</resources>

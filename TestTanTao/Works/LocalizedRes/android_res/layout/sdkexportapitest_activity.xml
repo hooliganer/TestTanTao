@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <RadioGroup
+            android:id="@+id/radioGroupType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <RadioButton
+                android:id="@+id/radioBTC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BTC" />
+
+            <RadioButton
+                android:id="@+id/radioLTC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LTC" />
+            <RadioButton
+                android:id="@+id/radioETH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ETH" />
+            <RadioButton
+                android:id="@+id/radioETHerc20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ETH Erc20" />
+            <RadioButton
+                android:id="@+id/radioX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X" />
+        </RadioGroup>
+        <Button android:id="@+id/HideParamButton"
+                android:textAllCaps = "false"
+                android:text="Test Parameters (Collapse/Expand)"
+                android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvParameters"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+
+        <TextView   android:id="@+id/tvTZsupport"
+                    android:textSize="20dp"
+                    android:textColor="@color/red"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <!-- Api 0 -->
+        <TextView   android:id="@+id/tvInput0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button0"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+
+        <!-- Api 1 -->
+        <TextView   android:id="@+id/tvInput1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button1"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 2 -->
+        <TextView   android:id="@+id/tvInput2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button2"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 3 -->
+        <TextView   android:id="@+id/tvInput3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button3"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 4 -->
+        <TextView   android:id="@+id/tvInput4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button4"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 5 -->
+        <TextView   android:id="@+id/tvInput5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button5"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 6 -->
+        <TextView   android:id="@+id/tvInput6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button6"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 7 -->
+        <TextView   android:id="@+id/tvInput7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button7"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 8 -->
+        <TextView   android:id="@+id/tvInput8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button8"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 9 -->
+        <TextView   android:id="@+id/tvInput9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button9"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 10 -->
+        <TextView   android:id="@+id/tvInput10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button10"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 11 -->
+        <TextView   android:id="@+id/tvInput11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button11"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 12 -->
+        <TextView   android:id="@+id/tvInput12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView   android:id="@+id/tvInput12_seed0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <TextView   android:id="@+id/tvInput12_seed1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <TextView   android:id="@+id/tvInput12_seed2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/Button12"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+                <TextView   android:id="@+id/tvOutput12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 13 -->
+        <TextView   android:id="@+id/tvInput13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button13"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 14 -->
+        <TextView   android:id="@+id/tvInput14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button14"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 15 -->
+        <TextView   android:id="@+id/tvInput15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button15"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 16 -->
+        <TextView   android:id="@+id/tvInput16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button16"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 17 -->
+        <TextView   android:id="@+id/tvInput17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button17"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 18 -->
+        <TextView   android:id="@+id/tvInput18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button18"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 19 -->
+        <TextView   android:id="@+id/tvInput19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button19"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 20 -->
+        <TextView   android:id="@+id/tvInput20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button20"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 21 -->
+        <TextView   android:id="@+id/tvInput21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button21"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 22 -->
+        <TextView   android:id="@+id/tvInput22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button22"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 23 -->
+        <TextView   android:id="@+id/tvInput23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button23"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 24 -->
+        <TextView   android:id="@+id/tvInput24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button24"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 25 -->
+        <TextView   android:id="@+id/tvInput25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button25"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 26 -->
+        <TextView   android:id="@+id/tvInput26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button26"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 27 -->
+        <TextView   android:id="@+id/tvInput27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button27"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 28 -->
+        <TextView   android:id="@+id/tvInput28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button28"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView   android:id="@+id/tvOutput28_ext_addr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        <TextView   android:id="@+id/tvOutput28_ext_encaddr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        <TextView   android:id="@+id/tvOutput28_ext_encaddr_sig"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 29 -->
+        <TextView   android:id="@+id/tvInput29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button29"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 30 -->
+        <TextView   android:id="@+id/tvInput30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button30"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 31 -->
+        <TextView   android:id="@+id/tvInput31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button31"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 32 -->
+        <TextView   android:id="@+id/tvInput32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button32"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 33 -->
+        <TextView   android:id="@+id/tvInput33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button33"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 34 -->
+        <TextView   android:id="@+id/tvInput34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button34"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 35 -->
+        <TextView   android:id="@+id/tvInput35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button35"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 36 -->
+        <TextView   android:id="@+id/tvInput36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button36"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 37 -->
+        <TextView   android:id="@+id/tvInput37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button37"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 38 -->
+        <TextView   android:id="@+id/tvInput38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button38"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 39 -->
+        <TextView   android:id="@+id/tvInput39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button39"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+        <!-- Api 40 -->
+        <TextView   android:id="@+id/tvInput40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button40"
+                android:textAllCaps = "false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickApiButton"/>
+        <TextView   android:id="@+id/tvOutput40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="3dp" android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+</ScrollView>

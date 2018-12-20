@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_entry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallet_background"
+    tools:context=".EntryActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background_image_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wallet_background_pattern_01"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/background_image_top"
+            android:layout_marginLeft="@dimen/margin_l_2"
+            android:layout_marginTop="@dimen/M1"
+            android:layout_marginRight="@dimen/margin_l_2">
+
+            <TextView
+                android:id="@+id/welcome_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:text="@string/welcome_to_zion"
+                android:textColor="@color/dark_primaryfont_color"
+                android:textSize="@dimen/wallet_41"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/welcome_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/welcome_title"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/welcome_intro"
+                android:textColor="@color/dark_primaryfont_color"
+                android:textSize="@dimen/Wallet_42"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/welcome_title"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="@dimen/margin_l_2"
+                android:layout_marginEnd="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/welcome_intro">
+
+                <CheckBox
+                    android:id="@+id/legal_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#ffffff"
+                    android:checked="false"/>
+
+                <com.htc.wallet.widget.LinkableTextView
+                    android:id="@+id/legal_check_text"
+                    style="@style/dark_source_label_m"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/M1"
+                    android:layout_toEndOf="@+id/legal_checkbox"
+                    android:bufferType="spannable"
+                    android:textColorLink="@color/all_hyperlink_color"
+                    android:textIsSelectable="false"/>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/welcome_create_wallet"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="@dimen/M2"
+                android:background="@drawable/button_create_wallet"
+                android:enabled="false"
+                android:fontFamily="@string/font_family_regular"
+                android:text="@string/create_a_new_wallet"
+                android:textAllCaps="false"
+                android:textColor="#f7b66a"
+                android:textSize="@dimen/list_primary_xs"
+                app:layout_constraintBottom_toTopOf="@+id/welcome_restore"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rl_link"
+                app:layout_constraintVertical_bias="1.0"/>
+
+            <Button
+                android:id="@+id/welcome_restore"
+                style="@style/darklist_primary_xs"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="@dimen/margin_xs_3"
+                android:background="@drawable/button_restore_wallet"
+                android:enabled="false"
+                android:text="@string/restore_from_backup"
+                android:textAllCaps="false"
+                app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="@dimen/M1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/welcome_social_backup"
+                    style="@style/darklist_primary_xs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="@string/social_backup_requests"/>
+
+                <TextView
+                    android:id="@+id/welcome_social_backup_num"
+                    style="@style/notification_info_xs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/M4"
+                    android:layout_toEndOf="@+id/welcome_social_backup"
+                    android:background="@drawable/shape_social_backup_request_friends_icon"
+                    android:gravity="center"
+                    android:text="@string/backup_bottom_request_show_num"
+                    android:textColor="#f7b66a"/>
+            </RelativeLayout>
+
+            <!--TextView
+                android:id="@+id/welcome_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy"
+                android:layout_margin="@dimen/margin_l"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"/-->
+
+        </android.support.constraint.ConstraintLayout>
+
+        <!--Button
+            android:id="@+id/entry_to_intro"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/big_button_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="@dimen/bread_margin"
+            android:layout_marginEnd="@dimen/bread_margin"
+            android:text="@string/Home_to_intro"
+            app:layout_constraintBottom_toTopOf="@id/entry_to_home"
+            /-->
+
+        <!--Button
+            android:id="@+id/create_wallet"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/big_button_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="@dimen/bread_margin"
+            android:layout_marginEnd="@dimen/bread_margin"
+            android:text="@string/Create_wallet"
+            android:textColor="@color/white"
+            android:textSize="70px"
+            android:background="@drawable/button_create_wallet"
+            /-->
+
+        <RelativeLayout
+            android:id="@+id/loadingPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

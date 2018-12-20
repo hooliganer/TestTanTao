@@ -1,0 +1,550 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Không</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Màn hình chính</string><!--Home-->
+    <string name="Nav_collectible">Khoản phải thu</string><!--Collectibles--> 
+    <string name="Nav_request">Yêu cầu</string><!--Request-->
+    <string name="Nav_receive">Nhận</string><!--Receive-->
+    <string name="Nav_shop">Mua sắm</string><!--Shop-->
+    <string name="home_recovering">Đang khôi phục...</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">Đang khôi phục, vui lòng đợi.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">Nguồn tỷ giá tiền tệ: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Quản lý thứ tự</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">Cài đặt</string><!--Settings-->
+    <string name="tool_help">Trợ giúp</string><!--Help-->
+    <string name="tool_sort_by">Sắp xếp theo</string><!--Sort by-->
+    <string name="tool_sort_custom">Tùy chỉnh</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">Theo bảng chữ cái</string><!--Alphabetical-->
+    <string name="tool_sort_value">Giá trị</string><!--Value-->
+
+    <string name="Create_wallet">Tạo ví mới</string><!--Create a new wallet-->
+    <string name="total_assets">Tổng tài sản</string><!--Total assets--> 
+    <string name="last_update">Cập nhật lần cuối %1$d phút trước.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">Không có kết nối internet</string><!--No internet connection-->
+    <string name="retry_button">Cài đặt</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">Xu của tôi (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">Chưa thêm vào ví nào</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">Quản lý ví</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Mua/Bán</string><!--Buy/Sell-->
+    <string name="shop_buy">Mua</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Mua/bán từ Maicoin</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">Việc mua, bán hoặc bất kỳ giao dịch nào (“Giao dịch”) tiền điện tử sẽ nào sẽ được thực hiện với các nhà cung cấp trao đổi bên thứ ba.  Tất cả các Giao dịch đó sẽ phải tuân theo các điều khoản và điều kiện dịch vụ có liên quan giữa bạn và các nhà cung cấp trao đổi bên thứ ba. Bạn cần đọc kỹ các điều khoản và điều kiện đó trước khi sử dụng dịch vụ từ nhà cung cấp trao đổi bên thứ ba. HTC không chịu trách nhiệm về bất kỳ hoạt động nào giữa bạn và nhà cung cấp trao đổi bên thứ ba.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">Không nhắc nhở lại nữa.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">Hệ thống</string><!--System-->
+    <string name="gen_wallet_title">Ví</string><!--Wallet-->
+    <string name="gen_now">bây giờ</string><!--now-->
+    <string name="gen_screenshot">Không thể lưu ảnh chụp màn hình</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">Không được chép chụp ảnh màn hình vì lý do bảo mật</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">Nhận giao dịch</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">Bạn đã nhận được %1$s từ</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">XEM CHI TIẾT</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">Giao dịch hoàn tất</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">Giao dịch %1$s của bạn trên %2$s đã được xác nhận</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">Giao dịch thất bại</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">Giao dịch của bạn trên %1$s gửi %2$s %3$s đến %4$s không thành công</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">Phiên bản mới có sẵn</string><!--New version available-->
+    <string name="gen_new_version_hint">Vui lòng cập nhật ứng dụng lên phiên bản mới hơn để có trải nghiệm người dùng và bảo mật tốt hơn.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">Đã phát hành thiết lập bảo mật mới. Để được bảo vệ, bạn cần cập nhật hệ thống. Hãy cập nhật để tiếp tục.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">CẬP NHẬT NGAY</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">Đang tải thiết lập bảo mật. Vui lòng chờ.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">Điện thoại của bạn đã bị root (bẻ khóa)</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">Ví của bạn bị khóa vì điện thoại của bạn đã bị root (bẻ khóa). Đây là sự đề phòng an toàn. Vui lòng liên hệ với dịch vụ khách hàng để tìm hiểu xem bạn có thể làm gì tiếp theo.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">Điện thoại của bạn đã bị jailbroken (bẻ khóa)</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">Ví của bạn bị khóa vì điện thoại của bạn đã bị bẻ khóa. Đây là biện pháp phòng ngừa an toàn. Vui lòng liên hệ với dịch vụ khách hàng để biết bạn có thể làm gì tiếp theo.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">Tuyên bố từ chối trách nhiệm quan trọng: Đây là sản phẩm truy cập sớm sử dụng công nghệ blockchain. Trao đổi tiền điện tử, trao đổi token và blockchain là các công nghệ mới và có thể có những rủi ro không lường trước được. Ví dụ: Các bên thứ ba có thể có những điểm yếu trong các thiết bị, ứng dụng ví hoặc mạng blockchain, điều này có thể ảnh hưởng đến các giao dịch blockchain hoặc khiến bạn bị mất tiền điện tử. Luôn giữ an toàn cho cụm từ khôi phục 12 chữ (gốc) và mật mã của bạn. Bạn hoàn toàn chịu trách nhiệm về việc bảo vệ các khóa khôi phục của mình. Bằng cách tiếp tục, bạn thừa nhận và đồng ý chấp nhận tất cả những rủi ro liên quan này.\n\nCảm ơn bạn đã thử dùng các sản phẩm của chúng tôi. Chúng tôi luôn cố gắng nâng cao chất lượng công nghệ của mình, và chúng tôi chân thành cảm ơn <a href="mailto:exodus@htc.com">phản hồi</a> của bạn.</string>
+    <string name="gen_feedback">phản hồi</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Bộ sưu tập</string><!--Collectibles-->
+    <string name="no_collectible">Chưa có khoản phải thu nào</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">Bộ sưu tập của bạn sẽ hiển thị ở đây.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">Mua token</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">Chạm để xem bộ sưu tập của bạn</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Bổ sung thêm</string><!--Add more-->
+    <string name="addwallet_search_wallet">Tìm kiếm ví</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">Mua xu</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">Yêu cầu</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">Gửi</string><!--Send-->
+    <string name="addwallet_hint">Giao dịch của bạn sẽ được hiển thị ở đây.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">Bạn không có giao dịch nào</string><!--You have no transactions-->
+    <string name="no_wallet_found">Không tìm thấy ví nào</string><!--No wallet found-->
+    <string name="addwallet_add_btn">Thêm</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Quản lý danh sách ví</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">Giới thiệu <b>Zion</b></string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">Ví bảo mật tất cả trong một trong Blockchain.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Tạo ví Zion của bạn</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">Khôi phục ví của bạn</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Yêu cầu Social Key Recovery</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">Bằng cách tiếp tục, tôi xác nhận rằng tôi đã đọc và đồng ý với %1$s và %2$s.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">Điều khoản sử dụng</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">Chính Sách Về Quyền Riêng Tư HTC</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">Muốn giúp bạn bè?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">Tôi đã đọc và đồng ý với %1$s, và thừa nhận %2$s.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Điều Khoản Dịch Vụ Zion</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">Chính Sách Riêng Tư</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Tạo mật mã của bạn.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">Tạo mật mã mới của bạn.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">Mật mã này là bắt buộc đối với tất cả các giao dịch và để mở khóa ví của bạn.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">Xác nhận mật mã của bạn.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">Xác nhận mật mã mới.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">Mật mã này không khớp. Vui lòng thử lại.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">Cụm từ khôi phục 12 từ để sao lưu và khôi phục</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">Bộ từ này là cách duy nhất để khôi phục ví của bạn trong trường hợp mất điện thoại hoặc quên mật mã.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">Tạo cụm từ khôi phục 12 từ</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">Viết lại cụm từ khôi phục 12 từ của bạn theo đúng thứ tự</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">Đảm bảo viết tất cả cụm từ khôi phục 12 từ theo đúng thứ tự và cất giữ ở nơi an toàn.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">Tôi đã viết chúng ra</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">Xác minh cụm từ khôi phục 12 từ của bạn (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">Để đảm bảo viết đúng các từ, vui lòng nhập các từ theo đúng thứ tự.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">Tiếp theo</string><!--Next-->
+    <string name="verify_key_1_not_match">Một hoặc nhiều từ không khớp. Vui lòng thử lại.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">Xác minh cụm từ khôi phục 12 từ của bạn (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">Xác minh cụm từ khôi phục 12 từ của bạn (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">Chúc mừng bạn! Ví của bạn đã sẵn sàng.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">Bật dấu vân tay để mở khóa ví.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">Vào ví của bạn.</string><!--Go to your wallet.-->
+
+    <string name="restoring">Đang khôi phục</string><!--Restoring-->
+    <string name="preparing_secure_ui">Chuẩn bị giao diện người dùng bảo mật</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">Nhập cụm từ khôi phục 12 từ để khôi phục ví của bạn (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">Vui lòng nhập cụm từ khôi phục 12 từ của bạn theo đúng thứ tự.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">Nhập cụm từ khôi phục 12 từ để khôi phục ví của bạn (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">Nhập cụm từ khôi phục 12 từ để khôi phục ví của bạn (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">Chúc mừng bạn!</string><!--Congratulations!-->
+    <string name="wallet_restored">Ví của bạn đã được khôi phục.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Mở khóa ví của bạn</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">Sử dụng dấu vân tay</string><!--Use fingerprint-->
+    <string name="use_passcode">Mật mã</string><!--Passcode-->
+    <string name="or">hoặc</string><!--or-->
+    <string name="use_fingerprint_to_unlock">Sử dụng bảo mật vân tay để mở khóa</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">Hãy thử lại</string><!--Try again-->
+    <string name="use_passcode_to_unlock">Sử dụng mật mã để mở khóa</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">Cài đặt bảo mật vân tay đã thay đổi</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">Có vẻ như gần đây bạn đã thay đổi cài đặt dấu vân tay. Vui lòng thiết lập vân tay mới để sử dụng tính năng này.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">Cài đặt bây giờ</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">Nhập mật mã để mở khóa ví của bạn</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">Phiên bản mới hiện đang sẵn sàng</string><!--New version available-->
+    <string name="new_version_hint">Vui lòng cập nhật ứng dụng lên phiên bản mới hơn để có trải nghiệm người dùng và bảo mật tốt hơn.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">Cập nhật sau</string><!--Update later-->
+    <string name="update_now">Cập nhật bây giờ</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Gửi</string><!--Send-->
+    <string name="select_wallet">Chọn ví</string><!--Select a wallet--> 
+    <string name="send_to">ĐẾN</string><!--TO-->
+    <string name="send_amount">SỐ TIỀN</string><!--AMOUNT-->
+    <string name="hint_amount">Nhập số tiền</string><!--Enter amount-->
+    <string name="to_paste_addr">Dán địa chỉ</string><!--Paste address-->
+    <string name="to_scan_QR">Quét mã QR</string><!--Scan QR code-->
+    <string name="to_select_QR_image">Chọn ảnh đã lưu</string><!--Select saved image-->
+    <string name="to_enter_address">Nhập địa chỉ</string><!--Enter address-->
+    <string name="to_paste_addr2">Dán địa chỉ từ bộ nhớ tạm</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">Thêm từ hình ảnh đã lưu</string><!--Add from saved images-->
+    <string name="enter_address_hint">Nhập địa chỉ</string><!--Enter a address-->
+    <string name="send_address">Địa chỉ</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">TỐI ĐA</string><!--MAX-->
+    <string name="send_review_btn">Xem lại giao dịch</string><!--Review transaction-->
+    <string name="fee">Phí Giao Dịch</string><!--Transaction Fee-->
+    <string name="select_wallet_error">Không đủ số tiền.</string><!--Insufficient funds.-->
+    <string name="amount_hint">Số dư:</string><!--Balance:-->
+    <string name="address_error">Địa chỉ %s không hợp lệ.</string><!--Invalid %s address.-->
+    <string name="amount_input_error">Không đủ tiền trả phí giao dịch.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">Số tiền nhập vào phải ít nhất là %s</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">HỦY</string><!--CANCEL-->
+    <string name="enteraddr_save">LƯU</string><!--SAVE-->
+    <string name="payment_urgent">Khẩn cấp</string><!--Urgent-->
+    <string name="payment_priority">Mức độ ưu tiên</string><!--Priority-->
+    <string name="payment_regular">Thông thường</string><!--Regular-->
+    <string name="payment_economy">Tiết kiệm</string><!--Economy-->
+    <string name="payment_title">Chọn mức ưu tiên thanh toán</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 phút</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 giờ</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 giờ</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 giờ</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">Mô tả phí giao dịch</string><!--Transaction fee description-->
+    <string name="send_review">Xem lại giao dịch của bạn</string><!--Review your transaction-->
+    <string name="send_note">GHI NHỚ</string><!--MEMO-->
+    <string name="send_note_hint">(TÙY CHỌN)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">Đã gửi giao dịch.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">Thời gian hoàn thành giao dịch tùy thuộc vào lưu lượng mạng và phí giao dịch.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">OK</string><!--OK-->
+    <string name="fee_error">Lỗi máy chủ: không xác định được phí</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">Giao dịch không thành công</string><!--Transaction not successful--> 
+    <string name="review_send_to">GỬI ĐẾN</string><!--SEND TO-->
+    <string name="review_fee">PHÍ</string><!--FEE-->
+    <string name="review_edit">Chỉnh sửa</string><!--Edit-->
+    <string name="review_enter_pin">Mật mã</string><!--Passcode-->
+    <string name="review_cancel">Hủy giao dịch</string><!--Cancel transaction-->
+    <string name="send_server_no_response">Máy chủ không phản hồi. Vui lòng thử lại sau.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">Phí giao dịch được tính bởi bên thứ ba chứ không phải bởi HTC. Mức ưu tiên cao hơn sẽ mất phí nhiều hơn. Mô tả khung thời gian ưu tiên dựa trên thống kê blockchain thời gian thực và chỉ để tham khảo. Việc bạn chọn khoảng thời gian ưu tiên không đảm bảo giao dịch sẽ được thực hiện thành công hoặc được thực hiện trong khoảng thời gian được chỉ định.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%s đã thêm bạn làm người liên hệ tin cậy</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">Bước 1. Nhập tên của bạn và yêu cầu mã xác minh từ %s.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">Bước 2. Mã xác minh của bạn được tạo trên điện thoại của %s. Yêu cầu gửi mã và nhập mã vào.</string> 
+    <string name="ver_enter_name_hint">Nhập tên của bạn</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Yêu cầu mã</string><!--Request code--> 
+    <string name="ver_remain_time">Thời gian còn lại: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">Nhập Mật mã để tạo mã xác minh</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">Chia sẻ mã này cho %s</string><!--Share this code to %s-->
+    <string name="ver_sharing_remind_name">Yêu cầu mới từ %s</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">M: %s\nthông qua %s</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">TỪ CHỐI</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Yêu cầu mới từ %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">Nhấn để xem mã xác minh và chia sẻ với %s.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">HIỆN MÃ XÁC MINH</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Không phản hồi? Bạn có thể đưa ra yêu cầu khác trong %s</string>
+    <string name="ver_verify">Xác minh</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Bạn hiện là người liên hệ tin cậy của %s.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">Bây giờ bạn có thể giúp %s khôi phục ví của họ nếu họ bị mất hoặc bị đánh cắp ví. Zion đã mã hóa và lưu một phần dữ liệu khôi phục ví của họ vào thiết bị của bạn. Đừng xóa dữ liệu ứng dụng Zion hoặc Zion, nếu không dữ liệu khôi phục này sẽ bị mất. Zion sẽ kiểm tra với %s định kỳ để xác minh dữ liệu khôi phục vẫn hợp lệ.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">Xong</string><!--Done-->
+    <string name="ver_pin_error_hint">Mã này không hợp lệ, vui lòng thử lại.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">Thông báo</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Bạn đã là người liên hệ tin cậy của %s</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Cảm ơn bạn đã giúp lưu trữ dữ liệu của %s</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">Đã gửi xác minh</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Đang chờ xác minh. Bạn sẽ là người liên hệ đáng tin cậy của %s khi xác minh xong.</string><!--Waiting for verifying. You will be %s’s trusted contact when verification is completed.-->
+    <string name="ver_dialog_restore_verifying_subtitle">Đang xác nhận...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">Đã gửi xác minh</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">Đang xác nhận...</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">Chưa biết</string><!--Unknown-->
+    <string name="ver_unknown_name">Chưa biết</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">Quét mã xác minh</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">Cảm ơn bạn đã giúp đỡ!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s đã đạt mức liên hệ tin cậy tối đa là 5.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Liên kết này đã hết hạn, vui lòng yêu cầu %s gửi liên kết được cập nhật.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">Hết thời gian yêu cầu, vui lòng thử lại sau.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Vui lòng thử lại sau</string><!--Please try again later-->
+    <string name="try_too_often_message">Bạn đang nhập quá nhiều lần, vui lòng thử lại sau %d phút</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Cài đặt</string><!--Settings-->
+    <string name="setting_tag1">Tùy chọn</string><!--Preferences--> 
+    <string name="setting_currency">Tiền tệ ưa thích</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">Bảo mật</string><!--Security--> 
+    <string name="setting_notification">Cho phép thông báo đẩy</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">Thông báo về các giao dịch đã gửi và nhận</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">Bật ảnh chụp màn hình</string><!--Enable screenshots--> 
+    <string name="setting_pin">Thay đổi mã PIN</string><!--Change PIN-->
+    <string name="setting_fingerprint">Dấu vân tay</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">Chỉ sử dụng để mở khóa ứng dụng</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">Ví</string><!--Wallet--> 
+    <string name="setting_show_key">Hiển thị cụm từ khôi phục 12 từ</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Đặt lại ví</string><!--Reset wallet-->
+    <string name="setting_tag4">Thông tin về</string><!--About--> 
+    <string name="setting_learn_more">Tìm hiểu thêm</string><!--Learn more-->
+    <string name="setting_service">Điều khoản dịch vụ</string><!--Terms of service--> 
+    <string name="setting_policy">Chính sách riêng tư</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Social Key Recovery là gì\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery có thể giúp bạn nhờ bạn bè tin cậy hoặc thành viên gia đình khôi phục ví một cách thuận tiện.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Mời 3 đến 5 người làm người liên hệ tin cậy để giúp bạn khôi phục lại ví.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Các liên hệ tin cậy của bạn có thể gửi mã tới để giúp khôi phục ví.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Thiết lập</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Lúc khác</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Sao lưu danh sách liên hệ tin cậy của bạn</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Để khôi phục ví của bạn bằng Social Key Recovery, hãy chọn tài khoản Google để sao lưu danh bạ tin cậy của bạn. Danh sách liên hệ tin cậy của bạn sẽ được lưu trữ trong Google Drive.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Thêm tài khoản</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Hủy</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Tiếp tục</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">Liên hệ tin cậy</string><!--Trusted contact--> 
+    <string name="backup_null_contact">Bạn chưa thêm liên hệ tin cậy nào.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery sẽ khả dụng khi bạn có ít nhất 3 liên hệ tin cậy (Tối đa:5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Mời bạn bè làm người liên \n hệ tin cậy của bạn</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Mời 3 đến 5 người bạn hoặc thành viên gia đình làm người liên hệ tin cậy để giúp bạn khôi phục lại ví.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">Tên của bạn</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">Nhập tên của bạn</string><!--Enter your name-->
+    <string name="backup_invitation_hi">Xin chào %s,</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">Chia sẻ lời mời</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Không hoạt động</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Đang hoạt động</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Xin chào, \n\n Tôi đã chỉ định bạn làm người liên hệ tin cậy của tôi cho tính năng Social Key Recovery của ví Zion. \n Vui lòng làm theo hướng dẫn bên dưới để \n giúp tôi sao lưu dự phòng dữ liệu khôi phục.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Nhấn vào liên kết này để tải xuống và cài đặt Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Khi bạn hoàn tất, xin nhớ \n yêu cầu tôi cung cấp mã xác minh.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Xin cám ơn!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Thời gian kiểm tra lần cuối: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">Nhấn vào đây để tạo mã.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Gửi lại</string><!--Resend-->
+    <string name="backup_bottom_request_show">Yêu cầu từ bạn bè</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Gỡ bỏ liên hệ tin cậy</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">Hủy</string><!--Cancel-->
+    <string name="backup_remove_button_delete">Gỡ bỏ(%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">Gỡ bỏ liên hệ tin cậy</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Đăng xuất</string>
+    <string name="backup_pending_target_toolbar">Yêu cầu từ bạn bè</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Không có yêu cầu nào vào lúc này.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Không hỗ trợ sao lưu trên cùng một thiết bị.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Sao lưu bằng địa chỉ liên hệ tin cậy?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">Chia sẻ liên kết</string><!--Share link-->
+    <string name="restore_request">Yêu cầu khôi phục từ %s</string><!--Restore request from %s-->
+    <string name="show">Hiển thị</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Tài khoản này đã được sử dụng trong thiết bị khác</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Vì lý do bảo mật, mỗi tài khoản chỉ có thể được sử dụng cho một thiết bị.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Bạn vẫn muốn sử dụng tài khoản này hoặc sử dụng tài khoản khác để bắt đầu Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Sử dụng tài khoản này</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Danh sách liên hệ tin cậy trước đây của bạn sẽ bị mất vĩnh viễn.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Sử dụng tài khoản khác</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Giữ lại dữ liệu trước đó và tạo dữ liệu mới.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Bạn có chắc muốn sử dụng tài khoản này không?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">Danh sách liên hệ tin cậy trước đây của bạn sẽ bị mất vĩnh viễn.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">Nhập mã PIN để tiếp tục</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">Bạn muốn khôi phục ví bằng cách nào\?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">Sử dụng cụm từ khôi phục 12 từ</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">Bằng Social Key Recovery</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">Nhập cụm từ khôi phục 12 từ mà bạn đã viết khi tạo ví.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">Nhờ các liên hệ tin cậy của bạn giúp.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Xin chào, \n\n Là người liên hệ tin cậy của tôi, mong bạn hãy giúp tôi khôi phục ví Zion.\nĐể khôi phục, xin hãy làm như sau.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Nhấn vào liên kết này và tạo mã xác minh.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Gửi cho tôi mã.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Xin cám ơn!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Vui lòng chờ...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Đang đăng nhập...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Tài khoản này chưa được kích hoạt để Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Vui lòng thử một tài khoản khác hoặc sử dụng cụm từ khôi phục 12 từ để khôi phục ví của bạn</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Vui lòng chờ...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Đang tạo liên kết...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Đăng nhập vào tài khoản của bạn</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Để khôi phục ví của bạn bằng Social Key Recovery, hãy chọn tài khoản Google mà bạn đã lưu danh sách liên hệ tin cậy trước đây.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Không tạo được liên kết chia sẻ</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Vui lòng thử lại sau.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Không đăng nhập được</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Vui lòng thử lại sau.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Nhờ các liên hệ tin cậy của bạn giúp</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Liên hệ với ba trong số các địa chỉ liên hệ tin cậy và chia sẻ liên kết này với họ.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Mỗi liên hệ sẽ cung cấp cho bạn một mã. Nhập mỗi mã vào bên dưới:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Một hoặc nhiều mã không chính xác. Thử lại.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Nhập mã</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Hủy</string><!--Cancel-->
+    <string name="social_restore_btn_next">Tiếp theo</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">Vui lòng thử lại sau</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">Bạn đang nhập quá nhiều lần, vui lòng thử lại sau %s phút</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">Một hoặc nhiều mã không chính xác.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">Vui lòng đảm bảo tất cả các mã là chính xác và thử lại.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">Không có bản sao lưu nào cho %s trên thiết bị của bạn.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Không thể khôi phục</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Hãy thử sử dụng một tài khoản khác hoặc cụm từ khôi phục 12 từ của bạn để khôi phục.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Lời mời của %s</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Chạm để chấp nhận.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Yêu cầu hỗ trợ khôi phục từ %s</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">Chạm để tạo mã.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">Không có Social Key Recovery nào được thiết lập với tài khoản này.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">Hãy thử sử dụng một tài khoản khác hoặc cụm từ khôi phục 12 từ của bạn để khôi phục.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">Cập nhật trạng thái sao lưu</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">Xác nhận xóa (các) liên hệ tin cậy</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">Nhập mật mã để xóa</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Sao lưu bằng địa chỉ liên hệ tin cậy?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">Bạn cũng có thể thiết lập Social Key Recovery với các liên hệ đáng tin cậy để giúp sao lưu dự phòng ví.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">Cho tôi biết thêm</string><!--Tell me more-->
+    <string name="social_backup_not_now">Lúc khác</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Rất tiếc, một số liên hệ tin cậy của bạn không hoạt động.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Kiểm tra với người liên hệ tin cậy của bạn để đảm bảo kết nối.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Bạn đã sử dụng tài khoản này trong thiết bị khác</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Tất cả dữ liệu Social Key Recovery của bạn sẽ không được sử dụng vĩnh viễn. Bạn cần đăng nhập vào tài khoản khác để tiếp tục sử dụng Social Key Recovery.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">Đồng ý</string><!--Agree-->
+    <string name="social_key_recovery_disagree">Không đồng ý</string><!--Disagree-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %s, %s again.</string>-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">Chi tiết giao dịch</string><!--Transaction details--> 
+    <string name="Amount">Tổng tiền</string><!--Total Amount-->
+    <string name="Date">Ngày</string><!--Date-->
+    <string name="Send_to">Gửi đến</string><!--Send to-->
+    <string name="Receive_From">Nhận từ</string><!--Receive from-->
+    <string name="Memo">Ghi nhớ</string><!--Memo-->
+    <string name="transaction_amount_send">Số tiền gửi</string><!--Amount to send-->
+    <string name="transaction_amount_receive">Số tiền nhận</string><!--Amount to receive-->
+    <string name="transaction_amount">Giá trị</string><!--Value-->
+    <string name="Transaction_Fee">Phí giao dịch</string><!--Transaction fee--> 
+    <string name="Status">Trạng thái</string><!--Status-->
+    <string name="Transcation_ID">ID giao dịch</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">Quét mã QR %1$s</string><!--Scan %1$s QR code-->
+    <string name="Settings">Cài đặt</string><!--Settings-->
+    <string name="Help">Trợ giúp</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">Yêu cầu</string><!--Request-->
+    <string name="WALLET_ADDRESS">ĐỊA CHỈ VÍ</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">TÀI KHOẢN ĐỂ GHI CÓ</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">SỐ TIỀN YÊU CẦU (TÙY CHỌN)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">Chia sẻ mã QR</string><!--Share QR code-->
+    <string name="Copy_as_text">Sao chép ở dạng văn bản</string><!--Copy as text-->
+    <string name="copy_toast">Đã sao chép địa chỉ Ví vào khay nhớ tạm.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">Một số ví của bên thứ ba có thể không hỗ trợ yêu cầu số tiền trong các liên kết hoặc mã QR.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">Quét mã QR</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">Để sử dụng máy quét mã QR, trước tiên xin vui lòng cấp quyền truy cập vào máy ảnh của bạn.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">Cho phép truy cập máy ảnh</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Cho phép Zion chụp ảnh và quay video</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">Không bao giờ hỏi lại</string><!--Never ask again-->
+    <string name="DENY">TỪ CHỐI</string><!--DENY-->
+    <string name="ALLOW">CHO PHÉP</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">Quét địa chỉ mã QR %1$s(%2$s)</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">Căn chỉnh mã với khung</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">Không phải địa chỉ công khai hợp lệ</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">Không thể kết nối.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Bạn cần có kết nối mạng để sử dụng ứng dụng này. Vui lòng mở Dữ liệu di động hoặc Wi-Fi trong phần Cài Đặt.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Hủy</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+    <string name="You_have_no_transaction">Bạn không có giao dịch nào.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Giao dịch của bạn sẽ được hiển thị ở đây khi bạn gửi và nhận tài sản mật mã.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Thử Social Key Recovery\?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">Bên cạnh việc khôi phục ví bằng cụm từ khôi phục 12 từ, Social Key Recovery có thể giúp bạn khôi phục ví từ các liên hệ tin cậy của bạn một cách dễ dàng.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">SẮP CÓ CHO IOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+	<string name="transaction_confirmation">Xác nhận</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CollectibleFragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/collectible_frag_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/collectible_frag_toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:theme="@style/Home_action_menu"
+        />
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/collectible_list_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/collectible_frag_appbar"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginStart="@dimen/margin_l"
+        android:layout_marginEnd="@dimen/margin_l"
+        />
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_collectible_panel"
+        android:layout_below="@id/collectible_frag_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin_l"
+        android:layout_marginEnd="@dimen/margin_l"
+        android:layout_marginBottom="@dimen/margin_l"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/no_collectible_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wallet_icon_collectible"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/no_collectible_icon_margin_top"/>
+
+        <TextView style="@style/title_primary_m"
+            android:textColor="@color/light_primaryfont_color"
+            android:id="@+id/no_collectible_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_collectible"
+            android:layout_below="@id/no_collectible_icon"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_l"/>
+
+        <TextView style="@style/label_on_m"
+            android:textColor="@color/light_secondaryfont_color"
+            android:id="@+id/no_collectible_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_collectible_hint"
+            android:layout_below="@id/no_collectible_title"
+            android:gravity="center_horizontal"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_network_alert_panel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_no_network_panel_height"
+        android:layout_below="@id/collectible_frag_appbar"
+        android:background="#e6341c"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/no_network_alert_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_indicator_warning_dark"
+            android:layout_marginStart="@dimen/margin_l"/>
+
+        <TextView style="@style/list_body_primary_m"
+            android:textColor="@color/dark_primaryfont_color"
+            android:id="@+id/no_network_alert_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_connection"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/no_network_alert_icon"
+            android:layout_marginStart="@dimen/margin_m"/>
+
+        <!--Button
+            android:id="@+id/no_network_retry_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/home_no_network_button_height"
+            android:background="@drawable/no_network_retry_btn"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/no_network_canel_btn"
+            android:layout_marginEnd="@dimen/margin_l"
+            android:text="@string/retry_button"/-->
+
+        <ImageButton
+            android:id="@+id/no_network_canel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_btn_cancel_dark_s"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_l"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

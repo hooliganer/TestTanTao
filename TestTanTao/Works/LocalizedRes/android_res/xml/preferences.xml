@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/setting_tag1" android:layout="@layout/preference_category_material">
+        <ListPreference
+            android:key="local_currency"
+            android:title="@string/setting_currency"
+            android:dialogTitle="@string/setting_currency"
+            android:summary="@string/setting_usd"
+            android:entries="@array/currency_options"
+            android:entryValues="@array/currency_options"
+            android:defaultValue="USD">
+        </ListPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/setting_tag2" android:layout="@layout/preference_category_material"
+        android:key="security_item">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="allow_push_notification"
+            android:summary="@string/setting_notification_hint"
+            android:title="@string/setting_notification" />
+
+        <Preference
+            android:key="change_pin"
+            android:title="@string/setting_pin" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="setting_fingerprint"
+            android:summary="@string/setting_fingerprint_hint"
+            android:title="@string/setting_fingerprint" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/setting_tag3" android:layout="@layout/preference_category_material">
+        <Preference
+            android:key="show_recovery_key"
+            android:title="@string/setting_show_key" />
+
+        <Preference
+            android:key="reset_wallet"
+            android:title="@string/setting_reset" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/setting_tag4" android:layout="@layout/preference_category_material">
+
+        <Preference
+            android:key="term_of_service"
+            android:title="@string/setting_service" />
+
+        <Preference
+            android:key="privacy_policy"
+            android:title="@string/setting_policy" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

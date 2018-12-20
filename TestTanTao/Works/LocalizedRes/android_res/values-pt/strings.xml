@@ -1,0 +1,550 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">No</string>
+<!-- OK button label -->
+    <string name="Button.ok">OK</string>
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Home</string>
+    <string name="Nav_collectible">Collectible</string> 
+    <string name="Nav_request">Request</string>
+    <string name="Nav_receive">Receive</string>
+    <string name="Nav_shop">Shop</string>
+	<!--<string name="home_recovering">Recovering…</string>-->
+	<!--<string name="home_recovering_please_wait">Recovery in progress, please wait.</string>-->
+
+<!-- not to translate Blockfolio, it's name -->
+	<!--<string name="home_rate_source">Currency rate source: Blockfolio</string>-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Manage order</string>
+    <string name="tool_social_backup">Social Key Recovery</string>
+    <string name="tool_settings">Settings</string>
+    <string name="tool_help">Help</string>
+    <string name="tool_sort_by">Sort by</string>
+    <string name="tool_sort_custom">Customized</string>
+    <string name="tool_sort_currency_tpye">Alphabetical</string>
+    <string name="tool_sort_value">Value</string>
+
+    <string name="Create_wallet">Create a new wallet</string>
+    <string name="total_assets">Total Assets</string> 
+    <string name="last_update">Last updated %1$d minutes ago.</string> 
+    <string name="no_connection">No internet connection</string>
+    <string name="retry_button">Settings</string>
+
+    <string name="home_title">Zion Wallet</string> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">My Coins (%1$d)</string> 
+    <string name="home_no_wallet_hint">No wallet added yet</string>
+    <string name="home_no_wallet_button">Manage wallet</string>
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Buy/Sell</string>
+    <string name="shop_buy">Buy</string>
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Buy/sell coin from Maicoin</string> 
+<!-- not to translate HTC-->
+	<!--<string name="exchange_reminding_message">The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.</string>-->
+	<!--<string name="exchange_reminding_do_not_show_again">Don’t remind me again.</string>-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">System</string>
+    <string name="gen_wallet_title">Wallet</string>
+    <string name="gen_now">now</string>
+    <string name="gen_screenshot">Couldn\'t save screenshot</string>
+    <string name="gen_screenshot_hint">Screenshot not allowed for security reason.</string> 
+    <string name="gen_receive_trans">Receive a transaction</string>
+    <string name="gen_receive_detail">You\'ve received %1$s from</string>
+    <string name="gen_view_detail">VIEW DETAIL</string>
+    <string name="gen_tran_complete">Transaction complete</string>
+    <string name="gen_tran_confirm">Your %1$s transaction on %2$s is confirmed</string> 
+    <string name="gen_tran_fail">Transaction fail</string>
+    <string name="gen_tran_fail_detail">Your transaction on %1$s sent %2$s %3$s  to %4$s is failed</string>
+    <string name="gen_new_version">New version available</string>
+    <string name="gen_new_version_hint">Please update app to newer version for better security and user experience.</string> 
+    <string name="gen_new_version_hint_b">New security settings released. For your protection, system update is required. Please update to proceed.</string>
+    <string name="gen_update_now">UPDATE NOW</string>
+    <string name="gen_please_wait_loading_security_settings">Loading security settings. Please wait.</string>
+    <string name="gen_root_hint">Your phone has been rooted</string>
+    <string name="gen_root_message">Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.</string>
+	<!--<string name="gen_jailbroken_hint">Your phone has been jailbroken</string>-->
+	<!--<string name="gen_jailbroken_message">Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.</string>-->
+	<!--<string name="gen_enter_zion_warning">Important disclaimer: This is an early access product utilizing blockchain technologies. Cryptocurrency, token exchange, and blockchain are new technologies and may carry unforeseen risks. For example: Third parties may introduce weaknesses in devices, wallet applications, or blockchain networks, which may interfere with blockchain transactions or result in the loss of your cryptocurrency. Keep your 12-/word recovery phrase (seed) and passcode secure at all times. You are solely responsible for safeguarding your recovery keys. By continuing, you acknowledge and agree to accept all these associated risks.\n\nThank you for trying our products. As we strive to improve our technology, we sincerely appreciate your <a href="mailto:exodus@htc.com">feedback</a></string>-->
+	<!--<string name="gen_feedback">feedback</string>-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Collectibles</string>
+    <string name="no_collectible">No collectible yet</string> 
+    <string name="no_collectible_hint">Your collectibles will show up here.</string>
+    <string name="collectible_buy_token">Buy tokens</string>
+    <string name="collectible_tap_to_see_token">Tap to see your collectibles</string>
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Add new wallet</string>
+    <string name="addwallet_search_wallet">Search wallet</string>
+    <string name="addwallet_buy_coins">Buy Coins</string> 
+<!-- go to request page -->
+    <string name="addwallet_request">Request</string>
+<!-- go to send page -->
+    <string name="addwallet_send">Send</string>
+    <string name="addwallet_hint">You transactions will be shown here when you receive and send coins.</string> 
+    <string name="addwallet_notransaction">You have no transactions</string>
+    <string name="no_wallet_found">No wallet found</string>
+    <string name="addwallet_add_btn">Add</string>
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Manage wallet list</string>
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">Welcome to <b>Zion</b></string>
+    <string name="welcome_intro">The trusted hardware wallet for all your crypto assets.</string>
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Create your Zion wallet</string>
+    <string name="restore_from_backup">Restore your wallet</string> 
+    <string name="social_backup_requests"><u>Social backup requests</u></string>
+    <string name="privacy_policy">By continuing, I confirm that I have read and agree to the %1$s and %2$s.</string>
+    <string name="txt_terms_of_use">Terms of Use</string>
+    <string name="txt_privacy_policy">HTC Privacy Policy</string>
+    <string name="welcome_help_friend_backup">Helping your friend to backup?</string> 
+
+    <string name="privacy_policy_b">I have read and agree to %1$s, and acknowledge the %2$s.</string>
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Zion Terms of Services</string>
+    <string name="txt_zion_wallet_privacy_policy">Privacy Policy</string>
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Create your passcode.</string>
+    <string name="create_new_pin_code">Create your new passcode.</string>
+    <string name="create_pin_code_hint">This passcode is required for all transactions and to unlock your wallet.</string>
+    <string name="confirm_pin_code">Confirm your passcode.</string>
+    <string name="confirm_new_pin_code">Confirm your new passcode.</string>
+    <string name="pin_code_not_match">The passcodes didn\'t match. Please try again.</string> 
+
+    <string name="backup_by_key">Recovery Key for Backup and Restore</string> 
+    <string name="backup_by_key_hint">This set of keys is the only way to restore your wallet in case you lose your phone or forget the passcode.</string> 
+    <string name="gen_recovery_key">Generate Recovery Key</string> 
+    <string name="write_revocery_key">Write down your recovery key in order</string> 
+    <string name="write_key_hint">Make sure to write all 12 words down in the correct order and keep them in a secured location.</string> 
+    <string name="finish_write_key">I\'ve wrote them down</string> 
+
+    <string name="verify_key_1">Verify your recovery key (1/3)</string>
+    <string name="verify_key_1_hint">Let\'s make sure the keys were written down correctly. Please enter the keys in order.</string> 
+    <string name="verify_key_next">Next</string>
+    <string name="verify_key_1_not_match">Some keys don\'t match. Please check.</string> 
+
+    <string name="verify_key_2">Verify your recovery key (2/3)</string>
+    <string name="verify_key_3">Verify your recovery key (3/3)</string>
+
+    <string name="create_wallet_cong">Congratulations! Your wallet is all set.</string>
+    <string name="enable_fingerprint">Enable fingerprint to unlock wallet.</string>
+    <string name="go_to_wallet_home">Go to your wallet.</string>
+
+    <string name="restoring">Restoring</string>
+    <string name="preparing_secure_ui">Preparing the secure UI</string> 
+    <string name="restore_key_1">Enter recovery key to restore your wallet (1/3)</string>
+    <string name="restore_key_hint">Please enter your recovery key in the correct order.</string>
+    <string name="restore_key_2">Enter recovery key to restore your wallet (2/3)</string>
+    <string name="restore_key_3">Enter recovery key to restore your wallet (3/3)</string>
+    <string name="restored_cong">Congratulations!</string>
+    <string name="wallet_restored">Your wallet is restored.</string> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Unlock your wallet</string>
+    <string name="use_fingerprint">Use fingerprint</string>
+    <string name="use_passcode">Passcode</string>
+    <string name="or">or</string>
+    <string name="use_fingerprint_to_unlock">Use fingerprint to unlock your wallet</string> 
+    <string name="not_reconize_please_retry">Try again</string>
+    <string name="use_passcode_to_unlock">Use passcode to unlock</string>
+    <string name="fingerprint_changed">Fingerprint setting changed</string>
+    <string name="fingerprint_changed_hint">Looks like you have changed the fingerprint settings recently. Please setup a new fingerprint to user this function.</string> 
+    <string name="fingerprint_ok">Set up now</string>
+    <string name="enter_pin_code_to_unlock">Enter passcode to unlock your wallet</string>
+    <string name="new_version_available">New version available</string>
+    <string name="new_version_hint">Please update your wallet for better security and user experiences.</string> 
+    <string name="update_later">Update later</string>
+    <string name="update_now">Update now</string>
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Send</string>
+    <string name="select_wallet">Select a wallet ...</string> 
+    <string name="send_to">TO</string>
+    <string name="send_amount">AMOUNT</string>
+    <string name="hint_amount">Enter amount</string>
+    <string name="to_paste_addr">Paste address</string>
+    <string name="to_scan_QR">Scan QR code</string>
+    <string name="to_select_QR_image">Select saved image</string>
+    <string name="to_enter_address">Enter address</string>
+    <string name="to_paste_addr2">Paste address from clipboard</string>
+    <string name="to_select_QR_image2">Add from saved images</string>
+    <string name="enter_address_hint">Enter a address</string>
+    <string name="send_address">Address</string>
+    <string name="amount_type">ETH</string>
+    <string name="amount_max">MAX</string>
+    <string name="send_review_btn">Review transaction</string>
+    <string name="fee">Transaction Fee</string>
+    <string name="select_wallet_error">Insufficient funds.</string>
+    <string name="amount_hint">Balance:</string>
+    <string name="address_error">Invalid %s address.</string>
+    <string name="amount_input_error">Not enough funds to cover the fee of transactions.</string> 
+	<!--<string name="amount_input_error2">Input amount must at least %s</string>-->
+    <string name="enteraddr_canel">CANCEL</string>
+    <string name="enteraddr_save">SAVE</string>
+    <string name="payment_urgent">Urgent</string>
+    <string name="payment_priority">Priority</string>
+    <string name="payment_regular">Regular</string>
+    <string name="payment_economy">Economy</string>
+    <string name="payment_title">Select a payment priority</string>
+    <string name="payment_urgent_detail">&lt; 30 minutes</string>
+    <string name="payment_priority_detail">&lt; 1 hour</string>
+    <string name="payment_regular_detail">&gt; 1 hour</string>
+    <string name="payment_economy_detail">&gt; 3 hours</string>
+	<!--<string name="payment_info_title">Transaction fee description</string>-->
+    <string name="send_review">Review your transaction</string>
+    <string name="send_note">MEMO</string>
+    <string name="send_note_hint">(OPTIONAL)</string>
+    <string name="send_resoult_title">Transaction sent!</string> 
+    <string name="send_resoult_desc">The actual transaction completion time depends on the network traffic as well as the transaction fee you paid.</string> 
+    <string name="send_resoult_btn">OK</string>
+    <string name="fee_error">Server Error: unknown fee</string>
+    <string name="transaction_error">Send Failed !!!!</string> 
+    <string name="review_send_to">SEND TO</string>
+    <string name="review_fee">FEE</string>
+    <string name="review_edit">Edit</string>
+    <string name="review_enter_pin">Passcode</string>
+    <string name="review_cancel">Cancel transaction</string>
+    <string name="send_server_no_response">Server not responding. Please try again later.</string>
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+	<!--<string name="send_fee_hint">Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.</string>-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string>
+    <string name="ver_content_title">%s added you as a trusted contact</string>
+    <string name="ver_step1">Step 1. Enter your name and get the verification code from %s.</string> 
+    <string name="ver_step2">Step 2. Your verification code is generated on %s\'s phone. Ask them for the code and enter it.</string> 
+    <string name="ver_enter_name_hint">Enter your name</string> 
+    <string name="ver_request_btn_text">Request code</string> 
+    <string name="ver_remain_time">Remaining time: %02d:%02d</string> 
+    <string name="ver_sharing_security_check">Enter Passcode to generate verification code</string>
+    <string name="ver_sharing_title">Share this code to %s</string>
+    <string name="ver_sharing_remind_name">New request from %s</string>
+    <string name="ver_sharing_remind_route">M: %s\nvia %s</string>
+    <string name="ver_sharing_reject">REJECT</string>
+    <string name="ver_notification_channel_name">Social Key Recovery</string>
+    <string name="ver_notification_request_title">Request from trusted contact %s</string> 
+    <string name="ver_notification_request_content">Tap to see the verification code and share it with %s.</string>
+    <string name="ver_notification_request_button">SHOW VERIFICATION CODE</string>
+    <string name="ver_no_response_hint">No response? You can make another request in %s</string>
+    <string name="ver_verify">Verify</string>
+    <string name="ver_ok_congratulation_title">Congratulations, you are %s’s trusted contact</string> 
+    <string name="ver_ok_congratulation_msg">You are able to send a recovery key to %s if their wallet is lost or stolen. The key is encrypted and saved by this app. Deleting the app will cause the key to be lost.</string> 
+    <string name="ver_ok_done">Done</string>
+    <string name="ver_pin_error_hint">This code is invalid, please try again.</string>
+    <string name="ver_dialog_title">Notification</string>
+    <string name="ver_dialog_btn_ok">OK</string>
+    <string name="ver_dialog_backup_done_title">You are already %s’s trusted contact</string>
+    <string name="ver_dialog_backup_done_msg">Thanks for helping backup %s’s data</string>
+    <string name="ver_dialog_verifying_title">Verification sent</string>
+    <string name="ver_dialog_verifying">Waiting for verifying. You will be %s’s trusted contact when verification is completed.</string>
+    <string name="ver_dialog_restore_verifying_subtitle">Verifying...</string>
+	<!--<string name="ver_dialog_restore_verifying_title">Verification Sent</string>-->
+	<!--<string name="ver_dialog_restore_verifying_content">Verifying…</string>-->
+    <string name="ver_unknown_phone_number">Unknown</string>
+    <string name="ver_unknown_name">Unknown</string>
+    <string name="ver_scan_a_verification_code">Scan a verification code</string>
+    <string name="ver_dialog_trusted_contact_full_title">Thank you for helping out!</string>
+    <string name="ver_dialog_trusted_contact_full_content">%s’s backup contact is currently full. We will notify you when needed.</string>
+	<!--<string name="ver_expired_link">This link is expired, please ask %s to send the updated link.</string>-->
+	<!--<string name="ver_request_timeout">Request timeout, please try again later.</string>-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Please try again later</string>
+    <string name="try_too_often_message">You are trying too often, please try again after %d minutes</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Settings</string>
+    <string name="setting_tag1">DISPLAY SETTING</string> 
+    <string name="setting_currency">Local currency</string> 
+    <string name="setting_usd">USD</string>
+    <string name="setting_tag2">SECURITY</string> 
+    <string name="setting_notification">Allow push notification</string> 
+    <string name="setting_notification_hint">Notify for sent and receive transactions</string> 
+    <string name="setting_screenshot">Enable screenshot</string> 
+    <string name="setting_pin">Change PIN</string>
+    <string name="setting_fingerprint">Fingerprint</string>
+    <string name="setting_fingerprint_hint">Use to unlock app only</string> 
+    <string name="setting_tag3">WALLET</string> 
+    <string name="setting_show_key">Show recovery key</string>
+    <string name="setting_reset">Reset wallet</string>
+    <string name="setting_tag4">OTHER</string> 
+    <string name="setting_learn_more">Learn more</string>
+    <string name="setting_service">Term of service</string> 
+    <string name="setting_policy">Privacy policy</string>
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">What is Social Key Recovery\?</string>
+    <string name="backup_introduction_sub_title">Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.</string>
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Invite 3 to 5 people to be trusted contacts who can help recover your wallet.</string> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Your trusted contacts can send a code to help you restore your wallet.</string>
+    <string name="backup_introduction_setup">Set up</string>
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Not now</a></string>
+    <string name="backup_introduction_ok">OK</string>
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Backup your trusted contact data</string>
+    <string name="backup_choose_google_drive_sub_title">To restore your trusted contact data from Google Drive, select your account and grant Zion access to your files.</string>
+    <string name="backup_choose_google_drive_add_account">Add account</string>
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Cancel</string>
+    <string name="backup_choose_google_drive_bottom_continue_btn">Continue</string>
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string>
+    <string name="backup_trusted_contact">Trusted Contact</string> 
+    <string name="backup_null_contact">You have\'t added any trusted contacts yet.</string>
+    <string name="backup_warning_title">Social Key Recovery will be available when you have at least 3 trusted contacts(Max:5).</string>
+    <string name="backup_invitation_title">Invite friends to be your \n trusted contact</string>
+    <string name="backup_invitation_content">Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.</string> 
+    <string name="backup_invitation_hint">Your name</string>
+    <string name="backup_invitation_contact_hint">Enter your name</string>
+    <string name="backup_invitation_hi">Hi %s</string>
+    <string name="backup_invitation_sharing">Share invitation</string>
+    <string name="backup_toolbar_title">Social Key Recovery</string>
+    <string name="backup_toolbar_sub_title_no_active_status">Not active</string>
+    <string name="backup_toolbar_sub_title_active_status">Active</string>
+    <string name="backup_invitation_message_first_part">Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me backup my key.\n\n</string>
+    <string name="backup_invitation_message_second_part">1) Tap this link to download and install Zion:\n</string>
+    <string name="backup_invitation_message_third_part">2) When you\'re done, remember to \n ask me for the verification code.\n\n</string>
+    <string name="backup_invitation_message_fourth_part">Thanks!</string>
+    <string name="backup_trust_item_sub">Last checked time: %s</string>
+    <string name="backup_trust_item_sub2">Tap here to generate code.</string>
+    <string name="backup_resend_button_title">Resend</string>
+    <string name="backup_bottom_request_show">Request from friends</string>
+    <string name="backup_remove_toolbar_title">Remove trusted contact</string>
+    <string name="backup_remove_button_cancel">Cancel</string>
+    <string name="backup_remove_button_delete">Remove(%d)</string>
+    <string name="backup_menu_remove_trust_title">Remove trusted contact</string>
+    <string name="backup_menu_log_out_title">Log out</string>
+    <string name="backup_pending_target_toolbar">Requests from friend</string> 
+    <string name="backup_pending_target_null">No requests at this time.</string> 
+	<!--<string name="backup_backup_on_same_device">Back up on same device is not supported.</string>-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Back up with trusted contacts?</string>
+    <string name="backup_share_link">Share link</string>
+    <string name="restore_request">Restore request from %s</string>
+    <string name="show">Show</string>
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">This account has been used in another device</string>
+    <string name="db_security_concern">For security concern, each account can be used for one device only.</string>
+    <string name="db_still_want_to_use_account">Do you still want to use this account or use another one to start Social backup?</string>
+    <string name="db_use_this_account">Use this account</string>
+    <string name="db_account_cant_be_restore">Your previous social backup can\'t be restore permanently</string>
+    <string name="db_use_another_account">Use another account</string>
+    <string name="db_keep_previous_and_create_new">Keep previous data and create a new one.</string>
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Are you sure to use  this account?</string>
+    <string name="security_confirm_previous_cant_be_restore">Your previous social backup can\'t be restore permanently.</string>
+    <string name="security_confirm_enter_pin">Enter PIN to continue</string>
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">How would you like to recover your wallet\?</string>
+    <string name="restore_dialog_chooser_title_1">Use 12-word recovery phrase</string>
+    <string name="restore_dialog_chooser_title_2">By Social Key Recovery</string>
+    <string name="restore_dialog_chooser_sub_title_1">Enter 12-word recovery phrase you wrote down when you created your wallet</string>
+    <string name="restore_dialog_chooser_sub_title_2">Ask your trusted contacts for help</string>
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n</string>
+    <string name="restore_invitation_message_second_part">1) Tap this link and generate a verification code.\n</string>
+    <string name="restore_invitation_message_third_part">2) Send me the code.\n\n</string>
+    <string name="restore_invitation_message_fourth_part">Thanks!</string>
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Please wait...</string>
+    <string name="backup_choose_google_drive_dialog_content">Logging in...</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">This account has not been activated for social key recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Please try another account or use recovery key to restore your wallet</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Please wait...</string>
+    <string name="backup_choose_applink_dialog_content">Preparing your share link...</string>
+
+    <string name="backup_choose_google_drive_title_for_restore">Sign in to your account</string>
+    <string name="backup_choose_google_drive_sub_title_for_restore">To recover your wallet with Social Key Recovery, please select the Google account you used when you set up Social Key Recovery.</string>
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Fail to generate share link</string>
+    <string name="backup_restore_applink_timeout_dialog_content">Please try again later</string>
+    <string name="backup_restore_login_timeout_dialog_title">Fail to log in</string>
+    <string name="backup_restore_login_timeout_dialog_content">Please try again later</string>
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Ask your trusted contacts for help</string>
+    <string name="social_restore_first_content">1. Reach out three of your trusted contacts and share this link with them.</string>
+    <string name="social_restore_second_content">2. Each contact will give you a code. Enter each code below:</string>
+    <string name="social_restore_valid_error_text">Some word isn\'t correct. Try again.</string>
+    <string name="social_restore_input_hint">Enter code</string>
+    <string name="social_restore_btn_cancel">Cancel</string>
+    <string name="social_restore_btn_next">Next</string>
+    <string name="social_restore_try_often_warning_title">Please try again later</string>
+    <string name="social_restore_try_often_warning_content">You are trying too often, please try again after %s minutes</string>
+    <string name="social_restore_verify_warning_title">One or more codes incorrect. Try again.</string>
+    <string name="social_restore_verify_warning_content">Please conform all the codes are correct</string>
+	<!--<string name="social_restore_no_backup_on_device">There\'s no backup for %s on your device.</string>-->
+	<!--<string name="social_restore_dialog_failed_to_restore_title">Failed to restore</string>-->
+	<!--<string name="social_restore_dialog_failed_to_restore_content">Try using a different account or your 12-/word recovery phrase to restore.</string>-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">invitation</string>
+    <string name="social_restore_backup_tap_to_enter_code">Tap to accept</string>
+    <string name="social_restore_backup_recovery_support_request_from">Recovery support request from</string>
+    <string name="social_restore_backup_tap_to_generate_code">Tap to generate code</string>
+    <string name="social_restore_no_social_key_Recovery">No Social Key Recovery was set up with this account.</string>
+    <string name="social_restore_try_different_account">Try using a different account or your 12 words recovery key to restore.</string>
+    <string name="social_backup_update_backup_status">Update backup status</string>
+    <string name="social_backup_confirm_to_remove">Confirm to remove the trusted contact(s)</string>
+    <string name="social_backup_enter_passcode_to_remove">Enter passcode to remove</string>
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Back up with trusted contacts?</string>
+    <string name="social_backup_back_you_can_set_up">You can also set up social key recovery with trusted contacts to help you back up your wallet.</string>
+    <string name="social_backup_tell_me_more">Tell me more</string>
+    <string name="social_backup_not_now">Not now</string>
+    <string name="social_backup_oops_inactive">Oops, some of your trusted contacts are inactive.</string>
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Check with your trusted contact to secure the connections.</string>
+    <string name="social_backup_used_another_device_title">You have used this account in another device</string>
+    <string name="social_backup_used_another_device_content">All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.</string>
+	<!--<string name="social_key_recovery_agree">Agree</string>-->
+	<!--<string name="social_key_recovery_disagree">Disagree</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %s, %s again.</string>-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">Transaction detail</string> 
+    <string name="Amount">Amount</string>
+    <string name="Date">Date</string>
+    <string name="Send_to">Send to</string>
+    <string name="Receive_From">Receive from</string>
+    <string name="Memo">Memo</string>
+	<!--<string name="transaction_amount_send">Amount to send</string>-->
+	<!--<string name="transaction_amount_receive">Amount to receive</string>-->
+	<!--<string name="transaction_amount">Value</string>-->
+    <string name="Transaction_Fee">Transaction Fee</string> 
+    <string name="Status">Status</string>
+    <string name="Transcation_ID">Transcation ID</string>
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string>
+    <string name="Scan_ETH_QR_code">Scan %1$s QR code</string>
+    <string name="Settings">Settings</string>
+    <string name="Help">Help</string>
+<!-- Wallet Request page-->
+    <string name="Request">Request</string>
+    <string name="WALLET_ADDRESS">WALLET ADDRESS</string>
+    <string name="ACCOUNT_TO_CREDIT">ACCOUNT TO CREDIT</string>
+    <string name="REQUEST_AMOUNT_OPTIONAL">REQUEST AMOUNT (OPTIONAL)</string>
+    <string name="Share_QR_code">Share QR code</string>
+    <string name="Copy_as_text">Copy as text</string>
+    <string name="copy_toast">Wallet address copied to clipboard.</string>
+	<!--<string name="request_input_amount_hint">Some third-/party wallets might not support request amounts in links or QR codes.</string>-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">Scan QR-code</string>
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">To use QR code scanner,please give access to your camera first.</string> 
+    <string name="Enable_camera_access">Enable camera access</string>
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Allow Wallet to take pictures and record video</string> 
+    <string name="Never_ask_again">Never ask again</string>
+    <string name="DENY">DENY</string>
+    <string name="ALLOW">ALLOW</string>
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">Scan a %1$s(%2$s) QR Code address</string>
+    <string name="Line_it_up_with_the_frame">Line it up with the frame</string> 
+    <string name="Not_a_valid_public_address">Not a valid public address</string>
+
+    <string name="socialkm_network_connection_title">Unable to connect</string> 
+    <string name="socialkm_network_connection_message">You need a network connection to use this app. Please turn on Mobile Data or Wi-Fi in Settings.</string>
+    <string name="cancel">Cancel</string>
+	<!--<string name="check">Check</string>-->
+    <string name="You_have_no_transaction">You have no transaction</string> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Your transcation will be shown here when you receive and send coin.</string> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Try Social Key Recovery\?</string>
+    <string name="db_try_social_key_recovery_msg">Beside restoring wallet by 12-word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.</string>
+
+	<!--<string name="entry_ios_coming_soon">COMING SOON FOR IOS</string>-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+	<string name="transaction_confirmation">Confirmação</string>
+</resources>

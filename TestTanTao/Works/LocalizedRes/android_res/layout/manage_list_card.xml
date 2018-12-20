@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="5dp"
+    android:layout_marginStart="@dimen/margin_m"
+    android:layout_marginEnd="@dimen/margin_m"
+    android:layout_marginBottom="@dimen/margin_l"
+    card_view:cardPreventCornerOverlap="true">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:id="@+id/card_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <!-- icon -->
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/wallet_icon_side"
+                android:layout_height="@dimen/wallet_icon_side"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_l"
+                android:src="@drawable/wallet_icon_indicator_eth"/>
+
+            <!-- Currency -->
+            <TextView style="@style/darklist_primary_xl_bold"
+                android:id="@+id/card_isoId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@id/icon"
+                android:layout_marginLeft="@dimen/margin_l"
+                android:layout_marginTop="@dimen/spacing_2"
+                />
+
+
+            <!-- EX-rate -->
+            <TextView
+                android:id="@+id/card_exrateId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/icon"
+                android:layout_below="@id/card_isoId"
+                android:textColor="#ccffffff"
+                android:textSize="@dimen/wallet_04"
+                android:layout_marginLeft="@dimen/margin_l"
+                android:layout_marginTop="@dimen/leading"
+                android:layout_marginBottom="@dimen/spacing_2"
+                />
+
+            <ImageView
+                android:id="@+id/manage_card_preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_btn_preview_dark"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/manage_drag"
+                android:layout_marginEnd="@dimen/margin_l_2"/>
+
+            <ImageView
+                android:id="@+id/manage_drag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_btn_drag_handle"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/margin_m"/>
+
+        </RelativeLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_relative_layout"
+            android:background="#4cffffff"
+            >
+            <TextView style="@style/darklist_primary_xl"
+                android:id="@+id/card_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#ccffffff"
+                />
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

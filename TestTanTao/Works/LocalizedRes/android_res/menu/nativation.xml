@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/icon_btn_set_as_home_light"
+        android:title="@string/Nav_home"/>
+
+    <item
+        android:id="@+id/navigation_request"
+        android:icon="@drawable/icon_btn_qrcode"
+        android:title="@string/Nav_receive"/>
+
+    <!--item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/icon_btn_shopping"
+        android:title="@string/Nav_shop"/-->
+
+    <item
+        android:id="@+id/navigation_collectible"
+        android:icon="@drawable/icon_btn_plurk_like_light"
+        android:title="@string/Nav_collectible"/>
+
+</menu>

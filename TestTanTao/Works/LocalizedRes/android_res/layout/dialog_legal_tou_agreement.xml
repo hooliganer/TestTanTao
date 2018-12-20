@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/legal_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/M2"
+                android:layout_marginBottom="@dimen/M2">
+
+    <CheckBox
+        android:id="@+id/legal_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/M2"
+        android:layout_marginRight="@dimen/M2"
+        android:buttonTint="@color/gray"
+        android:checked="false"/>
+
+    <com.htc.wallet.widget.LinkableTextView
+        android:id="@+id/legal_check_text"
+        style="@style/dark_source_label_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/M4"
+        android:layout_marginRight="@dimen/M2"
+        android:layout_toRightOf="@id/legal_checkbox"
+        android:bufferType="spannable"
+        android:textColor="@color/dark_gray"
+        android:textColorLink="#0066cc"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/info_primary_s"/>
+
+</RelativeLayout>

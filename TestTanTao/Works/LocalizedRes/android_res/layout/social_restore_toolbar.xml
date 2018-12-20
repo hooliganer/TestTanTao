@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tb_social_backup_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:fitsSystemWindows="true"
+    app:contentInsetLeft="10dp"
+    app:contentInsetStart="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true"
+            android:foreground="@drawable/social_backup_restore_toolbar_overlay"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/icon_btn_previous_dark"/>
+
+        <ImageView
+            android:id="@+id/iv_progress1"
+            android:layout_width="75dp"
+            android:layout_height="5dp"
+            android:layout_toRightOf="@id/iv_back"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shape_social_restore_toolbar_dark_progress"/>
+
+        <ImageView
+            android:id="@+id/iv_progress2"
+            android:layout_width="75dp"
+            android:layout_height="5dp"
+            android:layout_toRightOf="@id/iv_progress1"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shape_social_restore_toolbar_light_progress"/>
+
+        <ImageView
+            android:id="@+id/iv_progress3"
+            android:layout_width="75dp"
+            android:layout_height="5dp"
+            android:layout_toRightOf="@id/iv_progress2"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shape_social_restore_toolbar_light_progress"/>
+
+        <ImageButton
+            android:id="@+id/ib_qr_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="@dimen/M1"
+            android:layout_marginRight="@dimen/M1"
+            android:foreground="@drawable/social_backup_restore_toolbar_overlay"
+            android:background="@drawable/icon_btn_qrcode_dark"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

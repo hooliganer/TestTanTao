@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="196dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popupwindow_background"
+    >
+
+    <RelativeLayout
+        android:id="@+id/menu_manage_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/popupwindow_menuitem">
+        <TextView
+            style="@style/list_primary_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tool_manage_wallet"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/margin_l"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/menu_social_backup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/popupwindow_menuitem">
+        <TextView
+            style="@style/list_primary_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tool_social_backup"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/margin_l"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/menu_settings"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/popupwindow_menuitem">
+        <TextView
+            style="@style/list_primary_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tool_settings"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/margin_l"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/menu_help"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/popupwindow_menuitem">
+        <TextView
+            style="@style/list_primary_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tool_help"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/margin_l"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

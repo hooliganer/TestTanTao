@@ -1,0 +1,550 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Nem</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Kezdőoldal</string><!--Home-->
+    <string name="Nav_collectible">Gyűjtenivalók</string><!--Collectibles--> 
+    <string name="Nav_request">Kérés</string><!--Request-->
+    <string name="Nav_receive">Fogadás</string><!--Receive-->
+    <string name="Nav_shop">Bolt</string><!--Shop-->
+    <string name="home_recovering">Visszaállítás...</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">A visszaállítás folyamatban van, várjon.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">Árfolyam forrása: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Sorrend módosítása</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">Beállítások</string><!--Settings-->
+    <string name="tool_help">Súgó</string><!--Help-->
+    <string name="tool_sort_by">Rendezés a következők szerint</string><!--Sort by-->
+    <string name="tool_sort_custom">Testreszabva</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">Betűrendben</string><!--Alphabetical-->
+    <string name="tool_sort_value">Érték</string><!--Value-->
+
+    <string name="Create_wallet">Új tárca létrehozása</string><!--Create a new wallet-->
+    <string name="total_assets">Teljes vagyon</string><!--Total assets--> 
+    <string name="last_update">Utolsó frissítés: %1$d perccel ezelőtt.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">Nincs internetkapcsolat</string><!--No internet connection-->
+    <string name="retry_button">Beállítások</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">Saját pénzérmék (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">Még nem lett hozzáadva tárca</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">Tárca kezelése</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Vásárlás/eladás</string><!--Buy/Sell-->
+    <string name="shop_buy">Vásárlás</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Vásárlás/eladás Maicoin segítségével</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">A kriptovaluták vásárlása, eladása és a velük kapcsolatos egyéb tranzakciók („Tranzakciók”) végrehajtása külső szolgáltatók közreműködésével történik.  Minden ilyen Tranzakció az Ön és a külső szolgáltató közötti kapcsolatra vonatkozó szolgáltatási feltételek és kikötések hatálya alá esik. Gondosan olvassa el ezeket a szolgáltatási feltételeket és kikötéseket, mielőtt igénybe venné a külső szolgáltatók szolgáltatásait. A HTC nem vállal felelősséget az Ön és a külső szolgáltatók közötti tevékenységekért.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">Ne emlékeztessen többé.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">Rendszer</string><!--System-->
+    <string name="gen_wallet_title">Tárca</string><!--Wallet-->
+    <string name="gen_now">most</string><!--now-->
+    <string name="gen_screenshot">Nem sikerült a képernyőkép mentése</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">Biztonsági okból nem készíthető képernyőkép</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">Tranzakció fogadása</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">%1$s érkezett a következőtől:</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">RÉSZLETEK MEGJELENÍTÉSE</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">A tranzakció befejeződött</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">A(z) %1$s-tranzakciót (%2$s) megerősítették</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">Sikertelen tranzakció</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">Nem sikerült a tranzakció. Adatok: %1$s; %2$s %3$s; címzettje %4$s</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">Új verzió vált elérhetővé</string><!--New version available-->
+    <string name="gen_new_version_hint">A magasabb fokú biztonság és a jobb használhatóság érdekében frissítse az alkalmazást az újabb verzióra.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">Új biztonsági beállítások léptek hatályba. A biztonsága érdekében frissítenie kell a rendszert. A folytatáshoz hajtsa végre a frissítést.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">FRISSÍTÉS MOST</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">A biztonsági beállítások betöltése. Kérjük, várjon.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">Rendszerszintű hozzáférést szereztek a telefonhoz („rootolták”)</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">A tárca zárolva van, mert rendszerszintű hozzáférést szereztek a telefonhoz („rootolták”). A műveletre biztonsági okból volt szükség. A további lépéseket egyeztesse az ügyfélszolgálattal.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">Rendszerszintű hozzáférést szereztek a telefonhoz („jailbreak”)</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">A tárca zárolva van, mert rendszerszintű hozzáférést szereztek a telefonhoz („jailbreak”). A műveletre biztonsági okból volt szükség. A további lépéseket egyeztesse az ügyfélszolgálattal.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">Fontos nyilatkozat: A termék korai fázisban van, és a blokkláncok technológiájára épül. A kriptovaluták, a tokencsere és a blokkláncok új technológiák, amelyek előre nem látott kockázatokat hordozhatnak magukban. Például: A külső felek miatt sérülékenységek jelenhetnek meg az eszközökben, a tárcaalkalmazásokban és a blokklánchálózatokban, amelyek veszélyeztethetik a blokklánc-tranzakciókat, illetve a kriptovaluták elveszítéséhez vezethetnek. Mindig tartsa biztonságban a 12 szóból álló visszaállító mondatot és a jelszót. A visszaállító kulcsok biztonságáért kizárólag Ön felel. Ha folytatja, azzal elfogadja a fenti kockázatokat.\n\nKöszönjük, hogy kipróbálja a termékeinket. Az Öntől kapott <a href="mailto:exodus@htc.com">visszajelzés</a> nagy érték számunkra a technológiáink fejlesztése során.</string>
+    <string name="gen_feedback">visszajelzés</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Gyűjtenivalók</string><!--Collectibles-->
+    <string name="no_collectible">Még nincs gyűjtenivaló</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">Itt fognak megjelenni a gyűjtenivalók.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">Tokenek vásárlása</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">Érintse meg a gyűjtenivalók megjelenítéséhez</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Továbbiak hozzáadása</string><!--Add more-->
+    <string name="addwallet_search_wallet">Tárca keresése</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">Pénzérmék vásárlása</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">Kérés</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">Küldés</string><!--Send-->
+    <string name="addwallet_hint">Itt fognak megjelenni a tranzakciók.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">Nincs tranzakció</string><!--You have no transactions-->
+    <string name="no_wallet_found">Nem található tárca</string><!--No wallet found-->
+    <string name="addwallet_add_btn">Hozzáadás</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Tárcalista kezelése</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">Ismerkedjen meg a <b>Zionnal</b></string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">Teljes körű, blokkláncalapú, biztonságos tárca.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Hozza létre a saját Zion tárcáját</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">A tárca visszaállítása</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Social Key Recovery kérések</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">A folytatással megerősítem, hogy elolvastam és elfogadom a(z) %1$s és a(z) %2$s tartalmát.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">Használati feltételek</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">HTC Adatvédelmi nyilatkozat</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">Segítene valamelyik barátjának?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">Elolvastam és elfogadom a(z) %1$s, illetve elfogadom a(z) %2$s tartalmát.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">A Zion szolgáltatási feltételei</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">Adatvédelmi nyilatkozat</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Adja meg a jelszót.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">Adja meg az új jelszót.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">A jelszóra a tárca feloldásához és minden tranzakcióhoz szükség van.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">Erősítse meg a jelszót.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">Erősítse meg az új jelszót.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">A jelszavak nem egyeznek. Próbálja újra.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">12 szóból álló visszaállító mondat biztonsági mentés és visszaállítás céljára</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">Ha elveszíti a telefont vagy elfelejti a jelszót, kizárólag ezeknek a szavaknak a megadásával tudja visszaállítani a tárcát.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">12 szóból álló visszaállító mondat előállítása</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">Írja le – a sorrendre ügyelve – a visszaállító mondat 12 szavát</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">Ne feledje a visszaállító mondat mind a 12 szavát leírni, ügyelve a sorrendre. Tartsa a mondatot biztonságos helyen.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">Lejegyeztem őket</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">Erősítse meg a 12 szóból álló visszaállító mondatot (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">Annak ellenőrzésére, hogy helyesen jegyezte le a szavakat, adja meg őket, ügyelve a sorrendre.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">Tovább</string><!--Next-->
+    <string name="verify_key_1_not_match">Legalább egy szó nem egyezik. Próbálja újra.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">Erősítse meg a 12 szóból álló visszaállító mondatot (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">Erősítse meg a 12 szóból álló visszaállító mondatot (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">Gratulálunk! A tárca beállítása befejeződött.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">A tárca ujjlenyomattal történő feloldásának engedélyezése.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">Nyissa meg a tárcát.</string><!--Go to your wallet.-->
+
+    <string name="restoring">Visszaállítás</string><!--Restoring-->
+    <string name="preparing_secure_ui">Biztonságos felhasználói felület előkészítése</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">A tárca visszaállításához adja meg a 12 szóból álló visszaállító mondatot (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">A helyes sorrendben adja meg a 12 szóból álló visszaállító mondatot.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">A tárca visszaállításához adja meg a 12 szóból álló visszaállító mondatot (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">A tárca visszaállításához adja meg a 12 szóból álló visszaállító mondatot (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">Gratulálunk!</string><!--Congratulations!-->
+    <string name="wallet_restored">A tárca vissza lett állítva.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Tárca feloldása</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">Ujjlenyomat használata</string><!--Use fingerprint-->
+    <string name="use_passcode">Jelszó</string><!--Passcode-->
+    <string name="or">vagy</string><!--or-->
+    <string name="use_fingerprint_to_unlock">Ujjlenyomat használata a feloldásra</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">Próbálja újra</string><!--Try again-->
+    <string name="use_passcode_to_unlock">Jelszó használata a feloldásra</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">Az ujjlenyomat-beállítások megváltoztak</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">Úgy tűnik, nemrég megváltoztatta az ujjlenyomat-beállításokat. A funkció használatához állítson be új ujjlenyomatot.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">Beállítás most</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">A tárca feloldásához adja meg a jelszót</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">Új verzió vált elérhetővé</string><!--New version available-->
+    <string name="new_version_hint">A magasabb fokú biztonság és a jobb használhatóság érdekében frissítse az alkalmazást az újabb verzióra.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">Frissítés később</string><!--Update later-->
+    <string name="update_now">Frissítés most</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Küldés</string><!--Send-->
+    <string name="select_wallet">Tárca kiválasztása</string><!--Select a wallet--> 
+    <string name="send_to">CÍMZETT</string><!--TO-->
+    <string name="send_amount">ÖSSZEG</string><!--AMOUNT-->
+    <string name="hint_amount">Adja meg az összeget</string><!--Enter amount-->
+    <string name="to_paste_addr">Cím beillesztése</string><!--Paste address-->
+    <string name="to_scan_QR">QR-kód beolvasása</string><!--Scan QR code-->
+    <string name="to_select_QR_image">Válassza ki a korábban mentett képet</string><!--Select saved image-->
+    <string name="to_enter_address">Cím megadása</string><!--Enter address-->
+    <string name="to_paste_addr2">Cím beillesztése a vágólapról</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">Hozzáadás mentett képről</string><!--Add from saved images-->
+    <string name="enter_address_hint">Adja meg a címet</string><!--Enter a address-->
+    <string name="send_address">Cím</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">MAX</string><!--MAX-->
+    <string name="send_review_btn">Tranzakció áttekintése</string><!--Review transaction-->
+    <string name="fee">Tranzakció költsége</string><!--Transaction Fee-->
+    <string name="select_wallet_error">Nincs elég pénze.</string><!--Insufficient funds.-->
+    <string name="amount_hint">Egyenleg:</string><!--Balance:-->
+    <string name="address_error">Érvénytelen %s cím.</string><!--Invalid %s address.-->
+    <string name="amount_input_error">Nincs elég pénze a tranzakciós díjra.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">A megadott összeg minimális értéke %s</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">MÉGSE</string><!--CANCEL-->
+    <string name="enteraddr_save">MENTÉS</string><!--SAVE-->
+    <string name="payment_urgent">Sürgős</string><!--Urgent-->
+    <string name="payment_priority">Prioritás</string><!--Priority-->
+    <string name="payment_regular">Normál</string><!--Regular-->
+    <string name="payment_economy">Gazdaságos</string><!--Economy-->
+    <string name="payment_title">Válasszon fizetési prioritást</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 perc</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 óra</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 óra</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 óra</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">A tranzakciós költség leírása</string><!--Transaction fee description-->
+    <string name="send_review">Tranzakció áttekintése</string><!--Review your transaction-->
+    <string name="send_note">EMLÉKEZTETŐ</string><!--MEMO-->
+    <string name="send_note_hint">(NEM KÖTELEZŐ)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">Tranzakció elküldve.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">A tranzakció végrehajtási ideje a hálózati forgalomtól és a tranzakciós díjtól függ.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">OK</string><!--OK-->
+    <string name="fee_error">Kiszolgálóhiba: ismeretlen költség</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">Sikertelen tranzakció</string><!--Transaction not successful--> 
+    <string name="review_send_to">KÜLDÉS:</string><!--SEND TO-->
+    <string name="review_fee">DÍJ</string><!--FEE-->
+    <string name="review_edit">Szerkesztés</string><!--Edit-->
+    <string name="review_enter_pin">Jelszó</string><!--Passcode-->
+    <string name="review_cancel">Tranzakció megszakítása</string><!--Cancel transaction-->
+    <string name="send_server_no_response">A kiszolgáló nem válaszol. Próbálja újra később.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">A tranzakciós költségeket a külső felek számítják fel, nem a HTC. Magasabb prioritás esetén magasabb a költség. A prioritási időszak leírása valós idejű blokklánc-statisztikákon alapul, és kizárólag tájékoztatási célt szolgál. A prioritás kiválasztása nem garantálja, hogy a tranzakció sikeresen le fog zajlani, illetve a megadott időszakban kerül rá sor.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%s felvette Önt megbízható partnerként</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">1. lépés Adja meg a nevét, valamint kérje el az ellenőrző kódot (forrás: %s).</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">2. lépés %s telefonján előáll az Ön ellenőrző kódja. Kérje el tőle a kódot, majd írja be.</string> 
+    <string name="ver_enter_name_hint">Adja meg a nevét</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Kód kérése</string><!--Request code--> 
+    <string name="ver_remain_time">Hátralévő idő: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">Az ellenőrző kód előállításához írja be a jelszót</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">Kód megosztása a következővel: %s</string><!--Share this code to %s-->
+    <string name="ver_sharing_remind_name">Új kérés a következőtől: %s</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">M: %s\na következőn csatornán: %s</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">VISSZAUTASÍTÁS</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Új kérés a következőtől: %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">Érintse meg az ellenőrző kód megjelenítéséhez és megosztásához (a megosztás címzettje: %s).</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">ELLENŐRZŐ KÓD MEGJELENÍTÉSE</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Nincs válasz? %s múlva újabb kérést is indíthat</string>
+    <string name="ver_verify">Ellenőrzés</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Ön %s megbízható partnerévé vált.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">Készen áll arra, hogy %s segítségére legyen a tárca visszaállításában, ha elveszíti vagy ellopják azt. A Zion (titkosítva) mentette a tárcájuk visszaállításához szükséges adatok egy részét az Ön készülékére. Ügyeljen arra, hogy ne törölje a Zion alkalmazást vagy a hozzá tartozó adatokat, mert ebben az esetben a visszaállítási adatok elvesznek. A Zion rendszeres időközönként ellenőrizni fogja, hogy %s visszaállítási adatai továbbra is érvényesek-e.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">Kész</string><!--Done-->
+    <string name="ver_pin_error_hint">A kód érvénytelen, próbálja meg újra.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">Értesítés</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Már szerepel %s megbízható partnerei között</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Köszönjük a segítségét %s adatainak biztonsági mentésében</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">Megerősítés elküldve</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Várakozás a megerősítésre. A megerősítést követően Ön %s megbízható partnere lesz.</string><!--Waiting for verifying. You will be %s’s trusted contact when verification is completed.-->
+    <string name="ver_dialog_restore_verifying_subtitle">Ellenőrzés...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">Megerősítés elküldve</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">Ellenőrzés...</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">Ismeretlen</string><!--Unknown-->
+    <string name="ver_unknown_name">Ismeretlen</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">Ellenőrző kód beolvasása</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">Köszönöm a segítséget!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s már elérte a megbízható partnerek számát (5).</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">A hivatkozás lejárt; kérje meg a feladót (%s), hogy küldjön egy frissített hivatkozást.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">Időtúllépés történt a kérés során, próbálja meg újra később.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Kérjük, próbálja újra később</string><!--Please try again later-->
+    <string name="try_too_often_message">Túl gyakran próbálkozik; %d perc múlva próbálja meg újra</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Beállítások</string><!--Settings-->
+    <string name="setting_tag1">Beállítások</string><!--Preferences--> 
+    <string name="setting_currency">Preferált pénznem</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">Biztonság</string><!--Security--> 
+    <string name="setting_notification">Leküldéses értesítések engedélyezése</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">Értesítés a bejövő és a kimenő tranzakciókról</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">Képernyőképek engedélyezése</string><!--Enable screenshots--> 
+    <string name="setting_pin">PIN-kód megváltoztatása</string><!--Change PIN-->
+    <string name="setting_fingerprint">Ujjlenyomat</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">Csak az alkalmazás feloldására szükséges</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">Tárca</string><!--Wallet--> 
+    <string name="setting_show_key">A 12 szóból álló visszaállító mondat megjelenítése</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Tárca alapállapotba állítása</string><!--Reset wallet-->
+    <string name="setting_tag4">Ismertető</string><!--About--> 
+    <string name="setting_learn_more">További információk</string><!--Learn more-->
+    <string name="setting_service">A szolgáltatás feltételei</string><!--Terms of service--> 
+    <string name="setting_policy">Adatvédelmi nyilatkozat</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Mi a Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">A Social Key Recovery segítségével kényelmesen visszaállíthatja a tárcáját a megbízható partnereinek és a családtagjainak segítségével.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Hívja meg 3-5 ismerősét megbízható partnernek; ők segíthetnek visszaállítani a tárcáját.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">A megbízható partnerek egy kód elküldésével segíthetnek a tárca visszaállításában.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Beállítás</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Most nem</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Megbízható partnerek listájának biztonsági mentése</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Ha vissza szeretné állítani a tárcát a Social Key Recovery funkcióval, akkor válassza ki azt a Google fiókot, amelybe menteni kívánja a megbízható partnereket. A megbízható partnerek listája a Google Drive-on fog tárolódni.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Fiók hozzáadása</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Mégse</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Folytatás</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">Megbízható partner</string><!--Trusted contact--> 
+    <string name="backup_null_contact">Még egyetlen megbízható partnert sem vett fel.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">A Social Key Recovery használatához szükség van legalább 3 megbízható partnerre (max. számuk 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Ismerősök meghívása \n megbízható partnernek</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Hívja meg 3-5 barátját vagy családtagját megbízható partnernek; ők segíthetnek visszaállítani a tárcáját.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">Az Ön neve</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">Adja meg a nevét</string><!--Enter your name-->
+    <string name="backup_invitation_hi">Üdv, %s!</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">Meghívó megosztása</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Nem aktív</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktív</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Szia! \n\n Megjelöltelek megbízható partneremként a Zion tárcám Social Key Recovery funkciójában. \n Kérlek, az alábbi útmutatást követve segíts \n biztonsági mentést készíteni a visszaállítási adataimról.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) A hivatkozást megérintve töltsd le és telepítsd a Zion alkalmazást:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Amikor végeztél, kérd el tőlem \n az ellenőrző kódot.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Köszönöm!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Utolsó ellenőrzés időpontja: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">Érintse meg itt a kód előállításához.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Újraküldés</string><!--Resend-->
+    <string name="backup_bottom_request_show">Ismerősöktől érkezett kérések</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Megbízható partner eltávolítása</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">Mégse</string><!--Cancel-->
+    <string name="backup_remove_button_delete">Eltávolítás (%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">Megbízható partner eltávolítása</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Kijelentkezés</string>
+    <string name="backup_pending_target_toolbar">Ismerősöktől érkezett kérések</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Jelenleg nincs kérés.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Azonos készülékre nem készíthető biztonsági mentés.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Biztonsági mentés készítése a megbízható partnerek segítségével?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">Hivatkozás megosztása</string><!--Share link-->
+    <string name="restore_request">Visszaállítási kérés a következőtől: %s</string><!--Restore request from %s-->
+    <string name="show">Megjelenítés</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Ezt a fiókot már használták egy másik eszközön</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Biztonsági okból minden fiókot csak egy eszközön lehet használni.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Továbbra is ezt a fiókot szeretné használni, vagy másikat választ a Social Key Recovery funkció konfigurálására?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Ennek a fióknak a használata</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">A korábbi megbízható partnerek listája véglegesen el fog veszni.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Másik fiók használata</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Korábbi adatok megtartása és új létrehozása.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Biztosan ezt a fiókot szeretné használni?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">A korábbi megbízható partnerek listája véglegesen el fog veszni.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">A folytatáshoz adja meg a PIN-kódot</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">Hogyan szeretné visszaállítani a tárcát\?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">A 12 szóból álló visszaállító mondat használata</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">A Social Key Recovery segítségével</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">Adja meg a 12 szóból álló visszaállító mondatot, amelyet a tárca létrehozásakor jegyzett le.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">Kérje a megbízható partnereinek segítségét.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Szia! \n\n Mint megbízható partneremet, megkérlek, hogy segíts visszaállítani a Zion tárcámat.\nA visszaállításhoz a következőket kell végrehajtanod.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Érintsd meg ezt a hivatkozást, és állítsd elő az ellenőrző kódot.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Küldd el nekem a kódot.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Köszönöm!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Kérjük, várjon...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Bejelentkezés...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Ehhez a fiókhoz nem lett aktiválva a Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Próbálkozzon másik fiókkal, illetve használja a 12 szóból álló visszaállító kulcsot a tárca visszaállítására</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Kérjük, várjon...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Hivatkozás előállítása...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Jelentkezzen be a fiókjába</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Ha vissza szeretné állítani a tárcát a Social Key Recovery funkcióval, akkor válassza ki azt a Google fiókot, amelybe korábban mentette a megbízható partnerek listáját.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Nem sikerült előállítani a megosztási hivatkozást</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Próbálja újra később.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Nem sikerült bejelentkezni</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Próbálja újra később.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Kérjen segítséget a megbízható partnereitől</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Keresse meg három megbízható partnerét, és küldje el nekik ezt a hivatkozást.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Mindegyik partner egy-egy kódot fog küldeni Önnek. Adja meg ezeket alább:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Legalább egy kód hibás. Próbálja újra.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Adja meg a kódot</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Mégse</string><!--Cancel-->
+    <string name="social_restore_btn_next">Következő</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">Kérjük, próbálja újra később</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">Túl gyakran próbálkozik; %s perc múlva próbálja meg újra</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">Legalább egy kód hibás.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">Ellenőrizze, hogy mindegyik kód helyes-e, majd próbálja újra.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">%s adatairól nincs biztonsági mentés az Ön készülékén.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Nem sikerült a visszaállítás</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">A visszaállításhoz próbáljon másik fiókot használni, illetve adja meg a 12 szóból álló visszaállító kulcsot.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%s meghívása</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Érintse meg az elfogadáshoz.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Visszaállítási segítségkérés a következőtől: %s</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">Érintse meg a kód előállításához.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">A Social Key Recovery nincs konfigurálva ehhez a fiókhoz.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">A visszaállításhoz próbáljon másik fiókot használni, illetve adja meg a 12 szóból álló visszaállító kulcsot.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">Biztonsági mentés állapotának frissítése</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">Erősítse meg a megbízható partner(ek) eltávolítását</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">Az eltávolításhoz adja meg a jelszót</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Biztonsági mentés készítése a megbízható partnerek segítségével?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">A Social Key Recovery funkciót is beállíthatja, amely lehetővé teszi, hogy megbízható partnerek segítségével készítsen biztonsági mentést a tárcáról.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">További információk</string><!--Tell me more-->
+    <string name="social_backup_not_now">Most nem</string><!--Not now-->
+    <string name="social_backup_oops_inactive">A megbízható partnereinek egy része inaktív.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">A kapcsolatok biztonsága érdekében ellenőrizze a megbízható partnereit.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Ezt a fiókot már használta egy másik eszközön</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">A Social Key Recovery adatok nem használhatók véglegesen. A Social Key Recovery további használatához másik fiókkal kell bejelentkeznie.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">Elfogadom</string><!--Agree-->
+    <string name="social_key_recovery_disagree">Nem fogadom el</string><!--Disagree-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %s, %s again.</string>-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">Tranzakció részletei</string><!--Transaction details--> 
+    <string name="Amount">Teljes összeg</string><!--Total Amount-->
+    <string name="Date">Dátum</string><!--Date-->
+    <string name="Send_to">Küldés:</string><!--Send to-->
+    <string name="Receive_From">Fogadás; feladó:</string><!--Receive from-->
+    <string name="Memo">Emlékeztető</string><!--Memo-->
+    <string name="transaction_amount_send">Küldeni kívánt összeg</string><!--Amount to send-->
+    <string name="transaction_amount_receive">Fogadni kívánt összeg</string><!--Amount to receive-->
+    <string name="transaction_amount">Érték</string><!--Value-->
+    <string name="Transaction_Fee">Tranzakció költsége</string><!--Transaction fee--> 
+    <string name="Status">Állapot</string><!--Status-->
+    <string name="Transcation_ID">Tranzakcióazonosító</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">%1$s QR-kód beolvasása</string><!--Scan %1$s QR code-->
+    <string name="Settings">Beállítások</string><!--Settings-->
+    <string name="Help">Súgó</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">Kérés</string><!--Request-->
+    <string name="WALLET_ADDRESS">TÁRCA CÍME</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">TERHELENDŐ SZÁMLA</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">ÖSSZEG KÉRÉSE (NEM KÖTELEZŐ)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">QR-kód megosztása</string><!--Share QR code-->
+    <string name="Copy_as_text">Másolás szövegként</string><!--Copy as text-->
+    <string name="copy_toast">A tárca címe kimásolva a vágólapra.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">Egyes más gyártóktól származó tárcák nem támogatják a hivatkozásokban vagy QR-kódokban elhelyezett összegkéréseket.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">QR-kód beolvasása</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">A QR-kódolvasó használatához előbb engedélyezze a kamera elérését.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">Kamera elérésének engedélyezése</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Képek készítésének és videó felvételének engedélyezése a Zion számára</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">Többé ne kérdezzen rá</string><!--Never ask again-->
+    <string name="DENY">MEGTAGADÁS</string><!--DENY-->
+    <string name="ALLOW">ENGEDÉLYEZÉS</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">%1$s(%2$s) QR-kódos cím beolvasása</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">Igazítsa a kódot a kerethez</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">Nem egy érvényes nyilvános cím</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">Nem lehet csatlakozni.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Az alkalmazás használatához hálózati kapcsolat szükséges. Kapcsolja be a mobil adatkapcsolatot vagy a Wi-Fi-t a Beállítások között.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Mégse</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+    <string name="You_have_no_transaction">Nincs tranzakció.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Kriptopénzek küldésekor és fogadásakor itt jelennek meg a tranzakciók.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Kipróbálja a Social Key Recovery funkciót\?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">A tárca nem csak a 12 szóból álló visszaállító mondattal, de a Social Key Recovery funkció révén megbízható partnerek segítségével is könnyedén visszaállítható.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">HAMAROSAN IOS-EN IS ELÉRHETŐ</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+	<string name="transaction_confirmation">Megerősítés</string>
+</resources>

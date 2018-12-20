@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.htcwallet.wallet.SendActivity">
+
+    <item
+        android:id="@+id/action_paste"
+        android:icon="@drawable/icon_indicator_copy_dark"
+        android:title="@string/to_paste_addr2"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_scan"
+        android:icon="@drawable/icon_btn_qrcode"
+        android:title="@string/to_scan_QR"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_image"
+        android:icon="@drawable/icon_indicator_photo_library"
+        android:title="@string/to_select_QR_image2"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_enteraddr"
+        android:icon="@drawable/wallet_icon_indicator_enter_text"
+        android:title="@string/to_enter_address"
+        app:showAsAction="ifRoom" />
+
+</menu>

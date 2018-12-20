@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		614660AD43DBA78B3D84F519 /* Pods_TestTanTao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6061CC3A1B41844C32258069 /* Pods_TestTanTao.framework */; };
+		B20BEEFE21A3EF5E00649DC9 /* MyFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BEEFD21A3EF5E00649DC9 /* MyFileManager.swift */; };
+		B228BA8321ABCDD0003C343C /* CoredataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BA8221ABCDD0003C343C /* CoredataManager.swift */; };
+		B260057F21C8912900C8EA18 /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260057D21C8912900C8EA18 /* LoadViewController.swift */; };
+		B260058021C8912900C8EA18 /* LoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B260057E21C8912900C8EA18 /* LoadViewController.xib */; };
+		B260058321C891BF00C8EA18 /* WebTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260058121C891BF00C8EA18 /* WebTableCell.swift */; };
+		B260058421C891BF00C8EA18 /* WebTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B260058221C891BF00C8EA18 /* WebTableCell.xib */; };
+		B260058621C8FB9E00C8EA18 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B260058521C8FB9E00C8EA18 /* Alamofire.framework */; };
+		B29FD9D521BE007000B6B0AD /* Publicer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FD9D421BE007000B6B0AD /* Publicer.swift */; };
+		B29FD9DC21C0A13900B6B0AD /* DynLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FD9DB21C0A13900B6B0AD /* DynLinkManager.swift */; };
+		B29FD9DE21C0D8B800B6B0AD /* EntityDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FD9DD21C0D8B800B6B0AD /* EntityDB.swift */; };
+		B29FD9E021C0D9DA00B6B0AD /* WalletDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FD9DF21C0D9DA00B6B0AD /* WalletDB.swift */; };
+		B29FD9E221C399FE00B6B0AD /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FD9E121C399FE00B6B0AD /* HTTPManager.swift */; };
+		B29FD9E421C7877700B6B0AD /* AlamoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FD9E321C7877700B6B0AD /* AlamoManager.swift */; };
+		B2A0CD5921CB2CC20083DF4D /* IGListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A0CD5821CB2CC20083DF4D /* IGListView.swift */; };
+		B2A0CD5D21CB2EC30083DF4D /* BaseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A0CD5B21CB2EC30083DF4D /* BaseListViewController.swift */; };
+		B2A0CD5E21CB2EC30083DF4D /* BaseListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2A0CD5C21CB2EC30083DF4D /* BaseListViewController.xib */; };
+		B2A0CD6021CB325F0083DF4D /* FirstIGListCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A0CD5F21CB325F0083DF4D /* FirstIGListCells.swift */; };
+		B2A0CD6B21CB68FD0083DF4D /* UserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A0CD6921CB68FD0083DF4D /* UserInfoCell.swift */; };
+		B2A0CD6C21CB68FD0083DF4D /* UserInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2A0CD6A21CB68FD0083DF4D /* UserInfoCell.xib */; };
+		B2A0CD6F21CB6C9A0083DF4D /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A0CD6D21CB6C9A0083DF4D /* ContentCell.swift */; };
+		B2A0CD7021CB6C9A0083DF4D /* ContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2A0CD6E21CB6C9A0083DF4D /* ContentCell.xib */; };
+		B2C0FF2F21A3CF6600866C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0FF2E21A3CF6600866C85 /* AppDelegate.swift */; };
+		B2C0FF3121A3CF6600866C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0FF3021A3CF6600866C85 /* ViewController.swift */; };
+		B2C0FF3421A3CF6600866C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C0FF3221A3CF6600866C85 /* Main.storyboard */; };
+		B2C0FF3721A3CF6600866C85 /* TestTanTao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2C0FF3521A3CF6600866C85 /* TestTanTao.xcdatamodeld */; };
+		B2C0FF3921A3CF6800866C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C0FF3821A3CF6800866C85 /* Assets.xcassets */; };
+		B2C0FF3C21A3CF6800866C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C0FF3A21A3CF6800866C85 /* LaunchScreen.storyboard */; };
+		B2C0FF4621A3D84600866C85 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2C0FF4521A3D84600866C85 /* GoogleService-Info.plist */; };
+		B2C299DE21AF82F400DC9576 /* LocalizedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C299DD21AF82F400DC9576 /* LocalizedManager.swift */; };
+		B2C299E321AF83AF00DC9576 /* TestOCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C299E221AF83AF00DC9576 /* TestOCManager.m */; };
+		B2C299E621AF83BB00DC9576 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C299E421AF83BB00DC9576 /* XMLReader.m */; };
+		B2C299E821AF849E00DC9576 /* android_res in Resources */ = {isa = PBXBuildFile; fileRef = B2C299E721AF849E00DC9576 /* android_res */; };
+		B2CB1E9221CB7AA4005E3501 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB1E9021CB7AA4005E3501 /* FirstViewController.swift */; };
+		B2CB1E9321CB7AA4005E3501 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CB1E9121CB7AA4005E3501 /* FirstViewController.xib */; };
+		B2CB1E9521CB7C5A005E3501 /* JSTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB1E9421CB7C5A005E3501 /* JSTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120CDE12FA203425F906D5C6 /* Pods-TestTanTao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTanTao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTanTao/Pods-TestTanTao.debug.xcconfig"; sourceTree = "<group>"; };
+		19D6CD0DD74FD2D584A12ED8 /* Pods-TestTanTao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTanTao.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTanTao/Pods-TestTanTao.release.xcconfig"; sourceTree = "<group>"; };
+		6061CC3A1B41844C32258069 /* Pods_TestTanTao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTanTao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20BEEFD21A3EF5E00649DC9 /* MyFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFileManager.swift; sourceTree = "<group>"; };
+		B228BA8221ABCDD0003C343C /* CoredataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataManager.swift; sourceTree = "<group>"; };
+		B260057D21C8912900C8EA18 /* LoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
+		B260057E21C8912900C8EA18 /* LoadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadViewController.xib; sourceTree = "<group>"; };
+		B260058121C891BF00C8EA18 /* WebTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTableCell.swift; sourceTree = "<group>"; };
+		B260058221C891BF00C8EA18 /* WebTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebTableCell.xib; sourceTree = "<group>"; };
+		B260058521C8FB9E00C8EA18 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29FD9D421BE007000B6B0AD /* Publicer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publicer.swift; sourceTree = "<group>"; };
+		B29FD9DB21C0A13900B6B0AD /* DynLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynLinkManager.swift; sourceTree = "<group>"; };
+		B29FD9DD21C0D8B800B6B0AD /* EntityDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityDB.swift; sourceTree = "<group>"; };
+		B29FD9DF21C0D9DA00B6B0AD /* WalletDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletDB.swift; sourceTree = "<group>"; };
+		B29FD9E121C399FE00B6B0AD /* HTTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
+		B29FD9E321C7877700B6B0AD /* AlamoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamoManager.swift; sourceTree = "<group>"; };
+		B2A0CD5821CB2CC20083DF4D /* IGListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListView.swift; sourceTree = "<group>"; };
+		B2A0CD5B21CB2EC30083DF4D /* BaseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseListViewController.swift; sourceTree = "<group>"; };
+		B2A0CD5C21CB2EC30083DF4D /* BaseListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseListViewController.xib; sourceTree = "<group>"; };
+		B2A0CD5F21CB325F0083DF4D /* FirstIGListCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIGListCells.swift; sourceTree = "<group>"; };
+		B2A0CD6921CB68FD0083DF4D /* UserInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoCell.swift; sourceTree = "<group>"; };
+		B2A0CD6A21CB68FD0083DF4D /* UserInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoCell.xib; sourceTree = "<group>"; };
+		B2A0CD6D21CB6C9A0083DF4D /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		B2A0CD6E21CB6C9A0083DF4D /* ContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentCell.xib; sourceTree = "<group>"; };
+		B2C0FF2B21A3CF6600866C85 /* TestTanTao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTanTao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C0FF2E21A3CF6600866C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2C0FF3021A3CF6600866C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2C0FF3321A3CF6600866C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2C0FF3621A3CF6600866C85 /* TestTanTao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestTanTao.xcdatamodel; sourceTree = "<group>"; };
+		B2C0FF3821A3CF6800866C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2C0FF3B21A3CF6800866C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2C0FF3D21A3CF6800866C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C0FF4521A3D84600866C85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2C0FF4721A3DA7200866C85 /* TestTanTao.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestTanTao.entitlements; sourceTree = "<group>"; };
+		B2C299DD21AF82F400DC9576 /* LocalizedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedManager.swift; sourceTree = "<group>"; };
+		B2C299E021AF83AF00DC9576 /* TestTanTao-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTanTao-Bridging-Header.h"; sourceTree = "<group>"; };
+		B2C299E121AF83AF00DC9576 /* TestOCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOCManager.h; sourceTree = "<group>"; };
+		B2C299E221AF83AF00DC9576 /* TestOCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOCManager.m; sourceTree = "<group>"; };
+		B2C299E421AF83BB00DC9576 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		B2C299E521AF83BB00DC9576 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		B2C299E721AF849E00DC9576 /* android_res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = android_res; sourceTree = "<group>"; };
+		B2CB1E9021CB7AA4005E3501 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B2CB1E9121CB7AA4005E3501 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		B2CB1E9421CB7C5A005E3501 /* JSTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2C0FF2821A3CF6600866C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B260058621C8FB9E00C8EA18 /* Alamofire.framework in Frameworks */,
+				614660AD43DBA78B3D84F519 /* Pods_TestTanTao.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BE974DB32F49B3874A44590 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				120CDE12FA203425F906D5C6 /* Pods-TestTanTao.debug.xcconfig */,
+				19D6CD0DD74FD2D584A12ED8 /* Pods-TestTanTao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0BFD232EE68CADF2D66EB58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B260058521C8FB9E00C8EA18 /* Alamofire.framework */,
+				6061CC3A1B41844C32258069 /* Pods_TestTanTao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B20BEEFB21A3EF2800649DC9 /* Works */ = {
+			isa = PBXGroup;
+			children = (
+				B29FD9D121BE002A00B6B0AD /* Public */,
+				B29FD9D021BDFFF000B6B0AD /* Views */,
+				B2C299DC21AF82D400DC9576 /* LocalizedRes */,
+				B27CF28921AE94E100BDCEA9 /* Branch */,
+				B228BA8121ABCDB2003C343C /* CoreData */,
+				B260060621A64EA800FB2D80 /* FireBase */,
+				B20BEEFC21A3EF3900649DC9 /* Managers */,
+			);
+			path = Works;
+			sourceTree = "<group>";
+		};
+		B20BEEFC21A3EF3900649DC9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B20BEEFD21A3EF5E00649DC9 /* MyFileManager.swift */,
+				B29FD9E121C399FE00B6B0AD /* HTTPManager.swift */,
+				B29FD9E321C7877700B6B0AD /* AlamoManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B228BA8121ABCDB2003C343C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B228BA8221ABCDD0003C343C /* CoredataManager.swift */,
+				B29FD9DD21C0D8B800B6B0AD /* EntityDB.swift */,
+				B29FD9DF21C0D9DA00B6B0AD /* WalletDB.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B228BA8421ABD28C003C343C /* AppDelegateExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDelegateExtension;
+			sourceTree = "<group>";
+		};
+		B260060621A64EA800FB2D80 /* FireBase */ = {
+			isa = PBXGroup;
+			children = (
+				B29FD9DB21C0A13900B6B0AD /* DynLinkManager.swift */,
+			);
+			path = FireBase;
+			sourceTree = "<group>";
+		};
+		B27CF28921AE94E100BDCEA9 /* Branch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Branch;
+			sourceTree = "<group>";
+		};
+		B29FD9D021BDFFF000B6B0AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2A0CD5A21CB2EA40083DF4D /* IGList */,
+				B260057D21C8912900C8EA18 /* LoadViewController.swift */,
+				B260057E21C8912900C8EA18 /* LoadViewController.xib */,
+				B260058121C891BF00C8EA18 /* WebTableCell.swift */,
+				B260058221C891BF00C8EA18 /* WebTableCell.xib */,
+				B2A0CD5821CB2CC20083DF4D /* IGListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B29FD9D121BE002A00B6B0AD /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				B29FD9D421BE007000B6B0AD /* Publicer.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		B2A0CD5A21CB2EA40083DF4D /* IGList */ = {
+			isa = PBXGroup;
+			children = (
+				B2A0CD5B21CB2EC30083DF4D /* BaseListViewController.swift */,
+				B2A0CD5C21CB2EC30083DF4D /* BaseListViewController.xib */,
+				B2A0CD5F21CB325F0083DF4D /* FirstIGListCells.swift */,
+				B2A0CD6921CB68FD0083DF4D /* UserInfoCell.swift */,
+				B2A0CD6A21CB68FD0083DF4D /* UserInfoCell.xib */,
+				B2A0CD6D21CB6C9A0083DF4D /* ContentCell.swift */,
+				B2A0CD6E21CB6C9A0083DF4D /* ContentCell.xib */,
+				B2CB1E9021CB7AA4005E3501 /* FirstViewController.swift */,
+				B2CB1E9121CB7AA4005E3501 /* FirstViewController.xib */,
+				B2CB1E9421CB7C5A005E3501 /* JSTool.swift */,
+			);
+			path = IGList;
+			sourceTree = "<group>";
+		};
+		B2C0FF2221A3CF6600866C85 = {
+			isa = PBXGroup;
+			children = (
+				B2C299DF21AF839400DC9576 /* OC */,
+				B20BEEFB21A3EF2800649DC9 /* Works */,
+				B2C0FF2D21A3CF6600866C85 /* TestTanTao */,
+				B2C0FF2C21A3CF6600866C85 /* Products */,
+				8BE974DB32F49B3874A44590 /* Pods */,
+				A0BFD232EE68CADF2D66EB58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2C0FF2C21A3CF6600866C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2C0FF2B21A3CF6600866C85 /* TestTanTao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C0FF2D21A3CF6600866C85 /* TestTanTao */ = {
+			isa = PBXGroup;
+			children = (
+				B2C0FF4721A3DA7200866C85 /* TestTanTao.entitlements */,
+				B2C0FF2E21A3CF6600866C85 /* AppDelegate.swift */,
+				B228BA8421ABD28C003C343C /* AppDelegateExtension */,
+				B2C0FF3021A3CF6600866C85 /* ViewController.swift */,
+				B2C0FF3221A3CF6600866C85 /* Main.storyboard */,
+				B2C0FF3821A3CF6800866C85 /* Assets.xcassets */,
+				B2C0FF3A21A3CF6800866C85 /* LaunchScreen.storyboard */,
+				B2C0FF3D21A3CF6800866C85 /* Info.plist */,
+				B2C0FF4521A3D84600866C85 /* GoogleService-Info.plist */,
+				B2C0FF3521A3CF6600866C85 /* TestTanTao.xcdatamodeld */,
+			);
+			path = TestTanTao;
+			sourceTree = "<group>";
+		};
+		B2C299DC21AF82D400DC9576 /* LocalizedRes */ = {
+			isa = PBXGroup;
+			children = (
+				B2C299E721AF849E00DC9576 /* android_res */,
+				B2C299DD21AF82F400DC9576 /* LocalizedManager.swift */,
+			);
+			path = LocalizedRes;
+			sourceTree = "<group>";
+		};
+		B2C299DF21AF839400DC9576 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				B2C299E121AF83AF00DC9576 /* TestOCManager.h */,
+				B2C299E221AF83AF00DC9576 /* TestOCManager.m */,
+				B2C299E521AF83BB00DC9576 /* XMLReader.h */,
+				B2C299E421AF83BB00DC9576 /* XMLReader.m */,
+				B2C299E021AF83AF00DC9576 /* TestTanTao-Bridging-Header.h */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2C0FF2A21A3CF6600866C85 /* TestTanTao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C0FF4021A3CF6800866C85 /* Build configuration list for PBXNativeTarget "TestTanTao" */;
+			buildPhases = (
+				7EE25F67C587E0B1E196F283 /* [CP] Check Pods Manifest.lock */,
+				B2C0FF2721A3CF6600866C85 /* Sources */,
+				B2C0FF2821A3CF6600866C85 /* Frameworks */,
+				B2C0FF2921A3CF6600866C85 /* Resources */,
+				19CA8CDD486FA595406BC69B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTanTao;
+			productName = TestTanTao;
+			productReference = B2C0FF2B21A3CF6600866C85 /* TestTanTao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C0FF2321A3CF6600866C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = tantao;
+				TargetAttributes = {
+					B2C0FF2A21A3CF6600866C85 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B2C0FF2621A3CF6600866C85 /* Build configuration list for PBXProject "TestTanTao" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2C0FF2221A3CF6600866C85;
+			productRefGroup = B2C0FF2C21A3CF6600866C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C0FF2A21A3CF6600866C85 /* TestTanTao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2C0FF2921A3CF6600866C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B260058021C8912900C8EA18 /* LoadViewController.xib in Resources */,
+				B2CB1E9321CB7AA4005E3501 /* FirstViewController.xib in Resources */,
+				B2A0CD7021CB6C9A0083DF4D /* ContentCell.xib in Resources */,
+				B2A0CD5E21CB2EC30083DF4D /* BaseListViewController.xib in Resources */,
+				B260058421C891BF00C8EA18 /* WebTableCell.xib in Resources */,
+				B2C0FF3C21A3CF6800866C85 /* LaunchScreen.storyboard in Resources */,
+				B2C0FF4621A3D84600866C85 /* GoogleService-Info.plist in Resources */,
+				B2A0CD6C21CB68FD0083DF4D /* UserInfoCell.xib in Resources */,
+				B2C0FF3921A3CF6800866C85 /* Assets.xcassets in Resources */,
+				B2C299E821AF849E00DC9576 /* android_res in Resources */,
+				B2C0FF3421A3CF6600866C85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19CA8CDD486FA595406BC69B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestTanTao/Pods-TestTanTao-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTanTao/Pods-TestTanTao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EE25F67C587E0B1E196F283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestTanTao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C0FF2721A3CF6600866C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B260057F21C8912900C8EA18 /* LoadViewController.swift in Sources */,
+				B2A0CD5D21CB2EC30083DF4D /* BaseListViewController.swift in Sources */,
+				B2C0FF3121A3CF6600866C85 /* ViewController.swift in Sources */,
+				B2C299DE21AF82F400DC9576 /* LocalizedManager.swift in Sources */,
+				B260058321C891BF00C8EA18 /* WebTableCell.swift in Sources */,
+				B228BA8321ABCDD0003C343C /* CoredataManager.swift in Sources */,
+				B2CB1E9521CB7C5A005E3501 /* JSTool.swift in Sources */,
+				B29FD9D521BE007000B6B0AD /* Publicer.swift in Sources */,
+				B2C0FF3721A3CF6600866C85 /* TestTanTao.xcdatamodeld in Sources */,
+				B2A0CD6B21CB68FD0083DF4D /* UserInfoCell.swift in Sources */,
+				B2C0FF2F21A3CF6600866C85 /* AppDelegate.swift in Sources */,
+				B2A0CD6021CB325F0083DF4D /* FirstIGListCells.swift in Sources */,
+				B29FD9DE21C0D8B800B6B0AD /* EntityDB.swift in Sources */,
+				B20BEEFE21A3EF5E00649DC9 /* MyFileManager.swift in Sources */,
+				B29FD9E021C0D9DA00B6B0AD /* WalletDB.swift in Sources */,
+				B29FD9E221C399FE00B6B0AD /* HTTPManager.swift in Sources */,
+				B2A0CD6F21CB6C9A0083DF4D /* ContentCell.swift in Sources */,
+				B2C299E621AF83BB00DC9576 /* XMLReader.m in Sources */,
+				B2C299E321AF83AF00DC9576 /* TestOCManager.m in Sources */,
+				B29FD9E421C7877700B6B0AD /* AlamoManager.swift in Sources */,
+				B2A0CD5921CB2CC20083DF4D /* IGListView.swift in Sources */,
+				B29FD9DC21C0A13900B6B0AD /* DynLinkManager.swift in Sources */,
+				B2CB1E9221CB7AA4005E3501 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2C0FF3221A3CF6600866C85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C0FF3321A3CF6600866C85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2C0FF3A21A3CF6800866C85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C0FF3B21A3CF6800866C85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2C0FF3E21A3CF6800866C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2C0FF3F21A3CF6800866C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2C0FF4121A3CF6800866C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120CDE12FA203425F906D5C6 /* Pods-TestTanTao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = TestTanTao/TestTanTao.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSF8C32N4B;
+				INFOPLIST_FILE = TestTanTao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testTan.MySwifter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OC/TestTanTao-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C0FF4221A3CF6800866C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D6CD0DD74FD2D584A12ED8 /* Pods-TestTanTao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = TestTanTao/TestTanTao.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSF8C32N4B;
+				INFOPLIST_FILE = TestTanTao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testTan.MySwifter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OC/TestTanTao-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2C0FF2621A3CF6600866C85 /* Build configuration list for PBXProject "TestTanTao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C0FF3E21A3CF6800866C85 /* Debug */,
+				B2C0FF3F21A3CF6800866C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C0FF4021A3CF6800866C85 /* Build configuration list for PBXNativeTarget "TestTanTao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C0FF4121A3CF6800866C85 /* Debug */,
+				B2C0FF4221A3CF6800866C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2C0FF3521A3CF6600866C85 /* TestTanTao.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2C0FF3621A3CF6600866C85 /* TestTanTao.xcdatamodel */,
+			);
+			currentVersion = B2C0FF3621A3CF6600866C85 /* TestTanTao.xcdatamodel */;
+			path = TestTanTao.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2C0FF2321A3CF6600866C85 /* Project object */;
+}

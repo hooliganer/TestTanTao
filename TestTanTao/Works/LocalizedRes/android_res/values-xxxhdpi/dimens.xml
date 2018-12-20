@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_panel_radius">20px</dimen>
+    <dimen name="button_corner_radius">80px</dimen>
+    <dimen name="button_height">160px</dimen>
+    <dimen name="card_shadow">6px</dimen>
+    <dimen name="collectible_card_side_len">640px</dimen>
+    <dimen name="collectible_icon_side">200px</dimen>
+    <dimen name="no_collectible_icon_margin_top">807px</dimen>
+    <dimen name="home_no_network_panel_height">200px</dimen>
+    <dimen name="home_no_network_button_corner_radius">50px</dimen>
+    <dimen name="home_no_network_button_height">100px</dimen>
+    <dimen name="wallet_icon_side">142px</dimen>
+
+    <dimen name="send_amount_size">120px</dimen>
+    <dimen name="send_to">42px</dimen>
+</resources>

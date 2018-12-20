@@ -1,0 +1,550 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Όχι</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Αρχική</string><!--Home-->
+    <string name="Nav_collectible">Ποσά προς λήψη</string><!--Collectibles--> 
+    <string name="Nav_request">Αίτημα</string><!--Request-->
+    <string name="Nav_receive">Λήψη</string><!--Receive-->
+    <string name="Nav_shop">Κατάστημα</string><!--Shop-->
+    <string name="home_recovering">Γίνεται ανάκτηση…</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">Η ανάκτηση βρίσκεται σε εξέλιξη, περιμένετε.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">Πηγή ισοτιμίας νομίσματος: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Διαχείριση ταξινόμησης</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">Ρυθμίσεις</string><!--Settings-->
+    <string name="tool_help">Βοήθεια</string><!--Help-->
+    <string name="tool_sort_by">Ταξινόμηση κατά</string><!--Sort by-->
+    <string name="tool_sort_custom">Προσαρμοσμένο</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">Αλφαβητικά</string><!--Alphabetical-->
+    <string name="tool_sort_value">Αξία</string><!--Value-->
+
+    <string name="Create_wallet">Δημιουργία νέου πορτοφολιού</string><!--Create a new wallet-->
+    <string name="total_assets">Σύνολο κεφαλαίων</string><!--Total assets--> 
+    <string name="last_update">Τελευταία ενημέρωση πριν από %1$d λεπτά.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">Δεν υπάρχει σύνδεση στο διαδίκτυο</string><!--No internet connection-->
+    <string name="retry_button">Ρυθμίσεις</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">Τα νομίσματά μου (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">Δεν έχει προστεθεί ακόμη πορτοφόλι</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">Διαχείριση πορτοφολιού</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Αγορά/Πώληση</string><!--Buy/Sell-->
+    <string name="shop_buy">Αγορά</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Αγορά/πώληση από Maicoin</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">Η αγορά, η πώληση ή οποιαδήποτε συναλλαγή («Συναλλαγή») κρυπτονομίσματος θα πραγματοποιηθεί με τους παρόχους υπηρεσιών συναλλαγών.  Όλες αυτές οι Συναλλαγές θα υπόκεινται στους σχετικούς όρους και τις προϋποθέσεις παροχής υπηρεσιών που έχουν συμφωνηθεί ανάμεσα σε εσάς και τους παρόχους υπηρεσιών συναλλαγών. Θα πρέπει να διαβάσετε αυτούς τους όρους και τις προϋποθέσεις προσεκτικά πριν χρησιμοποιήσετε υπηρεσίες από παρόχους υπηρεσιών συναλλαγών. Η HTC δεν ευθύνεται για οποιεσδήποτε δραστηριότητες ανάμεσα σε εσάς και τους παρόχους υπηρεσιών συναλλαγών.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">Να μην γίνει πάλι υπενθύμιση.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">Σύστημα</string><!--System-->
+    <string name="gen_wallet_title">Πορτοφόλι</string><!--Wallet-->
+    <string name="gen_now">τώρα</string><!--now-->
+    <string name="gen_screenshot">Αδυναμία αποθήκευσης στιγμιότυπου οθόνης</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">Το στιγμιότυπο οθόνης δεν επιτρέπεται για λόγους ασφαλείας</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">Λάβετε μια συναλλαγή</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">Λάβατε %1$s από</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">ΠΡΟΒΟΛΗ ΛΕΠΤΟΜΕΡΕΙΩΝ</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">Η συναλλαγή ολοκληρώθηκε</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">Η συναλλαγή %1$s από τις %2$s επιβεβαιώθηκε</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">Αποτυχία συναλλαγής</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">Η συναλλαγή σας στις %1$s για αποστολή %2$s %3$s σε %4$s απέτυχε</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">Νέα έκδοση διαθέσιμη</string><!--New version available-->
+    <string name="gen_new_version_hint">Ενημερώστε την εφαρμογή σε νεότερη έκδοση για καλύτερη ασφάλεια και εμπειρία χρήστη.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">Διατίθενται νέες ρυθμίσεις ασφάλειας. Για την προστασία σας, απαιτείται ενημέρωση συστήματος. Προχωρήστε σε ενημέρωση για να προχωρήσετε.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">ΕΝΗΜΕΡΩΣΗ ΤΩΡΑ</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">Φόρτωση ρυθμίσεων ασφαλείας. Παρακαλώ περιμένετε.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">Έχει γίνει root στο τηλέφωνό σας</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">Το πορτοφόλι σας κλειδώθηκε επειδή έχει γίνει root στο τηλέφωνό σας. Πρόκειται για μέτρο ασφαλείας. Επικοινωνήστε με την υπηρεσία εξυπηρέτησης πελατών για να μάθετε τι μπορείτε να κάνετε στη συνέχεια.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">Έχει γίνει Jailbreak στο τηλέφωνό σας</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">Το πορτοφόλι σας κλειδώθηκε επειδή έχει γίνει Jailbreak στο τηλέφωνό σας. Πρόκειται για μέτρο ασφαλείας. Επικοινωνήστε με την υπηρεσία εξυπηρέτησης πελατών για να μάθετε τι μπορείτε να κάνετε στη συνέχεια.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">Σημαντική αποποίηση ευθυνών: Πρόκειται για ένα προϊόν πρώτης πρόσβασης που χρησιμοποιεί τεχνολογίες blockchain. Οι τεχνολογίες cryptocurrency, token exchange και blockchain είναι νέες τεχνολογίες και ενδέχεται να ενέχουν απρόβλεπτους κινδύνους. Για παράδειγμα: Τρίτα μέρη ενδέχεται να παρουσιάσουν αδυναμίες σε συσκευές, εφαρμογές πορτοφολιών ή δίκτυα blockchain, οι οποίες ενδέχεται να παρεμποδίσουν τις συναλλαγές blockchain ή να έχουν ως αποτέλεσμα την απώλεια του κρυπτονομίσματός σας. Διατηρείτε πάντα τη φράση ανάκτησης 12 λέξεων (seed) και τον κωδικό πρόσβασης ασφαλή. Είστε αποκλειστικά υπεύθυνοι για την προστασία των κωδικών ανάκτησης. Συνεχίζοντας, αναγνωρίζετε και συμφωνείτε να αποδεχτείτε όλους τους συναφείς κινδύνους.\n\nΣας ευχαριστούμε που δοκιμάζετε τα προϊόντα μας. Καθώς προσπαθούμε να βελτιώσουμε την τεχνολογία μας, εκτιμούμε ειλικρινά τα <a href="mailto:exodus@htc.com">σχόλια</a>.</string>
+    <string name="gen_feedback">σχόλια</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Ποσά προς λήψη</string><!--Collectibles-->
+    <string name="no_collectible">Δεν υπάρχουν ακόμη ποσά προς λήψη</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">Τα ποσά προς λήψη θα εμφανιστούν εδώ.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">Αγορά μαρκών</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">Πατήστε για να δείτε τα ποσά προς λήψη</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Προσθήκη περισσοτέρων</string><!--Add more-->
+    <string name="addwallet_search_wallet">Αναζήτηση στο πορτοφόλι</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">Αγορά νομισμάτων</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">Αίτημα</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">Αποστολή</string><!--Send-->
+    <string name="addwallet_hint">Οι συναλλαγές σας θα εμφανιστούν εδώ.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">Δεν έχετε συναλλαγές</string><!--You have no transactions-->
+    <string name="no_wallet_found">Δεν βρέθηκε πορτοφόλι</string><!--No wallet found-->
+    <string name="addwallet_add_btn">Προσθήκη</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Διαχείριση της λίστας πορτοφολιών</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">Γνωρίστε το <b>Zion</b></string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">Το ασφαλές πορτοφόλι σας Όλα σε Ένα στο Blockchain.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Δημιουργήστε το πορτοφόλι σας Zion</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">Ανακτήστε το πορτοφόλι σας</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Αιτήματα Social Key Recovery</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">Συνεχίζοντας, επιβεβαιώνω ότι διάβασα και συμφωνώ με τις ενότητες %1$s και %2$s.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">Όροι χρήσης</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">Πολιτική προστασίας απορρήτου της HTC</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">Θέλετε να βοηθήσετε έναν φίλο;</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">Έχω διαβάσει και συμφωνώ με το περιεχόμενο της ενότητας %1$s και επιβεβαιώνω το περιεχόμενο της ενότητας %2$s.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Όροι χρήσης υπηρεσιών Zion</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">Πολιτική προστασίας απορρήτου</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Δημιουργήστε τον κωδικό πρόσβασής σας.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">Δημιουργήστε τον νέο κωδικό πρόσβασής σας.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">Αυτός ο κωδικός πρόσβασης απαιτείται για όλες τις συναλλαγές και για να ξεκλειδώσετε το πορτοφόλι σας.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">Επιβεβαιώστε τον κωδικό πρόσβασής σας.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">Επιβεβαιώστε τον νέο κωδικό πρόσβασής σας.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">Οι κωδικοί πρόσβασης δεν ταιριάζουν. Προσπαθήστε ξανά.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">Φράση ανάκτησης 12 λέξεων για δημιουργία αντιγράφων ασφαλείας και επαναφορά</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">Αυτός ο συνδυασμός λέξεων είναι ο μοναδικός τρόπος για να ανακτήσετε το πορτοφόλι σας σε περίπτωση που χάσετε το τηλέφωνό σας ή ξεχάσετε τον κωδικό πρόσβασης.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">Δημιουργία φράσης ανάκτησης 12 λέξεων</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">Σημειώστε τη φράση ανάκτησης 12 λέξεων με τη σειρά</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">Βεβαιωθείτε ότι έχετε σημειώσει τη φράση ανάκτησης 12 λέξεων με τη σωστή σειρά και ότι τη διατηρείτε σε ασφαλές μέρος.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">Τις σημείωσα</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">Επαληθεύστε τη φράση ανάκτησης 12 λέξεων (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">Για να βεβαιωθείτε ότι σημειώσατε τις λέξεις σωστά, πληκτρολογήστε τις με τη σειρά.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">Επόμενο</string><!--Next-->
+    <string name="verify_key_1_not_match">Μία ή περισσότερες λέξεις δεν ταιριάζουν. Προσπαθήστε ξανά.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">Επαληθεύστε τη φράση ανάκτησης 12 λέξεων (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">Επαληθεύστε τη φράση ανάκτησης 12 λέξεων (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">Συγχαρητήρια! Το πορτοφόλι σας έχει ρυθμιστεί.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">Ενεργοποιήστε το δακτυλικό αποτύπωμα για να ξεκλειδώσετε το πορτοφόλι.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">Μεταβείτε στο πορτοφόλι σας.</string><!--Go to your wallet.-->
+
+    <string name="restoring">Γίνεται επαναφορά</string><!--Restoring-->
+    <string name="preparing_secure_ui">Προετοιμασία ασφαλούς περιβάλλοντος χρήστη</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">Εισαγάγετε τη φράση ανάκτησης 12 λέξεων για να επαναφέρετε το πορτοφόλι σας (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">Εισαγάγετε τη φράση ανάκτησης 12 λέξεων με τη σωστή σειρά.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">Εισαγάγετε τη φράση ανάκτησης 12 λέξεων για να επαναφέρετε το πορτοφόλι σας (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">Εισαγάγετε τη φράση ανάκτησης 12 λέξεων για να επαναφέρετε το πορτοφόλι σας (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">Συγχαρητήρια!</string><!--Congratulations!-->
+    <string name="wallet_restored">Έγινε ανάκτηση του πορτοφολιού σας.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Ξεκλειδώστε το πορτοφόλι σας</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">Χρήση δακτυλικού αποτυπώματος</string><!--Use fingerprint-->
+    <string name="use_passcode">Κωδικός πρόσβασης</string><!--Passcode-->
+    <string name="or">ή</string><!--or-->
+    <string name="use_fingerprint_to_unlock">Χρήση δακτυλικού αποτυπώματος για ξεκλείδωμα</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">Δοκιμάστε ξανά</string><!--Try again-->
+    <string name="use_passcode_to_unlock">Χρησιμοποιήστε τον κωδικό για ξεκλείδωμα</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">Η ρύθμιση δακτυλικών αποτυπωμάτων άλλαξε</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">Φαίνεται ότι αλλάξατε πρόσφατα τις ρυθμίσεις δακτυλικών αποτυπωμάτων. Ρυθμίστε ένα νέο δακτυλικό αποτύπωμα για να χρησιμοποιήσετε αυτήν τη δυνατότητα.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">Ρύθμιση τώρα</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">Εισαγάγετε τον κωδικό πρόσβασης για να ξεκλειδώσετε το πορτοφόλι σας</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">Νέα έκδοση διαθέσιμη</string><!--New version available-->
+    <string name="new_version_hint">Ενημερώστε την εφαρμογή σε νεότερη έκδοση για καλύτερη ασφάλεια και εμπειρία χρήστη.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">Ενημέρωση αργότερα</string><!--Update later-->
+    <string name="update_now">Ενημέρωση τώρα</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Αποστολή</string><!--Send-->
+    <string name="select_wallet">Επιλέξτε ένα πορτοφόλι</string><!--Select a wallet--> 
+    <string name="send_to">ΠΡΟΣ</string><!--TO-->
+    <string name="send_amount">ΠΟΣΟ</string><!--AMOUNT-->
+    <string name="hint_amount">Εισαγάγετε το ποσό</string><!--Enter amount-->
+    <string name="to_paste_addr">Επικολλήστε τη διεύθυνση</string><!--Paste address-->
+    <string name="to_scan_QR">Σαρώστε τον κωδικό QR</string><!--Scan QR code-->
+    <string name="to_select_QR_image">Επιλέξτε αποθηκευμένη εικόνα</string><!--Select saved image-->
+    <string name="to_enter_address">Εισαγάγετε διεύθυνση</string><!--Enter address-->
+    <string name="to_paste_addr2">Επικολλήστε τη διεύθυνση από το πρόχειρο</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">Προσθήκη από αποθηκευμένες εικόνες</string><!--Add from saved images-->
+    <string name="enter_address_hint">Εισαγάγετε διεύθυνση</string><!--Enter a address-->
+    <string name="send_address">Διεύθυνση</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">ΜΕΓ</string><!--MAX-->
+    <string name="send_review_btn">Ελέγξτε τη συναλλαγή</string><!--Review transaction-->
+    <string name="fee">Τέλη συναλλαγής</string><!--Transaction Fee-->
+    <string name="select_wallet_error">Ανεπαρκή κεφάλαια.</string><!--Insufficient funds.-->
+    <string name="amount_hint">Υπόλοιπο:</string><!--Balance:-->
+    <string name="address_error">Μη έγκυρη διεύθυνση %s</string><!--Invalid %s address.-->
+    <string name="amount_input_error">Ανεπαρκείς πόροι για τη χρέωση συναλλαγής.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">Το ποσό εισαγωγής πρέπει να είναι τουλάχιστον %s</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">ΑΚΥΡΟ</string><!--CANCEL-->
+    <string name="enteraddr_save">ΑΠΟΘΗΚΕΥΣΗ</string><!--SAVE-->
+    <string name="payment_urgent">Επείγον</string><!--Urgent-->
+    <string name="payment_priority">Προτεραιότητα</string><!--Priority-->
+    <string name="payment_regular">Κανονικό</string><!--Regular-->
+    <string name="payment_economy">Εξοικονόμηση</string><!--Economy-->
+    <string name="payment_title">Επιλέξτε μια προτεραιότητα πληρωμής</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 λεπτά</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&gt; 1 ώρα</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 ώρα</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 ώρες</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">Περιγραφή τελών συναλλαγής</string><!--Transaction fee description-->
+    <string name="send_review">Ελέγξτε τη συναλλαγή σας</string><!--Review your transaction-->
+    <string name="send_note">ΥΠΕΝΘΥΜΙΣΗ</string><!--MEMO-->
+    <string name="send_note_hint">(ΠΡΟΑΙΡΕΤΙΚΑ)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">Η συναλλαγή στάλθηκε.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">Ο χρόνος ολοκλήρωσης της συναλλαγής εξαρτάται από την κίνηση δικτύου και τη χρέωση συναλλαγής.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">OK</string><!--OK-->
+    <string name="fee_error">Σφάλμα διακομιστή: άγνωστο τέλος</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">Η συναλλαγή δεν ήταν επιτυχής</string><!--Transaction not successful--> 
+    <string name="review_send_to">ΑΠΟΣΤΟΛΗ ΠΡΟΣ</string><!--SEND TO-->
+    <string name="review_fee">ΠΡΟΜΗΘΕΙΑ</string><!--FEE-->
+    <string name="review_edit">Επεξεργασία</string><!--Edit-->
+    <string name="review_enter_pin">Κωδικός πρόσβασης</string><!--Passcode-->
+    <string name="review_cancel">Ακύρωση συναλλαγής</string><!--Cancel transaction-->
+    <string name="send_server_no_response">Ο διακομιστής δεν ανταποκρίνεται. Προσπαθήστε ξανά αργότερα.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">Τα τέλη συναλλαγής χρεώνονται από τρίτους, όχι από την HTC. Οι υψηλότερες προτεραιότητες απαιτούν υψηλότερα τέλη. Η περιγραφή του χρονικού πλαισίου προτεραιότητας βασίζεται σε στατιστικά στοιχεία blockchain σε πραγματικό χρόνο και προορίζεται μόνο για σκοπούς αναφοράς. Η επιλογή προτεραιότητας δεν εγγυάται ότι η συναλλαγή θα ολοκληρωθεί με επιτυχία ή εντός της καθορισμένης περιόδου.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">Ο/Η %s σάς πρόσθεσε ως αξιόπιστη επαφή</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">Βήμα 1. Εισαγάγετε το όνομά σας και ζητήστε τον κωδικό επαλήθευσης από τον/την %s.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">Βήμα 2. Ο κωδικός επαλήθευσης δημιουργείται στο τηλέφωνο του/της %s. Ζητήστε τον κωδικό και πληκτρολογήστε τον.</string> 
+    <string name="ver_enter_name_hint">Εισαγάγετε το όνομά σας</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Αίτημα κωδικού</string><!--Request code--> 
+    <string name="ver_remain_time">Χρόνος που απομένει: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">Πληκτρολογήστε τον κωδικό για να δημιουργήσετε τον κωδικό επαλήθευσης</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">Κοινοποίηση αυτού του κωδικού σε %s</string><!--Share this code to %s-->
+    <string name="ver_sharing_remind_name">Νέο αίτημα από %s</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">Κ: %s μέσω %s\n</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">ΑΠΟΡΡΙΨΗ</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Νέο αίτημα από %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">Πατήστε για να δείτε τον κωδικό επαλήθευσης και να τον κοινοποιήσετε στον %s.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">ΕΜΦΑΝΙΣΗ ΚΩΔΙΚΟΥ ΕΠΑΛΗΘΕΥΣΗΣ</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Καμία απάντηση; Μπορείτε να κάνετε ένα άλλο αίτημα σε %s</string>
+    <string name="ver_verify">Επαλήθευση</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Είστε πλέον μια αξιόπιστη επαφή για του/της %s.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">Μπορείτε τώρα να βοηθήσετε τον/την %s να ανακτήσει το πορτοφόλι του/της, σε περίπτωση απώλειας ή κλοπής. Το Zion έχει κρυπτογραφήσει και αποθηκεύσει μέρος των δεδομένων ανάκτησης πορτοφολιού του στη συσκευή σας. Προσέχετε να μη διαγράψετε το Zion ή τα δεδομένα εφαρμογής Zion, διαφορετικά θα χαθούν και τα δεδομένα ανάκτησης. Το Zion θα επικοινωνεί κατά διαστήματα με τον/την %s για να επαληθεύει την ισχύ των δεδομένων ανάκτησης.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">Τέλος</string><!--Done-->
+    <string name="ver_pin_error_hint">Ο κωδικός δεν είναι έγκυρος, προσπαθήστε ξανά.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">Ειδοποίηση</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Είστε ήδη αξιόπιστη επαφή του/της %s</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Ευχαριστούμε για τη βοήθειά σας στη δημιουργία αντιγράφων ασφαλείας των δεδομένων του/της %s</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">Η επαλήθευση έχει αποσταλεί</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Αναμονή για επαλήθευση. Θα είστε αξιόπιστη επαφή του/της %s όταν ολοκληρωθεί η επαλήθευση.</string><!--Waiting for verifying. You will be %s’s trusted contact when verification is completed.-->
+    <string name="ver_dialog_restore_verifying_subtitle">Γίνεται επαλήθευση...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">Η επαλήθευση έχει αποσταλεί</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">Γίνεται επαλήθευση...</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">Unknown</string><!--Unknown-->
+    <string name="ver_unknown_name">Unknown</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">Σαρώστε έναν κωδικό επαλήθευσης</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">Σε ευχαριστώ για τη βοήθεια!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">Ο χρήστης %s έχει ήδη συμπληρώσει τον μέγιστο αριθμό 5 αξιόπιστων επαφών.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Ο σύνδεσμος αυτός έχει λήξει, ζητήστε από τον/την %s να στείλει τον ενημερωμένο σύνδεσμο.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">Λήξη χρόνου αιτήματος. Δοκιμάστε ξανά αργότερα.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Προσπαθήστε ξανά αργότερα</string><!--Please try again later-->
+    <string name="try_too_often_message">Προσπαθείτε πολύ συχνά, δοκιμάστε ξανά μετά από %d λεπτά.</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Γεια σου, κενό τμήμα</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Ρυθμίσεις</string><!--Settings-->
+    <string name="setting_tag1">Προτιμήσεις</string><!--Preferences--> 
+    <string name="setting_currency">Προτιμώμενο νόμισμα</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">Ασφάλεια</string><!--Security--> 
+    <string name="setting_notification">Να επιτρέπονται οι ειδοποιήσεις push</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">Ειδοποίηση για αποστολές και λήψεις συναλλαγών</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">Ενεργοποίηση στιγμιότυπων οθόνης</string><!--Enable screenshots--> 
+    <string name="setting_pin">Αλλαγή κωδικού PIN</string><!--Change PIN-->
+    <string name="setting_fingerprint">Δακτυλικά αποτυπώματα</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">Χρήση μόνο για ξεκλείδωμα της εφαρμογής</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">Πορτοφόλι</string><!--Wallet--> 
+    <string name="setting_show_key">Εμφάνιση φράσης ανάκτησης 12 λέξεων</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Επαναφορά πορτοφολιού</string><!--Reset wallet-->
+    <string name="setting_tag4">Πληροφορίες</string><!--About--> 
+    <string name="setting_learn_more">Μάθετε περισσότερα</string><!--Learn more-->
+    <string name="setting_service">Όροι χρήσης</string><!--Terms of service--> 
+    <string name="setting_policy">Πολιτική προστασίας απορρήτου</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Τι είναι η λειτουργία Social Key Recovery;</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Το Social Key Recovery μπορεί να σας βοηθήσει να ανακτήσετε το πορτοφόλι σας από τους αξιόπιστους φίλους ή την οικογένειά σας.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Προσκαλέστε 3 έως 5 άτομα ως αξιόπιστες επαφές που μπορούν να σας βοηθήσουν να ανακτήσετε το πορτοφόλι σας.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Οι αξιόπιστες επαφές σας μπορούν να στείλουν έναν κωδικό για να σας βοηθήσουν να αποκαταστήσετε το πορτοφόλι σας.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Ρύθμιση</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Να μην γίνει τώρα</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Δημιουργία αντιγράφων ασφαλείας της λίστας των αξιόπιστων επαφών σας</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Για να ανακτήσετε το πορτοφόλι σας με το Social Key Recovery, επιλέξτε έναν λογαριασμό Google για να δημιουργήσετε αντίγραφα ασφαλείας των αξιόπιστων επαφών σας. Η λίστα αξιόπιστων επαφών σας θα αποθηκευτεί στο Google Drive.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Προσθήκη λογαριασμού</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Άκυρο</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Συνέχεια</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">Αξιόπιστη επαφή</string><!--Trusted contact--> 
+    <string name="backup_null_contact">Δεν έχετε προσθέσει καμία αξιόπιστη επαφή ακόμα.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Η λειτουργία Social Key Recovery θα είναι διαθέσιμη όταν έχετε τουλάχιστον 3 αξιόπιστες επαφές (έως 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Προσκαλέστε φίλους ως \n αξιόπιστες επαφές σας</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Προσκαλέστε 3 έως 5 φίλους ή μέλη της οικογένειας ως αξιόπιστες επαφές που μπορούν να σας βοηθήσουν να ανακτήσετε το πορτοφόλι σας.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">Το όνομά σας</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">Εισαγάγετε το όνομά σας</string><!--Enter your name-->
+    <string name="backup_invitation_hi">Γεια σας, %s,</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">Κοινοποίηση πρόσκλησης</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Ανενεργό</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Ενεργό</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Γεια σου, \n\n Σε έχω ορίσει ως αξιόπιστη επαφή μου για τη λειτουργία Social Key Recovery του πορτοφολιού Zion. \n Παρακαλώ ακολούθησε τις παρακάτω οδηγίες για να \n με βοηθήσεις να δημιουργήσω αντίγραφα των δεδομένων ανάκτησής μου.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Πάτησε αυτόν το σύνδεσμο για να κατεβάσεις και να εγκαταστήσεις το Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Όταν τελειώσεις, θυμήσου να \n μου ζητήσεις τον κωδικό επαλήθευσης.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Ευχαριστώ!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Ώρα τελευταίου ελέγχου: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">Αγγίξτε εδώ για να δημιουργήσετε κωδικό.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Νέα αποστολή</string><!--Resend-->
+    <string name="backup_bottom_request_show">Αιτήματα από φίλους</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Αφαίρεση αξιόπιστης επαφής</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">Άκυρο</string><!--Cancel-->
+    <string name="backup_remove_button_delete">Αφαίρεση(%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">Αφαίρεση αξιόπιστης επαφής</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Έξοδος</string>
+    <string name="backup_pending_target_toolbar">Αιτήματα από φίλους</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Δεν υπάρχουν αιτήματα αυτή τη στιγμή.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Δεν υποστηρίζεται αντίγραφο ασφαλείας στην ίδια συσκευή.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Δημιουργία αντιγράφου ασφαλείας με αξιόπιστες επαφές;</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">Κοινή χρήση συνδέσμου</string><!--Share link-->
+    <string name="restore_request">Ανάκτηση αιτήματος από %s</string><!--Restore request from %s-->
+    <string name="show">Εμφάνιση</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Αυτός ο λογαριασμός έχει χρησιμοποιηθεί σε άλλη συσκευή</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Για λόγους ασφάλειας, κάθε λογαριασμός μπορεί να χρησιμοποιηθεί μόνο για μία συσκευή.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Θέλετε ακόμα να χρησιμοποιήσετε αυτόν τον λογαριασμό ή να χρησιμοποιήσετε άλλο για να ξεκινήσετε τη λειτουργία Social Key Recovery;</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Χρήση αυτού του λογαριασμού</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Η προηγούμενη λίστα αξιόπιστων επαφών θα διαγραφεί οριστικά.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Χρήση άλλου λογαριασμού</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Διατήρηση προηγούμενων δεδομένων και δημιουργία νέου.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Θέλετε σίγουρα να χρησιμοποιήσετε αυτόν τον λογαριασμό;</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">Η προηγούμενη λίστα αξιόπιστων επαφών θα διαγραφεί οριστικά.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">Πληκτρολογήστε το PIN για να συνεχίσετε</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">Πώς θα θέλατε να επαναφέρετε το πορτοφόλι σας;</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">Χρήση φράσης ανάκτησης 12 λέξεων</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">Με Social Key Recovery</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">Εισαγάγετε την φράση ανάκτησης 12 λέξεων που σημειώσατε όταν δημιουργήσατε το πορτοφόλι σας.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">Ζητήστε τη συνδρομή των αξιόπιστων επαφών σας.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Γεια σου, \n\n Ως αξιόπιστη επαφή μου, χρειάζομαι τη βοήθειά σου για να ανακτήσω το πορτοφόλι Zion μου.\nΓια την ανάκτηση, πρέπει να κάνεις τα εξής.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Άγγιξε αυτόν τον σύνδεσμο και δημιουργήστε έναν κωδικό επαλήθευσης.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Στείλε μου τον κωδικό.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Ευχαριστώ!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Περιμένετε…</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Πραγματοποιείται σύνδεση...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Αυτός ο λογαριασμός δεν έχει ενεργοποιηθεί για τη λειτουργία Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Δοκιμάστε έναν άλλο λογαριασμό ή χρησιμοποιήστε τη φράση ανάκτησης 12 λέξεων για να επαναφέρετε το πορτοφόλι σας</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Περιμένετε…</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Δημιουργία συνδέσμου...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Συνδεθείτε στον λογαριασμό σας</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Για να ανακτήσετε το πορτοφόλι σας με το Social Key Recovery, επιλέξτε τον λογαριασμό Google όπου αποθηκεύσατε προηγουμένως τη λίστα αξιόπιστων επαφών σας.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Αποτυχία δημιουργίας συνδέσμου κοινής χρήσης</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Προσπαθήστε ξανά αργότερα.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Η σύνδεση απέτυχε</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Προσπαθήστε ξανά αργότερα.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Ζητήστε τη συνδρομή των αξιόπιστων επαφών σας</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Απευθυνθείτε σε τρεις από τις αξιόπιστες επαφές σας και μοιραστείτε αυτόν τον σύνδεσμο με αυτές.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Κάθε επαφή θα σας δώσει έναν κωδικό. Εισαγάγετε κάθε κωδικό παρακάτω:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Ένας ή περισσότεροι κωδικοί είναι λανθασμένοι. Δοκιμάστε ξανά.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Εισαγάγετε κωδικό</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Άκυρο</string><!--Cancel-->
+    <string name="social_restore_btn_next">Επόμενο</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">Προσπαθήστε ξανά αργότερα</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">Προσπαθείτε πολύ συχνά, δοκιμάστε ξανά μετά από %s λεπτά</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">Ένας ή περισσότεροι κωδικοί είναι λανθασμένοι.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">Βεβαιωθείτε ότι όλοι οι κωδικοί είναι σωστοί και δοκιμάστε ξανά.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">Δεν υπάρχει αντίγραφο ασφαλείας για τον/την %s στη συσκευή σας.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Αποτυχία επαναφοράς</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Για επαναφορά, δοκιμάστε να χρησιμοποιήσετε έναν διαφορετικό λογαριασμό ή τη φράση ανάκτησης 12 λέξεων.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Πρόσκληση του/της %s</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Πατήστε για αποδοχή.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Αίτημα υποστήριξης ανάκτησης από %s</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">Πατήστε για να δημιουργήσετε κωδικό.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">Δεν έχει δημιουργηθεί Social Key Recovery για αυτόν τον λογαριασμό.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">Για επαναφορά, δοκιμάστε να χρησιμοποιήσετε έναν διαφορετικό λογαριασμό ή τη φράση ανάκτησης 12 λέξεων.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">Ενημέρωση κατάστασης αντιγράφων ασφαλείας</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">Επιβεβαιώστε για κατάργηση της αξιόπιστης επαφής</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">Πληκτρολογήστε τον κωδικό πρόσβασης για κατάργηση</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Δημιουργία αντιγράφου ασφαλείας με αξιόπιστες επαφές;</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">Μπορείτε επίσης να ρυθμίσετε τη λειτουργία Social Key Recovery με αξιόπιστες επαφές που θα σας βοηθήσουν να δημιουργήσετε αντίγραφα ασφαλείας του πορτοφολιού σας.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">Περισσότερες πληροφορίες</string><!--Tell me more-->
+    <string name="social_backup_not_now">Να μην γίνει τώρα</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Ωχ, μερικές από τις αξιόπιστες επαφές σας είναι ανενεργές.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Επικοινωνήστε με την αξιόπιστη επαφή σας για να επιβεβαιώσετε τις συνδέσεις.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Έχετε χρησιμοποιήσει αυτόν τον λογαριασμό σε άλλη συσκευή</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Δεν μπορούν να χρησιμοποιούνται μόνιμα όλα τα δεδομένα Social Key Recovery. Θα πρέπει να συνδεθείτε σε άλλον λογαριασμό για να συνεχίσετε να χρησιμοποιείτε τη λειτουργία Social Key Recovery.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">Συμφωνώ</string><!--Agree-->
+    <string name="social_key_recovery_disagree">Δεν συμφωνώ</string><!--Disagree-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %s, %s again.</string>-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">Λεπτομέρειες συναλλαγής</string><!--Transaction details--> 
+    <string name="Amount">Συνολικό ποσό</string><!--Total Amount-->
+    <string name="Date">Ημερομηνία</string><!--Date-->
+    <string name="Send_to">Αποστολή προς</string><!--Send to-->
+    <string name="Receive_From">Λήψη από</string><!--Receive from-->
+    <string name="Memo">Υπόμνημα</string><!--Memo-->
+    <string name="transaction_amount_send">Ποσό προς αποστολή</string><!--Amount to send-->
+    <string name="transaction_amount_receive">Ποσό προς λήψη</string><!--Amount to receive-->
+    <string name="transaction_amount">Αξία</string><!--Value-->
+    <string name="Transaction_Fee">Τέλη συναλλαγής</string><!--Transaction fee--> 
+    <string name="Status">Κατάσταση</string><!--Status-->
+    <string name="Transcation_ID">ID συναλλαγής</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">Σαρώστε τον κωδικό QR %1$s</string><!--Scan %1$s QR code-->
+    <string name="Settings">Ρυθμίσεις</string><!--Settings-->
+    <string name="Help">Βοήθεια</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">Αίτημα</string><!--Request-->
+    <string name="WALLET_ADDRESS">ΔΙΕΥΘΥΝΣΗ ΠΟΡΤΟΦΟΛΙΟΥ</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">ΛΟΓΑΡΙΑΣΜΟΣ ΠΙΣΤΩΣΗΣ</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">ΑΙΤΗΣΗ ΠΟΣΟΥ (ΠΡΟΑΙΡΕΤΙΚΟ)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">Κοινοποίηση κωδικού QR</string><!--Share QR code-->
+    <string name="Copy_as_text">Αντιγραφή ως κείμενο</string><!--Copy as text-->
+    <string name="copy_toast">Η διεύθυνση του πορτοφολιού αντιγράφηκε στο πρόχειρο.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">Ορισμένα πορτοφόλια τρίτων ενδέχεται να μην υποστηρίζουν αιτήματα ποσών σε συνδέσμους ή κωδικούς QR.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">Σαρώστε τον κωδικό QR</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">Για να χρησιμοποιήσετε τον σαρωτή κωδικών QR, παρέχετε πρώτα πρόσβαση στην κάμερά σας.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">Ενεργοποιήστε την πρόσβαση κάμερας</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Να επιτρέπεται στη Zion να τραβά φωτογραφίες και να εγγράφει βίντεο</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">Να μην ερωτηθώ ξανά</string><!--Never ask again-->
+    <string name="DENY">ΝΑ ΜΗΝ ΕΠΙΤΡΕΠΕΤΑΙ</string><!--DENY-->
+    <string name="ALLOW">ΝΑ ΕΠΙΤΡΕΠΕΤΑΙ</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">Σαρώστε μια διεύθυνση κωδικού QR %1$s(%2$s)</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">Ευθυγραμμίστε τον κωδικό με το πλαίσιο</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">Μη έγκυρη δημόσια διεύθυνση</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">Αδυναμία σύνδεσης.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Χρειάζεστε σύνδεση δικτύου για να χρησιμοποιήσετε αυτήν την εφαρμογή. Ενεργοποιήστε τα δεδομένα κινητής τηλεφωνίας ή το Wi-Fi στο Ρυθμίσεις.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Άκυρο</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+    <string name="You_have_no_transaction">Δεν έχετε συναλλαγές.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Η συναλλαγή σας θα εμφανίζεται εδώ όταν λαμβάνετε και στέλνετε κρυπτονομίσματα.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Ανάκτηση με Social Key Recovery;</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">Εκτός από την επαναφορά του πορτοφολιού με τη φράση ανάκτησης 12 λέξεων, η λειτουργία Social Key Recovery μπορεί να σας βοηθήσει να επαναφέρετε εύκολα το πορτοφόλι σας από τις αξιόπιστες επαφές σας.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">ΕΡΧΕΤΑΙ ΣΥΝΤΟΜΑ ΓΙΑ IOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+	<string name="transaction_confirmation">Επιβεβαίωση</string>
+</resources>

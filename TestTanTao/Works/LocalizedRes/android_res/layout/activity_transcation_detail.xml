@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_Transcation"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#5c6bc0"
+        android:textAlignment="viewEnd"
+        android:theme="@style/AppTheme"
+        app:theme="@style/toolBar"
+        app:titleTextColor="@color/white"
+        app:titleMarginStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:titleTextAppearance="@style/title_primary_m"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/Transaction_detail" />
+
+    <TextView
+        android:id="@+id/amount_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_Transcation"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_l"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/margin_l"
+        android:layout_marginRight="@dimen/margin_l"
+        android:textColor="@color/light_prmaryfont_color"
+        android:text="@string/Amount"/>
+
+    <LinearLayout
+        android:id="@+id/amount_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amount_text"
+        android:layout_marginTop="@dimen/margin_s"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/margin_l"
+        android:layout_marginLeft="@dimen/margin_l"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="170px"
+            android:maxLength="12"
+            android:text="-4.01"/>
+
+        <TextView
+            android:id="@+id/transaction_wallet_Type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/M2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/spacing"
+            android:singleLine="true"
+            android:textSize="100px"
+            android:textStyle="normal"
+            android:maxLength="3"
+            android:text="ETH"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Data_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amount_layout"
+        android:layout_marginLeft="@dimen/margin_l"
+        android:layout_marginRight="@dimen/margin_l"
+        android:layout_marginTop="@dimen/margin_l"
+        style="@style/htcListItem"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_prmaryfont_color"
+            style="@style/list_primary_m"
+            android:textSize="66px"
+            android:text="@string/Date"/>
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/list_secondary_m"
+            android:textSize="58px"
+            android:text="2018/9/25 12:30:03"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Send_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Data_layout"
+        android:layout_marginTop="@dimen/margin_l"
+        android:layout_marginRight="@dimen/margin_l"
+        android:layout_marginLeft="@dimen/margin_l"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Send_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/list_primary_m"
+            android:textColor="@color/light_prmaryfont_color"
+            android:textSize="66px"
+            android:text="@string/Send_to"/>
+
+        <TextView
+            android:id="@+id/mAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/list_secondary_m"
+            android:textSize="58px"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/Note-text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/list_primary_m"
+            android:textColor="@color/light_prmaryfont_color"
+            android:layout_marginTop="@dimen/margin_l"
+            android:textSize="66px"
+            android:text="@string/Memo"/>
+
+
+        <EditText
+            android:id="@+id/enter_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_fee"
+            android:background="@null"
+            android:layout_marginTop="@dimen/M4"
+            android:fontFamily="sans-serif"
+            android:hint="@string/send_note"
+            android:inputType="text"
+            android:singleLine="true"
+            style="@style/b_button_primary_l"
+            android:textSize="62px"
+            android:textColor="@color/light_prmaryfont_color"
+            android:textAlignment="textStart"
+            android:textColorHint="@color/send_amount_hint"
+            android:textCursorDrawable="@null" />
+
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="1320px"
+            android:layout_height="3px"
+            android:layout_below="@id/enter_notes"
+            android:layout_marginBottom="@dimen/M4"
+            android:background="?android:attr/listDivider"
+            android:foreground="#e1e1e1" />
+
+
+        <TextView
+            android:id="@+id/transaction_amount"
+            style="@style/list_primary_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_l"
+            android:text="@string/transaction_amount_send"
+            android:textColor="@color/light_prmaryfont_color"
+            android:textSize="66px"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/transaction_amount_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/list_secondary_m"
+            android:textSize="58px"
+            android:text="0.004 ETH"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/transaction_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="66px"
+            style="@style/list_primary_m"
+            android:textColor="@color/light_prmaryfont_color"
+            android:layout_marginTop="@dimen/margin_l"
+            android:text="@string/Transaction_Fee"/>
+
+
+        <TextView
+            android:id="@+id/fee_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/list_secondary_m"
+            android:textSize="58px"
+            android:text="0.004 ETH"/>
+
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_l"
+            android:textSize="66px"
+            style="@style/list_primary_m"
+            android:textColor="@color/light_prmaryfont_color"
+            android:text="@string/Status"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/list_secondary_m"
+            android:textSize="58px"
+            android:text="@string/transaction_confirmation"/>
+
+        <TextView
+            android:id="@+id/Transaction_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_l"
+            android:text="@string/Transcation_ID"
+            android:textColor="@color/light_prmaryfont_color"
+            android:textSize="66px"
+            style="@style/list_primary_m" />
+        <TextView
+            android:id="@+id/id_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/list_secondary_m"
+            android:textSize="58px"
+            android:text=" "/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

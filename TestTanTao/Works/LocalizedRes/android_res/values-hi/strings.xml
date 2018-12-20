@@ -1,0 +1,550 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">नहीं</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">ठीक</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">होम</string><!--Home-->
+    <string name="Nav_collectible">संग्रहणीय वस्तु</string><!--Collectibles--> 
+    <string name="Nav_request">अनुरोध करें</string><!--Request-->
+    <string name="Nav_receive">प्राप्त करें</string><!--Receive-->
+    <string name="Nav_shop">खरीदारी करें</string><!--Shop-->
+    <string name="home_recovering">पुनः प्राप्त कर रहा है…</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">पुनः प्राप्त करना जारी है, कृपया प्रतीक्षा करें।</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">मुद्रा दर स्रोत: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">क्रम प्रबंधित करें</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">सेटिंग</string><!--Settings-->
+    <string name="tool_help">सहायता</string><!--Help-->
+    <string name="tool_sort_by">निम्न द्वारा क्रमित करें</string><!--Sort by-->
+    <string name="tool_sort_custom">कस्टमाइज़ किया हुआ</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">वर्णानुक्रम में</string><!--Alphabetical-->
+    <string name="tool_sort_value">मान</string><!--Value-->
+
+    <string name="Create_wallet">नया Zion बनाएँ</string><!--Create a new wallet-->
+    <string name="total_assets">कुल संपत्तियाँ</string><!--Total assets--> 
+    <string name="last_update">पिछली बार %1$d मिनट पहले अपडेट किया गया।</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">कोई इंटरनेट कनेक्शन नहीं</string><!--No internet connection-->
+    <string name="retry_button">सेटिंग</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">मेरे सिक्के (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">अभी तक कोई बटुआ नहीं जोड़ा गया है</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">बटुआ प्रबंधित करें</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">खरीदें/बेचें</string><!--Buy/Sell-->
+    <string name="shop_buy">खरीदें</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Maicoin से खरीदें/बेचें</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">क्रिप्टो करेंसी की खरीद, बिक्री या कोई भी लेनदेन (\&quot;लेनदेन\&quot;) तृतीय-पक्ष आदान-प्रदान प्रदाताओं के साथ किया जाएगा।  ऐसे सभी लेनदेन आपके और तृतीय पक्ष आदान-प्रदान प्रदाताओं के बीच प्रासंगिक सेवा नियम और शर्तों के अधीन होंगे। आपको तृतीय पक्ष आदान-प्रदान प्रदाताओं की सेवाएँ लेने से पहले इन नियमों और शर्तों को ध्यानपूर्वक पढ़ना चाहिए। HTC आपके और तृतीय पक्ष आदान-प्रदान प्रदाताओं के बीच किन्हीं गतिविधियों के लिए जवाबदेह या उत्तरदायी नहीं होता है।</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">मुझे दोबारा याद न दिलाएं।</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">सिस्टम</string><!--System-->
+    <string name="gen_wallet_title">Zion</string><!--Wallet-->
+    <string name="gen_now">अब</string><!--now-->
+    <string name="gen_screenshot">स्क्रीन शॉट सहेज नहीं सके</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">सुरक्षा के लिए स्क्रीनशॉट की अनुमति नहीं है</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">लेनदेन प्राप्त करें</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">आपने निम्न से %1$s पाया है</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">विवरण देखें</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">लेनदेन पूर्ण</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">%2$s को आपके %1$s लेनदेन की पुष्टि हो गई है</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">लेनदेन विफल</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">%1$s को %2$s %3$s %4$s को भेजने वाला आपका लेनदेन विफल हो गया</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">नया संस्करण उपलब्ध है</string><!--New version available-->
+    <string name="gen_new_version_hint">कृपया परिष्कृत सुरक्षा और उपयोगकर्ता अनुभव के लिए एप्लिकेशन को नए संस्करण में अपडेट करें।</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">नई सुरक्षा सेटिंग जारी। आपकी सुरक्षा के लिए, सिस्टम अपडेट आवश्यक है। कृपया जारी रखने के लिए अपडेट करें।</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">अब अपडेट करें</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">सुरक्षा सेटिंग लोड कर रहा है। कृपया प्रतीक्षा करें।</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">आपका फ़ोन रूट किया गया है</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">आपका बटुआ लॉक कर दिया गया है क्योंकि आपका फ़ोन रूट किया गया था। यह एक सुरक्षा एहतियात है। कृपया ग्राहक सेवा से संपर्क करके जानें कि आप आगे क्या कर सकते हैं।</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">आपका फ़ोन जेल ब्रेक कर दिया गया है</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">आपका बटुआ लॉक कर दिया गया है क्योंकि आपका फ़ोन जेल ब्रेक कर दिया गया था। यह एक सुरक्षा एहतियात है। कृपया ग्राहक सेवा से संपर्क करके जानें कि आप आगे क्या कर सकते हैं।</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">महत्वपूर्ण अस्वीकरण: यह ब्लॉकचेन तकनीकों का उपयोग करने वाला शुरूआती उत्पाद है। क्रिप्टो करेंसी, टोकन आदान-प्रदान और ब्लॉकचेन नई तकनीके हैं और इनमें अनजान जोख़िम हो सकते हैं। उदाहरण के लिए: तृतीय पक्षों के कारण डिवाइसों, बटुआ एप्लिकेशन, या ब्लॉकचेन में दोष उत्पन्न हो सकती है, जिसके कारण ब्लॉकचेन लेनदेन बाधित हो सकता है या आपकी क्रिप्टो करेंसी को नुकसान पहुँच सकता है। अपने 12 शब्दों वाले रिकवरी वाक्यांश (बीज) और पासकोड को हमेशा सुरक्षित रखें। केवल आप ही अपनी रिकवरी कुंजियों की सुरक्षा के लिए जिम्मेदार होते हैं। जारी रख करके, आप इन सभी जोख़िमों को मानते हैं और उन्हें स्वीकारने के लिए सहमत होते हैं।\n\nहमारे उत्पादों को आजमाने के लिए धन्यवाद। चूँकि हम अपनी तकनीक को सुधारने का प्रयास करते हैं, हम आपकी <a href="mailto:exodus@htc.com">फ़ीडबैक</a> की सचमुच सराहना करते हैं।</string>
+    <string name="gen_feedback">फ़ीडबैक</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">संग्रहणीय वस्तु</string><!--Collectibles-->
+    <string name="no_collectible">अभी तक कोई संग्रहणीय वस्तु नहीं</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">आपके संग्रहणीय वस्तु यहाँ दिखाए जाएँगे।</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">टोकन खरीदें</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">अपने संग्रहणीय वस्तुओं को देखने के लिए टैप करें</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">और अधिक जोड़ें</string><!--Add more-->
+    <string name="addwallet_search_wallet">Zion खोजें</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">सिक्के खरीदें</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">अनुरोध करें</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">भेजें</string><!--Send-->
+    <string name="addwallet_hint">आपके लेनदेन यहाँ दिखाए जाएँगे।</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">आपके कोई लेनदेन नहीं हैं।</string><!--You have no transactions-->
+    <string name="no_wallet_found">कोई Zion नहीं मिला</string><!--No wallet found-->
+    <string name="addwallet_add_btn">जोड़ें</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Zion सूची प्रबंधित करें</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion"><b>Zion</b> से मिलें</string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">ब्लॉकचेन पर आपका ऑल-इन-वन सुरक्षित बटुआ।</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">अपना Zion बटुआ बनाएँ</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">अपने बटुए को पुनः प्राप्त करें</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Social Key Recovery अनुरोध</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">जारी रख कर, मैं पुष्टि करता हूँ कि मैंने %1$s और %2$s को पढ़ और समझ लिया है।</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">उपयोग की शर्तें</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">HTC गोपनीयता नीति</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">दोस्त की सहायता कर रहे हैं?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">मैंने %1$s को पढ़ लिया है और इससे सहमत हूँ, और %2$s को स्वीकार करता हूँ।</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Zion सेवा की शर्तें</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">गोपनीयता नीति</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">अपना पासकोड बनाएँ।</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">अपना नया पासकोड बनाएँ।</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">यह पासकोड सभी लेनदेनों के लिए और आपके Zion को अनलॉक करने के लिए आवश्यक है।</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">अपने पासकोड की पुष्टि करें।</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">अपने नए पासकोड की पुष्टि करें।</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">पासकोड मेल नहीं खाते। कृपया पुनः प्रयास करें।</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">बैकअप और पुनर्स्थापना के लिए 12 शब्दों वाला रिकवरी वाक्यांश</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">यदि आप अपना फ़ोन खो देते हैं या पासकोड भूल जाते हैं तो शब्दों का यह समूह ही आपके बटुआ को पुनर्स्थापित करने का एकमात्र तरीका है।</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">12 शब्दों वाला रिकवरी वाक्यांश उत्पन्न करें</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">अपने रिकवरी वाक्यांश के 12 शब्दों को क्रम में लिखें</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">सभी 12 शब्दों वाले रिकवरी वाक्यांश को सही क्रम में लिखना सुनिश्चित करें और उन्हें सुरक्षित जगह में रखें।</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">मैंने उन्हें लिख लिया है</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">अपने 12 शब्दों वाले वाक्यांश का सत्यापन करें (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">यह सुनिश्चित करने के लिए शब्द सही ढंग से लिखे गए हैं, कृपया शब्दों को क्रम में प्रविष्ट करें।</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">Next</string><!--Next-->
+    <string name="verify_key_1_not_match">एक या अधिक शब्द मेल नहीं खाते। कृपया पुनः प्रयास करें।</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">अपने 12 शब्दों वाले वाक्यांश का सत्यापन करें (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">अपने 12 शब्दों वाले वाक्यांश का सत्यापन करें (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">बधाइयाँ! आपका Zion पूरी तरह से सेट है।</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">Zion अनलॉक करने के लिए फ़िंगरप्रिंट सक्षम करें।</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">अपने Zion पर जाएँ।</string><!--Go to your wallet.-->
+
+    <string name="restoring">पुनर्स्थापित कर रहा है</string><!--Restoring-->
+    <string name="preparing_secure_ui">सुरक्षित UI तैयार कर रहा है</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">अपना बटुआ पुनर्स्थापित करने के लिए 12 शब्दों वाला रिकवरी वाक्यांश प्रविष्ट करें (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">कृपया अपना 12 शब्दों वाला रिकवरी वाक्यांश सही क्रम में प्रविष्ट करें।</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">अपना बटुआ पुनर्स्थापित करने के लिए 12 शब्दों वाला रिकवरी वाक्यांश प्रविष्ट करें (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">अपना बटुआ पुनर्स्थापित करने के लिए 12 शब्दों वाला रिकवरी वाक्यांश प्रविष्ट करें (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">बधाइयाँ!</string><!--Congratulations!-->
+    <string name="wallet_restored">आपका बटुआ पुनः प्राप्त कर दिया गया है।</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">अपना Zion अनलॉक करें</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">फ़िंगरप्रिंट का उपयोग करना</string><!--Use fingerprint-->
+    <string name="use_passcode">पासकोड</string><!--Passcode-->
+    <string name="or">या</string><!--or-->
+    <string name="use_fingerprint_to_unlock">अनलॉक करने के लिए फ़िंगरप्रिंट का उपयोग करें</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">पुनः प्रयास करें</string><!--Try again-->
+    <string name="use_passcode_to_unlock">अनलॉक करने के लिए पासकोड का उपयोग करें</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">फ़िंगरप्रिंट सेटिंग परिवर्तित</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">ऐसा प्रतीत होता है कि आपने हाल ही में अपनी फ़िंगरप्रिंट सेटिंग बदली है। कृपया इस सुविधा का उपयोग करने के लिए नया फ़िंगरप्रिंट सेटअप करें।</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">अभी सेट करें</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">अपना Zion अनलॉक करने के लिए पासकोड प्रविष्ट करें</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">नया संस्करण उपलब्ध है</string><!--New version available-->
+    <string name="new_version_hint">कृपया परिष्कृत सुरक्षा और उपयोगकर्ता अनुभव के लिए एप्लिकेशन को नए संस्करण में अपडेट करें।</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">बाद में अपडेट करें</string><!--Update later-->
+    <string name="update_now">अब अपडेट करें</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">भेजें</string><!--Send-->
+    <string name="select_wallet">एक बटुआ चुनें</string><!--Select a wallet--> 
+    <string name="send_to">प्राप्तकर्ता</string><!--TO-->
+    <string name="send_amount">राशि</string><!--AMOUNT-->
+    <string name="hint_amount">राशि प्रविष्ट करें</string><!--Enter amount-->
+    <string name="to_paste_addr">पता पेस्ट करें</string><!--Paste address-->
+    <string name="to_scan_QR">QR कोड स्कैन करें</string><!--Scan QR code-->
+    <string name="to_select_QR_image">सहेजी गई छवि चुनें</string><!--Select saved image-->
+    <string name="to_enter_address">पता प्रविष्ट करें</string><!--Enter address-->
+    <string name="to_paste_addr2">क्लिपबोर्ड से पता पेस्ट करें</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">सहेजी गई छवियों से जोड़ें</string><!--Add from saved images-->
+    <string name="enter_address_hint">पता प्रविष्ट करें</string><!--Enter a address-->
+    <string name="send_address">पता</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">अधिकतम</string><!--MAX-->
+    <string name="send_review_btn">लेनदेन की समीक्षा करें</string><!--Review transaction-->
+    <string name="fee">लेनदेन शुल्क</string><!--Transaction Fee-->
+    <string name="select_wallet_error">अपर्याप्त धन।</string><!--Insufficient funds.-->
+    <string name="amount_hint">बैलेंस:</string><!--Balance:-->
+    <string name="address_error">अमान्य %s पता।</string><!--Invalid %s address.-->
+    <string name="amount_input_error">लेनदेन शुल्क के लिए अपर्याप्त धन।</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">इनपुट की मात्रा कम से कम %s होनी चाहिए</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">रद्द करें</string><!--CANCEL-->
+    <string name="enteraddr_save">सहेजें</string><!--SAVE-->
+    <string name="payment_urgent">बहुत ज़रूरी</string><!--Urgent-->
+    <string name="payment_priority">प्राथमिकता</string><!--Priority-->
+    <string name="payment_regular">नियमित</string><!--Regular-->
+    <string name="payment_economy">किफायती</string><!--Economy-->
+    <string name="payment_title">भुगतान प्राथमिकता चुनें</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 मिनट</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 घंटा</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 घंटा</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 घंटे</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">लेनदेन शुल्क विवरण</string><!--Transaction fee description-->
+    <string name="send_review">अपने लेनदेन की समीक्षा करें</string><!--Review your transaction-->
+    <string name="send_note">मेमो</string><!--MEMO-->
+    <string name="send_note_hint">(वैकल्पिक)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">लेनदेन प्रेषित।</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">लेनदेन समापन समय नेटवर्क ट्रैफ़िक और लेनदेन शुल्क पर निर्भर करता है।</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">ठीक</string><!--OK-->
+    <string name="fee_error">सर्वर त्रुटि: अज्ञात शुल्क</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">लेनदेन सफल नहीं</string><!--Transaction not successful--> 
+    <string name="review_send_to">निम्न को भेजें</string><!--SEND TO-->
+    <string name="review_fee">शुल्क</string><!--FEE-->
+    <string name="review_edit">संपादित करें</string><!--Edit-->
+    <string name="review_enter_pin">पासकोड</string><!--Passcode-->
+    <string name="review_cancel">लेनदेन रद्द करें</string><!--Cancel transaction-->
+    <string name="send_server_no_response">सर्वर जवाब नहीं दे रहा है। कृपया बाद में पुनः प्रयास करें।</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">लेनदेन शुल्क तृतीय पक्षों द्वारा लिए जाते हैं, HTC द्वारा नहीं। अधिक प्राथमिकता के लिए अधिक शुल्क आवश्यक होता है। प्राथमिकता समय सीमा वर्णन रियल-टाइम ब्लॉकचेन आँकड़ों पर आधारित होता है, और केवल संदर्भ के लिए होता है। प्राथमिकता का आपका चुनाव इसकी गारंटी नहीं देता है कि लेनदेन सफलतापूर्वक पूरा होगा या निर्दिष्ट अवधि के भीतर पूरा होगा।</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%s ने आपको विश्वसनीय संपर्क के रूप मे जोड़ा</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">चरण 1. अपना नाम प्रविष्ट करें और %s से सत्यापन कोड पाएँ।</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">चरण 2. आपका सत्यापन कोड %s के फ़ोन पर उत्पन्न कर दिया गया है। उनसे कोड की माँग करें और उसे प्रविष्ट करें।</string> 
+    <string name="ver_enter_name_hint">अपना नाम प्रविष्ट करें</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">कोड का अनुरोध करें</string><!--Request code--> 
+    <string name="ver_remain_time">शेष समय: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">सत्यापन कोड उत्पन्न करने के लिए पासकोड प्रविष्ट करें</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">इस कोड को %s से साझा करें</string><!--Share this code to %s-->
+    <string name="ver_sharing_remind_name">%s की ओर से नया अनुरोध</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">मोबाइल: %s के द्वारा %s\n</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">अस्वीकार करें</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">%s की ओर से नया अनुरोध</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">सत्यापन कोड देखने और इसे %s के साथ साझा करने के लिए टैप करें।</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">सत्यापन कोड दिखाएँ</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">कोई प्रतिक्रिया नहीं? आप %s में दूसरा अनुरोध कर सकते हैं</string>
+    <string name="ver_verify">सत्यापित करें</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">अब आप %s के विश्वसनीय संपर्क हैं।</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">आप अब %s को उनका बटुआ खो या गुम हो जाने पर पुनः प्राप्त करने में मदद कर सकते हैं। Zion ने उनके बटुआ रिकवरी डेटा के कुछ हिस्से को आपके डिवाइस पर एन्क्रिप्ट करके सहेज दिया है। सुनिश्चित करें कि आप Zion या Zion एप्लिकेशन डेटा को नहीं हटाते हैं, अन्यथा यह रिकवरी डेटा गुम हो जाएगा। Zion %s के साथ समय-समय पर यह सत्यापित करने के लिए जाँच-पड़ताल करेगी कि रिकवरी डेटा अभी भी मान्य है।</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">हो गया</string><!--Done-->
+    <string name="ver_pin_error_hint">यह कोड अमान्य है, कृपया फिर से प्रयास करें।</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">सूचना</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">ठीक</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">आप पहले से ही %s के विश्वसनीय संपर्क हैं</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">%s के डेटा का बैकअप लेने में सहायता करने के लिए धन्यवाद</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">सत्यापन भेजा गया</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">सत्यापन के लिए प्रतीक्षारत। सत्यापन पूरा हो जाने पर आप %s के विश्वसनीय संपर्क होंगे।</string><!--Waiting for verifying. You will be %s’s trusted contact when verification is completed.-->
+    <string name="ver_dialog_restore_verifying_subtitle">सत्यापित कर रहा है...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">सत्यापन भेजा गया</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">सत्यापित कर रहा है…</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">अज्ञात</string><!--Unknown-->
+    <string name="ver_unknown_name">अज्ञात</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">सत्यापन कोड स्कैन करें</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">सहायता करने के लिए धन्यवाद!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s पहले ही अधिकतम 5 विश्वसनीय संपर्कों की सीमा तक पहुँच गया है।</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">यह लिंक समाप्त हो गया है, कृपया %s को अपडेट किया गया लिंक भेजने के लिए करें।</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">अनुरोध का समय समाप्त, कृपया बाद में फिर से प्रयास करें।</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">कृपया बाद में पुनः प्रयास करें</string><!--Please try again later-->
+    <string name="try_too_often_message">आप बहुत ज्यादा प्रयास कर रहे हैं, कृपया %d मिनट बाद फिर से प्रयास करें</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">हैलो रिक्त खंड</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">सेटिंग</string><!--Settings-->
+    <string name="setting_tag1">प्राथमिकताएं</string><!--Preferences--> 
+    <string name="setting_currency">पसंदीदा मुद्रा</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">सुरक्षा</string><!--Security--> 
+    <string name="setting_notification">पुश सूचनाओं की अनुमति दें</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">प्रेषित और प्राप्त लेनदेनों के लिए सूचित करें</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">स्क्रीनशॉट सक्षम करें</string><!--Enable screenshots--> 
+    <string name="setting_pin">पिन बदलें</string><!--Change PIN-->
+    <string name="setting_fingerprint">अंगुली की छाप</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">केवल एप्लिकेशन अनलॉक करने के लिए प्रयुक्त</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">बटुआ</string><!--Wallet--> 
+    <string name="setting_show_key">12 शब्दों वाला रिकवरी वाक्यांश दिखाएँ</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Zion रीसेट करें</string><!--Reset wallet-->
+    <string name="setting_tag4">विवरण</string><!--About--> 
+    <string name="setting_learn_more">अधिक जानें</string><!--Learn more-->
+    <string name="setting_service">सेवा की शर्तें</string><!--Terms of service--> 
+    <string name="setting_policy">गोपनीयता नीति</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Social Key Recovery क्या है?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery आपको अपना बटुआ अपने विश्वसनीय दोस्तों या परिवार के सदस्यों की सहायता से आसानी से पुनः प्राप्त करने में मदद कर सकता है।</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">आपको अपना बटुआ पुनः प्राप्त करने में मदद कर सकने वाले विश्वसनीय संपर्क होने के लिए 3 से 5 लोगों को आमंत्रित करें।</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">आपके विश्वसनीय संपर्क आपको अपना बटुआ पुनर्स्थापित करने में आपकी सहायता करने के लिए एक कोड भेज सकते हैं।</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">सेट करें</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>अभी नहीं</a></string>
+    <string name="backup_introduction_ok">ठीक</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">अपनी विश्वसनीय संपर्क सूची का बैकअप लें</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Social Key Recovery की सहायता से अपना बटुआ पुनः प्राप्त करने के लिए, अपने विश्वसनीय संपर्कों का बैकअप लेने के लिए एक Google खाता चुनें। आपके विश्वसनीय संपर्कों की सूची Google Drive में संग्रहीत की जाएगी।</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">खाता जोड़ें</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">रद्द करें</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">जारी रखें</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">विश्वसनीय संपर्क</string><!--Trusted contact--> 
+    <string name="backup_null_contact">आपने अभी तक कोई विश्वसनीय संपर्क नहीं जोड़ा है।</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery तब उपलब्ध होगा जब आपके पास कम से कम 3 (अधिकतम 5) विश्वसनीय संपर्क होंगे।</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">दोस्तों को आपका विश्वसनीय संपर्क \n बनने के लिए आमंत्रित करें</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">विश्वसनीय संपर्क बनने और आपके बटुए को पुनः प्राप्त करने में सहायता करने के लिए 3 से 5 दोस्तों या परिवार के सदस्यों को आमंत्रित करें।</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">आपक नाम</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">अपना नाम प्रविष्ट करें</string><!--Enter your name-->
+    <string name="backup_invitation_hi">नमस्ते %s,</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">आमंत्रण साझा करें</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">सक्रिय नहीं</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">सक्रिय</string><!--Active-->
+    <string name="backup_invitation_message_first_part">नमस्ते, \n\n मैं अपने Zion बटुआ की Social Key Recovery सुविधा के लिए आपको अपने विश्वसनीय संपर्क के रूप में नामित किया है। \n कृपया मेरे रिकवरी डेटा का बैकअप लेने में मेरी सहायता \n करने के लिए निर्देशों का पालन करें।\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Zion डाउनलोड और इंस्टॉल करने के लिए इस लिंक को टैप करें:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) पूरा हो जाने पर, मुझसे सत्यापन कोड \nपूछना याद रखें।\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">धन्यवाद!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">पिछली बार देखने का समय: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">कोड उत्पन्न करने के लिए यहाँ टैप करें।</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">पुनः भेजें</string><!--Resend-->
+    <string name="backup_bottom_request_show">मित्रों के अनुरोध</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">विश्वसनीय संपर्क को हटाएँ</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">रद्द करें</string><!--Cancel-->
+    <string name="backup_remove_button_delete">(%d) हटाएँ</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">विश्वसनीय संपर्क को हटाएँ</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">लॉग आउट</string>
+    <string name="backup_pending_target_toolbar">मित्रों के अनुरोध</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">इस समय कोई अनुरोध नहीं है।</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">उसी डिवाइस पर बैकअप समर्थित नहीं है।</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">विश्वसनीय संपर्कों के साथ बैकअप करें?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">लिंक साझा करें</string><!--Share link-->
+    <string name="restore_request">%s की ओर से बहाली अनुरोध</string><!--Restore request from %s-->
+    <string name="show">दिखाएं</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">यह खाता किसी दूसरे डिवाइस में उपयोग किया गया है</string><!--This account has been used in another device-->
+    <string name="db_security_concern">सुरक्षा कारण से, प्रत्येक खाता केवल एक डिवाइस के लिए उपयोग किया जा सकता है।</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">क्या आप Social Key Recovery चालू करने के लिए अभी भी इस खाते का उपयोग करना चाहते हैं या किसी दूसरे खाते का उपयोग करना चाहते हैं?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">इस खाते का उपयोग करें</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">आपकी पिछली विश्वसनीय संपर्क सूची स्थायी रूप से गुम हो जाएगी।</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">किसी दूसरे खाते का उपयोग करें</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">पिछले डेटा को रखें और एक नया बनाएँ।</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">क्या आप वाकई इस खाते का उपयोग करना चाहते हैं?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">आपकी पिछली विश्वसनीय संपर्क सूची स्थायी रूप से गुम हो जाएगी।</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">जारी रखने के लिए पिन प्रविष्ट करें</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">आप अपने बटुए को कैसे पुनः प्राप्त करना चाहेंगे?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">12-शब्द रिकवरी वाक्यांश का उपयोग करें</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">Social Key Recovery द्वारा</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">वह 12 शब्दों वाला रिकवरी वाक्यांश प्रविष्ट करें जिसे आपने अपना बटुआ बनाते समय लिखा था।</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">अपने विश्वसनीय संपर्कों से सहायता माँगें।</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">नमस्ते, \n\n मेरे विश्वसनीय संपर्क के रूप में, अपने Zion बटुआ को पुनः प्राप्त करने के लिए मुझे आपकी सहायता की जरूरत है।\nबहाली के लिए, मैं चाहता हूँ कि आप निम्न कार्य करें।\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) इस लिंक को टैप करें और सत्यापन कोड उत्पन्न करें।\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) मुझे कोड भेजें।\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">धन्यवाद!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">कृपया प्रतीक्षा करें...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">लॉग इन हो रहा है...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">यह खाता Social Key Recovery के लिए सक्रिय नहीं किया गया है।</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">अपने बटुए को पुनर्स्थापित करने के लिए किसी दूसरे खाते को आजमाएँ या 12 शब्दों वाले रिकवरी वाक्यांश का उपयोग करें</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">कृपया प्रतीक्षा करें...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">लिंक उत्पन्न कर रहा है…</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">अपने खाते में साइन इन करें</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Social Key Recovery की सहायता से अपना बटुआ पुनः प्राप्त करने के लिए, वह Google खाता चुनें जिसमें आपने पूर्व में अपनी विश्वसनीय संपर्क सूची सहेजी थी।</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">साझा लिंक उत्पन्न करने में विफल</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">कृपया बाद में पुनः प्रयास करें।</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">लॉगिन होने में विफल</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">कृपया बाद में पुनः प्रयास करें।</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">अपने विश्वसनीय संपर्कों से सहायता माँगें</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. अपने तीन विश्वसनीय संपर्कों तक पहुँचें और इस लिंक को उनके साथ साझा करें।</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. प्रत्येक संपर्क आपको एक कोड देगा। प्रत्येक कोड को नीचे प्रविष्ट करें:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">एक या अधिक कोड गलत है। फिर से प्रयास करें।</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">कोड प्रविष्ट करें</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">रद्द करें</string><!--Cancel-->
+    <string name="social_restore_btn_next">Next</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">कृपया बाद में पुनः प्रयास करें</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">आप बहुत ज्यादा प्रयास कर रहे हैं, कृपया %s मिनट बाद फिर से प्रयास करें</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">एक या अधिक कोड गलत है।</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">कृपया पुष्टि करें कि सभी कोड सही हैं और फिर से प्रयास करें।</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">आपके डिवाइस पर %s के लिए कोई बैकअप नहीं है।</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">पुनर्स्थापित करने में असफल</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">पुनर्स्थापित करने के लिए किसी दूसरे खाते या अपने 12 शब्दों वाले रिकवरी वाक्यांश का उपयोग करें।</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%s का आमंत्रण</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">स्वीकार करने के लिए टैप करें।</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">%s की ओर से रिकवरी सहायता अनुरोध</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">कोड उत्पन्न करने के लिए टैप करें।</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">इस खाते के साथ कोई Social Key Recovery सेटअप नहीं किया गया था।</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">पुनर्स्थापित करने के लिए किसी दूसरे खाते या अपने 12 शब्दों वाले रिकवरी वाक्यांश का उपयोग करें।</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">बैकअप स्थिति अपडेट करें</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">विश्वसनीय संपर्क को हटाने की पुष्टि करें</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">हटाने के लिए पासकोड प्रविष्ट करें</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">विश्वसनीय संपर्कों के साथ बैकअप करें?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">आप अपने बटुए का बैकअप लेने में मदद के लिए विश्वसनीय संपर्कों के साथ Social Key Recovery भी सेटअप कर सकते हैं।</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">मुझे और अधिक बताएं</string><!--Tell me more-->
+    <string name="social_backup_not_now">अभी नहीं</string><!--Not now-->
+    <string name="social_backup_oops_inactive">ओह, आपके कुछ विश्वसनीय संपर्क निष्क्रिय हैं।</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">कनेक्शंस को सुरक्षित करने के लिए अपने विश्वसनीय संपर्क के साथ जाँच-पड़ताल करें।</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">आपने इस खाते का उपयोग किसी दूसरे डिवाइस में किया है</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">आपके सभी Social Key Recovery डेटा का स्थायी रूप से उपयोग नहीं हो सकता है। आपको Social Key Recovery का उपयोग जारी रखने के लिए किसी दूसरे खाते में लॉगिन होने की जरूरत है।</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">सहमत</string><!--Agree-->
+    <string name="social_key_recovery_disagree">असहमत</string><!--Disagree-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %s, %s again.</string>-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">लेनदेन के विवरण</string><!--Transaction details--> 
+    <string name="Amount">कुल राशि</string><!--Total Amount-->
+    <string name="Date">तिथि</string><!--Date-->
+    <string name="Send_to">निम्न पर भेजें</string><!--Send to-->
+    <string name="Receive_From">निम्न से प्राप्त करें</string><!--Receive from-->
+    <string name="Memo">मेमो</string><!--Memo-->
+    <string name="transaction_amount_send">भेजी जाने वाली राशि</string><!--Amount to send-->
+    <string name="transaction_amount_receive">प्राप्त होने वाली राशि</string><!--Amount to receive-->
+    <string name="transaction_amount">मान</string><!--Value-->
+    <string name="Transaction_Fee">लेनदेन शुल्क</string><!--Transaction fee--> 
+    <string name="Status">स्थिति</string><!--Status-->
+    <string name="Transcation_ID">लेनदेन आईडी</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">इथेरियम</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">%1$s QR कोड स्कैन करें</string><!--Scan %1$s QR code-->
+    <string name="Settings">सेटिंग</string><!--Settings-->
+    <string name="Help">सहायता</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">अनुरोध करें</string><!--Request-->
+    <string name="WALLET_ADDRESS">Zion पता</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">क्रेडिट किया जाने वाला खाता</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">राशि का अनुरोध करें (वैकल्पिक)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">QR कोड साझा करें</string><!--Share QR code-->
+    <string name="Copy_as_text">पाठ के रूप में कॉपी करें</string><!--Copy as text-->
+    <string name="copy_toast">बटुआ पता क्लिपबोर्ड पर कॉपी किया गया।</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">कुछ तृतीय-पक्ष बटुए लिंक या QR कोड में अनुरोध की गई राशियों का समर्थन शायद न करें।</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">QR कोड स्कैन करें</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">QR कोड स्कैनर का उपयोग करने के लिए, कृपया पहले अपने कैमरे को पहुँच प्रदान करें।</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">कैमरा तक पहुँच सक्षम करें</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Zion को तस्वीर लेने दें और वीडियो रिकॉर्ड करने दें</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">फिर कभी नहीं पूछें</string><!--Never ask again-->
+    <string name="DENY">अस्वीकार करें</string><!--DENY-->
+    <string name="ALLOW">अनुमति दें</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">%1$s(%2$s) QR कोड पता स्कैन करें</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">कोड को फ़्रेम के साथ संरेखित करें</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">मान्य सार्वजनिक पता नहीं है</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">कनेक्ट करने में असमर्थ।</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">आपको इस एप्लिकेशन का उपयोग करने के लिए एक नेटवर्क कनेक्शन की जरूरत पड़ेगी। कृपया सेटिंग में मोबाइल डेटा या Wi-Fi चालू करें।</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">रद्द करें</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+    <string name="You_have_no_transaction">आपके कोई लेनदेन नहीं हैं।</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">जब आप गुप्त संपत्तियाँ भेजते और प्राप्त करते हैं तो आपका लेनदेन यहाँ दिखाया जाएगा।</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Social Key Recovery को आजमाएँ?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">12 शब्दों वाले रिकवरी वाक्यांश द्वारा बटुए को पुनर्स्थापित करने के अलावा, Social Key Recovery आपको अपने विश्वसनीय संपर्कों से एक आसान तरीके से अपना बटुआ पुनः प्राप्त करने में मदद कर सकता है।</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">IOS के लिए शीध्र शुरू होने वाला है</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+	<string name="transaction_confirmation">पुष्टिकरण</string>
+</resources>

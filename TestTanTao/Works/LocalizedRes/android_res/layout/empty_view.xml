@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/empty_transcation"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/M1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/M1"
+            style="@style/title_primary_m"
+            android:gravity="center"
+            android:textSize="72px"
+            android:textColor="@color/wallet_24"
+            android:text="@string/You_have_no_transaction"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="@dimen/M1"
+            android:layout_marginLeft="@dimen/M1"
+            style="@style/label_on_m"
+            android:textSize="56px"
+            android:textColor="@color/wallet_25"
+            android:text="@string/Your_transcation_will_be_shown_here_when_you_receive_and_send_coin."/>
+
+    </LinearLayout>
+
+</RelativeLayout>

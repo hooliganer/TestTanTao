@@ -1,0 +1,550 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Ei</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Avaekraan</string><!--Home-->
+    <string name="Nav_collectible">Kogutav</string><!--Collectibles--> 
+    <string name="Nav_request">Taotlus</string><!--Request-->
+    <string name="Nav_receive">Võta vastu</string><!--Receive-->
+    <string name="Nav_shop">Ostle</string><!--Shop-->
+    <string name="home_recovering">Taastamine...</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">Taastamine on pooleli, palun oodake.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">Valuuta vahetuskursi allikas: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Järjekorra muutmine</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">Seaded</string><!--Settings-->
+    <string name="tool_help">Spikker</string><!--Help-->
+    <string name="tool_sort_by">Sortimisalus</string><!--Sort by-->
+    <string name="tool_sort_custom">Kohandatud</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">Tähestikuline</string><!--Alphabetical-->
+    <string name="tool_sort_value">Väärtus</string><!--Value-->
+
+    <string name="Create_wallet">Loo uus rahakott</string><!--Create a new wallet-->
+    <string name="total_assets">Varad kokku</string><!--Total assets--> 
+    <string name="last_update">Viimati värskendati %1$d minut(it) tagasi.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">Internetiühendust pole</string><!--No internet connection-->
+    <string name="retry_button">Seaded</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">Minu mündid (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">Rahakotti pole veel lisatud</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">Rahakoti haldamine</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Ost/müük</string><!--Buy/Sell-->
+    <string name="shop_buy">Osta</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Maicoinis ostmine/müümine</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">Krüptovaluuta ostmist, müüki ja muid tehinguid („tehingud“) vahendavad kolmandast poolest vahetusteenuse pakkujad.  Kõigi selliste tehingute puhul kehtivad asjakohased teenusetingimused teie ja kolmandast poolest vahetusteenuse pakkujate vahel. Lugege kõik sellised tingimused enne kolmandast poolest vahetusteenuse pakkujate teenuste kasutamist tähelepanelikult läbi. HTC ei vastuta teie ja kolmandast poolest vahetusteenuse pakkujate vaheliste tehingute eest.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">Ära tuleta enam meelde.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">Süsteem</string><!--System-->
+    <string name="gen_wallet_title">Rahakott</string><!--Wallet-->
+    <string name="gen_now">praegu</string><!--now-->
+    <string name="gen_screenshot">Kuvatõmmist ei saanud salvestada</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">Kuvatõmmise tegemine ei ole turvalisuse tagamiseks lubatud</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">Tehingu vastuvõtmine</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">Saite %1$s kasutajalt</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">KUVA ÜKSIKASJAD</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">Tehing on lõpetatud</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">Teie tehing (%1$s, %2$s) on kinnitatud</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">Tehing ebaõnnestus</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">Teie tehing (%1$s, %2$s %3$s, saajale %4$s) ebaõnnestus</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">Saadaval on uus versioon</string><!--New version available-->
+    <string name="gen_new_version_hint">Värskendage rakendus uuemale versioonile, et tagada tõhusam turvalisus ja kasutuskogemus.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">Välja anti uued turbeseaded. Teie kaitsmiseks on vaja süsteemi värskendada. Jätkamiseks värskendage.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">VÄRSKENDA KOHE</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">Turbeseadete laadimine. Palun oodake.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">Teie telefon on juuritud</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">Rahakott on lukustatud, kuna teie telefon juuriti. Selle eesmärk on tagada turvalisus. Võtke ühendust klienditeenindusega, et teada saada, mida edasi teha.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">Teie telefonilt eemaldati tootjapiirangud</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">Rahakott on lukustatud, kuna teie telefonilt eemaldati tootjapiirangud. Selle eesmärk on tagada turvalisus. Võtke ühendust klienditeenindusega, et teada saada, mida edasi teha.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">Oluline lahtiütlus! See on varajase juurdepääsu toode, mis kasutab plokiahela tehnoloogiat. Krüptovaluuta, tunnusevahetuse ja plokiahela puhul on tegemist uue tehnoloogiaga, millega võivad kaasneda ettenägematud riskid. Näide. Kolmandad pooled võivad põhjustada seadmetes, rahakotirakendustes või plokiahelavõrgustikes nõrku kohti, mis võivad häirida plokiahela tehinguid või põhjustada teie krüptovaluuta kadu. Hoidke oma 12 sõnast koosnevat taastefraasi (idu) ja pääsukoodi turvalises kohas. Vastutate ainuisikuliselt oma taastevõtmete kaitsmise eest. Jätkates teadvustate kõiki neid seotud riske ja nõustute neid kandma.\n\nTäname teid meie toodete proovimise eest. Kuna püüame oma tehnoloogiat pidevalt täiustada, oleme väga tänulikud teie <a href="mailto:exodus@htc.com">tagasiside</a> eest.</string>
+    <string name="gen_feedback">tagasiside</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Kogutav</string><!--Collectibles-->
+    <string name="no_collectible">Kogutavat pole veel</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">Kogutav kuvatakse siin.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">Osta münte</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">Toksake oma kogutava nägemiseks</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Lisa veel</string><!--Add more-->
+    <string name="addwallet_search_wallet">Otsi rahakotti</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">Osta münte</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">Taotlus</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">Saada</string><!--Send-->
+    <string name="addwallet_hint">Tehingud kuvatakse siin.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">Teil pole tehinguid</string><!--You have no transactions-->
+    <string name="no_wallet_found">Rahakotte ei leitud</string><!--No wallet found-->
+    <string name="addwallet_add_btn">Lisa</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Rahakottide loendi haldamine</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">Saage tuttavaks <b>Zioniga</b></string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">See on kõik ühes turvaline rahakott plokiahelas.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Looge endale Zioni rahakott</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">Rahakoti taastamine</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Social Key Recovery taotlused</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">Jätkates kinnitan, et olen dokumente %1$s ja %2$s lugenud ning nõustun nendega.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">Kasutustingimused</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">HTC privaatsuspoliitika</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">Kas aitate sõpra?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">Olen dokumenti %1$s lugenud ja nõustun sellega ning teadvustan dokumenti %2$s.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Zioni teenusetingimused</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">Privaatsuspoliitika</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Looge pääsukood.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">Looge uus pääsukood.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">See pääsukood on vajalik kõigi tehingute puhul ja rahakoti lukust avamiseks.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">Kinnitage oma pääsukood.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">Kinnitage oma uus pääsukood.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">Pääsukoodid ei ühti. Proovige uuesti.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">12-sõnaline taastefraas varundamiseks ja taastamiseks</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">Need sõnad on ainus võimalus rahakoti taastamiseks, kui kaotate telefoni või unustate pääsukoodi.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">Loo 12 sõnast koosnev taastefraas</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">Kirjutage 12-sõnaline taastefraas õiges järjestuses üles</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">Pange kogu 12-sõnaline taastefaas õiges järjestuses kirja ja hoidke seda turvalises kohas.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">Olen need kirja pannud</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">Kinnitage oma 12 sõnast koosnev taastefraas (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">Sisestage sõnad järjekorras, et olla kindel, et sõnad kirjutati õigesti.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">Järgmine</string><!--Next-->
+    <string name="verify_key_1_not_match">Üks või mitu sõna ei ühti. Proovige uuesti.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">Kinnitage oma 12 sõnast koosnev taastefraas (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">Kinnitage oma 12 sõnast koosnev taastefraas (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">Õnnitleme! Teie rahakott on seadistatud.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">Lubage rahakoti lukust avamiseks sõrmejälg.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">Avage rahakott.</string><!--Go to your wallet.-->
+
+    <string name="restoring">Taastamine</string><!--Restoring-->
+    <string name="preparing_secure_ui">Turvalise kasutajaliidese ettevalmistamine</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">Sisestage rahakoti taastamiseks 12 sõnast koosnev taastefraas (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">Sisestage 12 sõnast koosnev taastefraas õiges järjestuses.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">Sisestage rahakoti taastamiseks 12 sõnast koosnev taastefraas (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">Sisestage rahakoti taastamiseks 12 sõnast koosnev taastefraas (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">Õnnitleme!</string><!--Congratulations!-->
+    <string name="wallet_restored">Rahakott on taastatud.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Avage rahakott lukust</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">Sõrmejälje kasutamine</string><!--Use fingerprint-->
+    <string name="use_passcode">Pääsukood</string><!--Passcode-->
+    <string name="or">või</string><!--or-->
+    <string name="use_fingerprint_to_unlock">Kasutage avamiseks sõrmejälge</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">Proovi uuesti</string><!--Try again-->
+    <string name="use_passcode_to_unlock">Kasutage lukust avamiseks pääsukoodi</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">Sõrmejäljeseadet on muudetud</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">Tundub, et olete hiljuti sõrmejäljeseadeid muutnud. Määrake uus sõrmejälg, et seda funktsiooni kasutada.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">Seadista kohe</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">Sisestage rahakoti lukust avamiseks pääsukood</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">Saadaval on uus versioon</string><!--New version available-->
+    <string name="new_version_hint">Värskendage rakendus uuemale versioonile, et tagada tõhusam turvalisus ja kasutuskogemus.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">Värskenda hiljem</string><!--Update later-->
+    <string name="update_now">Värskenda kohe</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Saada</string><!--Send-->
+    <string name="select_wallet">Valige rahakott</string><!--Select a wallet--> 
+    <string name="send_to">SAAJA:</string><!--TO-->
+    <string name="send_amount">SUMMA</string><!--AMOUNT-->
+    <string name="hint_amount">Sisestage summa</string><!--Enter amount-->
+    <string name="to_paste_addr">Kleebi aadress</string><!--Paste address-->
+    <string name="to_scan_QR">Skannige QR-kood</string><!--Scan QR code-->
+    <string name="to_select_QR_image">Valige salvestatud pilt</string><!--Select saved image-->
+    <string name="to_enter_address">Sisestage aadress</string><!--Enter address-->
+    <string name="to_paste_addr2">Kleebi aadress lõikelaualt</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">Lisa salvestatud piltide hulgast</string><!--Add from saved images-->
+    <string name="enter_address_hint">Sisestage aadress</string><!--Enter a address-->
+    <string name="send_address">Aadress</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">MAX</string><!--MAX-->
+    <string name="send_review_btn">Vaadake tehing üle</string><!--Review transaction-->
+    <string name="fee">Tehingu tasu</string><!--Transaction Fee-->
+    <string name="select_wallet_error">Vahendeid pole piisavalt.</string><!--Insufficient funds.-->
+    <string name="amount_hint">Saldo:</string><!--Balance:-->
+    <string name="address_error">Vale aadress (%s).</string><!--Invalid %s address.-->
+    <string name="amount_input_error">Tehingu tasu jaoks on liiga vähe vahendeid.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">Sisestatud summa peab olema vähemalt %s</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">TÜHISTA</string><!--CANCEL-->
+    <string name="enteraddr_save">SALVESTA</string><!--SAVE-->
+    <string name="payment_urgent">Pakiline</string><!--Urgent-->
+    <string name="payment_priority">Prioriteet</string><!--Priority-->
+    <string name="payment_regular">Tavaline</string><!--Regular-->
+    <string name="payment_economy">Ökonoomne</string><!--Economy-->
+    <string name="payment_title">Valige maksmise prioriteet</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 minutit</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 tund</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 tund</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 tundi</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">Tehingu tasu kirjeldus</string><!--Transaction fee description-->
+    <string name="send_review">Vaadake oma tehing üle</string><!--Review your transaction-->
+    <string name="send_note">MEMO</string><!--MEMO-->
+    <string name="send_note_hint">(VALIKULINE)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">Tehing on saadetud.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">Tehingu lõpetamise aeg sõltub võrguliiklusest ja tehingu tasust.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">OK</string><!--OK-->
+    <string name="fee_error">Serveri tõrge: tundmatu tasu</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">Tehing ei õnnestunud</string><!--Transaction not successful--> 
+    <string name="review_send_to">SAADA:</string><!--SEND TO-->
+    <string name="review_fee">TASU</string><!--FEE-->
+    <string name="review_edit">Redigeeri</string><!--Edit-->
+    <string name="review_enter_pin">Pääsukood</string><!--Passcode-->
+    <string name="review_cancel">Tühista tehing</string><!--Cancel transaction-->
+    <string name="send_server_no_response">Server ei vasta. Proovige hiljem uuesti.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">Tehingu eest nõuavad tasusid kolmandad pooled, mitte HTC. Kõrgema prioriteedi puhul nõutakse suuremat tasu. Prioriteedi ajaraamistiku kirjeldus põhineb reaalajas plokiahela statistikal ja on mõeldud ainult viiteks. Teie valitud prioriteet ei taga, et tehingu sooritamine õnnestub või see toimub määratud aja jooksul.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%s lisas teid usaldusväärseks kontaktiks</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">1. samm. Sisestage oma nimi ja hankige kasutajalt %s kinnituskood.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">2. samm. Teie kinnituskood luuakse kasutaja %s telefonis. Küsige talt koodi ja sisestage see.</string> 
+    <string name="ver_enter_name_hint">Sisestage oma nimi</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Taotle koodi</string><!--Request code--> 
+    <string name="ver_remain_time">Järelejäänud aeg: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">Sisestage kinnituskoodi loomiseks pääsukood</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">Jagage seda koodi kasutajaga %s</string><!--Share this code to %s-->
+    <string name="ver_sharing_remind_name">Uus taotlus kasutajalt %s</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">M: %s\nteenuse %s kaudu</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">KEELDU</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Uus taotlus kasutajalt %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">Toksake, et näha kinnituskoodi ja jagada seda kasutajaga %s.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">KUVA KINNITUSKOOD</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Kas te ei saanud vastust? Saate uue taotluse esitada, kui möödunud on %s</string>
+    <string name="ver_verify">Kinnita</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Olete nüüd kasutaja %s usaldusväärne kontakt.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">Nüüd saate aidata kasutajal %s tema rahakotti taastada, kui see varastatakse või kaduma läheb. Zion krüptis osa rahakoti taastamise andmetest ja salvestas need teie seadmesse. Ärge kustutage rakendust Zion ega selle rakenduse andmeid, kuna need taastamisandmed läheksid kaduma. Zion kontrollib kasutajalt %s regulaarselt, et veenduda, et taastamise andmed kehtivad veel.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">Valmis</string><!--Done-->
+    <string name="ver_pin_error_hint">See kood on vale. Proovige uuesti.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">Teavitus</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Olete juba kasutaja %s usaldusväärne kontakt</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Aitäh abi eest kasutaja %s andmete varundamisel</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">Kinnitus on saadetud</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Kinnituse ootel. Olete kasutaja %s usaldusväärne kontakt, kui kinnitamine on lõpetatud.</string><!--Waiting for verifying. You will be %s’s trusted contact when verification is completed.-->
+    <string name="ver_dialog_restore_verifying_subtitle">Kinnitamine...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">Kinnitus on saadetud</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">Kinnitamine...</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">Tundmatu</string><!--Unknown-->
+    <string name="ver_unknown_name">Tundmatu</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">Skanni kinnituskoodi</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">Aitäh abi eest!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s on juba saavutanud maksimaalsed 5 usaldusväärset kontakti.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">See link on aegunud. Paluge kasutajal %s uus link saata.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">Taotlus aegus. Proovige hiljem uuesti.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Proovige hiljem uuesti</string><!--Please try again later-->
+    <string name="try_too_often_message">Proovite liiga tihti, proovige uuesti %d minuti pärast</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Seaded</string><!--Settings-->
+    <string name="setting_tag1">Eelistused</string><!--Preferences--> 
+    <string name="setting_currency">Eelistatud valuuta</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">Turvalisus</string><!--Security--> 
+    <string name="setting_notification">Luba tõuketeavitused</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">Teavita saadetud ja vastu võetud tehingute kohta</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">Luba kuvatõmmised</string><!--Enable screenshots--> 
+    <string name="setting_pin">Muuda PIN-koodi</string><!--Change PIN-->
+    <string name="setting_fingerprint">Sõrmejälg</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">Kasutatakse ainult rakenduse lukust avamiseks</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">Rahakott</string><!--Wallet--> 
+    <string name="setting_show_key">Kuva 12 sõnast koosnev taastefraas</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Lähtesta rahakott</string><!--Reset wallet-->
+    <string name="setting_tag4">Teave</string><!--About--> 
+    <string name="setting_learn_more">Lisateave</string><!--Learn more-->
+    <string name="setting_service">Teenuse tingimused</string><!--Terms of service--> 
+    <string name="setting_policy">Privaatsuspoliitika</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Mis on Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery aitab teil usaldusväärsete sõprade või pereliikmete abiga mugavalt rahakoti taastada.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Saate saata 3–5 inimesele usaldusväärse kontakti kutse, et nad saaksid aidata teil rahakotti taastada.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Usaldusväärsed kontaktid saavad koodi saata, et aidata teil rahakotti taastada.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Seadista</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Mitte praegu</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Usaldusväärsete kontaktide loendi varundamine</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Rahakoti taastamiseks Social Key Recovery kaudu valige Google\'i konto, kuhu oma usaldusväärsed kontaktid varundada. Teie usaldusväärsete kontaktide loend salvestatakse Google Drive\'i.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Lisa konto</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Tühista</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Jätka</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">Usaldusväärne kontakt</string><!--Trusted contact--> 
+    <string name="backup_null_contact">Te ei ole veel usaldusväärseid kontakte lisanud.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery on saadaval, kui teil on vähemalt 3 usaldusväärset kontakti (max 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Saatke sõpradele usaldusväärse \n kontakti kutse</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Saate saata 3–5 sõbrale või pereliikmele usaldusväärse kontakti kutse, et nad saaksid aidata teil rahakotti taastada.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">Teie nimi</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">Sisestage oma nimi</string><!--Enter your name-->
+    <string name="backup_invitation_hi">Tere, %s</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">Jaga kutset</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Pole aktiivne</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktiivne</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Hei! \n\n Määrasin su Zioni rahakoti Social Key Recovery funktsiooni puhul enda usaldusväärseks kontaktiks. \n Palun järgi allolevaid suuniseid, \n et aidata mul taasteandmed varundada.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Toksa järgmisel lingil, et Zion alla laadida ja installida:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Kui oled lõpetanud, ära unusta \n mult kinnituskoodi küsida.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Aitäh!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Viimase kontrolli aeg: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">Toksake siin, et kood luua.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Saada uuesti</string><!--Resend-->
+    <string name="backup_bottom_request_show">Taotlused sõpradelt</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Usaldusväärse kontakti eemaldamine</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">Tühista</string><!--Cancel-->
+    <string name="backup_remove_button_delete">Eemalda (%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">Usaldusväärse kontakti eemaldamine</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Logi välja</string>
+    <string name="backup_pending_target_toolbar">Taotlused sõpradelt</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Praegu ei ole taotlusi.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Samasse seadmesse varundamine ei ole toetatud.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Kas varundada usaldusväärsete kontaktidega?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">Jaga linki</string><!--Share link-->
+    <string name="restore_request">Taastamistaotlus kasutajalt %s</string><!--Restore request from %s-->
+    <string name="show">Kuva</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Seda kontot on kasutatud teises seadmes</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Turvalisuse tagamiseks saab iga kontot kasutada ainult ühe seadme puhul.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Kas soovite kasutada siiski seda kontot või soovite kasutada mõnda teist, et Social Key Recovery käivitada?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Kasuta seda kontot</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Teie varasem usaldusväärsete kontaktide loend läheb püsivalt kaduma.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Kasuta teist kontot</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Saate varasemad andmed alles hoida ja uue luua.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Kas olete kindel, et soovite seda kontot kasutada?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">Teie varasem usaldusväärsete kontaktide loend läheb püsivalt kaduma.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">Sisestage jätkamiseks PIN-kood</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">Kuidas soovite oma rahakoti taastada\?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">12 sõnast koosnev taastefraas</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">Social Key Recovery kaudu</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">Sisestage rahakoti loomisel üles kirjutatud 12 sõnast koosnev taastefraas.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">Küsige usaldusväärsete kontaktide abi.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Hei! \n\n Vajan sinu kui usaldusväärse kontakti abi oma Zioni rahakoti taastamiseks.\nSelleks palun sul teha järgmist.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Toksa seda linki ja loo kinnituskood.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Saada see kood mulle.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Aitäh!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Palun oodake...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Sisselogimine...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">See konto ei ole Social Key Recovery jaoks aktiveeritud</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Proovige rahakoti taastamiseks teist kontot või kasutage 12 sõnast koosnevat taastefraasi</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Palun oodake...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Lingi loomine...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Logige oma kontosse sisse</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Rahakoti taastamiseks Social Key Recovery kaudu valige see Google\'i konto, kuhu salvestasite eelnevalt usaldusväärsete kontaktide loendi.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Jagatava lingi loomine ebaõnnestus</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Proovige hiljem uuesti.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Sisselogimine ebaõnnestus</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Proovige hiljem uuesti.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Usaldusväärsete kontaktide abiga</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Pöörduge kolme usaldusväärse kontakti poole ja jagage seda linki nendega.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Iga kontakt edastab teile koodi. Sisestage koodid allpool:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Vähemalt üks kood on vale. Pr. uuesti.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Sisestage kood</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Tühista</string><!--Cancel-->
+    <string name="social_restore_btn_next">Järgmine</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">Proovige hiljem uuesti</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">Proovite liiga tihti, proovige uuesti %s minuti pärast</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">Vähemalt üks kood on vale.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">Veenduge, et kõik koodid oleksid õiged, ja proovige uuesti.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">Kasutaja %s jaoks pole teie seadmes varundust.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Taastamine ebaõnnestus</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Proovige kasutada taastamiseks teist kontot või 12 sõnast koosnevat taastefraasi.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Kutse kasutajalt %s</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Toksake nõustumiseks.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Taastamise abitaotlus kasutajalt %s</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">Toksake, et kood luua.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">Selle kontoga ei ole Social Key Recoveryt seadistatud.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">Proovige kasutada taastamiseks teist kontot või 12 sõnast koosnevat taastefraasi.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">Värskenda varunduse olekut</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">Kinnitage, et usaldusväärne/usaldusväärsed kontakt(id) eemaldada</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">Sisestage eemaldamiseks pääsukood</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Kas varundada usaldusväärsete kontaktidega?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">Saate seadistada ka Social Key Recovery koos usaldusväärsete kontaktidega, et rahakott varundada.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">Räägi veel</string><!--Tell me more-->
+    <string name="social_backup_not_now">Mitte praegu</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Oih, mõni teie usaldusväärne kontakt on inaktiivne.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Pöörduge usaldusväärse kontakti poole, et tagada ühendused.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Olete seda kontot kasutanud mõnes teises seadmes</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Kõiki teie Social Key Recovery andmeid ei saa jäädavalt kasutada. Peate logima sisse teise kontoga, et jätkata Social Key Recovery kasutamist.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">Nõustun</string><!--Agree-->
+    <string name="social_key_recovery_disagree">Ei nõustu</string><!--Disagree-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %s, %s again.</string>-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">Tehingu üksikasjad</string><!--Transaction details--> 
+    <string name="Amount">Summa kokku</string><!--Total Amount-->
+    <string name="Date">Kuupäev</string><!--Date-->
+    <string name="Send_to">Saada asukohta</string><!--Send to-->
+    <string name="Receive_From">Vastuvõtmine asukohast</string><!--Receive from-->
+    <string name="Memo">Memo</string><!--Memo-->
+    <string name="transaction_amount_send">Saadetav summa</string><!--Amount to send-->
+    <string name="transaction_amount_receive">Vastuvõetav summa</string><!--Amount to receive-->
+    <string name="transaction_amount">Väärtus</string><!--Value-->
+    <string name="Transaction_Fee">Tehingu tasu</string><!--Transaction fee--> 
+    <string name="Status">Olek</string><!--Status-->
+    <string name="Transcation_ID">Tehingu tunnus</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">Skannige QR-kood (%1$s)</string><!--Scan %1$s QR code-->
+    <string name="Settings">Seaded</string><!--Settings-->
+    <string name="Help">Spikker</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">Taotlus</string><!--Request-->
+    <string name="WALLET_ADDRESS">RAHAKOTI AADRESS</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">KREDITEERITAV KONTO</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">TAOTLUSE SUMMA (VALIKULINE)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">Jaga QR-koodi</string><!--Share QR code-->
+    <string name="Copy_as_text">Kopeeri tekstina</string><!--Copy as text-->
+    <string name="copy_toast">Rahakoti aadress kopeeriti lõikelauale.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">Mõned kolmanda osapoole rahakotid ei pruugi summade taotlusi lingi või QR-koodiga toetada.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">Skannige QR-kood</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">QR-koodi skanneri kasutamiseks lubage eelnevalt juurdepääs oma kaamerale.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">Luba juurdepääs kaamerale</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Luba rakendusel Zion pilte ja videoid jäädvustada</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">Ära enam küsi</string><!--Never ask again-->
+    <string name="DENY">KEELA</string><!--DENY-->
+    <string name="ALLOW">LUBA</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">Skannige QR-koodi aadress (%1$s (%2$s))</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">Joondage kood raamiga ühtseks</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">Pole kehtiv avalik aadress</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">Ühendust ei saa luua.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Selle rakenduse kasutamiseks on teil vaja võrguühendust. Lülitage seadetes sisse mobiilne andmesideühendus või Wi-Fi.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Tühista</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+    <string name="You_have_no_transaction">Teil pole tehinguid.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Teie tehingud kuvatakse siin, kui saadate ja võtate krüptovara vastu.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Kas proovida Social Key Recoveryt\?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">Lisaks rahakoti taastamisele 12-sõnalise taastefraasiga saab Social Key Recovery aidata teil rahakotti hõlpsalt taastada, kasutades teie usaldusväärseid kontakte.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">PEAGI TULEKUL IOS-i JAOKS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+	<string name="transaction_confirmation">Kinnitus</string>
+</resources>

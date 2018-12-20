@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/shape_rectangle3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/payment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/M1"
+        android:layout_marginLeft="@dimen/M2"
+        android:layout_marginTop="@dimen/M1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/wallet_icon_collectible_s"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/M1"
+            android:layout_marginLeft="@dimen/M1"
+            android:text="@string/payment_title"
+            android:textSize="@dimen/send_payment_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/payment_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/icon_btn_show_me_light"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:layout_below="@+id/payment_title"
+        android:background="?android:attr/listDivider" />
+
+    <RelativeLayout
+        android:id="@+id/payment_urgent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:layout_margin="@dimen/M2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_urgent"
+            android:textSize="@dimen/send_payment_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_urgent_detail"
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/send_payment_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/payment_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_urgent"
+        android:layout_margin="@dimen/M2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_priority"
+            android:textSize="@dimen/send_payment_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/payment_priority_detail"
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/send_payment_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/payment_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_priority"
+        android:layout_margin="@dimen/M2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_regular"
+            android:textSize="@dimen/send_payment_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/payment_regular_detail"
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/send_payment_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/payment_economy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_regular"
+        android:layout_margin="@dimen/M2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_economy"
+            android:textSize="@dimen/send_payment_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/payment_economy_detail"
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/send_payment_size" />
+    </RelativeLayout>
+
+</RelativeLayout>

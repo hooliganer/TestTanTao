@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/collectible_card_side_len"
+    android:layout_height="@dimen/collectible_card_side_len"
+    android:id="@+id/card_view"
+    card_view:cardCornerRadius="@dimen/home_panel_radius"
+    android:layout_marginBottom="@dimen/margin_m"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardElevation="@dimen/card_shadow">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/collectible_list_icon"
+            android:layout_width="@dimen/collectible_icon_side"
+            android:layout_height="@dimen/collectible_icon_side"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_l_2"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView style="@style/darklist_primary_m_bold"
+            android:id="@+id/collectible_list_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/collectible_list_icon"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_xs_3"
+            android:layout_marginStart="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/margin_m"/>
+
+        <TextView style="@style/dark_source_label_m"
+            android:id="@+id/collectible_tap_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/collectible_list_title"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_xs"
+            android:layout_marginStart="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/margin_m"
+            android:text="@string/collectible_tap_to_see_token"/>
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
