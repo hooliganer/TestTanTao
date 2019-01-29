@@ -1,0 +1,560 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Hayır</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">Tamam</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Giriş Ekranı</string><!--Home-->
+    <string name="Nav_collectible">Tahsil Edilebilir Miktarlar</string><!--Collectibles--> 
+    <string name="Nav_request">İstek</string><!--Request-->
+    <string name="Nav_receive">Al</string><!--Receive-->
+    <string name="Nav_shop">Mağaza</string><!--Shop-->
+    <string name="home_recovering">Kurtarılıyor…</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">Kurtarma devam ediyor; lütfen bekleyin.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">Döviz kuru kaynağı: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Sparişleri yönet</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">Ayarlar</string><!--Settings-->
+    <string name="tool_help">Yardım</string><!--Help-->
+    <string name="tool_sort_by">Sıralama ölçütü</string><!--Sort by-->
+    <string name="tool_sort_custom">Özel</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">Alfabetik</string><!--Alphabetical-->
+    <string name="tool_sort_value">Değer</string><!--Value-->
+
+    <string name="Create_wallet">Yeni bir cüzdan oluştur</string><!--Create a new wallet-->
+    <string name="total_assets">Toplam varlık</string><!--Total assets--> 
+    <string name="last_update">En son %1$d dakika önce güncellendi.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">Internet bağlantısı yok</string><!--No internet connection-->
+    <string name="retry_button">Ayarlar</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">Paralarım (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">Henüz hiç cüzdan eklenmedi</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">Cüzdan yönet</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Satın Al/Sat</string><!--Buy/Sell-->
+    <string name="shop_buy">Satın Al</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Maicoin sitesinde satın alın/satın</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">Şifreli para biriminin satın alımı, satışı veya herhangi bir işlemi (\&quot;İşlem\&quot;) üçüncü taraf takas sağlayıcılarla yürütülecektir.  Tüm bu tür İşlemler sizinle üçüncü taraf takas sağlayıcılar arasındaki ilgili hizmet hükümlerine ve koşullarına bağlı olacaktır. Üçüncü taraf takas sağlayıcıların hizmetlerini kullanmadan önce bu tür hükümleri ve koşulları dikkatlice okumalısınız. HTC, sizinle üçüncü taraf takas sağlayıcılar arasındaki hiçbir etkinlik konusunda yükümlü veya sorumlu değildir.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">Bana tekrar hatırlatma.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">Sistem</string><!--System-->
+    <string name="gen_wallet_title">Cüzdan</string><!--Wallet-->
+    <string name="gen_now">şimdi</string><!--now-->
+    <string name="gen_screenshot">Ekran görüntüsü kaydedilemedi</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">Güvenlik için ekran görüntüsüne izin verilmez</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">Bir işlem al</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">%1$s aldınız; gönderen:</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">AYRINTI GÖRÜNTÜLE</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">İşlem tamamlandı</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">%2$s üzerindeki %1$s işleminiz onaylandı</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">İşlem başarısız</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">%1$s üzerinde %4$s hedefine gönderilen %2$s %3$s işleminiz başarısız oldu</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">Yeni sürüm var</string><!--New version available-->
+    <string name="gen_new_version_hint">İyileştirilmiş güvenlik ve kullanıcı deneyimi için lütfen uygulamayı daha yeni bir sürüme güncelleyin.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">Yeni güvenlik ayarları yayımlandı. Güvenliğiniz için sistem güncellemesi gereklidir. Lütfen devam etmek için güncelleyin.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">ŞIMDI GÜNCELLE</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">Güvenlik ayarları yükleniyor. Lütfen bekleyin.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">Telefonunuz sıfırlandı</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">Telefonunuz sıfırlandığından cüzdanınız kilitlendi. Bu bir güvenlik önlemidir. Ne yapabileceğinizi öğrenmek için lütfen müşteri hizmetleriyle iletişime geçin.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">Telefonunuzda üretici tarafından konulmuş yazılım kısıtlamaları kaldırılmış</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">Telefonunuzda üretici tarafından konulmuş yazılım kısıtlamaları kaldırıldığından cüzdanınız kilitlendi. Bu bir güvenlik önlemidir. Ne yapabileceğinizi öğrenmek için lütfen müşteri hizmetleriyle iletişime geçin.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">Önemli sorumluluk reddi: Bu, blok zinciri teknolojilerini kullanan bir erken erişim ürünüdür. Şifreli para birimi, para takası ve blok zinciri yeni teknolojilerdir ve öngörülemeyen riskler taşıyabilir. Örneğin: Üçüncü taraf aygıtlarda, cüzdan uygulamalarında veya blok zinciri ağlarında, blok zinciri işlemlerini engelleyebilen veya şifreli para biriminizin kaybolmasıyla sonuçlanabilen zayıflıklar ortaya çıkabilir. 12 sözcüklü kurtarma ifadenizi (tohum) ve şifrenizi her zaman güvende tutun. Kurtarma anahtarlarınızı korumak yalnızca sizin sorumluluğunuzdadır. Devam ederek, bu ilgili risklerin tümünü onaylar ve kabul edersiniz.\n\nÜrünlerimizi denediğiniz için teşekkür ederiz. Teknolojimizi iyileştirmeye çaba harcadığımız için, <a href="mailto:exodus@htc.com">geri bildirim</a> sağlamanızdan çok memnun oluruz.</string><!--Important disclaimer: This is an early access product utilizing blockchain technologies. Cryptocurrency, token exchange, and blockchain are new technologies and may carry unforeseen risks. For example: Third parties may introduce weaknesses in devices, wallet applications, or blockchain networks, which may interfere with blockchain transactions or result in the loss of your cryptocurrency. Keep your 12-/word recovery phrase (seed) and passcode secure at all times. You are solely responsible for safeguarding your recovery keys. By continuing, you acknowledge and agree to accept all these associated risks.\n\nThank you for trying our products. As we strive to improve our technology, we sincerely appreciate your <a href="mailto:exodus@htc.com">feedback</a>-->
+    <string name="gen_feedback">geri bildirim</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Tahsil Edilebilir Miktarlar</string><!--Collectibles-->
+    <string name="no_collectible">Henüz tahsil edilebilir miktarlar yok</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">Tahsil edilebilir miktarlarınız burada görünecektir.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">Jeton satın al</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">Tahsil edilebilir miktarlarınızı görmek için dokunun</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Daha fazla ekle</string><!--Add more-->
+    <string name="addwallet_search_wallet">Cüzdan ara</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">Para satın al</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">İstek</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">Gönder</string><!--Send-->
+    <string name="addwallet_hint">İşlemleriniz burada gösterilecektir.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">Hiç işleminiz yok</string><!--You have no transactions-->
+    <string name="no_wallet_found">Hiç cüzdan bulunamadı</string><!--No wallet found-->
+    <string name="addwallet_add_btn">Ekle</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Cüzdan listesini yönet</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion"><b>Zion</b> ile tanışın</string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">Blok Zincirinde Hepsi Bir Arada güvenli cüzdanınız.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Zion cüzdanınızı oluşturun</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">Cüzdanınızı kurtarın</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Social Key Recovery istekleri</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">Devam ederek, %1$s ve %2$s içeriklerini okuyup kabul ettiğimi onaylarım.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">Kullanım Koşulları</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">HTC Gizlilik İlkesi</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">Bir arkadaşa yardım mı ediyorsunuz?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">%1$s içeriğini okudum ve kabul ederim, %2$s içeriğini onaylarım.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Zion Hizmet Hükümleri</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">Gizlilik Politikası</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Şifrenizi oluşturun.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">Yeni şifrenizi oluşturun.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">Bu şifre, tüm işlemler ve cüzdanınızın kilidini açmak için gereklidir.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">Şifrenizi onaylayın.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">Yeni şifrenizi onaylayın.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">Şifreler uyuşmuyor. Lütfen tekrar deneyin.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">Yedekleme ve geri yükleme için 12 sözcüklü kurtarma ifadesi</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">Bu sözcükler kümesi, telefonunuzu kaybetmeniz veya şifreyi unutmanız durumunda cüzdanınızı geri yüklemenin tek yoludur.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">12 sözcüklü kurtarma ifadesi oluştur</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">Kurtarma ifadenizin 12 sözcüğünü sırayla yazın</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">12 sözcüklü kurtarma ifadesinin tamamını doğru sırada yazdığınızdan emin olun ve güvenli bir yerde saklayın.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">Yazdım</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">12 sözcüklü kurtarma ifadenizi doğrulayın (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">Sözcüklerin doğru biçimde yazıldığından emin olmak için lütfen sözcükleri sırayla girin.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">İleri</string><!--Next-->
+    <string name="verify_key_1_not_match">Bir veya daha fazla sözcük uyuşmuyor. Lütfen tekrar deneyin.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">12 sözcüklü kurtarma ifadenizi doğrulayın (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">12 sözcüklü kurtarma ifadenizi doğrulayın (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">Tebrikler! Cüzdanınız tamamen hazır.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">Cüzdanın kilidini açmak için parmak izini etkinleştirin.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">Cüzdanınıza gidin.</string><!--Go to your wallet.-->
+
+    <string name="restoring">Geri yükleniyor</string><!--Restoring-->
+    <string name="preparing_secure_ui">Güvenli kullanıcı arayüzü hazırlanıyor</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">Cüzdanınızı geri yüklemek için 12 sözcüklü kurtarma ifadesini girin (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">Lütfen 12 sözcüklü kurtarma ifadenizi doğru sırada girin.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">Cüzdanınızı geri yüklemek için 12 sözcüklü kurtarma ifadesini girin (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">Cüzdanınızı geri yüklemek için 12 sözcüklü kurtarma ifadesini girin (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">Tebrikler!</string><!--Congratulations!-->
+    <string name="wallet_restored">Cüzdanınız kurtarıldı.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Cüzdanınızın kilidini açın</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">Parmak izi kullanın</string><!--Use fingerprint-->
+    <string name="use_passcode">Şifre</string><!--Passcode-->
+    <string name="or">ya da</string><!--or-->
+    <string name="use_fingerprint_to_unlock">Kilidi açmak için parmak izi kullanın</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">Yeniden deneyin</string><!--Try again-->
+    <string name="use_passcode_to_unlock">Kilidini açmak için şifre kullan</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">Parmak izi ayarı değiştirildi</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">Yakın zamanda parmak izi ayarlarınızı değiştirmişsiniz gibi görünüyor. Bu özelliği kullanmak için lütfen yeni bir parmak izi ayarlayın.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">Şimdi ayarla</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">Cüzdanınızın kilidini açmak için şifre girin</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">Yeni sürüm var</string><!--New version available-->
+    <string name="new_version_hint">İyileştirilmiş güvenlik ve kullanıcı deneyimi için lütfen uygulamayı daha yeni bir sürüme güncelleyin.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">Daha sonra güncelle</string><!--Update later-->
+    <string name="update_now">Şimdi güncelle</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Gönder</string><!--Send-->
+    <string name="select_wallet">Bir cüzdan seçin</string><!--Select a wallet--> 
+    <string name="send_to">KİME</string><!--TO-->
+    <string name="send_amount">MİKTAR</string><!--AMOUNT-->
+    <string name="hint_amount">Miktar girin</string><!--Enter amount-->
+    <string name="to_paste_addr">Adres yapıştır</string><!--Paste address-->
+    <string name="to_scan_QR">QR kodu tara</string><!--Scan QR code-->
+    <string name="to_select_QR_image">Kayıtlı görüntü seç</string><!--Select saved image-->
+    <string name="to_enter_address">Adres girin</string><!--Enter address-->
+    <string name="to_paste_addr2">Panodan adres yapıştır</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">Kayıtlı görüntülerden ekle</string><!--Add from saved images-->
+    <string name="enter_address_hint">Bir adres girin</string><!--Enter a address-->
+    <string name="send_address">Adres</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">EN FAZLA</string><!--MAX-->
+    <string name="send_review_btn">İşlemi gözden geçir</string><!--Review transaction-->
+    <string name="fee">İşlem Ücreti</string><!--Transaction Fee-->
+    <string name="select_wallet_error">Yetersiz kaynak.</string><!--Insufficient funds.-->
+    <string name="amount_hint">Bakiye:</string><!--Balance:-->
+    <string name="address_error">Geçersiz %s adresi.</string><!--Invalid %s address.-->
+    <string name="amount_input_error">İşlem ücreti için yetersiz kaynak.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">Giriş miktarı en az %s olmalıdır</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">İPTAL</string><!--CANCEL-->
+    <string name="enteraddr_save">KAYDET</string><!--SAVE-->
+    <string name="payment_urgent">Acil</string><!--Urgent-->
+    <string name="payment_priority">Öncelik</string><!--Priority-->
+    <string name="payment_regular">Normal</string><!--Regular-->
+    <string name="payment_economy">Ekonomi</string><!--Economy-->
+    <string name="payment_title">Bir ödeme önceliği seçin</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 dakika</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 saat</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 saat</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 saat</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">İşlem ücreti açıklaması</string><!--Transaction fee description-->
+    <string name="send_review">İşleminizi gözden geçirin</string><!--Review your transaction-->
+    <string name="send_note">NOT</string><!--MEMO-->
+    <string name="send_note_hint">(İSTEĞE BAĞLI)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">İşlem gönderildi.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">İşlemin tamamlanma süresi ağ trafiğine ve işlem ücretine bağlıdır.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">Tamam</string><!--OK-->
+    <string name="fee_error">Sunucu Hatası: Bilinmeyen ücret</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">İşlem başarılı değil</string><!--Transaction not successful--> 
+    <string name="review_send_to">GÖNDER:</string><!--SEND TO-->
+    <string name="review_fee">ÜCRET</string><!--FEE-->
+    <string name="review_edit">Düzenle</string><!--Edit-->
+    <string name="review_enter_pin">Şifre</string><!--Passcode-->
+    <string name="review_cancel">İşlemi iptal et</string><!--Cancel transaction-->
+    <string name="send_server_no_response">Sunucu yanıt vermiyor. Lütfen daha sonra yeniden deneyin.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">İşlem ücretleri HTC tarafından değil, üçüncü taraflarca alınır. Daha yüksek öncelikler daha yüksek ücretler gerektirir. Öncelik zaman dilimi açıklaması gerçek zamanlı blok zinciri istatistiklerini temel alır ve yalnızca başvuru içindir. Öncelik seçiminiz işlemin başarıyla veya belirlenen dönem içinde tamamlanacağını garanti etmez.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%s sizi güvenilir kişi olarak ekledi</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">Adım 1. Adınızı girin ve doğrulama kodunu %s kullanıcısından edinin.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">Adım 2: %s kullanıcısından doğrulama kodunuzu isteyin ve buraya girin.</string><!--Step 2: Ask %s for your verification code and enter it here.--> 
+    <string name="ver_enter_name_hint">Adınızı girin</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">İstek kodu</string><!--Request code--> 
+    <string name="ver_remain_time">Kalan süre: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">Doğrulama kodu oluşturmak için Şifre girin</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">Bu kodu %s ile paylaş</string>
+    <string name="ver_sharing_recovery_remind_name">Yeni istek; gönderen:</string>
+    <string name="ver_sharing_remind_name">Yeni istek; gönderen: %s</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">M: %s aracılığıyla %s\n</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">REDDET</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Yeni istek; gönderen: %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">Doğrulama kodunu görmek ve %s ile paylaşmak için dokunun.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">DOĞRULAMA KODUNU GÖSTER</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Yanıt yok mu? %s sonra tekrar isteyin.</string><!--No reply? Request again in %s.-->
+    <string name="ver_verify">Doğrula</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Artık %s için bir güvenilir kişisiniz.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">Kaybolması veya çalınması durumunda %s kullanıcısının cüzdanını kurtarmasına yardımcı olabilirsiniz. Zion, cüzdan kurtarma verilerinin bir kısmını şifreledi ve aygıtınıza kaydetti. Zion uygulamasını veya Zion uygulaması verilerini silmediğinizden emin olun; aksi durumda bu kurtarma verileri kaybedilecektir. Zion, kurtarma verilerinin hâlâ geçerli olduğunu doğrulamak için %s kullanıcısıyla düzenli olarak iletişim kuracaktır.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">Bitti</string><!--Done-->
+    <string name="ver_pin_error_hint">Bu kod geçersiz; lütfen tekrar deneyin.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">Bildirim</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">Tamam</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Zaten %s kullanıcısının güvenilir kişisisiniz</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">%s kullanıcısının verilerini yedeklemeye yardım ettiğiniz için teşekkür ederiz</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">Doğrulama gönderildi</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Doğrulama bekleniyor. Doğrulama tamamlandığında %s kullanıcısının güvenilir kişisi olacaksınız.</string><!--Waiting for verification. Once verification is completed, you will be %s’s trusted contact.-->
+    <string name="ver_dialog_restore_verifying_subtitle">Doğrulanıyor...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">Doğrulama Gönderildi</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">Doğrulanıyor…</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">Bilinmiyor</string><!--Unknown-->
+    <string name="ver_unknown_name">Bilinmiyor</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">Bir doğrulama kodu tarayın</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">Yardım ettiğin için teşekkür ederim!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s, 5 olan en fazla güvenilir kişi sayısına zaten ulaştı.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Bu bağlantının süresi doldu; lütfen %s kullanıcısından güncellenmiş bağlantıyı göndermesini isteyin.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">İstek zaman aşımı; lütfen daha sonra tekrar deneyin.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Lütfen daha sonra yeniden deneyin</string><!--Please try again later-->
+    <string name="try_too_often_message">Çok sık deneme yapıyorsunuz; lütfen %d dakika sonra tekrar deneyin.</string><!--You are trying too often, please try again after %d minutes.-->
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Merhaba boş parça</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Ayarlar</string><!--Settings-->
+    <string name="setting_tag1">Tercihler</string><!--Preferences--> 
+    <string name="setting_currency">Tercih edilen para birimi</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">Güvenlik</string><!--Security--> 
+    <string name="setting_notification">Anlık bildirimlere izin ver</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">Gönderilen ve alınan işlemleri bildir</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">Ekran görüntülerini etkinleştir</string><!--Enable screenshots--> 
+    <string name="setting_pin">PIN\'i değiştir</string><!--Change PIN-->
+    <string name="setting_fingerprint">Parmak izi</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">Yalnızca uygulama kilidi açmak için kullanılır</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">Cüzdan</string><!--Wallet--> 
+    <string name="setting_show_key">12 sözcüklü kurtarma ifadesini göster</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Cüzdanı sıfırla</string><!--Reset wallet-->
+    <string name="setting_tag4">Hakkında</string><!--About--> 
+    <string name="setting_learn_more">Daha fazla bilgi</string><!--Learn more-->
+    <string name="setting_service">Hizmet hükümleri</string><!--Terms of service--> 
+    <string name="setting_policy">Gizlilik politikası</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Social Key Recovery nedir?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery güvenilir arkadaşlarınız veya aile üyeleriniz aracılığıyla cüzdanınızı kolayca kurtarmanıza yardımcı olabilir.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">3 ila 5 kişiyi, cüzdanınızı kurtarmaya yardımcı olabilecek güvenilir kişiler olmaya davet edin.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Güvenilir kişileriniz, cüzdanınızı geri yüklemenize yardımcı olmak için bir kod gönderebilir.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Kur</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Şimdi değil</a></string>
+    <string name="backup_introduction_ok">Tamam</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Güvenilir kişi listenizi yedekleyin</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Cüzdanınızı Social Key Recovery işleviyle kurtarmak için, güvenilir kişilerinizi yedeklemek amacıyla bir Google hesabı seçin. Güvenilir kişi listeniz Google Drive\'da saklanacaktır.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Hesap ekle</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">İptal</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Devam</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">Güvenilir kişi</string><!--Trusted contact--> 
+    <string name="backup_null_contact">Henüz hiç güvenilir kişi eklemediniz.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery en az 3 güvenilir kişiye (en fazla 5) sahip olduğunuzda kullanılabilecektir.</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Güvenilir kişileriniz olacak \n arkadaşları davet edin</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">3 ila 5 arkadaşı veya aile üyesini güvenilir kişiler olmaya ve cüzdanınızı kurtarmaya yardım etmeye davet edin.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">Adınız</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">Adınızı girin</string><!--Enter your name-->
+    <string name="backup_invitation_hi">Merhaba %s,</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">Davet paylaş</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Etkin değil</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Etkin</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Merhaba, \n\n Seni Zion cüzdanının Social Key Recovery özelliği için güvenilir kişim olarak atadım. \n Kurtarma verilerimi yedeklemede bana \n yardım etmek için lütfen aşağıdaki yönergeleri izle.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Zion uygulamasını indirip yüklemek için şu bağlantıya dokun:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Tamamladığında, benden \n doğrulama kodunu istemeyi unutma.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Teşekkürler!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Son denetleme zamanı: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">Kod oluşturmak için buraya dokunun.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Tekrar Gönder</string><!--Resend-->
+    <string name="backup_bottom_request_show">Arkadaşlardan istekler</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Güvenilir kişiyi kaldır</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">İptal</string><!--Cancel-->
+    <string name="backup_remove_button_delete">Kaldır (%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">Güvenilir kişiyi kaldır</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Oturumu kapat</string><!--Sign out-->
+    <string name="backup_pending_target_toolbar">Arkadaşlardan istekler</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Şu anda hiç istek yok.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Aynı aygıtta yedekleme desteklenmez.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Güvenilir kişilerle yedeklensin mi?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">Bağlantıyı paylaş</string><!--Share link-->
+    <string name="restore_request">Geri yükleme isteği; gönderen: %s</string><!--Restore request from %s-->
+    <string name="show">Göster</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Bu hesap başka bir aygıtta kullanılmış</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Güvenlik nedeniyle her bir hesap yalnızca bir aygıt için kullanılabilir.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Social Key Recovery başlatmak için bu hesabı kullanmaya devam etmek mi veya başka bir tane kullanmak mı istiyorsunuz?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Bu hesabı kullan</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Önceki güvenilir kişi listeniz kalıcı olarak kaybedilecektir.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Başka bir hesap kullan</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Önceki verileri koru ve yeni bir tane oluştur.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Bu hesabı kullanmak istediğinizden emin misiniz?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">Önceki güvenilir kişi listeniz kalıcı olarak kaybedilecektir.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">Devam etmek için PIN girin</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">Cüzdanınızı nasıl kurtarmak istersiniz?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">12 sözcüklü kurtarma ifadesini kullan</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">Social Key Recovery aracılığıyla</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">Cüzdanınızı oluşturduğunuzda yazdığınız 12 sözcüklü kurtarma ifadesini girin.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">Güvenilir kişilerinizden yardım isteyin.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Merhaba, \n\n Güvenilir kişim olarak, Zion cüzdanımı kurtarmak için yardımına ihtiyacım var.\nGeri yükleme için aşağıdaki işlemleri gerçekleştirmen gerekli.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Bu bağlantıya dokunup bir doğrulama kodu oluştur.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Kodu bana gönder.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Teşekkürler!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Lütfen bekleyin...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Oturum açılıyor...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Hiç Social Key Recovery verisi bulunamadı</string><!--No Social Key Recovery data found-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Cüzdanınızı geri yüklemek için lütfen başka bir hesap deneyin veya 12 sözcüklü kurtarma ifadesini kullanın.</string><!--Please try another account or use 12-/word recovery phrase to restore your wallet.-->
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Lütfen bekleyin...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Bağlantı oluşturuluyor...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Hesabınızda oturum açın</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Cüzdanınızı Social Key Recovery işleviyle kurtarmak için, daha önce güvenilir kişi listenizi kaydettiğiniz Google hesabını seçin.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Paylaşım bağlantısı oluşturulamadı</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Lütfen daha sonra yeniden deneyin.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Oturum açılamadı</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Lütfen daha sonra yeniden deneyin.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Güvenilir kişilerinizden yardım isteyin</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Güvenilir kişilerinizin üçüyle iletişime geçin ve onlarla bu bağlantıyı paylaşın.</string><!--1. Reach out to three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Her bir kişi size bir kod verecek. Her bir kodu aşağıya girin:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Bir veya daha fazla kod yanlış. Tekrar deneyin.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Kod girin</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">İptal</string><!--Cancel-->
+    <string name="social_restore_btn_next">İleri</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">Lütfen daha sonra yeniden deneyin</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">Çok sık deneme yapıyorsunuz; lütfen %s dakika sonra tekrar deneyin.</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">Bir veya daha fazla kod yanlış.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">Lütfen tüm kodların doğru olduğunu onaylayıp tekrar deneyin.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">Aygıtınızda %s için hiç yedekleme yok.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Geri yüklenemedi</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Geri yüklemek için farklı bir hesap veya 12 sözcüklü kurtarma ifadenizi kullanmayı deneyin.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%s daveti</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Kabul etmek için dokunun.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">%s kaynağından kurtarma desteği isteği</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">Kod oluşturmak için dokunun.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">Bu hesapla hiçbir Social Key Recovery ayarlanmadı.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">Geri yüklemek için farklı bir hesap veya 12 sözcüklü kurtarma ifadenizi kullanmayı deneyin.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">Yedekleme durumunu güncelle</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">Güvenilir kişiyi/kişileri kaldırmayı onayla</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">Kaldırmak için şifre girin</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Güvenilir kişilerle yedeklensin mi?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">Cüzdanınızı yedeklemenize yardımcı olmaları için güvenilir kişilerle Social Key Recovery de ayarlayabilirsiniz.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">Daha fazla açıklama yap</string><!--Tell me more-->
+    <string name="social_backup_not_now">Şimdi değil</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Sorun oluştu; güvenilir kişilerinizin bazıları etkin değil.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Bağlantıları güvenli kılmak için güvenilir kişinizle görüşün.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Bu hesabı başka bir aygıtta kullandınız</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Social Key Recovery verilerinizin tümü kalıcı olarak kullanılamaz. Social Key Recovery kullanmaya devam etmek için başka bir hesapta oturum açmanız gerekir.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">Kabul ediyorum</string><!--Agree-->
+    <string name="social_key_recovery_disagree">Kabul etmiyorum</string><!--Disagree-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Bazı güvenilir kişilere yeniden bağlanılması gerekli</string><!--Some trusted contacts need to be re-/connected-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">Güvenlik nedenleriyle güvenilir kişi davetini %s, %s kullanıcılarına tekrar göndermeniz gerekli.</string><!--For security concerns, you need to resend the trusted contact invitation to %s, %s again.-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">İşlem ayrıntıları</string><!--Transaction details--> 
+    <string name="Amount">Toplam Miktar</string><!--Total Amount-->
+    <string name="Date">Tarih</string><!--Date-->
+    <string name="Send_to">Gönder:</string><!--Send to-->
+    <string name="Receive_From">Alma kaynağı:</string><!--Receive from-->
+    <string name="Memo">Not</string><!--Memo-->
+    <string name="transaction_amount_send">Gönderilecek miktar</string><!--Amount to send-->
+    <string name="transaction_amount_receive">Alınacak miktar</string><!--Amount to receive-->
+    <string name="transaction_amount">Değer</string><!--Value-->
+    <string name="Transaction_Fee">İşlem ücreti</string><!--Transaction fee--> 
+    <string name="Status">Durum</string><!--Status-->
+    <string name="Transcation_ID">İşlem ID</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">%1$s QR kodu tara</string><!--Scan %1$s QR code-->
+    <string name="Settings">Ayarlar</string><!--Settings-->
+    <string name="Help">Yardım</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">İstek</string><!--Request-->
+    <string name="WALLET_ADDRESS">CÜZDAN ADRESİ</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">YATIRILACAK HESAP</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">İSTENEN MİKTAR (İSTEĞE BAĞLI)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">QR kodu paylaş</string><!--Share QR code-->
+    <string name="Copy_as_text">Metin olarak kopyala</string><!--Copy as text-->
+    <string name="copy_toast">Cüzdan adresi panoya kopyalandı.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">Bazı üçüncü taraf cüzdanlar bağlantılarda veya QR kodlarında istek miktarlarını desteklemeyebilir.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">QR kodu tara</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">QR kodu tarayıcıyı kullanmak için lütfen önce kameranıza erişme izni verin.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">Kamera erişimini etkinleştir</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Zion\'un fotoğraf çekmesine ve video kaydetmesine izin ver</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">Tekrar sorma</string><!--Never ask again-->
+    <string name="DENY">REDDET</string><!--DENY-->
+    <string name="ALLOW">İZİN VER</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">Bir %1$s(%2$s) QR Kodu adresi tara</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">Kodu çerçeveyle hizalayın</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">Geçerli bir ortak adres değil</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">Bağlanılamıyor.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Bu uygulamayı kullanmak için bir ağ bağlantısına ihtiyacınız var. Lütfen Ayarlar\'da Mobil Veri veya Wi-Fi\'ı açın.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">İptal</string><!--Cancel-->
+    <string name="check">Onay işareti</string><!--Check-->
+    <string name="You_have_no_transaction">Hiç işleminiz yok.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Şifreli varlıklar gönderdiğinizde ve aldığınızda işleminiz burada gösterilecektir.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Social Key Recovery denensin mi?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">Cüzdanı 12 sözcüklü kurtarma ifadesiyle geri yüklemenin yanı sıra, Social Key Recovery, güvenilir kişileriniz aracılığıyla cüzdanınızı kolay bir yolla kurtarmanıza yardımcı olabilir.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">IOS İÇİN YAKINDA</string><!--COMING SOON FOR IOS-->
+
+    <string name="socialkm_not_active_title">Social Key Recovery etkin değil</string><!--Social Key Recovery is not active-->
+    <string name="socialkm_not_active_message">Güvenilir kişilerinizle iletişime geçip yedekleme durumlarını kontrol etmeyi veya size yardım edecek yeni bir kişi bulmayı deneyebilirsiniz.</string><!--You can try to contact your trusted contacts and check their backup status or find a new contact to help you.-->
+
+    <string name="transaction_confirmation">Onaylamalar</string><!--Confirmations-->
+
+<!-- iOS strings -->
+    <string name="ios_social_backup_regular_check_title">Arkadaşlarınızın yedeklemesine yardımcı olduğunuz için teşekkür ederiz</string><!--Thanks for helping your friends backup-->
+    <string name="ios_social_backup_regular_check_content">Social Key Recovery yedekleme durumu tüm arkadaşlarınıza rapor edildi.</string><!--The backup status of Social Key Recovery has been reported to all your friends.-->
+    <string name="ios_social_backup_notifications_settings_title">Bildirimler devre dışı</string><!--Notifications disabled-->
+    <string name="ios_social_backup_notifications_settings_content">Lütfen Ayarlar kısmında Zion uygulamasının bildirimlerine izin verin.</string><!--Please allow Zion’s notifications in Settings.-->
+    <string name="ios_social_backup_notifications_settings">Ayarlar</string><!--Settings-->
+    <string name="transaction_pending">Onayı bekleyin</string><!--Wait for confirmation-->
+    <string name="complete">Tamamlandı</string><!--Complete-->
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallet_background"
+    android:orientation="vertical"
+    tools:context=".HomeAuthenticator">
+
+    <ImageView
+        android:id="@+id/background_image_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wallet_background_pattern_01" />
+
+    <ImageView
+        android:id="@+id/zion_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="329px"
+        android:src="@drawable/wallet_zion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/unlock_your_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/unlock_your_wallet"
+        android:textColor="@color/dark_primaryfont_color"
+        android:textSize="100px"
+        android:layout_marginTop="354px"
+        app:layout_constraintTop_toBottomOf="@id/zion_icon"/>
+
+    <TextView style="@style/darklist_secondary_xxs"
+        android:id="@+id/try_again_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ff1515"
+        android:text="@string/not_reconize_please_retry"
+        android:layout_marginTop="@dimen/margin_m"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/unlock_your_wallet"/>
+
+    <RelativeLayout
+        android:id="@+id/fp_icon_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_l"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/try_again_hint">
+
+
+
+        <ImageView
+            android:id="@+id/icon_scan_finger_finger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wallet_icon_scan_finger"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/icon_scan_finger_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fp_circle"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/use_fingerprint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/use_fingerprint"
+        android:textColor="@color/dark_primaryfont_color"
+        android:textSize="60px"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_xs_2"
+        app:layout_constraintTop_toBottomOf="@id/fp_icon_layout"/>
+
+    <RelativeLayout
+        android:id="@+id/spacing_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104px"
+        android:layout_marginStart="@dimen/margin_l_2"
+        android:layout_marginEnd="@dimen/margin_l_2"
+        app:layout_constraintTop_toBottomOf="@id/use_fingerprint"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="4px"
+            android:background="#80ffffff"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@id/word_or"
+            android:layout_marginEnd="@dimen/margin_l"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/word_or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:layout_centerHorizontal="true"
+            android:textSize="60px"
+            android:textColor="@color/dark_primaryfont_color"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="4px"
+            android:background="#80ffffff"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@id/word_or"
+            android:layout_marginStart="@dimen/margin_l"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <Button style="@style/darklist_primary_xs"
+        android:id="@+id/use_passcode"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/margin_l"
+        android:text="@string/use_passcode_to_unlock"
+        app:layout_constraintTop_toBottomOf="@id/spacing_line"
+        android:background="@drawable/button_use_passcode"
+        android:layout_marginStart="@dimen/margin_l_2"
+        android:layout_marginEnd="@dimen/margin_l_2"
+        />
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

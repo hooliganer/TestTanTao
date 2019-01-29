@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/margin_l"
+    android:layout_marginEnd="@dimen/margin_m"
+    android:layout_marginStart="@dimen/margin_m"
+    card_view:cardCornerRadius="@dimen/home_panel_radius"
+    card_view:cardElevation="@dimen/card_shadow"
+    card_view:cardPreventCornerOverlap="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/card_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_l"
+            android:layout_marginRight="@dimen/margin_l">
+
+            <!-- icon -->
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/wallet_icon_side"
+                android:layout_height="@dimen/wallet_icon_side"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:src="@drawable/wallet_icon_indicator_eth" />
+
+            <!-- Currency -->
+            <TextView
+                android:id="@+id/card_isoId"
+                style="@style/darklist_primary_xl_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/margin_l"
+                android:layout_marginRight="@dimen/margin_l"
+                android:layout_marginTop="@dimen/spacing_2"
+                android:layout_toEndOf="@id/icon" />
+
+            <!-- Balance -->
+            <TextView
+                android:id="@+id/card_balanceId"
+                style="@style/darklist_primary_xl_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/spacing_2" />
+
+            <!-- EX-rate -->
+            <TextView
+                android:id="@+id/card_exrateId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card_isoId"
+                android:layout_marginBottom="@dimen/spacing_2"
+                android:layout_marginLeft="@dimen/margin_l"
+                android:layout_marginRight="@dimen/margin_l"
+                android:layout_marginTop="@dimen/leading"
+                android:layout_toEndOf="@id/icon"
+                android:textColor="#ccffffff"
+                android:textSize="60px" />
+
+            <!-- EX-Balance -->
+            <TextView
+                android:id="@+id/card_exbalanceId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/card_balanceId"
+                android:layout_marginBottom="@dimen/spacing_2"
+                android:layout_marginTop="@dimen/leading"
+                android:textColor="#ccffffff"
+                android:textSize="60px" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_relative_layout"
+            android:background="#4cffffff">
+
+            <TextView
+                android:id="@+id/card_name"
+                style="@style/darklist_primary_xl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ccffffff"/>
+
+            <FrameLayout
+                android:id="@+id/loadingPanel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/card_name"
+                android:layout_marginEnd="@dimen/margin_m"
+                android:layout_centerVertical="true">
+
+                <ProgressBar
+                    style="@android:style/Widget.DeviceDefault.ProgressBar"
+                    android:layout_width="@dimen/margin_m_2"
+                    android:layout_height="@dimen/margin_m_2"
+                    android:indeterminate="true"/>
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

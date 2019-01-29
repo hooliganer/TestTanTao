@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/M1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_send">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/send_to"
+                android:textColor="@color/wallet_01"
+                android:textSize="@dimen/wallet_01"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/send_to"
+                android:layout_below="@id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/to_address"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/M4"
+                    android:layout_marginTop="@dimen/M2"
+                    android:background="@null"
+                    android:drawablePadding="@dimen/M1"
+                    android:drawableRight="@drawable/common_expand_small"
+                    android:maxLines="3"
+                    android:paddingLeft="@dimen/M1"
+                    android:paddingRight="@dimen/M2"
+                    android:text="@string/to_enter_address"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/darklist_primary_s"
+                    android:visibility="gone" />
+
+                <HorizontalScrollView
+                    android:id="@+id/to_address_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:saveEnabled="false"
+                    android:scrollbars="none"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/send_to_btn_height"
+                        android:layout_marginTop="@dimen/M2"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button_paste"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/M4"
+                            android:background="@drawable/shape_rectangle4"
+                            android:drawableLeft="@drawable/icon_indicator_copy_dark"
+                            android:drawablePadding="@dimen/M4"
+                            android:paddingLeft="@dimen/M2"
+                            android:paddingRight="@dimen/M2"
+                            android:text="@string/to_paste_addr"
+                            android:textAllCaps="false"
+                            android:textColor="@color/wallet_13"
+                            android:textSize="@dimen/wallet_13" />
+
+                        <Button
+                            android:id="@+id/button_scan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/M4"
+                            android:background="@drawable/shape_rectangle4"
+                            android:drawableLeft="@drawable/icon_btn_qrcode"
+                            android:drawablePadding="@dimen/M4"
+                            android:paddingLeft="@dimen/M2"
+                            android:paddingRight="@dimen/M2"
+                            android:text="@string/to_scan_QR"
+                            android:textAllCaps="false"
+                            android:textColor="@color/wallet_13"
+                            android:textSize="@dimen/wallet_13" />
+
+                        <Button
+                            android:id="@+id/button_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/M4"
+                            android:background="@drawable/shape_rectangle4"
+                            android:drawableLeft="@drawable/icon_indicator_photo_library"
+                            android:drawablePadding="@dimen/M4"
+                            android:paddingLeft="@dimen/M2"
+                            android:paddingRight="@dimen/M2"
+                            android:text="@string/to_select_QR_image"
+                            android:textAllCaps="false"
+                            android:textColor="@color/wallet_13"
+                            android:textSize="@dimen/wallet_13" />
+
+                        <Button
+                            android:id="@+id/button_enter_addr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/M4"
+                            android:background="@drawable/shape_rectangle4"
+                            android:drawableLeft="@drawable/wallet_icon_indicator_enter_text"
+                            android:drawablePadding="@dimen/M4"
+                            android:paddingLeft="@dimen/M2"
+                            android:paddingRight="@dimen/M2"
+                            android:text="@string/to_enter_address"
+                            android:textAllCaps="false"
+                            android:textColor="@color/wallet_13"
+                            android:textSize="@dimen/wallet_13" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/text_to_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/send_to"
+                android:layout_marginLeft="@dimen/M2"
+                android:inputType="textPersonName"
+                android:text="input address error"
+                android:textColor="@color/wallet_03"
+                android:textSize="@dimen/wallet_03"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_to_error"
+                android:layout_marginTop="@dimen/M1"
+                android:inputType="textPersonName"
+                android:text="@string/send_amount"
+                android:textColor="@color/wallet_01"
+                android:textSize="@dimen/wallet_01"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/enter_amount_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText3"
+                android:layout_marginTop="@dimen/M2"
+                android:layoutDirection="locale"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/M2"
+                android:paddingRight="0px">
+
+                <EditText
+                    android:id="@+id/enter_amount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/button_wallet_type"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/hint_amount"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/wallet_14"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/wallet_14"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/button_wallet_type"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/send_amount_size"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/M5"
+                    android:layout_marginRight="@dimen/M5"
+                    android:background="@null"
+                    android:drawableRight="@drawable/wallet_icon_indicator_progressing"
+                    android:text="ETH"
+                    android:textAllCaps="false"
+                    android:textColor="@color/wallet_15"
+                    android:textSize="@dimen/wallet_15" />
+
+                <Button
+                    android:id="@+id/button_max"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/send_amount_size"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:text="@string/amount_max"
+                    android:textAllCaps="false"
+                    android:textColor="@color/wallet_15"
+                    android:textSize="@dimen/wallet_15" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="1320px"
+                android:layout_height="3px"
+                android:layout_below="@id/enter_amount_item"
+                android:background="?android:attr/listDivider"
+                android:foreground="#e1e1e1" />
+
+            <TextView
+                android:id="@+id/text_amount_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_below="@id/divider2"
+                android:layout_marginLeft="@dimen/M2"
+                android:layout_marginRight="@dimen/M2"
+                android:layout_marginTop="@dimen/M6"
+                android:enabled="false"
+                android:inputType="textPersonName"
+                android:text="Balance: 6.2138469 ETH"
+                android:textColor="@color/black"
+                android:textSize="@dimen/wallet_18" />
+
+
+            <Button
+                android:id="@+id/button_fee"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/send_fee_height"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/text_amount_error"
+                android:layout_marginBottom="@dimen/M1"
+                android:layout_marginTop="@dimen/M2"
+                android:background="@drawable/shape_rectangle3"
+                android:drawablePadding="@dimen/M2"
+                android:drawableRight="@drawable/common_expand_small"
+                android:paddingLeft="@dimen/M2"
+                android:paddingRight="@dimen/M2"
+                android:text="@string/fee"
+                android:textAllCaps="false"
+                android:textColor="@color/wallet_13"
+                android:textSize="@dimen/wallet_13" />
+
+            <EditText
+                android:id="@+id/enter_notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_fee"
+                android:background="@null"
+                android:fontFamily="sans-serif"
+                android:hint="@string/send_note"
+                android:inputType="text"
+                android:paddingBottom="@dimen/M4"
+                android:singleLine="true"
+                android:textAlignment="textStart"
+                android:textColorHint="@color/send_amount_hint"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/input_default_m" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="1320px"
+                android:layout_height="3px"
+                android:layout_below="@id/enter_notes"
+                android:layout_marginBottom="@dimen/M4"
+                android:background="?android:attr/listDivider"
+                android:foreground="#e1e1e1" />
+
+        </RelativeLayout>
+
+        <Button style="@style/darklist_primary_xs"
+            android:id="@+id/button_review"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_alignParentBottom="true"
+            android:background="@null"
+            android:text="@string/send_review_btn"
+            android:textAllCaps="false"
+            android:textSize="@dimen/darklist_primary_xs" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

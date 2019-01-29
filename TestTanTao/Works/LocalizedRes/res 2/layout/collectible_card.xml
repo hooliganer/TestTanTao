@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/collectible_card_side_len"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    android:layout_marginBottom="@dimen/margin_m"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardElevation="0dp"
+    card_view:cardBackgroundColor="#00ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/collectible_image_frame"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/collectible_card_side_len"
+            app:cardElevation="@dimen/card_shadow"
+            app:cardCornerRadius="@dimen/home_panel_radius"
+            app:cardPreventCornerOverlap="true"
+            android:layout_marginEnd="@dimen/card_shadow"
+            >
+            <ImageView
+                android:id="@+id/collectible_image"
+                android:background="#ffe6c3"
+                android:layout_width="@dimen/collectible_card_side_len"
+                android:layout_height="@dimen/collectible_card_side_len"
+                />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:textColor="@color/light_primaryfont_color"
+            android:textSize="@dimen/wallet_27"
+            android:id="@+id/collectible_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/collectible_image_frame"
+            android:layout_marginTop="@dimen/spacing"
+            android:fontFamily="sans-serif-medium"/>
+
+        <TextView style="@style/list_secondary_xxs"
+            android:textColor="@color/light_primaryfont_color"
+            android:id="@+id/collectible_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/collectible_id"/>
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

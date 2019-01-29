@@ -9,9 +9,11 @@
 import UIKit
 import Firebase
 import CoreData
+import Selene
+import UserNotifications
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate  {
 
     var window: UIWindow?
 
@@ -19,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
 //        FirebaseApp.configure(name: "TanTaoNamed", options: FirebaseOptions.defaultOptions()!)
-//        FirebaseApp.configure();
+        FirebaseApp.configure();
         
 //        Branch.setUseTestBranchKey(true)
 //        // listener for Branch Deep Link data
@@ -28,6 +30,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        })
         
         return true
+    }
+    
+    func registerLocalNotification(application:UIApplication) {
+        
+        if #available(iOS 10, *)
+        { // iOS 10 support
+            //create the notificationCenter
+            let center = UNUserNotificationCenter.current()
+            center.delegate = self
+            // set the type as sound or badge
+            center.requestAuthorization(options: [.sound,.alert,.badge]) { (granted, error) in
+                if granted {
+                    print("Notification Enable Successfully")
+                }else{
+                    print("Some Error Occure")
+                }
+            }
+            application.registerForRemoteNotifications()
+        }
+        else if #available(iOS 9, *)
+        {
+            // iOS 9 support
+            UIApplication.shared.registerUserNotificationSettings(UIUserNotificationSettings(types: [.badge, .sound, .alert], categories: nil))
+            UIApplication.shared.registerForRemoteNotifications()
+        }
+    }
+    
+    /// 添加后台随机任务
+    func addTaskFetch() {
+        let tasks = [SampleTask.classForCoder()]
+        SLNScheduler.setMinimumBackgroundFetchInterval(5)
+        SLNScheduler.scheduleTasks(tasks)
+    }
+    
+    func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        
+        SLNScheduler.start(completion: completionHandler);
+        
     }
     
 
@@ -58,7 +98,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // Fallback on earlier versions
         }
     }
+    
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        print("000000")
+    }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
+        print("aaaaaaaaaaa")
+    }
+    
+    func application(_ application: UIApplication, didReceive notification: UILocalNotification) {
+        print("bbbbbb")
+    }
 
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        print("cccc")
+    }
+    
+    @available(iOS 10.0, *)
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        print("dddddd")
+    }
+    
+    @available(iOS 10.0, *)
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        print("eeeeee")
+    }
     
     // MARK: - Firebase
     
@@ -98,26 +164,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true;
     }
-    
-    
-    
-//    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-//        Branch.getInstance().application(app, open: url, options: options)
-//        return true
-//    }
-//
-//    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
-//        // handler for Universal Links
-//        Branch.getInstance().continue(userActivity)
-//        return true
-//    }
-//
-//    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-//        // handler for Push Notifications
-//        Branch.getInstance().handlePushNotification(userInfo)
-//    }
-    
-    
     
     
     // MARK: - Core Data stack

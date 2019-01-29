@@ -1,0 +1,560 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">לא</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">אישור</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">בית</string><!--Home-->
+    <string name="Nav_collectible">פריטים שאספת</string><!--Collectibles--> 
+    <string name="Nav_request">בקשה</string><!--Request-->
+    <string name="Nav_receive">קבל</string><!--Receive-->
+    <string name="Nav_shop">Shop</string><!--Shop-->
+    <string name="home_recovering">השחזור מתבצע...</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">השחזור מתבצע, תכף נסיים.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">המקור לשער המטבע: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">ניהול הסדר</string><!--Manage order-->
+    <string name="tool_social_backup">מפתח שחזור חברתי</string><!--Social Key Recovery-->
+    <string name="tool_settings">הגדרות</string><!--Settings-->
+    <string name="tool_help">עזרה</string><!--Help-->
+    <string name="tool_sort_by">מיין לפי</string><!--Sort by-->
+    <string name="tool_sort_custom">הותאם אישית</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">אלף-ביתי</string><!--Alphabetical-->
+    <string name="tool_sort_value">ערך</string><!--Value-->
+
+    <string name="Create_wallet">יצירת ארנק חדש</string><!--Create a new wallet-->
+    <string name="total_assets">סה\&quot;כ נכסים</string><!--Total assets--> 
+    <string name="last_update">השימוש האחרון היה לפני %1$d דקות.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">אין חיבור לאינטרנט</string><!--No internet connection-->
+    <string name="retry_button">הגדרות</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">המטבעות שלי (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">לא הוספת אף ארנק עדיין</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">ניהול הארנק</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">קנייה/מכירה</string><!--Buy/Sell-->
+    <string name="shop_buy">קנייה</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">קנייה/מכירה מ-Maicoin</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">קנייה, מכירה או כל עסקה אחרת (להלן \&quot;עסקה\&quot;) של מטבעות קריפטו תיעשה אצל ספקי מסחר חיצוניים.  כל עסקה כזו תהיה כפופה לתנאי השימוש הרלוונטיים של ספק המסחר החיצוני. יש לקרוא את תנאי השימוש האלה בעיון לפני שמשתמשים בשירותים של ספקי מסחר חיצוניים. HTC לא תישא באחריות לכל פעילות בינך לבין ספקי המסחר החיצוניים.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">אל תזכיר לי שוב.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">מערכת</string><!--System-->
+    <string name="gen_wallet_title">ארנק</string><!--Wallet-->
+    <string name="gen_now">עכשיו</string><!--now-->
+    <string name="gen_screenshot">לא ניתן היה לשמור את צילום המסך</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">מטעמי אבטחה, אי אפשר לשמור צילומי מסך</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">קבלת העברה</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">קיבלת %1$s שהועברו על ידי</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">הצגת הפרטים</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">העסקה הושלמה</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">עסקת %1$s ב-%2$s אושרה</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">העסקה נכשלה</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">העסקה של העברת %2$s %3$s ב-%1$s אל %4$s נכשלה</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">יש גרסה חדשה</string><!--New version available-->
+    <string name="gen_new_version_hint">מומלץ לעדכן את האפליקציה לגרסה החדשה כדי לשפר את רמת האבטחה וליהנות מחוויה טובה יותר.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">יש הגדרות אבטחה חדשות. מטעמי בטיחות, צריך לעדכן את המערכת. צריך לעדכן כדי להמשיך.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">עדכון עכשיו</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">הגדרות האבטחה בטעינה. אנא המתן.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">הטלפון שלך נפרץ</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">הארנק שלך ננעל כי הטלפון שלך נפרץ. זהו אמצעי זהירות. נציגי שירות הלקוחות שלנו ישמחו להסביר לך איך ממשיכים מכאן.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">הטלפון שלך נפרץ</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">הארנק שלך ננעל כי הטלפון שלך נפרץ. זהו אמצעי זהירות. נציגי שירות הלקוחות שלנו ישמחו להסביר לך איך ממשיכים מכאן.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">כתב ויתור אחריות חשוב: המוצר הזה מבוסס על טכנולוגיות ראשוניות של רשת הבלוקצ\'יין. מטבעות קריפטו, סחר באסימונים ובלוקצ\'יין הן טכנולוגיות חדשות שכוללות סיכונים בלתי צפויים. למשל: צדדים חיצוניים עלולים להחדיר למכשירים, אפליקציות ארנק ורשתות בלוקצ\'יין נקודות תורפה שיפריעו לעסקאות בלוקצ\'יין או יגרמו לאבדן מטבעות קריפטו. יש לשמור על האבטחה של משפט השחזור בן 12 המילים (המפתח) והסיסמה. האבטחה של מפתחות השחזור היא באחריותך הבלעדית. המשך השימוש פירושו הכרה בכל הסיכונים הנלווים ואישורם.\n\nתודה על שבחרת לנסות את המוצרים שלנו. אנחנו כל הזמן שואפים לשפר את הטכנולוגיה שלנו. תודה רבה על שליחת <a href="mailto:exodus@htc.com">משוב</a></string><!--Important disclaimer: This is an early access product utilizing blockchain technologies. Cryptocurrency, token exchange, and blockchain are new technologies and may carry unforeseen risks. For example: Third parties may introduce weaknesses in devices, wallet applications, or blockchain networks, which may interfere with blockchain transactions or result in the loss of your cryptocurrency. Keep your 12-/word recovery phrase (seed) and passcode secure at all times. You are solely responsible for safeguarding your recovery keys. By continuing, you acknowledge and agree to accept all these associated risks.\n\nThank you for trying our products. As we strive to improve our technology, we sincerely appreciate your <a href="mailto:exodus@htc.com">feedback</a>-->
+    <string name="gen_feedback">משוב</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">פריטים שאספת</string><!--Collectibles-->
+    <string name="no_collectible">לא אספת כלום עדיין</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">כאן יוצגו הפריטים שאספת.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">קניית אסימונים</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">אפשר להקיש כדי להציג את הפריטים שאספת</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">עוד אחד</string><!--Add more-->
+    <string name="addwallet_search_wallet">חיפוש ארנק</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">קניית מטבעות</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">בקשה</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">שליחה</string><!--Send-->
+    <string name="addwallet_hint">כאן יוצגו העסקאות שלך.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">אין לך אף עסקה</string><!--You have no transactions-->
+    <string name="no_wallet_found">לא נמצא אף ארנק</string><!--No wallet found-->
+    <string name="addwallet_add_btn">הוספה</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">ניהול רשימת הארנקים</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">נעים להכיר, <b>Zion</b></string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">הארנק המאובטח עם כל מה שצריך למסחר ברשת בלוקצ\'יין.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">יצירת ארנק ב-Zion</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">שחזור הארנק</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>בקשות של Social Key Recovery</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">המשך פירושו אישור לכך שקראתי ואישרתי את %1$s ואת %2$s.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">תנאי השימוש</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">מדיניות הפרטיות של HTC</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">רוצה לעזור לחבר?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">קראתי ואישרתי את %1$s ואת %2$s.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">תנאי השירות של Zion</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">מדיניות פרטיות</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">צריך ליצור סיסמה.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">צריך ליצור סיסמה חשה.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">צריך להשתמש בסיסמה הזו לכל העסקאות וכדי לפתוח את הארנק.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">צריך לאשר את הסיסמה.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">צריך לאשר את הסיסמה החדשה.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">הסיסמאות לא תואמות. אפשר לנסות שוב.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">12 המילים של משפט הגיבוי והשחזור</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">המילים האלו הן הדרך היחידה לשחזר את הארנק אם מאבדים את הטלפון או שוכחים את הסיסמה.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">יצירת 12 המילים של משפט השחזור</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">צריך לכתוב את 12 המילים של משפט השחזור לפי הסדר</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">מומלץ לוודא שכותבים את כל 12 המילים בסדר הנכון ולשמור אותן במקום בטוח.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">כתבתי אותן</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">אימות 12 המילים של משפט השחזור (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">צריך להזין את כל המילים לפי הסדר כדי לוודא שכתבת אותן נכון.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">הבא</string><!--Next-->
+    <string name="verify_key_1_not_match">חלק מהמילים לא תואמות. אפשר לנסות שוב.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">אימות 12 המילים של משפט השחזור (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">אימות 12 המילים של משפט השחזור (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">מזל טוב! הארנק שלך מוכן.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">משתמשים בטביעת האצבע לפתיחת הארנק.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">נכנסים לארנק.</string><!--Go to your wallet.-->
+
+    <string name="restoring">משחזר</string><!--Restoring-->
+    <string name="preparing_secure_ui">מיד נעביר אותך לממשק המאובטח</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">צריך להזין את 12 המילים של משפט השחזור כדי לשחזר את הארנק (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">צריך להזין את 12 המילים של משפט השחזור בסדר הנכון.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">צריך להזין את 12 המילים של משפט השחזור כדי לשחזר את הארנק (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">צריך להזין את 12 המילים של משפט השחזור כדי לשחזר את הארנק (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">מזל טוב!</string><!--Congratulations!-->
+    <string name="wallet_restored">הארנק שלך שוחזר.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">פתיחת הארנק</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">שימוש בטביעת אצבע</string><!--Use fingerprint-->
+    <string name="use_passcode">סיסמה</string><!--Passcode-->
+    <string name="or">או</string><!--or-->
+    <string name="use_fingerprint_to_unlock">שימוש בטביעת האצבע כדי לפתוח</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">אני רוצה לנסות שוב</string><!--Try again-->
+    <string name="use_passcode_to_unlock">שימוש בסיסמה לפתיחה</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">ההגדרה של טביעת האצבע שונתה</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">שינית את ההגדרות של טביעת האצבע לאחרונה. צריך להגדיר טביעת אצבע חדשה כדי להשתמש בתכונה הזו.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">אני רוצה להגדיר עכשיו</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">צריך להזין את הסיסמה כדי לפתוח את הארנק</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">יש גרסה חדשה</string><!--New version available-->
+    <string name="new_version_hint">מומלץ לעדכן את האפליקציה לגרסה החדשה כדי לשפר את רמת האבטחה וליהנות מחוויה טובה יותר.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">עדכון אחר כך</string><!--Update later-->
+    <string name="update_now">עדכון עכשיו</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">שליחה</string><!--Send-->
+    <string name="select_wallet">צריך לבחור ארנק</string><!--Select a wallet--> 
+    <string name="send_to">אל</string><!--TO-->
+    <string name="send_amount">סכום</string><!--AMOUNT-->
+    <string name="hint_amount">הזנת סכום</string><!--Enter amount-->
+    <string name="to_paste_addr">הדבקת כתובת</string><!--Paste address-->
+    <string name="to_scan_QR">סריקת קוד QR</string><!--Scan QR code-->
+    <string name="to_select_QR_image">בחירת תמונה שמורה</string><!--Select saved image-->
+    <string name="to_enter_address">הזנת כתובת</string><!--Enter address-->
+    <string name="to_paste_addr2">הדבקת כתובת מהלוח</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">הוספה מהתמונות השמורות</string><!--Add from saved images-->
+    <string name="enter_address_hint">מה הכתובת?</string><!--Enter a address-->
+    <string name="send_address">כתובת</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">מקסימום</string><!--MAX-->
+    <string name="send_review_btn">בדיקת ואישור העסקה</string><!--Review transaction-->
+    <string name="fee">עמלת עסקה</string><!--Transaction Fee-->
+    <string name="select_wallet_error">אין מספיק כסף.</string><!--Insufficient funds.-->
+    <string name="amount_hint">יתרה:</string><!--Balance:-->
+    <string name="address_error">הכתובת של %s לא חוקית.</string><!--Invalid %s address.-->
+    <string name="amount_input_error">אין לך מספיק כסף כדי לשלם את עמלת העסקה.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">הסכום צריך להיות לפחות %s</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">ביטול</string><!--CANCEL-->
+    <string name="enteraddr_save">שמירה</string><!--SAVE-->
+    <string name="payment_urgent">דחופה</string><!--Urgent-->
+    <string name="payment_priority">עדיפות</string><!--Priority-->
+    <string name="payment_regular">רגילה</string><!--Regular-->
+    <string name="payment_economy">חסכוני</string><!--Economy-->
+    <string name="payment_title">בחירת עדיפות לתשלום</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">פחות מ-30 דקות</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">פחות משעה</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">יותר משעה</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">יותר מ-3 שעות</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">תיאור עמלת ההעברה</string><!--Transaction fee description-->
+    <string name="send_review">בדיקת ואישור העסקה</string><!--Review your transaction-->
+    <string name="send_note">תזכורת</string><!--MEMO-->
+    <string name="send_note_hint">(לא חובה)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">ההעברה נשלחה.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">משך הזמן להשלמת העסקה משתנה בהתאם לתנועה ברשת ולעמלת העסקה.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">אישור</string><!--OK-->
+    <string name="fee_error">שגיאת שרת. העמלה לא ידועה</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">העסקה לא בוצעה</string><!--Transaction not successful--> 
+    <string name="review_send_to">שליחה אל</string><!--SEND TO-->
+    <string name="review_fee">עמלה</string><!--FEE-->
+    <string name="review_edit">עריכה</string><!--Edit-->
+    <string name="review_enter_pin">סיסמה</string><!--Passcode-->
+    <string name="review_cancel">ביטול העסקה</string><!--Cancel transaction-->
+    <string name="send_server_no_response">השרת אינו מגיב. נסה שוב מאוחר יותר.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">עמלות ההעברה נגבות על ידי גורמים חיצוניים ולא HTC. כשהעדיפות גבוהה יותר, כך גם העמלה. התיאור של מסגרת הזמן לעדיפות מבוסס על נתונים בזמן אמת מרשת הבלוקצ\'יין ומובא להמחשה בלבד. העדיפות שבוחרים ועמלת ההעברה לא מבטיחות שהעסקה תושלם בפרק הזמן שנבחר או בכלל.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">נוספת לרשימת אנשי הקשר לביטחון של %s</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">שלב 1. להזין את השם ולבקש את קוד האימות של s%.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">שלב 2: אפשר לשלוח אל %s בקשה לקוד האימות ולהזין אותו כאן.</string><!--Step 2: Ask %s for your verification code and enter it here.--> 
+    <string name="ver_enter_name_hint">איך קוראים לך?</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">בקשת קוד</string><!--Request code--> 
+    <string name="ver_remain_time">כמה זמן נשאר: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">צריך להזין את הסיסמה כדי ליצור את קוד האימות</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">שיתוף הקוד עם s%</string>
+    <string name="ver_sharing_recovery_remind_name">בקשה חדשה של</string>
+    <string name="ver_sharing_remind_name">בקשה חדשה של s%</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">נייד: %s דרך %s\n</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">דחייה</string><!--REJECT-->
+    <string name="ver_notification_channel_name">מפתח שחזור חברתי</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">בקשה חדשה של %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">אפשר להקיש כדי להציג את קוד האימות ולשתף אותו עם s%.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">הצגת קוד האימות</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">אין תגובה? אפשר לשלוח בקשה נוספת בעוד %s.</string><!--No reply? Request again in %s.-->
+    <string name="ver_verify">אימות</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">צורפת לרשימת אנשי הקשר לביטחון של %s.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">מעכשיו יש לך אפשרות לעזור בשחזור הארנק של %s אם המכשיר יאבד או ייגנב. חלק מהנתונים של הארנק הזה הוצפנו על ידי Zion ונשמרו במכשיר שלך כדי שיהיה אפשר לשחזר אותו. חשוב לא למחוק את אפליקציית Zion או את הנתונים של Zion כדי שנתוני השחזור לא יימחקו. אפליקציית Zion תבדוק מול %s מדי פעם שנתוני הגיבוי עדיין בתוקף.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">בוצע</string><!--Done-->
+    <string name="ver_pin_error_hint">הקוד הזה לא תקין. אפשר לנסות שוב.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">הודעה</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">אישור</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">כבר נוספת לרשימת אנשי הקשר לביטחון של %s</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">תודה על העזרה בגיבוי המידע של %s</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">הודעת האימות נשלחה</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">הבקשה עדיין לא אושרה. אחרי שהיא תאושר, נצרף אותך לרשימת אנשי הקשר לביטחון של %s.</string><!--Waiting for verification. Once verification is completed, you will be %s’s trusted contact.-->
+    <string name="ver_dialog_restore_verifying_subtitle">מאמת...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">הודעת האימות נשלחה</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">האימות מתבצע...</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">לא ידוע</string><!--Unknown-->
+    <string name="ver_unknown_name">לא ידוע</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">סריקת קוד אימות</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">תודה על העזרה!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">ברשימה של %s כבר יש 5 אנשי קשר לביטחון, ולא יכולים להיות בה אנשים נוספים.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">פג התוקף של הקישור הזה. צריך לבקש מהחבר/ה (%s) לשלוח את הקישור המעודכן.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">פג תוקף הבקשה. אפשר לנסות שוב מאוחר יותר.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">אפשר לנסות שוב מאוחר יותר</string><!--Please try again later-->
+    <string name="try_too_often_message">בוצעו יותר מדי ניסיונות ברציפות. אפשר לנסות שוב בעוד %d דקות.</string><!--You are trying too often, please try again after %d minutes.-->
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">שלום טקסט ריק</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">הגדרות</string><!--Settings-->
+    <string name="setting_tag1">העדפות</string><!--Preferences--> 
+    <string name="setting_currency">המטבע המועדף</string><!--Preferred currency--> 
+    <string name="setting_usd">דולר ארה\&quot;ב</string><!--USD-->
+    <string name="setting_tag2">אבטחה</string><!--Security--> 
+    <string name="setting_notification">קבלת הודעות בדחיפה</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">קבלת הודעות על העברות יוצאות ונכנסות</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">הפעלת צילומי המסך</string><!--Enable screenshots--> 
+    <string name="setting_pin">שנה קוד גישה</string><!--Change PIN-->
+    <string name="setting_fingerprint">טביעת אצבע</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">רק לפתיחת האפליקציה</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">ארנק</string><!--Wallet--> 
+    <string name="setting_show_key">הצגת 12 המילים של משפט השחזור</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">איפוס הארנק</string><!--Reset wallet-->
+    <string name="setting_tag4">אודות</string><!--About--> 
+    <string name="setting_learn_more">למידע נוסף</string><!--Learn more-->
+    <string name="setting_service">תנאי שירות</string><!--Terms of service--> 
+    <string name="setting_policy">מדיניות פרטיות</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">מה זה Social Key Recovery?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">באמצעות Social Key Recovery אפשר להיעזר בחברים או בקרובי משפחה כדי להיכנס מחדש לארנק בקלות במידת הצורך.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">אפשר להזמין 3-5 אנשים כאנשי קשר לביטחון. האנשים האלה יוכלו לעזור לך להיכנס לחשבון בארנק במידת הצורך.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">אנשי הקשר לביטחון יכולים לשלוח לך קוד כדי לעזור לך להיכנס לארנק.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">הגדרה</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>לא עכשיו</a></string>
+    <string name="backup_introduction_ok">אישור</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">גיבוי הרשימה של אנשי הקשר לביטחון</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">כדי לשחזר את הארנק באמצעות Social Key Recovery, צריך לבחור חשבון Google שבו יישמרו אנשי קשר לביטחון. הרשימה של אנשי הקשר לביטחון תישמר ב-Google Drive.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">הוספת חשבון</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">ביטול</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">המשך</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">מפתח שחזור חברתי</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">אנשי קשר לביטחון</string><!--Trusted contact--> 
+    <string name="backup_null_contact">אין לך אף איש קשר לביטחון.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">יהיה אפשר להיעזר ב-Social Key Recovery כשיהיו\nלפחות 3 אנשי קשר לביטחון (אפשר מקסימום 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">הזמנת חברים\nכאנשי קשר לביטחון</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">אפשר להזמין 3-5 חברים כאנשי קשר לביטחון. החברים האלה יוכלו לעזור לך להיכנס לחשבון בארנק במידת הצורך.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">איך קוראים לך?</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">איך קוראים לך?</string><!--Enter your name-->
+    <string name="backup_invitation_hi">שלום %s,</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">שיתוף ההזמנה</string><!--Share invitation-->
+    <string name="backup_toolbar_title">מפתח שחזור חברתי</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">לא פעיל</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">פעיל</string><!--Active-->
+    <string name="backup_invitation_message_first_part">היי, \n\nהוספתי אותך לרשימת אנשי הקשר לביטחון שלי, כחלק מהתכונה Social Key Recovery בארנק שלי ב-Zion. \n כדי לעזור לי לגבות את הנתונים,\n צריך לבצע את הפעולות הבאות.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) להקיש על הקישור הזה כדי להוריד ולהתקין את Zion:‏\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) בסיום, חשוב לזכור לבקש ממני\n את קוד האימות.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">תודה!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">מועד בדיקה אחרונה: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">אפשר להקיש כאן כדי ליצור קוד.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">שליחה מחדש</string><!--Resend-->
+    <string name="backup_bottom_request_show">בקשות מחברים</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">הסרה מאנשי הקשר לביטחון</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">ביטול</string><!--Cancel-->
+    <string name="backup_remove_button_delete">הסרה (%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">הסרה מאנשי הקשר לביטחון</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">התנתק</string><!--Sign out-->
+    <string name="backup_pending_target_toolbar">בקשות מחברים</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">אין לך אף בקשה כרגע.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">אי אפשר לגבות באותו מכשיר.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">רוצה לגבות באמצעות אנשי הקשר לביטחון?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">שתף קישור</string><!--Share link-->
+    <string name="restore_request">בקשת חדשה לשחזור החשבון של s%</string><!--Restore request from %s-->
+    <string name="show">הצג</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">החשבון הזה נמצא בשימוש במכשיר אחר</string><!--This account has been used in another device-->
+    <string name="db_security_concern">מטעמי בטיחות, אפשר להשתמש בכל חשבון רק במכשיר אחד.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">רוצה להשתמש בחשבון הזה או בחשבון אחר, כדי להתחיל ליצור את Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">שימוש בחשבון הזה</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">הרשימה של אנשי הקשר לביטחון שהגדרת תימחק לתמיד.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">שימוש בחשבון אחר</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">שמירת המידע הקודם ויצירת חשבון חדש.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">זה החשבון שבו רצית להשתמש?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">הרשימה של אנשי הקשר לביטחון שהגדרת תימחק לתמיד.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">צריך להזין את הקוד הסודי כדי להמשיך</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">איך היית רוצה לשחזר את הארנק?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">שימוש ב-12 המילים של מפתח השחזור</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">באמצעות Social Key Recovery</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">מהן 12 המילים של משפט השחזור שרשמת כשיצרת את הארנק?</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">צריך לבקש עזרה מאיש קשר לביטחון.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">היי, \n\nהוספתי אותך לרשימת אנשי הקשר לביטחון שלי, ואין לי אפשרות להיכנס לארנק ב-Zion בלי עזרתך.\nזה כל מה שצריך לעשות כדי לעזור לי:\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) להקיש על הקישור הזה וליצור את קוד האימות.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) לשלוח לי את הקוד.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">תודה!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">אנא המתן...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">נכנס לחשבון...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">לא נמצאו נתונים של Social Key Recovery</string><!--No Social Key Recovery data found-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">אפשר לנסות להשתמש בחשבון אחר או ב-12 המילים של משפט השחזור כדי לשחזר את הארנק.</string><!--Please try another account or use 12-/word recovery phrase to restore your wallet.-->
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">אנא המתן...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">הקישור מיד ייווצר...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">צריך להיכנס לחשבון</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">כדי לשחזר את הארנק באמצעות Social Key Recovery, צריך לבחור את אותו חשבון Google שבו שמרת את הרשימה של אנשי הקשר לביטחון.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">יצירת הקישור לשיתוף נכשלה</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">אפשר לנסות שוב מאוחר יותר.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">הכניסה לחשבון נכשלה</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">אפשר לנסות שוב מאוחר יותר.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">צריך לבקש עזרה מאיש קשר לביטחון</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. צריך לשלוח את הקישור הזה לשלושה אנשים מרשימת אנשי הקשר לביטחון.</string><!--1. Reach out to three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2.‏ כל אחד מאנשי הקשר ייתן לך קוד. צריך להזין את כל אחד מהקודים כאן:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">לפחות אחד מהקודים לא נכון. אפשר לנסות שוב.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">הזנת מיקוד</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">ביטול</string><!--Cancel-->
+    <string name="social_restore_btn_next">הבא</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">אפשר לנסות שוב מאוחר יותר</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">בוצעו יותר מדי ניסיונות ברציפות. אפשר לנסות שוב בעוד %s דקות</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">לפחות אחד מהקודים לא נכון.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">צריך לוודא שכל הקודים נכונים ולנסות שוב.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">אין אף גיבוי של %s במכשיר שלך.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">השחזור נכשל</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">אפשר לנסות להשתמש בחשבון אחר או ב-12 המילים של משפט השחזור.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">הזמנה של %s</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">אפשר להקיש כדי לאשר.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">בקשת עזרה בשחזור החשבון של %s</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">אפשר להקיש כדי ליצור קוד.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">לא הגדרת את Social Key Recovery בחשבון הזה.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">אפשר לנסות להשתמש בחשבון אחר או ב-12 המילים של משפט השחזור.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">עדכון סטטוס הגיבוי</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">אישור ההסרה של אנשי הקשר לביטחון</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">צריך להזין את הסיסמה כדי להסיר</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">רוצה לגבות באמצעות אנשי הקשר לביטחון?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">אפשר גם להגדיר את Social Key Recovery עם אנשי קשר לביטחון, כדי להגן על הארנק.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">ספר לי עוד</string><!--Tell me more-->
+    <string name="social_backup_not_now">לא עכשיו</string><!--Not now-->
+    <string name="social_backup_oops_inactive">אופס, חלק מאנשי הקשר לביטחון שהגדרת לא פעילים.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">מומלץ לבדוק מה המצב מול אנשי הקשר לביטחון כדי לשמור על החשבון מאובטח.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">השתמשת בחשבון הזה במכשיר אחר</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">אי אפשר יהיה להשתמש יותר בנתונים של Social Key Recovery. צריך להיכנס לחשבון אחר כדי להמשיך להשתמש ב-Social Key Recovery.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">קבל</string><!--Agree-->
+    <string name="social_key_recovery_disagree">אל תקבל</string><!--Disagree-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">צריך לפנות מחדש לחלק מאנשי הקשר לביטחון</string><!--Some trusted contacts need to be re-/connected-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">הזמנת את %s ואת %s להצטרף לרשימת אנשי הקשר לביטחון שלך, אבל מטעמי ביטחון צריך לשלוח שוב את ההזמנה.</string><!--For security concerns, you need to resend the trusted contact invitation to %s, %s again.-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">פרטי העסקה</string><!--Transaction details--> 
+    <string name="Amount">סכום כולל</string><!--Total Amount-->
+    <string name="Date">תאריך</string><!--Date-->
+    <string name="Send_to">שליחה אל</string><!--Send to-->
+    <string name="Receive_From">שולח/ת</string><!--Receive from-->
+    <string name="Memo">תזכורת</string><!--Memo-->
+    <string name="transaction_amount_send">סכום לשליחה</string><!--Amount to send-->
+    <string name="transaction_amount_receive">סכום לקבלה</string><!--Amount to receive-->
+    <string name="transaction_amount">ערך</string><!--Value-->
+    <string name="Transaction_Fee">עמלת עסקה</string><!--Transaction fee--> 
+    <string name="Status">סטטוס</string><!--Status-->
+    <string name="Transcation_ID">מזהה עסקה</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">סריקת קוד QR‏ מסוג %1$s</string><!--Scan %1$s QR code-->
+    <string name="Settings">הגדרות</string><!--Settings-->
+    <string name="Help">עזרה</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">בקשה</string><!--Request-->
+    <string name="WALLET_ADDRESS">כתובת לארנק</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">חשבון לזיכוי</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">הסכום המבוקר (לא חובה)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">שיתוף קוד QR</string><!--Share QR code-->
+    <string name="Copy_as_text">העתקה כטקסט</string><!--Copy as text-->
+    <string name="copy_toast">כתובת הארנק הועתקה ללוח.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">חלק מהארנקים האחרים לא תומכים בבקשות העברה באמצעות קישור או קוד QR.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">סריקת קוד QR</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">כדי לסרוק את קוד ה-QR צריך לתת לאפליקציה גישה למצלמה.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">אישור גישה למצלמה</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">אפליקציית Zion תוכל לצלם תמונות וסרטונים</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">לא צריך לשאול אותי שוב</string><!--Never ask again-->
+    <string name="DENY">סירוב</string><!--DENY-->
+    <string name="ALLOW">אישור</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">סריקת קוד QR מסוג %1$s ‏(%2$s) לכתובת</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">צריך ליישר את הקוד בתוך המסגרת</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">זו לא כתובת ציבורית חוקית</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">לא ניתן להתחבר.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">צריך חיבור לרשת כדי להשתמש באפליקציה הזו. הפעל את רשת הנתונים הסלולרית או את רשת ה-Wi-Fi בהגדרות.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">ביטול</string><!--Cancel-->
+    <string name="check">בדיקה</string><!--Check-->
+    <string name="You_have_no_transaction">אין לך אף עסקה.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">כאן יוצגו העברות נכנסות ויוצאות של נכסי קריפטו, כשיהיו עסקאות.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">רוצה לנסות את Social Key Recovery?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">בנוסף ל-12 המילים של משפט השחזור, Social Key Recovery הוא דרך מאובטחת לשחזור הארנק באמצעות אנשי קשר לביטחון.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">בקרוב גם ל-iOS</string><!--COMING SOON FOR IOS-->
+
+    <string name="socialkm_not_active_title">Social Key Recovery לא פעיל</string><!--Social Key Recovery is not active-->
+    <string name="socialkm_not_active_message">אפשר לנסות לפנות לאנשי הקשר שהגדרת לביטחון ולבדוק את סטטוס הגיבוי שלהם או למצוא איש קשר חדש שיעזור לך.</string><!--You can try to contact your trusted contacts and check their backup status or find a new contact to help you.-->
+
+    <string name="transaction_confirmation">אישורים</string><!--Confirmations-->
+
+<!-- iOS strings -->
+    <string name="ios_social_backup_regular_check_title">תודה על שעזרת לחברים שלך לגבות את הארנק</string><!--Thanks for helping your friends backup-->
+    <string name="ios_social_backup_regular_check_content">סטטוס הגיבוי של Social Key Recovery דווח לכל החברים שלך.</string><!--The backup status of Social Key Recovery has been reported to all your friends.-->
+    <string name="ios_social_backup_notifications_settings_title">ההתראות הושבתו</string><!--Notifications disabled-->
+    <string name="ios_social_backup_notifications_settings_content">צריך לאפשר ל-Zion להציג התראות דרך ההגדרות.</string><!--Please allow Zion’s notifications in Settings.-->
+    <string name="ios_social_backup_notifications_settings">הגדרות</string><!--Settings-->
+    <string name="transaction_pending">הבקשה עדיין לא אושרה</string><!--Wait for confirmation-->
+    <string name="complete">הסתיים</string><!--Complete-->
+</resources>

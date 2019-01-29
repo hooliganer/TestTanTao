@@ -1,0 +1,560 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Nē</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">LABI</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Sākums</string><!--Home-->
+    <string name="Nav_collectible">Kolekcionējumi</string><!--Collectibles--> 
+    <string name="Nav_request">Pieprasījums</string><!--Request-->
+    <string name="Nav_receive">Saņemt</string><!--Receive-->
+    <string name="Nav_shop">Iegādāties</string><!--Shop-->
+    <string name="home_recovering">Notiek atkopšana...</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">Notiek atkopšana, lūdzu, uzgaidiet.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">Valūtas kursa avots: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Kārtot</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">Iestatījumi</string><!--Settings-->
+    <string name="tool_help">Palīdzība</string><!--Help-->
+    <string name="tool_sort_by">Kārtot pēc</string><!--Sort by-->
+    <string name="tool_sort_custom">Pielāgots</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">Alfabēta secībā</string><!--Alphabetical-->
+    <string name="tool_sort_value">Vērtība</string><!--Value-->
+
+    <string name="Create_wallet">Izveidot jaunu maku</string><!--Create a new wallet-->
+    <string name="total_assets">Kopējie līdzekļi</string><!--Total assets--> 
+    <string name="last_update">Pēdējo reizi atjaunināts pirms %1$d minūtēm.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">Nav interneta savienojuma</string><!--No internet connection-->
+    <string name="retry_button">Iestatījumi</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">Manas monētas (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">Vēl nav pievienots maks</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">Pārvaldīt maku</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Pirkt/Pārdot</string><!--Buy/Sell-->
+    <string name="shop_buy">Pirkt</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Pirkt/pārdot monētas no Maicoin</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">Kriptovalūtas pirkšanas, pārdošanas vai jebkurš cits darījums (“Darījums”) tiks veikts ar trešās puses maiņas nodrošinātājiem.  Visus šādus darījumus regulē attiecīgo pakalpojumu noteikumi un nosacījumi starp jums un trešās puses maiņas nodrošinātājiem. Uzmanīgi izlasiet šos noteikumus un nosacījumus pirms trešās puses maiņas nodrošinātāju pakalpojumu izmantošanas. HTC nav saucams pie atbildības par jebkurām darbībām starp jums un trešās puses maiņas nodrošinātājiem.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">Neatgādināt man vēlreiz.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">Sistēma</string><!--System-->
+    <string name="gen_wallet_title">Maks</string><!--Wallet-->
+    <string name="gen_now">tagad</string><!--now-->
+    <string name="gen_screenshot">Nevarēja saglabāt ekrānuzņēmumu</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">Ekrānuzņēmums nav atļauts drošības dēļ</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">Saņemt darījumu</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">Jūs esat saņēmis %1$s no</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">SKATĪT DETAĻAS</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">Darījums paveikts</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">Jūsu %1$s darījums %2$s ir apstiprināts</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">Darījums neizdevās</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">Jūsu darījums %1$s, kas nosūtīts %2$s %3$s uz %4$s neizdevās</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">Pieejama jauna versija</string><!--New version available-->
+    <string name="gen_new_version_hint">Lūdzu, atjauniniet lietojumprogrammu uz jaunāko versiju labākai drošībai un lietotāja pieredzei.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">Jauns drošības iestatījumu izlaidums. Jūsu aizsardzībai, sistēmas atjauninājumi ir nepieciešami. Lūdzu, atjauniniet, lai turpinātu.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">ATJAUNINĀT TAGAD</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">Ielādē drošības iestatījumus. Lūdzu, uzgaidiet.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">Jūsu tālrunis ir sāknēts</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">Jūsu maks ir bloķēts, jo jūsu tālrunis tika sāknēts. Tā ir piesardzība. Lūdzu, sazinieties ar klientu apkalpošanas servisu, lai noskaidrotu, ko varat darīt tālāk.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">Jūsu tālrunī notikusi ielaušanās</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">Jūsu maks ir bloķēts, jo jūsu tālrunī notikusi ielaušanās. Tā ir piesardzība. Lūdzu, sazinieties ar klientu apkalpošanas servisu, lai noskaidrotu, ko varat darīt tālāk.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">Svarīga atruna: Šīs ir ātras piekļuves preces izmantošanas Blockchain tehnoloģijas. Kriptvalūta, zīmju apmaiņa un Blockchain ir jaunas tehnoloģijas un var radīt neparedzētus riskus. Piemēram: Trešās puses var vājināt ierīces, maka lietojumprogrammas vai Blockchian tīklus, kas var traucēt ar Blockchain darījumiem vai tā rezultātā jūs varat zaudēt savu kriptvalūtu. Pastāvīgi gādājiet par savas 12 vārdu atkopšanas frāzes (sākotnējās vērtības) un paroles drošību. Tikai jūs esat atbildīgs par savu atkopšanas atslēgu aizsardzību. Turpino jūs atzīstat un piekrītat akceptēt visus šos saistītos riskus.\n\nPaldies, ka izmēģināt mūsu produktus! Mēs ļoti cenšamies uzlabot savu tehnoloģiju, tāpēc tiešām novērtējam jūsu <a href="mailto:exodus@htc.com">atsauksmes</a></string><!--Important disclaimer: This is an early access product utilizing blockchain technologies. Cryptocurrency, token exchange, and blockchain are new technologies and may carry unforeseen risks. For example: Third parties may introduce weaknesses in devices, wallet applications, or blockchain networks, which may interfere with blockchain transactions or result in the loss of your cryptocurrency. Keep your 12-/word recovery phrase (seed) and passcode secure at all times. You are solely responsible for safeguarding your recovery keys. By continuing, you acknowledge and agree to accept all these associated risks.\n\nThank you for trying our products. As we strive to improve our technology, we sincerely appreciate your <a href="mailto:exodus@htc.com">feedback</a>-->
+    <string name="gen_feedback">atsauksme</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Kolekcionējumi</string><!--Collectibles-->
+    <string name="no_collectible">Vēl nav kolekcionējamie</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">Jūsu kolekcionējumi parādīsies šeit.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">Iegādāties pilnvaras</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">Piesitiet, lai skatītu savus kolekcionējumus</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Pievienot vairāk</string><!--Add more-->
+    <string name="addwallet_search_wallet">Meklēt maku</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">Iegādāties monētas</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">Pieprasījums</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">Sūtīt</string><!--Send-->
+    <string name="addwallet_hint">Jūsu darījumi būs redzami šeit.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">Jums nav darījumu</string><!--You have no transactions-->
+    <string name="no_wallet_found">Nav atrasts maks</string><!--No wallet found-->
+    <string name="addwallet_add_btn">Pievienot</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Pārvaldīt maka sarakstu</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">Iepazīstieties ar <b>Zion</b></string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">Jūsu ‘viss vienā’ drošais maks Blockchain.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Izveidojiet savu Zion maku</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">Atgūstiet savu maku</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Social Key Recovery pieprasījumi</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">Turpinot, es apstiprinu, ka esmu izlasījis un piekrītu %1$s un %2$s.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">Lietošanas noteikumi</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">HTC konfidencialitātes politiku</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">Palīdzi draugam?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">Esmu izlasījis un piekrītu %1$s un apzinos %2$s.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Zion pakalpojuma noteikumi</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">Privātuma politika</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Izveidojiet savu ieejas kodu.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">Izveidojiet savu jauno ieejas kodu.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">Šis ieejas kods ir nepieciešams visiem darījumiem un lai atblokētu jūsu maku.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">Apstipriniet savu ieejas kodu.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">Apstipriniet savu jauno ieejas kodu.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">Jūsu ieejas kodi nesakrīt. Lūdzu, mēģiniet vēlreiz.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">12 vārdu atkopšanas parole dublēšanai un atjaunošanai</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">Šī paroļu virkne ir vienīgais veids, lai atjaunotu jūsu maku gadījumā, ja jūs pazaudējat savu tālruni vai aizmirstat ieejas kodu.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">Izveidot 12 vārdu atkopšanas paroli</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">Pierakstiet savu 12 vārdu atkopšanas paroli pareizā secībā</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">Pārliecinieties, ka visi 12 vārdi ir pierakstīti pareizā secībā un glabājiet tos drošā vietā.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">Esmu tos pierakstījis</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">Apstipriniet savu 12 vārdu atkopšanas paroli (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">Lai pārliecinātos, ka viss ir pareizi pierakstīts, lūdzu, ievadiet vārdus no atkopšanas paroles pareizā secībā.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">Tālāk</string><!--Next-->
+    <string name="verify_key_1_not_match">Viens vai vairāki vārdi nesakrīt. Lūdzu, mēģiniet vēlreiz.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">Apstipriniet savu 12 vārdu atkopšanas paroli (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">Apstipriniet savu 12 vārdu atkopšanas paroli (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">Apsveicam! Jūsu maks ir iestatīts.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">Iespējojiet pirksta nospiedumu, lai atbloķētu savu maku.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">Dodieties uz savu maku.</string><!--Go to your wallet.-->
+
+    <string name="restoring">Atjauno</string><!--Restoring-->
+    <string name="preparing_secure_ui">Sagatavo drošu UI</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">Ievadiet 12 vārdu atkopšanas paroli, lai atjaunotu savu maku (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">Lūdzu, ievadiet savu 12 vārdu atkopšanas paroli pareizā secībā.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">Ievadiet 12 vārdu atkopšanas paroli, lai atjaunotu savu maku (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">Ievadiet 12 vārdu atkopšanas paroli, lai atjaunotu savu maku (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">Apsveicam!</string><!--Congratulations!-->
+    <string name="wallet_restored">Jūsu maks ir atjaunots.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Atbloķēt maku</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">Izmantot pirksta nospiedumu</string><!--Use fingerprint-->
+    <string name="use_passcode">Ieejas kods</string><!--Passcode-->
+    <string name="or">vai</string><!--or-->
+    <string name="use_fingerprint_to_unlock">Izmantojiet pirksta nospiedumu, lai atbloķētu</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">Mēģināt vēlreiz</string><!--Try again-->
+    <string name="use_passcode_to_unlock">Izmantojiet ieejas kodu, lai atbloķētu</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">Pirkstu nospieduma iestatījumu maiņa</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">Izskatās, ka jūs nesen esat nomainījis pirksta nospieduma iestatījumus. Lūdzu, iestatiet jaunu pirksta nospiedumu, lai izmantotu šo funkciju.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">Iestatīt tūlīt</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">Ievadiet ievadīt ieejas kodu, lai atbloķētu jūsu maku</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">Pieejama jauna versija</string><!--New version available-->
+    <string name="new_version_hint">Lūdzu, atjauniniet lietojumprogrammu uz jaunāko versiju labākai drošībai un lietotāja pieredzei.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">Atjaunināt vēlāk</string><!--Update later-->
+    <string name="update_now">Atjaunināt tagad</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Sūtīt</string><!--Send-->
+    <string name="select_wallet">Atlasiet maku</string><!--Select a wallet--> 
+    <string name="send_to">KAM</string><!--TO-->
+    <string name="send_amount">SUMMA</string><!--AMOUNT-->
+    <string name="hint_amount">Ievadīt summu</string><!--Enter amount-->
+    <string name="to_paste_addr">Ievietot adresi</string><!--Paste address-->
+    <string name="to_scan_QR">Skenēt QR kodu</string><!--Scan QR code-->
+    <string name="to_select_QR_image">Atlasīt saglabāto attēlu</string><!--Select saved image-->
+    <string name="to_enter_address">Ievadiet adresi</string><!--Enter address-->
+    <string name="to_paste_addr2">Ievietot adresi no starpliktuves</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">Pievienot no saglabātajiem attēliem</string><!--Add from saved images-->
+    <string name="enter_address_hint">Ievadiet adresi</string><!--Enter a address-->
+    <string name="send_address">Adrese</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">MAKS.</string><!--MAX-->
+    <string name="send_review_btn">Pārskatīt darījumu</string><!--Review transaction-->
+    <string name="fee">Darījuma komisijas maksa</string><!--Transaction Fee-->
+    <string name="select_wallet_error">Nepietiek līdzekļu.</string><!--Insufficient funds.-->
+    <string name="amount_hint">Bilance:</string><!--Balance:-->
+    <string name="address_error">Nederīga %s adrese.</string><!--Invalid %s address.-->
+    <string name="amount_input_error">Nepietiek līdzekļu darījuma komisijas maksai.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">Ievades daudzumam jābūt vismaz %s</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">ATCELT</string><!--CANCEL-->
+    <string name="enteraddr_save">SAGLABĀT</string><!--SAVE-->
+    <string name="payment_urgent">Steidzami</string><!--Urgent-->
+    <string name="payment_priority">Prioritāte</string><!--Priority-->
+    <string name="payment_regular">Regulārs</string><!--Regular-->
+    <string name="payment_economy">Ekonomija</string><!--Economy-->
+    <string name="payment_title">Atlasīt maksājuma prioritāti</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 minūtes</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 stunda</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 stunda</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 stundas</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">Transakcijas maksas apraksts</string><!--Transaction fee description-->
+    <string name="send_review">Pārskatīt savu darījumu</string><!--Review your transaction-->
+    <string name="send_note">ATGĀDNE</string><!--MEMO-->
+    <string name="send_note_hint">(IZVĒLES)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">Darījums nosūtīts.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">Darījuma paveikšanas laiks ir atkarīgs no tīkla trafika un darījuma komisijas maksas.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">LABI</string><!--OK-->
+    <string name="fee_error">Servera kļūda: nezināma komisijas maksa</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">Darījums nav veiksmīgs</string><!--Transaction not successful--> 
+    <string name="review_send_to">NOSŪTĪT UZ</string><!--SEND TO-->
+    <string name="review_fee">KOMISIJAS MAKSA</string><!--FEE-->
+    <string name="review_edit">Rediģēt</string><!--Edit-->
+    <string name="review_enter_pin">Ieejas kods</string><!--Passcode-->
+    <string name="review_cancel">Atcelt darījumu</string><!--Cancel transaction-->
+    <string name="send_server_no_response">Serveris neatbild. Lūdzu, vēlāk mēģiniet vēlreiz.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">Darījuma komisijas maksu iekasē trešā puse nevis HTC. Augstāka prioritāte paredz augstāku maksu. Prioritārā laika perioda apraksts balstīts reāllaika Blockchain statistikā un ir paredzēts vienīgi atsaucei. Jūsu prioritātes izvēle negarantē darījuma veiksmīgu norisi vai norisi norādītā perioda laikā.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%s pievienota jūs kā uzticamo kontaktu</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">1. solis. Ievadiet savu vārdu un saņemit apstiprināšanas kodu no %s.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">2. solis: Jautājiet %s savu apstiprināšanas kodu un ievadiet to šeit.</string><!--Step 2: Ask %s for your verification code and enter it here.--> 
+    <string name="ver_enter_name_hint">Ievadiet savu vārdu</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Pieprasīt kodu</string><!--Request code--> 
+    <string name="ver_remain_time">Atlikušais laiks: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">Ievadiet ieejas kodu, lai ģenerētu apstiprināšanas kodu</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">Koplietot šo kodu ar %s</string>
+    <string name="ver_sharing_recovery_remind_name">Jauns pieprasījums no</string>
+    <string name="ver_sharing_remind_name">Jauns pieprasījums no %s</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">M: %s\ncaur %s</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">NORAIDĪT</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Jauns pieprasījums no %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">Piesitiet, lai redzētu apstiprināšanas kodu un koplietotu to ar %s.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">PARĀDĪT APSTIPRINĀŠANAS KODU</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Nav atbildes? Jautājiet vēlreiz pēc %s.</string><!--No reply? Request again in %s.-->
+    <string name="ver_verify">Verificēt</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Jūs tagad esat %s uzticamā kontaktpersona.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">Tagad jūs varat palīdzēt %s atjaunot viņu maku, ja tas ir pazaudēts vai nozagts. Zion ir šifrējis un saglabājis daļu no viņu maka atkopšanas datiem jūsu ierīcē. Pārliecinieties, ka neizdzēšat Zion vai Zion lietojumprogrammas datus, citādi atkopšanas dati pazudīs. Zion periodiski pārbaudīs %s, lai apstiprinātu, ka atjaunošanas dati vēl ir derīgi.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">Gatavs</string><!--Done-->
+    <string name="ver_pin_error_hint">Šīs kods nav derīgs, lūdzu, mēģiniet vēlreiz.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">Paziņojums</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">LABI</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Jūs jau esat %s uzticamais kontakts</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Paldies, ka palīdzējāt dublēt %s datus</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">Apstiprināšana nosūtīta</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Gaida verifikāciju. Kad verifikācija ir pabeigta, jūs būsiet %s uzticamais kontakts.</string><!--Waiting for verification. Once verification is completed, you will be %s’s trusted contact.-->
+    <string name="ver_dialog_restore_verifying_subtitle">Notiek pārbaude...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">Verifikācija nosūtīta</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">Apstiprina...</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">Nezināms</string><!--Unknown-->
+    <string name="ver_unknown_name">Nezināms</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">Skenēt apstiprināšanas kodu</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">Paldies, ka palīdzējāt!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s jau ir sasniedzis 5 uzticamo kontaktu maksimumu.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Šai saitei ir beidzies termiņš, lūdzu, pieprasiet %s nosūtīt atjaunināto saiti.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">Pieprasījuma taimauts, vēlāk, lūdzu, mēģiniet vēlreiz.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Lūdzu, vēlāk mēģiniet vēlreiz</string><!--Please try again later-->
+    <string name="try_too_often_message">Jūs mēģinājāt pārāk bieži, lūdzu, mēģiniet vēlreiz pēc %d minūtēm.</string><!--You are trying too often, please try again after %d minutes.-->
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Iestatījumi</string><!--Settings-->
+    <string name="setting_tag1">Iestatījumi</string><!--Preferences--> 
+    <string name="setting_currency">Vēlamā valūta</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">Drošība</string><!--Security--> 
+    <string name="setting_notification">Atļaut pašpiegādes paziņojumus</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">Paziņot par nosūtītajiem un saņemtajiem darījumiem</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">Iespējot ekrānuzņēmumus</string><!--Enable screenshots--> 
+    <string name="setting_pin">Mainīt PIN</string><!--Change PIN-->
+    <string name="setting_fingerprint">Pirksta nospiedums</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">Izmantojiet, lai atbloķētu tikai lietojumprogrammu</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">Maks</string><!--Wallet--> 
+    <string name="setting_show_key">Parādīt 12 vārdu atkopšanas paroli</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Atiestatīt maku</string><!--Reset wallet-->
+    <string name="setting_tag4">Par</string><!--About--> 
+    <string name="setting_learn_more">Uzzināt vairāk</string><!--Learn more-->
+    <string name="setting_service">Pakalpojuma noteikumi</string><!--Terms of service--> 
+    <string name="setting_policy">Konfidencialitātes politika</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Kas ir Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery var palīdzēt jums ērti atgūt maku no uzticamiem draugiem vai ģimenes locekļiem.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Uzaiciniet 3 līdz 5 cilvēkus būt par uzticamiem kontaktiem, kas palīdzēs atkopt jūsu maku.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Jūsu uzticamiem kontakti var nosūtīt kodu, lai palīdzētu atjaunot maku.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Iestatīšana</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Ne tūlīt</a></string>
+    <string name="backup_introduction_ok">LABI</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Dublējiet savu uzticamo kontaktu sarakstu</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Lai atjaunotu jūsu maku ar Social Key Recovery, atlasiet Google kontu, lai dublētu savus uzticamos kontaktus. Jūsu uzticamo kontaktu saraksts tiks saglabāts Google diskā.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Pievienot kontu</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Atcelt</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Turpināt</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">Uzticams kontakts</string><!--Trusted contact--> 
+    <string name="backup_null_contact">Jūs vēl neesat pievienojis nevienu uzticamu kontaktu.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery būs pieejams, ja jums ir vismaz 3 uzticami kontakti (maks.:5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Uzaiciniet draugus par saviem \n uzticamajiem kontaktiem</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Uzaiciniet 3 līdz 5 draugus vai ģimenes locekļus būt par uzticamiem kontaktiem, kas palīdzēs jums atkopt jūsu maku.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">Jūsu vārds</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">Ievadiet savu vārdu</string><!--Enter your name-->
+    <string name="backup_invitation_hi">Sveiki %s!</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">Koplietot ielūgumu</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Nav aktīvs</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktīvs</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Sveiki! \n\n Es esmu nozīmējis jūs par savu uzticamo kontaktu Zion maka Social Key Recovery funkcijai. \n Lūdzu, ievērojiet turpmākās instrukcijas, lai \n palīdzētu man dublēt atkopšanas datus.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Piesitiet šai saitei, lai lejupielādētu un instalētu Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Kad esat pabeidzis, atcerieties \n palūgt man apstiprināšanas kodu.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Paldies!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Pēdējo reiz pārbaudītais laiks: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">Piesitiet šeit, lai izveidotu kodu.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Nosūtīt vēlreiz</string><!--Resend-->
+    <string name="backup_bottom_request_show">Lūgums no drauga</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Noņemt uzticamo kontaktu</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">Atcelt</string><!--Cancel-->
+    <string name="backup_remove_button_delete">Noņemt(%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">Noņemt uzticamo kontaktu</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Izrakstīties</string><!--Sign out-->
+    <string name="backup_pending_target_toolbar">Lūgums no drauga</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Šoreiz nav pieprasījumu.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Dublēšana tajā pašā ierīcē netiek atbalstīta.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Dublēt ar uzticamiem kontaktiem?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">Koplietot saiti</string><!--Share link-->
+    <string name="restore_request">Atjaunot pieprasījumu no %s</string><!--Restore request from %s-->
+    <string name="show">Rādīt</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Šo kontu izmanto citā ierīcē</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Drošības nolūkos, katru kontu var izmantot tikai vienai ierīcei.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Vai joprojām vēlaties izmantot šo kontu vai izmantot citu, lai sāktu Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Lietot šo kontu</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Jūsu iepriekšējais uzticamo kontaktu saraksts tiks neatgriezeniski pazaudēts.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Lietot citu kontu</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Saglabāt iepriekšējos datus un izveidot jaunu.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Vai esat drošs, ka vēlaties izmantot šo kontu?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">Jūsu iepriekšējais uzticamo kontaktu saraksts tiks neatgriezeniski pazaudēts.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">Ievadiet PIN, lai turpinātu</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">Kā jūs vēlaties atjaunot savu maku\?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">Izmantojiet 12 vārdu atkopšanas paroli</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">No Social Key Recovery</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">Ievadiet 12 vārdu atkopšanas paroli, kuru pierakstījāt, kad izveidojāt savu maku.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">Lūdziet palīdzību saviem uzticamajiem kontaktiem.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Sveiki! \n\n Tā kā esi mans uzticamais kontakts, man nepieciešama palīdzība, lai atgūtu manu Zion maku.\nLai atjaunotu, jums nepieciešams paveikt šo.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) piesitiet šai saitei un izveidojiet apstiprināšanas kodu.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Nosūtīt man kodu.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Paldies!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Lūdzu, pagaidiet...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Pieteikšanās...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Nav atrasti Social Key Recovery dati</string><!--No Social Key Recovery data found-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Lūdzu, izmēģiniet citu kontu vai izmantojiet 12 vārdu atkopšanas paroli, lai atjaunotu maku.</string><!--Please try another account or use 12-/word recovery phrase to restore your wallet.-->
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Lūdzu, pagaidiet...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Veido saiti...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Pierakstieties savā kontā</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Lai atjaunotu jūsu maku ar Social Key Recovery, atlasiet Google kontu, kur jūs iepriekš saglabājāt savu uzticamo kontaktu sarakstu.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Neizdevās izveidot koplietošanas saiti</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Lūdzu, vēlāk mēģiniet vēlreiz.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Neizdevās pierakstīties</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Lūdzu, vēlāk mēģiniet vēlreiz.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Lūdziet palīdzību savam uzticamajam kontaktam</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Sazinieties ar trim no jūsu uzticamajiem kontaktiem un koplietojiet šo saiti ar viņiem.</string><!--1. Reach out to three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Katrs kontakts dos jums kodu. Katru kodu ievadiet turpmāk:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Viens vai vairāki kodi nepareizi. Mēģiniet vēlreiz.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Ievadiet kodu</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Atcelt</string><!--Cancel-->
+    <string name="social_restore_btn_next">Tālāk</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">Lūdzu, vēlāk mēģiniet vēlreiz</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">Jūs mēģinājāt pārāk bieži, lūdzu, mēģiniet vēlreiz pēc %s minūtēm</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">Viens vai vairāki kodi nepareizi.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">Lūdzu, apstipriniet, ka visi kodi ir pareizi un mēģiniet vēlreiz.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">Jūsu ierīcē nav %s dublējumkopijas.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Neizdevās atjaunot</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Mēģiniet izmantot citu kontu vai jūsu 12 vārdu atkopšanas paroli, lai atjaunotu.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%s ielūgums</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Piesitiet, lai piekristu.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Atkopšanas atbalsta pieprasījumos no %s</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">Piesitiet, lai izveidotu kodu.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">Ar šo kontu netika izveidots Social Key Recovery.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">Mēģiniet izmantot citu kontu vai jūsu 12 vārdu atkopšanas paroli, lai atjaunotu.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">Atjauno dublēšanas statusu</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">Apstipriniet, lai noņemtu uzticamo(-s) kontaktu(-s)</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">Ievadiet ieejas kodu, lai noņemtu</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Dublēt ar uzticamiem kontaktiem?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">Jūs varat iestatīt arī Social Key Recovery ar uzticamiem kontaktiem, lai palīdzētu dublēt savu maku.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">Pastāstiet man vairāk</string><!--Tell me more-->
+    <string name="social_backup_not_now">Ne tūlīt</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Ups, daži no jūsu uzticamajiem kontaktiem ir neaktīvi.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Pārbaudiet, ar uzticamajiem kontaktiem, lai nodrošinātu savienojumus.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Jūs izmantojat šo kontu citā ierīcē</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Visus jūsu Social Key Recovery datus nevarēs izmantot. Jums nepieciešams pierakstīties ar citu kontu, lai turpinātu izmantot Social Key Recovery.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">Piekrītu</string><!--Agree-->
+    <string name="social_key_recovery_disagree">Nepiekrītu</string><!--Disagree-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Dažus uzticamos kontaktus nepieciešams vēlreiz savienot</string><!--Some trusted contacts need to be re-/connected-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">Drošības nolūkos, jums nepieciešams vēlreiz nosūtīt uzticamā kontakta ielūgumu %s, %s.</string><!--For security concerns, you need to resend the trusted contact invitation to %s, %s again.-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">Darījuma informācija</string><!--Transaction details--> 
+    <string name="Amount">Kopējā summa</string><!--Total Amount-->
+    <string name="Date">Datums</string><!--Date-->
+    <string name="Send_to">Nosūtīt uz</string><!--Send to-->
+    <string name="Receive_From">Saņemts no</string><!--Receive from-->
+    <string name="Memo">Atgādne</string><!--Memo-->
+    <string name="transaction_amount_send">Nosūtamā summa</string><!--Amount to send-->
+    <string name="transaction_amount_receive">Saņemamā summa</string><!--Amount to receive-->
+    <string name="transaction_amount">Vērtība</string><!--Value-->
+    <string name="Transaction_Fee">Darījuma komisijas maksa</string><!--Transaction fee--> 
+    <string name="Status">Statuss</string><!--Status-->
+    <string name="Transcation_ID">Darījuma ID</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">Skenēt %1$s QR kodu</string><!--Scan %1$s QR code-->
+    <string name="Settings">Iestatījumi</string><!--Settings-->
+    <string name="Help">Palīdzība</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">Pieprasījums</string><!--Request-->
+    <string name="WALLET_ADDRESS">MAKA ADRESE</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">KREDĪTA KONTS</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">PIEPRASĪTĀ SUMMA (IZVĒLES)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">Koplietot QR kodu</string><!--Share QR code-->
+    <string name="Copy_as_text">Kopēt kā tekstu</string><!--Copy as text-->
+    <string name="copy_toast">Maka adrese ir kopēta uz starpliktuvi.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">Daži trešo pušu maki var neatbalstīt pieprasījuma summas saišu vai QR kodu formā.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">Skenēt QR kodu</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">Lai izmantotu QR koda skeneri, lūdzu, vispirms piešķiriet pieeju kamerai.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">Iespēj piekļuvi kamerai</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Atļaut Zion uzņemt attēlus un ierakstīt video</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">Nekad vairs nejautāt</string><!--Never ask again-->
+    <string name="DENY">NORAIDĪT</string><!--DENY-->
+    <string name="ALLOW">ATĻAUT</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">Skenēt %1$s(%2$s) QR koda adresi</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">Salāgojiet kodu ar rāmi</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">Tā nav derīga adrese</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">Nevar izveidot savienojumu.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Jums nepieciešams tīkla savienojums, lai izmantotu šo lietojumprogrammu. Lūdzu, iestatījumos ieslēdziet Mobilos datus vai Wi-Fi.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Atcelt</string><!--Cancel-->
+    <string name="check">Pārbaudīt</string><!--Check-->
+    <string name="You_have_no_transaction">Jums nav darījumu.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Jūsu darījums tiks parādīts šeit, ja nosūtīsiet vai saņemsiet šifrētus līdzekļus.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Izmēģināt Social Key Recovery\?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">Turklāt atjaunot maku ar 12 vārdu paroli, Social Key Recovery vara palīdzēt jums atjaunot maku no uzticamajiem kontaktiem viegli.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">DRĪZUMĀ BŪS IOS</string><!--COMING SOON FOR IOS-->
+
+    <string name="socialkm_not_active_title">Social Key Recovery nav aktīvs</string><!--Social Key Recovery is not active-->
+    <string name="socialkm_not_active_message">Jūs varat mēģināt sazināties ar saviem uzticamajiem kontaktiem un pārbaudīt viņu dublēšanas statusu vai atrast jaunu kontaktu, lai palīdzētu jums.</string><!--You can try to contact your trusted contacts and check their backup status or find a new contact to help you.-->
+
+    <string name="transaction_confirmation">Apstiprinājums</string><!--Confirmations-->
+
+<!-- iOS strings -->
+    <string name="ios_social_backup_regular_check_title">Paldies, ka palīdzējāt dublēt draugiem</string><!--Thanks for helping your friends backup-->
+    <string name="ios_social_backup_regular_check_content">Social Key Recovery dublēšanas status ir ziņots visiem jūsu draugiem.</string><!--The backup status of Social Key Recovery has been reported to all your friends.-->
+    <string name="ios_social_backup_notifications_settings_title">Paziņojumi atspējoti</string><!--Notifications disabled-->
+    <string name="ios_social_backup_notifications_settings_content">Lūdzu, atļaujiet Zion paziņojumus Iestatījumos.</string><!--Please allow Zion’s notifications in Settings.-->
+    <string name="ios_social_backup_notifications_settings">Iestatījumi</string><!--Settings-->
+    <string name="transaction_pending">Gaidiet apstiprinājumu</string><!--Wait for confirmation-->
+    <string name="complete">Pabeigts</string><!--Complete-->
+</resources>

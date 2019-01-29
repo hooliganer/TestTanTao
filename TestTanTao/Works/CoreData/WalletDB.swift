@@ -24,9 +24,20 @@ extension Wallet {
         let ws = CoredataManager.shared.select(emailHash: emailHash, uuidHash: uuidHash);
         return ws?.first;
     }
+    
+    class func readAll() -> [Wallet] {
+        let fetchRequest: NSFetchRequest = Wallet.fetchRequest()
+        do {
+            let result = try CoredataManager.shared.context.fetch(fetchRequest)
+            return result;
+        } catch {
+            fatalError()
+        }
+    }
 }
 
 struct WalletStruct {
+    
     var emailHash: String?
     var more: String?
     var name: String?

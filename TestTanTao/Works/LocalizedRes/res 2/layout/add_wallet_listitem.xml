@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <com.htc.lib1.cc.widget.HtcListItemColorIcon
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_wallet_list_icon" />
+    <com.htc.lib1.cc.widget.HtcListItem2LineText
+        android:id="@+id/add_wallet_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <!--com.htc.lib1.cc.widget.HtcListItemCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:id="@+id/add_wallet_checkbox"/-->
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:id="@+id/add_wallet_checkbox"
+        android:buttonTint="@drawable/home_navibar_color_selector"/>
+
+    <!--CheckBox
+        android:focusable="false"
+        android:clickable="false"
+        android:id="@+id/add_wallet_checkbox"/-->
+
+</com.htc.lib1.cc.widget.HtcListItem>

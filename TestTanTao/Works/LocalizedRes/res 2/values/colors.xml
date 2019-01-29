@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bule">#00C78C</color>
+    <color name="common_colorPrimary">#f8f9fa</color>
+    <color name="txt_color_wallet03">#ff1515</color>
+    <color name="htc_common_btn_color">#00b3e3</color>
+    <color name="htc_collectible_buy_token">#f7b66a</color>
+    <color name="redDetailText">#e6341c</color>
+    <color name="greenDetailText">#08b000</color>
+    <color name="light_prmaryfont_color">#464c53</color>
+
+        <item name="white" type="color">#ffffff</item>
+        <item name="cancel" type="color">#808A87</item>
+        <item name="white_transparent_25" type="color">#40ffffff</item>
+        <color name="white_60_percent_opaque">#99FFFFFF</color>
+        <item name="blue" type="color">#FF33B5E5</item>
+        <item name="red" type="color">#FFFF4444</item>
+        <item name="black" type="color">#ff000000</item>
+        <item name="gray" type="color">#ff787878</item>
+        <item name="light_gray" type="color">#ff9d9d9d</item>
+        <item name="separator_gray" type="color">#c6c6c6</item>
+        <item name="gray_shadow" type="color">#41484848</item>
+        <item name="page_indicator_gray" type="color">#ff9d9d9d</item>
+        <item name="extra_light_gray" type="color">#D6DAE1</item>
+        <item name="dark_gray" type="color">#65696e</item>
+        <item name="almost_black" type="color">#303030</item>
+        <item name="dark_blue" type="color">#4C98FD</item>
+        <item name="notification_gradient_start" type="color">#63BCFF</item>
+        <item name="notification_gradient_end" type="color">#378DFD</item>
+        <item name="wallet_orange" type="color">#ff8000</item>
+        <item name="white_trans" type="color">#32ffffff</item>
+        <item name="black_trans" type="color">#b5000000</item>
+        <item name="red_text" type="color">#FF5454</item>
+        <item name="green_text" type="color">#00BF00</item>
+        <item name="pink" type="color">#68ffc0c1</item>
+        <item name="status_bar" type="color">#000000</item>
+        <item name="intro_status_bar" type="color">#ffbf7f</item>
+        <item name="warning_status_bar" type="color">#7f5225</item>
+        <item name="camera_guideline" type="color">#50636363</item>
+
+        <item name="logo_gradient_start" type="color">#F8A445</item>
+        <item name="logo_gradient_end" type="color">#fc5394</item>
+
+        <item name="finger_gradient_start" type="color">#9c7ee2</item>
+        <item name="finger_gradient_end" type="color">#7F52E6</item>
+
+        <item name="recover_gradient_start" type="color">#e5affc</item>
+        <item name="recover_gradient_end" type="color">#d17df5</item>
+
+        <item name="restore_gradient_start" type="color">#fabe7a</item>
+        <item name="restore_gradient_end" type="color">#F8A445</item>
+
+        <item name="import_gradient_start" type="color">#76b0fd</item>
+        <item name="import_gradient_end" type="color">#4C98FD</item>
+
+        <item name="recover_wallet_header_gradient_start" type="color">#EF8BB1</item>
+        <item name="recover_wallet_header_gradient_end" type="color">#FF5193</item>
+
+        <item name="pin_pad_text" type="color">#A3A8AE</item>
+        <item name="extra_light_blue_background" type="color">#F5F8FA</item>
+
+        <item name="button_primary_normal" type="color">#29ABE2</item>
+        <item name="button_secondary" type="color">#F5F8FA</item>
+        <item name="button_secondary_text" type="color">#232426</item>
+
+        //fingerprint
+        <color name="warning_color">#f04a5d</color>
+        <color name="hint_color">#42000000</color>
+        <color name="success_color">#009688</color>
+
+        //the QR
+        <color name="viewfinder_mask">#60000000</color>
+        <color name="viewfinder_laser">#ffcc0000</color>
+        <color name="viewfinder_border">#ffafed44</color>
+
+        //Currency screen
+        <color name="currency_header_background">#f29500</color>
+        <color name="currency_subheading_color">#F0E5D7</color>
+        <color name="currency_buttons_color">#ffac26</color>
+
+        //Home screen
+        <color name="total_assets_label_color">#788f9e</color>
+        <color name="total_assets_usd_color">#546875</color>
+        <color name="bitcoin_cash_row_color">#478559</color>
+        <color name="admin_row_color">#e0e5e8</color>
+        <color name="settings_chevron_right">#b3c0c8</color>
+        <color name="transaction_amount_received_color">#4cbf2c</color>
+        <color name="transaction_failed_button_color">#f46b41</color>
+        <color name="trans_white">#70ffffff</color>
+        <color name="balance_crypto_color">#b7ffffff</color>
+        <color name="wallet_balance_fiat">#ffffff</color>
+        <color name="wallet_balance_fiat_syncing">#4dffffff</color>
+        <color name="sync_text">#ffffff</color>
+        <color name="home_nav_background">#EEEEEE</color>
+
+        // Wallet Screen
+        <color name="sync_toolbar">#e5e5e5</color>
+        <color name="sync_toolbar_text">#828282</color>
+        <color name="sync_toolbar_retry_text">#29abe2</color>
+        <color name="wallet_footer_button_color_dark">#33ffffff</color>
+
+        // Dialog button colors
+        <color name="dialog_button_positive">#29abe2</color>
+        <color name="dialog_button_negative">#b3c0c8</color>
+
+        // Add Wallets
+        <color name="add_wallets_header_color">#f9f9f9</color>
+        <color name="add_wallets_searchbar_color">#ececec</color>
+        <color name="add_wallets_border_color">#e5e5e5</color>
+
+        // Dark Mode colors
+        <color name="primary_background">#251935</color>
+        <color name="secondary_background">#302442</color>
+        <color name="tertiary_background">#2E2540</color>
+        <color name="button_gradient_start_color">#FF5193</color>
+        <color name="button_gradient_end_color">#F29500</color>
+        <color name="button_add_wallet_background">#444b77f3</color>
+        <color name="button_cancel_add_wallet_background">#44E7AA41</color>
+        <color name="button_add_wallet_text">#4b77f3</color>
+        <color name="button_cancel_add_wallet_text">#E7AA41</color>
+        <color name="text_total_assets_label">#bfffffff</color>
+        <color name="pin_pad_delete">#FF548D</color>
+        <color name="pin_dot_filled_dark">#FF5193</color>
+        <color name="pin_dot_filled_light">#F29500</color>
+        <color name="create_new_wallet_button_dark">#29ABE2</color>
+        <color name="create_new_wallet_button_light">#4C98FD</color>
+        <color name="recover_wallet_button_dark">#33FFFFFF</color>
+        <color name="recover_wallet_button_light">#FFFFFF</color>
+        <color name="spend_limit_list_divider_color_light">#65696e</color>
+        <color name="spend_limit_list_divider_color_dark">#b3c0c8</color>
+        <color name="unlink_header_start">#97B5ED</color>
+        <color name="unlink_header_end">#779DE6</color>
+
+
+        <array name="pin_digit_button_colors">
+            <item>#FE5A80</item>
+            <item>#FC6469</item>
+            <item>#FB6B5C</item>
+            <item>#FA714E</item>
+            <item>#FD5E76</item>
+            <item>#FC6568</item>
+            <item>#FB6B5B</item>
+            <item>#FE5A80</item>
+            <item>#FD5F75</item>
+            <item>#FC6667</item>
+            <item>#FF548D</item>
+        </array>
+
+    <color name="theme_ETH">#5C6BC0</color>
+    <color name="theme_BTC">#F7931A</color>
+    <color name="theme_LTC">#7D7D7D</color>
+
+    <color name="send_amount_hint">#B6B6B6</color>
+    <color name="enter_address_rectangle">#A9A9A9</color>
+    <color name="send_fee_bg">#E6E7E8</color>
+    <color name="send_error_color">#FF1515</color>
+    <color name="send_result_btn">#01B3E2</color>
+
+
+    <!-- QRCode scanner color begin -->
+    <color name="result_view">#B0000000</color>
+    <color name="viewfinder_frame">#90FFFFFF</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">#0F0</color>
+    <color name="corner_color">#00FF00</color>
+    <!-- QRCode scanner color end -->
+
+    <!--Social Backup Begin-->
+    <item name="social_backup_toolbar_background_color" type="color">#00b3e3</item>
+    <item name="social_backup_toolbar_no_active_status_icon" type="color">#ffa076</item>
+    <item name="social_backup_toolbar_active_status_icon" type="color">#08b000</item>
+    <item name="social_backup_item_background_color" type="color">#fbf9fa</item>
+    <item name="social_backup_toolbar_background" type="color">#fbf9fa</item>
+    <item name="social_backup_remove_checked_box" type="color">#e6341c</item>
+    <!--Social Backup End-->
+
+    <!--Verification Begin-->
+    <item name="ver_toolbar_title" type="color">#FFFDFDFD</item>
+    <item name="ver_request_title" type="color">#FFFDFDFD</item>
+    <item name="ver_request_content" type="color">#FFFDFDFD</item>
+    <item name="ver_request_edittext" type="color">#FFFAE8D8</item>
+    <item name="ver_verification_code_on" type="color">#FFFFFFFF</item>
+    <item name="ver_verification_code_off" type="color">#99FFFFFF</item>
+    <item name="ver_verification_code_error" type="color">#FFFF1515</item>
+    <item name="ver_button" type="color">#FFFDFDFD</item>
+    <item name="ver_button_text_color" type="color">#f7b66a</item>
+    <item name="ver_no_response_hint" type="color">#FF0166CB</item>
+    <!--Verification End-->
+
+    <!---Social Restore Begin-->
+    <item name="social_restore_error_pincode_color" type="color">#ff1515</item>
+    <!---Social Restore End-->
+
+    <color name="wallet_01">@color/light_primaryfont_color</color>
+    <color name="wallet_02">@color/light_primaryfont_color</color>
+    <color name="wallet_03">#ff1515</color>
+    <color name="wallet_04">@color/dark_primaryfont_color</color>
+    <color name="wallet_05">@color/dark_primaryfont_color</color>
+    <color name="wallet_06">#000000</color>
+    <color name="wallet_07">@color/dark_primaryfont_color</color>
+    <color name="wallet_08">#e6341c</color>
+    <color name="wallet_09">@color/dark_primaryfont_color</color>
+    <color name="wallet_10">@color/dark_primaryfont_color</color>
+    <color name="wallet_11">#08b000</color>
+    <color name="wallet_12">#e6341c</color>
+    <color name="wallet_13">#5d5d5d</color>
+    <color name="wallet_14">@color/light_primaryfont_color</color>
+    <color name="wallet_15">#5c6bc0</color>
+    <color name="wallet_16">@color/dark_primaryfont_color</color>
+    <color name="wallet_17">#ff1515</color>
+    <color name="wallet_18">#ff1515</color>
+    <color name="wallet_19">@color/light_primaryfont_color</color>
+    <color name="wallet_20">#ff1515</color>
+    <color name="wallet_21">#ff1515</color>
+    <color name="wallet_22">@color/dark_primaryfont_color</color>
+    <color name="wallet_23">@color/dark_primaryfont_color</color>
+    <color name="wallet_24">@color/light_primaryfont_color</color>
+    <color name="wallet_25">@color/light_secondaryfont_color</color>
+    <color name="wallet_26">@color/light_primaryfont_color</color>
+    <color name="wallet_27">@color/light_primaryfont_color</color>
+    <color name="wallet_28">@color/light_primaryfont_color</color>
+    <color name="wallet_29">#00b3e3</color>
+    <color name="wallet_30">@color/dark_primaryfont_color</color>
+    <color name="wallet_31">@color/dark_primaryfont_color</color>
+    <color name="wallet_32">#ff1515</color>
+    <color name="wallet_33">@color/dark_primaryfont_color</color>
+    <color name="wallet_34">@color/dark_primaryfont_color</color>
+    <color name="wallet_35">@color/dark_primaryfont_color</color>
+    <color name="wallet_36">@color/dark_primaryfont_color</color>
+    <color name="wallet_37">@color/dark_primaryfont_color</color>
+    <color name="wallet_38">@color/dark_primaryfont_color</color>
+    <color name="wallet_39">@color/dark_primaryfont_color</color>
+    <color name="wallet_40">@color/light_primaryfont_color</color>
+    <color name="wallet_41">@color/dark_primaryfont_color</color>
+    <color name="wallet_42">@color/dark_primaryfont_color</color>
+    <color name="wallet_43">#f7b66a</color>
+    <color name="wallet_44">@color/dark_primaryfont_color</color>
+    <color name="wallet_45">@color/light_primaryfont_color</color>
+    <color name="wallet_46">@color/light_secondaryfont_color</color>
+    <color name="wallet_47">@color/dark_primaryfont_color</color>
+    <color name="wallet_48">#f7b66a</color>
+    <color name="wallet_49">@color/dark_primaryfont_color</color>
+    <color name="wallet_50">@color/dark_primaryfont_color</color>
+    <color name="wallet_51">@color/dark_primaryfont_color</color>
+    <color name="wallet_52">@color/dark_primaryfont_color</color>
+</resources>

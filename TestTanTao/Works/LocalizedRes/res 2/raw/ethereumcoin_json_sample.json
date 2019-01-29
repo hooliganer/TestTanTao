@@ -1,0 +1,13 @@
+{
+	"path": "m/44'/60'/0'/0/0",
+	"tx": {
+		"nonce": "01",
+		"gas_price": "09184e72a000",
+		"gas_limit": "493e0",
+		"to": "d8A7297522A2e30bE59f66e8CB2B06c89a50490c",
+		"value": "38d7ea4c68000",
+		"erc_flag": "0",
+		"data": "",
+		"chain_id": "04"
+	}
+}

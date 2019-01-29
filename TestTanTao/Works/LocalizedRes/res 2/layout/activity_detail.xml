@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#5c6bc0"
+        android:textAlignment="viewEnd"
+        android:theme="@style/OverflowMenu"
+        app:theme="@style/toolBar"
+        app:titleMarginStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:titleTextAppearance="@style/title_primary_m"
+        app:titleTextColor="@color/white"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="Ethereum" />
+
+
+    <LinearLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:background="#5c6bc0"
+        android:orientation="horizontal"
+        android:padding="@dimen/M1">
+
+        <RelativeLayout
+            android:id="@+id/relative_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wallet_icon_indicator_eth_l" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_title"
+                    style="@style/darklist_primary_xl_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/M1"
+                    android:paddingRight="@dimen/M1"
+                    android:text="ETH"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/darklist_primary_xl_bold"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/balance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="$3671"
+                    android:layout_alignParentEnd="true"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/wallet_09"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/FiatRate"
+                    style="@style/title_primary_xs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.8"
+                    android:paddingLeft="@dimen/M1"
+                    android:paddingRight="@dimen/M1"
+                    android:textSize="@dimen/wallet_10"
+                    android:text="$468.85/ETH" />
+
+
+
+                <TextView
+                    android:id="@+id/Smallest"
+                    style="@style/title_primary_xs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_toRightOf="@+id/FiatRate"
+                    android:layout_marginLeft="@dimen/M6"
+                    android:alpha="0.8"
+                    android:text="11.2948413 ETH"
+                    android:layout_alignParentEnd="true"
+                    android:textAlignment="viewEnd"
+                    android:textSize="@dimen/wallet_10" />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="438.75dp"
+        android:layout_below="@+id/relative1">
+    </ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <LinearLayout
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="@dimen/M1"
+            android:background="@drawable/button_rounde"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/M1"
+            android:layout_marginRight="@dimen/M2"
+            android:clickable="true">
+
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_indicator_send_message_dark"/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/M4"
+                android:textColor="@color/white"
+                android:text="@string/addwallet_send" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/receiver"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="@dimen/M1"
+            android:background="@drawable/button_rounde"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginRight="@dimen/M1"
+
+
+            android:clickable="true">
+
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_indicator_qrcode_dark"/>
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/M4"
+                android:text="@string/Nav_receive" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

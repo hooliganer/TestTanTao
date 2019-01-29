@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddWalletActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/add_wallet_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!--android.app.ActionBar
+            android:id="@+id/add_wallet_toolbar"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:background="#00b3e3"
+            android:theme="@style/Home_action_menu"
+            app:titleTextColor="@color/white"
+            app:subtitleTextColor="@color/white"
+            /-->
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/add_wallet_toolbar"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:theme="@style/Home_action_menu"
+            app:title="@string/addwallet_title"
+            app:titleMarginStart="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            />
+    </android.support.design.widget.AppBarLayout>
+
+    <com.htc.lib1.cc.widget.HtcListView
+        android:id="@+id/add_wallet_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:layout_below="@id/add_wallet_appbar"
+        android:layout_above="@id/add_wallet_button_add"
+        />
+
+    <Button
+        android:id="@+id/add_wallet_button_add"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/margin_l"
+        android:layout_marginEnd="@dimen/margin_l"
+        android:layout_marginBottom="@dimen/margin_l"
+        android:background="@drawable/collectible_buy_token_btn"
+        android:text="@string/addwallet_add_btn"
+        android:textAllCaps="false"
+        android:onClick="onAddBtnClick"/>
+
+    <TextView style="@style/list_body_l"
+        android:id="@+id/no_wallet_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_wallet_found"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

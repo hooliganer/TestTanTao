@@ -1,0 +1,560 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Nie</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Domov</string><!--Home-->
+    <string name="Nav_collectible">Zbierky</string><!--Collectibles--> 
+    <string name="Nav_request">Požiadavka</string><!--Request-->
+    <string name="Nav_receive">Prijať</string><!--Receive-->
+    <string name="Nav_shop">Obchod</string><!--Shop-->
+    <string name="home_recovering">Obnovuje sa...</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">Obnovuje sa, čakajte.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">Zdroj kurzu meny: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Spravovať poradie</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">Nastavenie</string><!--Settings-->
+    <string name="tool_help">Pomocník</string><!--Help-->
+    <string name="tool_sort_by">Zoradiť podľa</string><!--Sort by-->
+    <string name="tool_sort_custom">Prispôsobené</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">Abecedne</string><!--Alphabetical-->
+    <string name="tool_sort_value">Hodnota</string><!--Value-->
+
+    <string name="Create_wallet">Vytvoriť novú peňaženku</string><!--Create a new wallet-->
+    <string name="total_assets">Aktíva celkom</string><!--Total assets--> 
+    <string name="last_update">Naposledy aktualizované pred %1$d minútami.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">Žiadne internetové pripojenie</string><!--No internet connection-->
+    <string name="retry_button">Nastavenie</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">Moje mince (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">Zatiaľ žiadna pridaná peňaženka</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">Spravovať peňaženku</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Kúpiť/Predať</string><!--Buy/Sell-->
+    <string name="shop_buy">Kúpiť</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Kúpiť/predať od Maicoin</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">Nákup, predaj alebo akákoľvek transakcia („Transakcia“) krypto meny budú vykonávané externými poskytovateľmi výmeny.  Pre všetky takéto Transakcie platia príslušné zmluvné podmienky a ustanovenia medzi vami a externými poskytovateľmi výmeny. Pred využitím služieb od externých poskytovateľov výmeny je potrebné pozorne si prečítať tieto podmienky a ustanovenia. Spoločnosť HTC nezodpovedá za žiadne činnosti medzi vami a externými poskytovateľmi výmeny.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">Nabudúce nepripomínať</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">Systém</string><!--System-->
+    <string name="gen_wallet_title">Peňaženka</string><!--Wallet-->
+    <string name="gen_now">teraz</string><!--now-->
+    <string name="gen_screenshot">Snímku nie je možné uložiť</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">Snímka obrazovky nie je z bezpečnostných dôvodov dovolená</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">Prijať transakciu</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">Dostali ste %1$s od</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">ZOBRAZIŤ PODROBNOSTI</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">Transakcia hotová</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">Vaša transakcia %1$s zo dňa %2$s bola potvrdená</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">Transakcia neúspešná</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">Transakcia zo dňa %1$s s odoslaním sumy %2$s v mene %3$s na adresu %4$s je neúspešná</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">K dispozícii je nová verzia</string><!--New version available-->
+    <string name="gen_new_version_hint">Pre vylepšenú bezpečnosť a používateľské funkcie aktualizujte aplikáciu na novšiu verziu.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">Vydané nové nastavenia zabezpečenia. Pre vašu ochranu je potrebná aktualizácia systému. Pokračujte aktualizáciou.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">AKTUALIZOVAŤ</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">Načítavajú sa nastavenia zabezpečenia. Počkajte, prosím.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">Váš telefón bol rootovaný</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">Vaša peňaženka je zablokovaná, pretože váš telefón bol rootovaný. Toto je bezpečnostné opatrenie. Obráťte sa na zákaznícku službu so žiadosťou na ďalší postup.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">Váš telefón bol rootovaný</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">Vaša peňaženka je zablokovaná, pretože váš telefón bol rootovaný. Toto je bezpečnostné opatrenie. Obráťte sa na zákaznícku službu so žiadosťou na ďalší postup.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">Dôležité vyhlásenie: Toto je vývojový prístupový produkt využívajúci technológie blockchain. Kryptomeny, výmena tokenov a blockchain sú nové technológie a môžu prinášať nepredvídané riziká. Napríklad: Tretie strany môžu v zariadeniach predstavovať slabiny, peňaženkové aplikácie alebo siete blockchain, ktoré môžu rušiť transakcie blockchain alebo viesť k strate vašej kryptomeny. Po celú dobu si bezpečne uschovajte svoju 12-slovnú frázu na obnovenie (seed) a prístupový kód. Nesiete výhradnú zodpovednosť za bezpečnosť vašich kódov na obnovenie. Pokračovaním beriete na vedomie všetky tieto pridružené riziká a súhlasíte s nimi.\n\nĎakujeme vám, že skúšate naše produkty. Keďže sa snažíme vylepšiť našu technológiu, úprimne oceňujeme vašu <a href="mailto:exodus@htc.com">odozvu</a></string><!--Important disclaimer: This is an early access product utilizing blockchain technologies. Cryptocurrency, token exchange, and blockchain are new technologies and may carry unforeseen risks. For example: Third parties may introduce weaknesses in devices, wallet applications, or blockchain networks, which may interfere with blockchain transactions or result in the loss of your cryptocurrency. Keep your 12-/word recovery phrase (seed) and passcode secure at all times. You are solely responsible for safeguarding your recovery keys. By continuing, you acknowledge and agree to accept all these associated risks.\n\nThank you for trying our products. As we strive to improve our technology, we sincerely appreciate your <a href="mailto:exodus@htc.com">feedback</a>-->
+    <string name="gen_feedback">spätná väzba</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Zbierky</string><!--Collectibles-->
+    <string name="no_collectible">Zatiaľ žiadna zbierka</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">Tu sa zobrazia vaše zbierky.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">Kúpiť tokeny</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">Klepnutím sem zobrazíte svoje zbierky</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Pridať ďalšie</string><!--Add more-->
+    <string name="addwallet_search_wallet">Hľadať peňaženku</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">Kúpiť mince</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">Požiadavka</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">Odoslať</string><!--Send-->
+    <string name="addwallet_hint">Tu sa zobrazia vaše transakcie.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">Nemáte žiadne transakcie</string><!--You have no transactions-->
+    <string name="no_wallet_found">Nenašla sa žiadna peňaženka</string><!--No wallet found-->
+    <string name="addwallet_add_btn">Pridať</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Spravovať zoznam peňaženiek</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">Zoznámte sa so <b>Zion</b></string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">Vaša zabezpečená komplexná peňaženka na Blockchain.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Vytvorte svoju peňaženku Zion</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">Obnovte svoju peňaženku</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Žiadosti Social Key Recovery</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">Pokračovaním potvrdzujem, že som si prečítal/a dokumenty %1$s a %2$s a súhlasím s nimi.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">Zmluvné podmienky</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">Zásady ochrany súkromia od HTC</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">Pomoc priateľovi?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">Prečítal/a som si %1$s a súhlasím a beriem na vedomie %2$s.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Zmluvné podmienky Zion</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">Zásady ochrany súkromia</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Vytvorte svoj prístupový kód.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">Vytvorte svoj nový prístupový kód.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">Tento prístupový kód je potrebný na všetky transakcie a odomknutie peňaženky.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">Potvrďte svoj prístupový kód.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">Potvrďte svoj nový prístupový kód.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">Prístupové kódy sa nezhodujú. Skúste to znova.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">12-slovná fráza na obnovenie pre zálohovanie a obnovenie</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">Táto súprava slov je jediný spôsob obnovenia peňaženky v prípade, že stratíte telefón alebo zabudnete prístupový kód.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">Vygenerovať frázu na obnovenie z 12 slov</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">Zapíšte si v správnom poradí 12 slov frázy na obnovenie</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">Nezabudnite napísať celú 12-slovnú frázu na obnovenie v správnom poradí a uschovajte si ich na bezpečnom mieste.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">Zapísal/a som ich</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">Overte svoju 12-slovnú frázu na obnovenie (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">Uistite sa, či ste si slová zapísali správne a zadajte slová v správnom poradí.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">Ďalej</string><!--Next-->
+    <string name="verify_key_1_not_match">Jedno alebo viac slov sa nezhoduje. Skúste to znova.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">Overte svoju 12-slovnú frázu na obnovenie (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">Overte svoju 12-slovnú frázu na obnovenie (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">Blahoželáme! Vaša peňaženka je kompletne nastavená.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">Povoľte odtlačok prsta na odomknutie peňaženky.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">Prejdite do peňaženky</string><!--Go to your wallet.-->
+
+    <string name="restoring">Obnovuje sa</string><!--Restoring-->
+    <string name="preparing_secure_ui">Pripravuje sa bezpečné prostredie</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">Zadajte 12-slovnú frázu na obnovenie svojej peňaženky (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">Zadajte 12-slovnú frázu na obnovenie v správnom poradí.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">Zadajte 12-slovnú frázu na obnovenie svojej peňaženky (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">Zadajte 12-slovnú frázu na obnovenie svojej peňaženky (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">Blahoželáme!</string><!--Congratulations!-->
+    <string name="wallet_restored">Vaša peňaženka bola obnovená.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Odomknite svoju peňaženku</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">Použiť odtlačok prsta</string><!--Use fingerprint-->
+    <string name="use_passcode">Heslo</string><!--Passcode-->
+    <string name="or">alebo</string><!--or-->
+    <string name="use_fingerprint_to_unlock">Pomocou odtlačku prsta odomknite</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">Skúsiť znova</string><!--Try again-->
+    <string name="use_passcode_to_unlock">Na odomknutie použite prístupový kód</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">Nastavenie odtlačku prsta zmenené</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">Zdá sa, že ste nedávno zmenili nastavenia odtlačku prsta. Ak chcete použiť túto funkciu, nastavte nový odtlačok prsta.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">Nastaviť teraz</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">Odomknite svoju peňaženku zadaním prístupového kódu</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">K dispozícii je nová verzia</string><!--New version available-->
+    <string name="new_version_hint">Pre vylepšenú bezpečnosť a používateľské funkcie aktualizujte aplikáciu na novšiu verziu.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">Aktualizovať neskôr</string><!--Update later-->
+    <string name="update_now">Aktualizovať</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Odoslať</string><!--Send-->
+    <string name="select_wallet">Vyberte peňaženku</string><!--Select a wallet--> 
+    <string name="send_to">KOMU</string><!--TO-->
+    <string name="send_amount">MNOŽSTVO</string><!--AMOUNT-->
+    <string name="hint_amount">Zadajte sumu</string><!--Enter amount-->
+    <string name="to_paste_addr">Prilepiť adresu</string><!--Paste address-->
+    <string name="to_scan_QR">Naskenovať kód QR</string><!--Scan QR code-->
+    <string name="to_select_QR_image">Vybrať uložený obrázok</string><!--Select saved image-->
+    <string name="to_enter_address">Zadať kontaktné meno/tel. číslo</string><!--Enter address-->
+    <string name="to_paste_addr2">Prilepiť adresu zo schránky</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">Pridať z uložených obrázkov</string><!--Add from saved images-->
+    <string name="enter_address_hint">Zadajte adresu</string><!--Enter a address-->
+    <string name="send_address">Adresa</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">MAX</string><!--MAX-->
+    <string name="send_review_btn">Skontrolovať transakciu</string><!--Review transaction-->
+    <string name="fee">Poplatok za transakciu</string><!--Transaction Fee-->
+    <string name="select_wallet_error">Nedostatok prostriedkov.</string><!--Insufficient funds.-->
+    <string name="amount_hint">Zostatok:</string><!--Balance:-->
+    <string name="address_error">Neplatná adresa %s.</string><!--Invalid %s address.-->
+    <string name="amount_input_error">Nedostatok prostriedkov na poplatok za transakciu.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">Zadané množstvo musí byť aspoň %s</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">ZRUŠIŤ</string><!--CANCEL-->
+    <string name="enteraddr_save">ULOŽIŤ</string><!--SAVE-->
+    <string name="payment_urgent">Súrne</string><!--Urgent-->
+    <string name="payment_priority">Priorita</string><!--Priority-->
+    <string name="payment_regular">Normálne</string><!--Regular-->
+    <string name="payment_economy">Ekonomický</string><!--Economy-->
+    <string name="payment_title">Vyberte prioritu platby</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 minút</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 hodina</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 hodina</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 hodiny</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">Popis poplatku za transakciu</string><!--Transaction fee description-->
+    <string name="send_review">Skontrolujte svoju transakciu</string><!--Review your transaction-->
+    <string name="send_note">POZNÁMKA</string><!--MEMO-->
+    <string name="send_note_hint">(NEPOVINNÉ)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">Transakcia odoslaná.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">Čas na dokončenie transakcie závisí od rýchlosti prenosu údajov cez sieť a poplatku za transakciu.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">OK</string><!--OK-->
+    <string name="fee_error">Chyba servera: neznámy poplatok</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">Transakcia nebola úspešná</string><!--Transaction not successful--> 
+    <string name="review_send_to">ODOSLAŤ KAM</string><!--SEND TO-->
+    <string name="review_fee">POPLATOK</string><!--FEE-->
+    <string name="review_edit">Upraviť</string><!--Edit-->
+    <string name="review_enter_pin">Heslo</string><!--Passcode-->
+    <string name="review_cancel">Zrušiť transakciu</string><!--Cancel transaction-->
+    <string name="send_server_no_response">Server nereaguje. Skúste to znova neskôr.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">Poplatky za transakciu si účtuje tretia strana, nie spoločnosť HTC. Vyššie priority vyžadujú vyššie poplatky. Popis časového rámca priority je založený na štatistike blockchainu v reálnom čase a je len referenčný. Vaša voľba priority nezaručuje, že bude transakcia úspešne, prípadne v určenom období, dokončená.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">Používateľ %s vás pridal ako dôveryhodný kontakt</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">1. krok: Zadajte svoje meno a získajte overovací kód od používateľa %s.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">2. krok: Požiadajte používateľa %s o svoj overovací kód a sem ho zadajte.</string><!--Step 2: Ask %s for your verification code and enter it here.--> 
+    <string name="ver_enter_name_hint">Zadajte svoje meno</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Vyžiadať kód</string><!--Request code--> 
+    <string name="ver_remain_time">Zostávajúci čas: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">Ak chcete vygenerovať overovací kód, zadajte prístupový kód</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">Zdieľať tento kód s %s</string>
+    <string name="ver_sharing_recovery_remind_name">Nová žiadosť od</string>
+    <string name="ver_sharing_remind_name">Nová žiadosť od %s</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">M: %s\ncez %s</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">ODMIETNUŤ</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Nová žiadosť od %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">Klepnutím zobrazíte overovací kód a môžete ho zdieľať s používateľom %s.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">ZOBRAZIŤ OVEROVACÍ KÓD</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Žiadna odpoveď? Požiadajte znova o %s.</string><!--No reply? Request again in %s.-->
+    <string name="ver_verify">Overiť</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Teraz ste dôveryhodný kontakt používateľa %s.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">Používateľovi %s môžete pomôcť obnoviť jeho peňaženku v prípade straty alebo odcudzenia. Služba Zion má vo vašom zariadení zašifrovanú a uloženú časť údajov na obnovenie jeho peňaženky. Zaistite, aby ste nedostraňovali aplikáciu Zion ani údaje aplikácie Zion, inak sa údaje na obnovenie stratia. Služba Zion pravidelne u používateľa %s skontroluje, či sú údaje na obnovenie stále platné.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">Hotovo</string><!--Done-->
+    <string name="ver_pin_error_hint">Tento kód je neplatný, skúste to znova.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">Upozornenie</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Už ste dôveryhodný kontakt používateľa %s</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Vďaka za pomoc so zálohovaním údajov používateľa %s</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">Overenie odoslané</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Čaká sa na overenie. Keď sa overenie dokončí, budete dôveryhodný kontakt pre používateľa %s.</string><!--Waiting for verification. Once verification is completed, you will be %s’s trusted contact.-->
+    <string name="ver_dialog_restore_verifying_subtitle">Overuje sa...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">Overenie odoslané</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">Overuje sa...</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">Neznáme</string><!--Unknown-->
+    <string name="ver_unknown_name">Neznáme</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">Naskenovať overovací kód</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">Ďakujem za pomoc!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s už má dosiahnuté maximum 5 dôveryhodných kontaktov.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Platnosť odkazu uplynula, požiadajte používateľa %s o odoslanie aktualizovaného odkazu.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">Časový limit siete uplynul, skúste to znova neskôr.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Skúste to znova neskôr</string><!--Please try again later-->
+    <string name="try_too_often_message">Pokúšate sa príliš často, skúste to znova o %d min.</string><!--You are trying too often, please try again after %d minutes.-->
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Nastavenie</string><!--Settings-->
+    <string name="setting_tag1">Predvoľby</string><!--Preferences--> 
+    <string name="setting_currency">Preferovaná mena</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">Zabezpečenie</string><!--Security--> 
+    <string name="setting_notification">Povoliť okamžité upozornenia</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">Upozorniť na odoslané a prijaté transakcie</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">Povoliť snímky obrazovky</string><!--Enable screenshots--> 
+    <string name="setting_pin">Zmeniť kód PIN</string><!--Change PIN-->
+    <string name="setting_fingerprint">Odtlačok prsta</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">Používané len na odomknutie aplikácie</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">Peňaženka</string><!--Wallet--> 
+    <string name="setting_show_key">Zobraziť frázu na obnovenie z 12 slov</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Obnoviť peňaženku</string><!--Reset wallet-->
+    <string name="setting_tag4">Informácie</string><!--About--> 
+    <string name="setting_learn_more">Ďalšie informácie</string><!--Learn more-->
+    <string name="setting_service">Zmluvné podmienky</string><!--Terms of service--> 
+    <string name="setting_policy">Zásady ochrany súkromia</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Čo je Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery vám pomôže pohodlne obnoviť peňaženku cez dôveryhodných priateľov alebo rodinu.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Pozvite 3 až 5 ľudí, aby boli dôveryhodnými kontaktmi, ktoré vám pomôžu obnoviť peňaženku.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Vaše dôveryhodné kontakty môžu poslať kód a pomôcť vám tak obnoviť vašu peňaženku.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Nastavenie</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Teraz nie</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Zálohujte zoznam svojich dôveryhodných kontaktov</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Ak chcete obnoviť svoju peňaženku pomocou funkcie Social Key Recovery, vyberte konto Google, na ktorom ste zálohovali svoje dôveryhodné kontakty. Zoznam dôveryhodných kontaktov bude uložený v službe Disk Google.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Pridať konto</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Zrušiť</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Pokračovať</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">Dôveryhodný kontakt</string><!--Trusted contact--> 
+    <string name="backup_null_contact">Zatiaľ nemáte pridaný žiadny dôveryhodný kontakt.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery bude k dispozícii, keď budete mať aspoň 3 dôveryhodné kontakty (max. 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Pozvite priateľov, aby boli\nvašim dôveryhodným kontaktom</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Pozvite 3 až 5 priateľov alebo rodinných príslušníkov, ktorí budú vašimi dôveryhodnými kontaktmi a pomôžu vám s obnovením peňaženky.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">Vaše meno</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">Zadajte svoje meno</string><!--Enter your name-->
+    <string name="backup_invitation_hi">Ahoj %s,</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">Zdieľať pozvánku</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Neaktívny</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktívny</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Ahoj,\n\nurčil/a som ťa ako môj dôveryhodný kontakt pre funkciu Social Key Recovery v peňaženke Zion. \nPostupuj podľa pokynov dole\na pomôž mi zálohovať oje údaje na obnovenie.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Klepnutím na tento odkaz si prevezmi a nainštaluj aplikáciu Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Keď skončíš, nezabudni ma\npožiadať o overovací kód.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Vďaka!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Naposledy kontrolované: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">Klepnutím sem vygenerujte kód.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Poslať znova</string><!--Resend-->
+    <string name="backup_bottom_request_show">Žiadosti od priateľov</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Odstrániť dôveryhodný kontakt</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">Zrušiť</string><!--Cancel-->
+    <string name="backup_remove_button_delete">Odstrániť (%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">Odstrániť dôveryhodný kontakt</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Odhlásiť sa</string><!--Sign out-->
+    <string name="backup_pending_target_toolbar">Žiadosti od priateľov</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Momentálne žiadne žiadosti.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Zálohovanie na rovnakom zariadení nie je podporované.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Zálohovať s dôveryhodnými kontaktmi?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">Zdieľať prepojenie</string><!--Share link-->
+    <string name="restore_request">Žiadosť o obnovenie od %s</string><!--Restore request from %s-->
+    <string name="show">Zobraziť</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Toto konto bolo použité na inom zariadení</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Z bezpečnostných dôvodov je možné použiť jednotlivé kontá len na jednom zariadení.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Stále chcete použiť toto konto, prípadne použiť iné na spustenie Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Použiť toto konto</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Váš predchádzajúci zoznam dôveryhodných kontaktov sa natrvalo stratí.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Použiť iné konto</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Uchovať predchádzajúce údaje a vytvoriť nové.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Naozaj chcete použiť toto konto?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">Váš predchádzajúci zoznam dôveryhodných kontaktov sa natrvalo stratí.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">Pokračujte zadaním kódu PIN</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">Ako chcete obnoviť svoju peňaženku\?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">Použiť frázu na obnovenie z 12 slov</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">Cez Social Key Recovery</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">Zadajte 12-slovnú frázu na obnovenie, ktorú ste si zapísali pri vytváraní svojej peňaženky.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">Požiadajte o pomoc dôveryhodné kontakty.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Ahoj,\n\nako od svojho dôveryhodného kontaktu potrebujem tvoju pomoc s obnovením mojej peňaženky Zion.\nNa obnovenie potrebujem, aby si urobil/a nasledovné.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Klepni na tento odkaz a vygeneruj overovací kód.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Pošli mi kód.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Vďaka!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Počkajte, prosím...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Prihlasovanie...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Nenašli sa žiadne údaje pre funkciu Social Key Recovery</string><!--No Social Key Recovery data found-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Skúste iné konto, prípadne použite na obnovenie svojej peňaženky frázu na obnovenie z 12 slov.</string><!--Please try another account or use 12-/word recovery phrase to restore your wallet.-->
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Počkajte, prosím...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Generuje sa odkaz...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Prihláste sa na svoje konto</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Ak chcete obnoviť svoju peňaženku pomocou funkcie Social Key Recovery, vyberte konto Google, na ktoré ste predtým uložili svoj zoznam dôveryhodných kontaktov.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Nepodarilo sa vygenerovať odkaz na zdieľanie</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Skúste to znova neskôr.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Nepodarilo sa prihlásiť</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Skúste to znova neskôr.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Požiadajte o pomoc dôveryhodné kontakty</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Skontaktujte sa s tromi dôveryhodnými kontaktmi a zdieľajte s nimi tento odkaz.</string><!--1. Reach out to three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Jednotlivé kontakty vám dajú kód. Zadajte dole jednotlivé kódy:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Jeden alebo viac kódov nesprávne. Skúste to znova.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Zadajte kód</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Zrušiť</string><!--Cancel-->
+    <string name="social_restore_btn_next">Ďalej</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">Skúste to znova neskôr</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">Pokúšate sa príliš často, skúste to znova o %s min.</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">Jeden alebo viac kódov nesprávne.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">Skontrolujte, či sú všetky kódy správne, a skúste to znova.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">Žiadna záloha pre %s na vašom zariadení.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Obnovenie zlyhalo</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Skúste použiť iné konto, prípadne obnovte frázou na obnovenie z 12 slov.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Pozvánka od %s</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Klepnutím prijmete.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Žiadosť o podporu pri obnovení od %s</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">Klepnutím vygenerujte kód.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">Na tomto konte nebolo nastavené žiadne Social Key Recovery.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">Skúste použiť iné konto, prípadne obnovte frázou na obnovenie z 12 slov.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">Aktualizovať stav zálohy</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">Potvrďte odstránenie dôveryhodných kontaktov</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">Ak chcete odstrániť, zadajte púrístupový kód</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Zálohovať s dôveryhodnými kontaktmi?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">Môžete aj nastaviť Social Key Recovery s dôveryhodnými kontaktmi, ktorí vám pomôžu znova získať peňaženku.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">Povedz mi viac!</string><!--Tell me more-->
+    <string name="social_backup_not_now">Teraz nie</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Ľutujeme, niektoré z vašich dôveryhodných kontaktov sú neaktívne.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Overte si u dôveryhodného kontaktu zabezpečenie pripojenia.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Toto konto ste použili na inom zariadení</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Všetky vaše údaje k funkcii Social Key Recovery sa už natrvalo nebudú dať použiť. Ak chcete naďalej používať funkciu Social Key Recovery, je potrebné prihlásiť sa na iné konto.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">Súhlasím</string><!--Agree-->
+    <string name="social_key_recovery_disagree">Nesúhlasím</string><!--Disagree-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Niektoré dôveryhodné kontakty sa musia znova pripojiť</string><!--Some trusted contacts need to be re-/connected-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">Z bezpečnostných dôvodov je potrebné znova odoslať pozvánku dôveryhodnému kontaktu na %s, %s.</string><!--For security concerns, you need to resend the trusted contact invitation to %s, %s again.-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">Údaje o transakcii</string><!--Transaction details--> 
+    <string name="Amount">Celkové množstvo</string><!--Total Amount-->
+    <string name="Date">Dátum</string><!--Date-->
+    <string name="Send_to">Odoslať kam</string><!--Send to-->
+    <string name="Receive_From">Prijať od</string><!--Receive from-->
+    <string name="Memo">Poznámka</string><!--Memo-->
+    <string name="transaction_amount_send">Množstvo na odoslanie</string><!--Amount to send-->
+    <string name="transaction_amount_receive">Množstvo na prijatie</string><!--Amount to receive-->
+    <string name="transaction_amount">Hodnota</string><!--Value-->
+    <string name="Transaction_Fee">Poplatok za transakciu</string><!--Transaction fee--> 
+    <string name="Status">Stav</string><!--Status-->
+    <string name="Transcation_ID">ID transakcie</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">Naskenovať kód QR pre %1$s</string><!--Scan %1$s QR code-->
+    <string name="Settings">Nastavenie</string><!--Settings-->
+    <string name="Help">Pomocník</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">Požiadavka</string><!--Request-->
+    <string name="WALLET_ADDRESS">ADRESA PEŇAŽENKY</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">KONTO NA DOBITIE</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">POŽADOVANÁ SUMA (NEPOVINNÉ)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">Zdieľať kód QR</string><!--Share QR code-->
+    <string name="Copy_as_text">Kopírovať ako text</string><!--Copy as text-->
+    <string name="copy_toast">Adresa peňaženky skopírovaná do schránky.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">Niektoré externé peňaženky nemusia v odkazoch alebo kódoch QR podporovať požadované množstvá.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">Naskenovať kód QR</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">Ak chcete použiť skener kódu QR, najprv udeľte povolenie prístupu k fotoaparátu.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">Povoliť prístup k fotoaparátu</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Povoliť službe Zion fotografovať a nahrávať video</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">Nabudúce sa nepýtať</string><!--Never ask again-->
+    <string name="DENY">ZAMIETNUŤ</string><!--DENY-->
+    <string name="ALLOW">POVOLIŤ</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">Naskenujte adresu kódu QR pre %1$s (%2$s)</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">Zarovnajte kód do rámčeka</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">Neplatná verejná adresa</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">Nebolo možné sa pripojiť.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Pri používaní tejto aplikácie je potrebné pripojenie k sieti. Zapnite mobilné dáta alebo Wi-Fi v časti Nastavenie.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Zrušiť</string><!--Cancel-->
+    <string name="check">Skontrolovať</string><!--Check-->
+    <string name="You_have_no_transaction">Nemáte žiadne transakcie.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Keď dostanete alebo odošlete krypto menu, tu sa zobrazí vaša transakcia.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Skúsiť Social Key Recovery\?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">Okrem obnovenia peňaženky 12-slovnou frázou na obnovenie vám funkcia Social Key Recovery môže pomôcť ľahko obnoviť peňaženku cez dôveryhodných priateľov.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">UŽ ČOSKORO PRE IOS</string><!--COMING SOON FOR IOS-->
+
+    <string name="socialkm_not_active_title">Funkcia Social Key Recovery nie je aktívna</string><!--Social Key Recovery is not active-->
+    <string name="socialkm_not_active_message">Môžete skúsiť kontaktovať svoje dôveryhodné kontakty a overiť stav ich zálohy, prípadne nájdite nový kontakt, ktorý vám pomôže.</string><!--You can try to contact your trusted contacts and check their backup status or find a new contact to help you.-->
+
+    <string name="transaction_confirmation">Potvrdenia</string><!--Confirmations-->
+
+<!-- iOS strings -->
+    <string name="ios_social_backup_regular_check_title">Ďakujeme, že pomáhate so zálohou priateľov</string><!--Thanks for helping your friends backup-->
+    <string name="ios_social_backup_regular_check_content">Stav zálohy funkciou Social Key Recovery bol nahlásený všetkým priateľom.</string><!--The backup status of Social Key Recovery has been reported to all your friends.-->
+    <string name="ios_social_backup_notifications_settings_title">Upozornenia vypnuté</string><!--Notifications disabled-->
+    <string name="ios_social_backup_notifications_settings_content">Cez Nastavenie povoľte upozornenia aplikácie Zion.</string><!--Please allow Zion’s notifications in Settings.-->
+    <string name="ios_social_backup_notifications_settings">Nastavenie</string><!--Settings-->
+    <string name="transaction_pending">Čaká sa na potvrdenie</string><!--Wait for confirmation-->
+    <string name="complete">Dokončené</string><!--Complete-->
+</resources>

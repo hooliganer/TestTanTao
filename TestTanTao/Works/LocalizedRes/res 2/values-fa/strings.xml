@@ -1,0 +1,560 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">خیر</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">تأیید</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">صفحه اصلی</string><!--Home-->
+    <string name="Nav_collectible">موارد قابل جمع آوری</string><!--Collectibles--> 
+    <string name="Nav_request">درخواست</string><!--Request-->
+    <string name="Nav_receive">دریافت</string><!--Receive-->
+    <string name="Nav_shop">خرید</string><!--Shop-->
+    <string name="home_recovering">درحال بازیابی...</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">بازیابی درحال انجام است، لطفاً صبر کنید.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">منبع نرخ ارز: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">مدیریت ترتیب</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">تنظیمات</string><!--Settings-->
+    <string name="tool_help">راهنمایی</string><!--Help-->
+    <string name="tool_sort_by">دسته بندي بر اساس</string><!--Sort by-->
+    <string name="tool_sort_custom">اختصاصي</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">الفبایی</string><!--Alphabetical-->
+    <string name="tool_sort_value">مقدار</string><!--Value-->
+
+    <string name="Create_wallet">ايجاد کیف پول جديد</string><!--Create a new wallet-->
+    <string name="total_assets">کل دارایی ها</string><!--Total assets--> 
+    <string name="last_update">آخرین به روز رسانی %1$d دقیقه قبل.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">اتصال به اينترنت وجود ندارد</string><!--No internet connection-->
+    <string name="retry_button">تنظیمات</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">سکه های من (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">هنوز کیف پول اضافه نشده است</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">مدیریت کیف پول</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">خرید/فروش</string><!--Buy/Sell-->
+    <string name="shop_buy">خرید</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">خرید/فروش از Maicoin</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">خرید، فروش یا هرگونه تراکنش (\&quot;تراکنش\&quot;) رمز ارز توسط ارائه دهندگان شخص ثالث انجام می شود.  کلیه تراکنش ها بر اساس قوانین و مقررات مرتبط بین شما و ارائه دهندگان شخص ثالث است. قبل از استفاده از خدمات دریافتی از ارائه دهندگان شخص ثالث باید این قوانین و مقررات را به دقت مطالعه کنید. برای هرگونه فعالیت بین شما و ارائه دهندگان شخص ثالث، HTC هیچ تعهدی نخواهد داشت.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">دوباره یادآوری نشود.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">سیستم</string><!--System-->
+    <string name="gen_wallet_title">کیف پول</string><!--Wallet-->
+    <string name="gen_now">اکنون</string><!--now-->
+    <string name="gen_screenshot">تصویر صفحه ذخیره نشد</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">عکس گرفتن از صفحه به دلایل امنیتی مجاز نیست</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">دریافت تراکنش</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">%1$s دریافت کردید از</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">مشاهده جزئیات</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">تراکنش کامل شد</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">تراکنش %1$s شما در %2$s تأیید شد</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">تراکنش انجام نشد</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">تراکنشتان در %1$s و ارسال %2$s %3$s به %4$s انجام نشد</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">نسخه جدید موجود است</string><!--New version available-->
+    <string name="gen_new_version_hint">برای در اختیار داشتن ایمنی و تجربه کاربری بهتر، برنامه را به نسخه جدیدتر به روز رسانی کنید.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">تنظیمات امنیتی جدید ارائه شد. برای محافظت از شما، لازم است سیستم را به روز رسانی کنید. برای ادامه لطفاً به روز رسانی کنید.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">به روز رسانی شود</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">تنظیمات امنیتی درحال بارگیری است. لطفاً منتظر بمانید.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">تلفن روت شد</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">کیف پول قفل شده است زیرا تلفن روت شده است. این یک احتیاط ایمنی است. برای اطلاع از اینکه مرحله بعدی چیست، با خدمات مشتری تماس بگیرید.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">تلفن قفل شکنی شد</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">کیف پول قفل شده است زیرا تلفن قفل شکنی شده است. این یک احتیاط ایمنی است. برای اطلاع از اینکه مرحله بعدی چیست، با خدمات مشتری تماس بگیرید.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">سلب مسئولیت مهم: این محصول با دسترسی اولیه از فن آوری های بلاک چین استفاده می کند. رمز ارز، تبادل توکن و بلاک چین، فن آوری های جدیدی هستند که ممکن است خطرهای پیش بینی نشده ای را به همراه داشته باشند. مثلاً: اشخاص ثالث ممکن است در دستگاه ها، برنامه های کیف پول و شبکه های بلاک چین دارای ضعف باشند و با تراکنش های بلاک چین تداخل ایجاد کرده یا سبب از بین رفتن رمز ارز شوند. عبارت بازیابی 12 کلمه ای (دانه) و کد عبور را همیشه به صورت ایمن نگهدارید. مسئولیت حفظ ایمنی کلیدهای بازیابی فقط بر عهده خودتان است. با ادامه کار، همه این خطرهای احتمالی موجود را می پذیرید و با آنها موافقت می کنید.\n\nمتشکریم که محصولات ما را امتحان کردید. ما همچنان در تلاش هستیم که فن آوری خود را بهبود ببخشیم و از <a href="mailto:exodus@htc.com">بازخوردتان متشکریم</a></string><!--Important disclaimer: This is an early access product utilizing blockchain technologies. Cryptocurrency, token exchange, and blockchain are new technologies and may carry unforeseen risks. For example: Third parties may introduce weaknesses in devices, wallet applications, or blockchain networks, which may interfere with blockchain transactions or result in the loss of your cryptocurrency. Keep your 12-/word recovery phrase (seed) and passcode secure at all times. You are solely responsible for safeguarding your recovery keys. By continuing, you acknowledge and agree to accept all these associated risks.\n\nThank you for trying our products. As we strive to improve our technology, we sincerely appreciate your <a href="mailto:exodus@htc.com">feedback</a>-->
+    <string name="gen_feedback">بازخورد</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">موارد قابل جمع آوری</string><!--Collectibles-->
+    <string name="no_collectible">هنوز موردی برای جمع آوری نیست</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">موارد قابل جمع آوری در اینجا نمایش داده می شوند.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">خرید توکن</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">برای مشاهده موارد قابل جمع آوری ضربه بزنید</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">افزودن موارد بیشتر</string><!--Add more-->
+    <string name="addwallet_search_wallet">جستجوی کیف پول</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">خرید سکه</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">درخواست</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">ارسال</string><!--Send-->
+    <string name="addwallet_hint">تراکنش ها در اینجا نشان داده می شوند.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">هیچ تراکنشی ندارید</string><!--You have no transactions-->
+    <string name="no_wallet_found">کیف پول پیدا نشد</string><!--No wallet found-->
+    <string name="addwallet_add_btn">افزودن</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">مدیریت لیست کیف پول</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">از <b>Zion</b> بازدید کنید</string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">کیف پول کامل و ایمن شما در بلاک چین.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">کیف پول Zion خودتان را ایجاد کنید</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">بازیابی کیف پول</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>درخواست های Social Key Recovery</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">با ادامه کار تأیید می کنم که %1$s و %2$s را خوانده ام و با آنها موافق هستم.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">شرايط استفاده</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">سیاست حریم خصوصی HTC</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">به دوستتان کمک می کنید؟</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">%1$s را خوانده ام و با آن موافق هستم و %2$s را می پذیرم.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">شرایط سرویس Zion</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">سیاست حریم خصوصی</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">کد عبورتان را ایجاد کنید.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">کد عبور جدیدی را ایجاد کنید.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">این کد عبور برای همه تراکنش ها و باز کردن قفل کیف پول لازم است.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">کد عبور را تأیید کنید.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">کد عبور جدید را تأیید کنید.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">کدهای عبور مطابقت ندارند. لطفا دوباره تلاش كنید.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">عبارت بازیابی 12 کلمه ای برای تهیه نسخه پشتیبان و بازیابی</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">اگر تلفنتان را گم کنید یا کد عبور را فراموش کنید، این مجموعه از کلمه ها تنها روش بازیابی کیف پول است.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">ایجاد عبارت بازیابی 12 کلمه ای</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">کل 12 کلمه عبارت بازیابی را به ترتیب بنویسید</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">بررسی کنید کل کلمات عبارت بازیابی 12 کلمه ای را به ترتیب صحیح نوشته باشید و آنها را در مکان امنی نگهداری کنید.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">آنها را نوشته ام</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">عبارت بازیابی 12 کلمه ای را تأیید کنید (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">برای اطمینان از اینکه کلمات را درست نوشته اید، لطفاً کلمات را به ترتیب وارد کنید.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">بعدی</string><!--Next-->
+    <string name="verify_key_1_not_match">یک یا تعداد بیشتری از کلمات مطابقت ندارند. لطفا دوباره تلاش كنید.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">عبارت بازیابی 12 کلمه ای را تأیید کنید (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">عبارت بازیابی 12 کلمه ای را تأیید کنید (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">تبریک می گوییم! کیف پول تنظیم شده است.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">اثر انگشت را برای باز کردن قفل کیف پول فعال کنید.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">برو به کیف پول.</string><!--Go to your wallet.-->
+
+    <string name="restoring">در حال بازیابی</string><!--Restoring-->
+    <string name="preparing_secure_ui">درحال آماده سازی رابط کاربر ایمن</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">عبارت بازیابی 12 کلمه ای را برای بازیابی کیف پول (1/3) وارد کنید</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">عبارت بازیابی 12 کلمه ای را به ترتیب صحیح وارد کنید.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">عبارت بازیابی 12 کلمه ای را برای بازیابی کیف پول (2/3) وارد کنید</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">عبارت بازیابی 12 کلمه ای را برای بازیابی کیف پول (3/3) وارد کنید</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">تبریک می گوییم!</string><!--Congratulations!-->
+    <string name="wallet_restored">کیف پولتان بازیابی شده است.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">باز کردن قفل کیف پول</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">استفاده از اثر انگشت</string><!--Use fingerprint-->
+    <string name="use_passcode">کد عبور</string><!--Passcode-->
+    <string name="or">یا</string><!--or-->
+    <string name="use_fingerprint_to_unlock">از اثر انگشت برای باز کردن قفل استفاده کنید</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">دوباره امتحان کنید</string><!--Try again-->
+    <string name="use_passcode_to_unlock">از کد عبور برای باز کردن قفل استفاده کنید</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">تنظیمات اثر انگشت تغییر کرد</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">ظاهراً اخیراً تنظیمات اثر انگشت را تغییر داده اید. برای استفاده از این ویژگی لطفاً اثر انگشت جدیدی را تنظیم کنید.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">اکنون تنظیم شود</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">کد عبور را برای بازگشایی قفل کیف پول وارد کنید</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">نسخه جدید موجود است</string><!--New version available-->
+    <string name="new_version_hint">برای در اختیار داشتن ایمنی و تجربه کاربری بهتر، برنامه را به نسخه جدیدتر به روز رسانی کنید.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">بعداً به‎روزرسانی شود</string><!--Update later-->
+    <string name="update_now">اکنون به روز رسانی شود</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">ارسال</string><!--Send-->
+    <string name="select_wallet">یک کیف پول انتخاب کنید</string><!--Select a wallet--> 
+    <string name="send_to">تا</string><!--TO-->
+    <string name="send_amount">مبلغ</string><!--AMOUNT-->
+    <string name="hint_amount">مبلغ را وارد کنید</string><!--Enter amount-->
+    <string name="to_paste_addr">جای گذاری آدرس</string><!--Paste address-->
+    <string name="to_scan_QR">اسکن کد QR</string><!--Scan QR code-->
+    <string name="to_select_QR_image">انتخاب تصویر ذخیره شده</string><!--Select saved image-->
+    <string name="to_enter_address">آدرس را وارد کنید</string><!--Enter address-->
+    <string name="to_paste_addr2">جای گذاری آدرس از کلیپ بورد</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">افزودن از تصاویر ذخیره شده</string><!--Add from saved images-->
+    <string name="enter_address_hint">آدرسی وارد کنید</string><!--Enter a address-->
+    <string name="send_address">آدرس</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">MAX</string><!--MAX-->
+    <string name="send_review_btn">بررسی تراکنش</string><!--Review transaction-->
+    <string name="fee">هزینه تراکنش</string><!--Transaction Fee-->
+    <string name="select_wallet_error">منابع مالی کافی نیست.</string><!--Insufficient funds.-->
+    <string name="amount_hint">باقیمانده:</string><!--Balance:-->
+    <string name="address_error">آدرس %s نامعتبر است.</string><!--Invalid %s address.-->
+    <string name="amount_input_error">موجودی برای هزینه تراکنش کافی نیست.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">مقدار ورودی باید حداقل %s باشد</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">لغو</string><!--CANCEL-->
+    <string name="enteraddr_save">ذخيره</string><!--SAVE-->
+    <string name="payment_urgent">فوری</string><!--Urgent-->
+    <string name="payment_priority">اولویت</string><!--Priority-->
+    <string name="payment_regular">معمولی</string><!--Regular-->
+    <string name="payment_economy">اقتصاد</string><!--Economy-->
+    <string name="payment_title">یک اولویت پرداخت را انتخاب کنید</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 دقیقه</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 ساعت</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 ساعت</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 ساعت</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">توصیف هزینه تراکنش</string><!--Transaction fee description-->
+    <string name="send_review">تراکنش را بررسی کنید</string><!--Review your transaction-->
+    <string name="send_note">یادداشت</string><!--MEMO-->
+    <string name="send_note_hint">(اختیاری)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">تراکنش ارسال شد.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">مدت زمان تکمیل تراکنش به ترافیک شبکه و هزینه تراکنش بستگی دارد.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">تأیید</string><!--OK-->
+    <string name="fee_error">خطای سرور: هزینه نامشخص</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">تراکنش موفقیت آمیز نبود</string><!--Transaction not successful--> 
+    <string name="review_send_to">ارسال به</string><!--SEND TO-->
+    <string name="review_fee">FEE</string><!--FEE-->
+    <string name="review_edit">ویرایش</string><!--Edit-->
+    <string name="review_enter_pin">کد عبور</string><!--Passcode-->
+    <string name="review_cancel">لغو تراکنش</string><!--Cancel transaction-->
+    <string name="send_server_no_response">سرور پاسخ نمی‌دهد. لطفاً بعداً دوباره امتحان کنید.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">هزینه های تراکنش توسط شخص ثالث محاسبه می شود نه HTC. اولویت های بیشتر به هزینه های بالاتری نیاز دارند. توصیف چارپوب زمانی اولویت به اطلاعات آماری بلاک چین فوری بستگی دارد که فقط برای راهنمایی ارائه می شوند. انتخاب اولویت تضمین کننده این مسئله نیست که تراکنش با موفقیت انجام می شود یا در مدت زمان تعیین شده انجام خواهد شد.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%s شما را به عنوان مخاطب مورد اعتماد اضافه کرد</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">مرحله 1. نامتان را وارد کنید و کد تأیید اعتبار را از %s دریافت کنید.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">مرحله 2: از %s درخواست کنید کد تأییدتان را ارسال کنید و آن را در اینجا وارد کنید.</string><!--Step 2: Ask %s for your verification code and enter it here.--> 
+    <string name="ver_enter_name_hint">نامتان را وارد کنید</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">درخواست کد</string><!--Request code--> 
+    <string name="ver_remain_time">زمان باقیمانده: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">برای ایجاد کد تأیید، کد عبور را وارد کنید</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">اشتراک گذاری این کد با %s</string>
+    <string name="ver_sharing_recovery_remind_name">درخواست جدید از</string>
+    <string name="ver_sharing_remind_name">درخواست جدید از %s</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">M: %s\nاز طریق %s</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">رد کردن</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">درخواست جدید از %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">برای مشاهده کد تأیید اعتبار ضربه بزنید و آن را به %s به اشتراک بگذارید.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">نمایش کد تأیید اعتبار</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">پاسخی دریافت نکردید؟ درخواست مجدد بعد از %s.</string><!--No reply? Request again in %s.-->
+    <string name="ver_verify">تایید صحت</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">شما اکنون مخاطب مورد اعتماد %s هستید.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">اکنون می توانید به %s کمک کنید در صورت گم شدن یا دزدیده شدن کیف پولش آن را بازیابی کند. Zion بخشی از داده بازیابی کیف پول را در دستگاهتان رمزگذاری و ذخیره کرده است. حتماً Zion و داده های برنامه Zion را حذف کنید در غیر اینصورت داده های بازیابی از بین می روند. Zion به صورت دوره ای با %s بررسی می کند تا مطمئن شود اطلاعات بازیابی همچنان معتبر هستند.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">انجام شد</string><!--Done-->
+    <string name="ver_pin_error_hint">کد نامعتبر است، لطفا دوباره امتحان کنید.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">اعلان</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">تأیید</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">شما از قبل یک مخاطب مورد اعتماد %s هستید</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">از اینکه کمک کردید داده های %s را پشتیبان گیری کنیم متشکرم</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">تأیید اعتبار ارسال شد</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">در انتظار تأیید. بعد از پایان مراحل تأیید اعتبار، شما مخاطب مورد اعتماد %s خواهید بود.</string><!--Waiting for verification. Once verification is completed, you will be %s’s trusted contact.-->
+    <string name="ver_dialog_restore_verifying_subtitle">تایید صحت...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">تأیید اعتبار ارسال شد</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">در حال تأیید صحت...</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">ناشناس</string><!--Unknown-->
+    <string name="ver_unknown_name">ناشناس</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">اسکن کد تأیید</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">از کمکتان متشکریم!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s قبلاً به حداکثر تعداد 5 مخاطب مورد اعتماد رسیده است.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">این پیوند منقضی شده است، لطفاً از %s درخواست کنید پیوند به روز رسانی شده را ارسال کند.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">فرصت زمانی درخواست تمام شد، لطفاً بعداً دوباره امتحان کنید.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">لطفاً بعداً دوباره تلاش کنید</string><!--Please try again later-->
+    <string name="try_too_often_message">به تعداد دفعات زیادی امتحان کردید، لطفاً دوباره بعد از %d دقیقه امتحان کنید</string><!--You are trying too often, please try again after %d minutes.-->
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">بخش خالی ابتدا</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">تنظیمات</string><!--Settings-->
+    <string name="setting_tag1">تنظیمات برگزیده</string><!--Preferences--> 
+    <string name="setting_currency">واحد ارز برگزیده</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">امنیت</string><!--Security--> 
+    <string name="setting_notification">اعلان ارسالی مجاز است</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">اعلان برای تراکنش های ارسال و دریافت شده</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">فعال کردن قابلیت عکس گرفتن از صفحه</string><!--Enable screenshots--> 
+    <string name="setting_pin">تغییر پین</string><!--Change PIN-->
+    <string name="setting_fingerprint">اثر انگشت</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">فقط برای باز کردن قفل برنامه مورد استفاده قرار می گیرد</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">کیف پول</string><!--Wallet--> 
+    <string name="setting_show_key">نمایش عبارت بازیابی 12 کلمه ای</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">تنظیم مجدد کیف پول</string><!--Reset wallet-->
+    <string name="setting_tag4">درباره</string><!--About--> 
+    <string name="setting_learn_more">بیشتر بدانید</string><!--Learn more-->
+    <string name="setting_service">شرایط خدمات</string><!--Terms of service--> 
+    <string name="setting_policy">سیاست حریم خصوصی</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Social Key Recovery چیست؟</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery به شما کمک می کند به راحتی کیف پولتان را از دوستان مورد اعتماد یا خانواده تان بازیابی کنید.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">از 3 تا 5 نفر دعوت کنید تا مخاطب مورد اعتمادتان باشند تا در بازیابی کیف پول به شما کمک کنند.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">مخاطبین مورد اعتمادتان می توانند کدی را ارسال کنند تا بتوانید کیف پولتان را بازیابی کنید.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">راه‌اندازی</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>حالا نه</a></string>
+    <string name="backup_introduction_ok">تأیید</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">از لیست تماس مخاطبین مورد اعتمادتان نسخه پشتیبان تهیه کنید</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">برای بازیابی کیف پول با Social Key Recovery، یک حساب Google انتخاب کنید تا از مخاطبین مورد اعتمادتان نسخه پشتیبان تهیه کنید. فهرست مخاطبین مورد اعتمادتان در Google Drive ذخیره خواهند شد.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">افزودن حساب</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">لغو</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">ادامه</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">مخاطب مورد اعتماد</string><!--Trusted contact--> 
+    <string name="backup_null_contact">هنوز هیچ مخاطب مورد اعتمادی اضافه نکرده اید.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery زمانی قابل دسترسی است \n که حداقل 3 مخاطب مورد اعتماد (حداکثر 5 نفر) داشته باشید.</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">از دوستانتان به عنوان مخاطب مورد\nاعتماد دعوت کنید</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">از 3 تا 5 دوست یا خانواده تان دعوت کنید تا مخاطب مورد اعتمادتان باشند و به بازیابی کیف پول نیز کمک شود.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">نام شما</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">نامتان را وارد کنید</string><!--Enter your name-->
+    <string name="backup_invitation_hi">سلام %s،</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">اشتراک گذاری دعوت</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">غیر فعال</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">فعال</string><!--Active-->
+    <string name="backup_invitation_message_first_part">سلام، \n\n من شما را به عنوان مخاطب مورد اعتماد کیف پول Zion در ویژگی Social Key Recovery تعیین کرده ام. \n لطفاً دستورالعمل های زیر را \n برای کمک به من در بازیابی داده هایم دنبال کنید.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) روی لینک ضربه بزنید تا Zion دانلود و نصب شود:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) بعد از پایان کار، حتماٌ از \n من کد تأیید درخواست کنید.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">متشکریم!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">آخرین زمان بررسی: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">برای ایجاد کد روی این قسمت ضربه بزنید.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">ارسال مجدد</string><!--Resend-->
+    <string name="backup_bottom_request_show">درخواست دوستان</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">حذف مخاطب مورد اعتماد</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">لغو</string><!--Cancel-->
+    <string name="backup_remove_button_delete">حذف (%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">حذف مخاطب مورد اعتماد</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">خروج از سیستم</string><!--Sign out-->
+    <string name="backup_pending_target_toolbar">درخواست دوستان</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">این بار درخواستی وجود ندارد.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">پشتیبان گیری در بعضی از دستگاه ها امکان پذیر نیست.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">با مخاطبین مورد اعتماد پشتیبان گیری شود؟</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">اشتراک گذاری لینک</string><!--Share link-->
+    <string name="restore_request">درخواست بازیابی از %s</string><!--Restore request from %s-->
+    <string name="show">نمایش</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">این حساب در دستگاهی دیگر استفاده شده است</string><!--This account has been used in another device-->
+    <string name="db_security_concern">به دلایل امنیتی، از هر حساب فقط می توانید برای یک دستگاه استفاده کنید.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">آیا همچنان می خواهید از این حساب استفاده کنید یا می خواهید از حسابی دیگر برای شروع Social Key Recovery استفاده کنید؟</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">از این حساب استفاده شود</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">لیست مخاطب مورد اعتماد قبلیتان به صورت دائمی از بین می رود.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">از حسابی دیگر استفاده کنید</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">داده های قبلی حفظ شود و یک داده جدید ایجاد کنید.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">مطمئن هستید می خواهید از این حساب استفاده کنید؟</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">لیست مخاطب مورد اعتماد قبلیتان به صورت دائمی از بین می رود.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">برای ادامه، کد پین را وارد کنید</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">چطور می خواهید کیف پول را بازیابی کنید؟</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">از عبارت بازیابی 12 کلمه ای استفاده کنید</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">از طریق Social Key Recovery</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">عبارت بازیابی 12 کلمه ای که هنگام ایجاد کیف پول نوشته اید را وارد کنید.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">از مخاطبین مورد اعتمادتان برای راهنمایی درخواست کنید.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">سلام، \n\n شما یک مخاطب مورد اعتماد من هستید و برای بازیابی کیف پول Zion به کمک شما نیاز دارم.\nبرای بازیابی، لازم است کارهای زیر را انجام دهید.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) روی این لینک ضربه بزنید و کد تأیید را ایجاد کنید.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) کد را برای من ارسال کنید.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">متشکریم!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">لطفاً صبر کنید...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">درحال ورود...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">اطلاعات Social Key Recovery پیدا نشد</string><!--No Social Key Recovery data found-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">لطفاً از حساب یا کلید بازیابی 12 کلمه ای دیگری برای بازیابی کیف پول استفاده کنید.</string><!--Please try another account or use 12-/word recovery phrase to restore your wallet.-->
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">لطفاً صبر کنید...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">درحال ایجاد پیوند...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">به حسابتان وارد سیستم شوید</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">برای بازیابی کیف پول با Social Key Recovery، حساب Google را انتخاب کنید که قبلاً فهرست مخاطبین مورد اعتمادتان را در آنجا ذخیره کرده اید.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">لینک اشتراک گذاری ایجاد نشد</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">لطفاً بعداً دوباره امتحان کنید.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">وارد سیستم نشدید</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">لطفاً بعداً دوباره امتحان کنید.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">از مخاطبین مورد اعتمادتان برای راهنمایی درخواست کنید</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. به سه مخاطب مورد اعتمادتان تماس بگیرید و این لینک را با آنها به اشتراک بگذارید.</string><!--1. Reach out to three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. هر مخاطب یک کد به شما می دهد. هرکدام از کدها را در زیر وارد کنید:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">یک یا تعداد بیشتری از کدها اشتباه هستند. دوباره امتحان کنید.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">کد را وارد کنید</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">لغو</string><!--Cancel-->
+    <string name="social_restore_btn_next">بعدی</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">لطفاً بعداً دوباره تلاش کنید</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">به تعداد دفعات زیادی امتحان کردید، لطفاً دوباره بعد از %s دقیقه امتحان کنید</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">یک یا تعداد بیشتری از کدها اشتباه هستند.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">لطفاً بررسی کنید همه کدها صحیح باشند و دوباره امتحان کنید.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">هیچ نسخه پشتیبانی برای %s در دستگاهتان وجود ندارد.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">بازیابی نشد</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">از حسابی دیگر یا کلید بازیابی 12 کلمه ای برای بازیابی استفاده کنید.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">دعوت %s</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">برای پذیرش ضربه بزنید.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">درخواست پشتیبانی بازیابی از %s</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">برای ایجاد کد ضربه بزنید.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">Social Key Recovery با این حساب تنظیم نشده است.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">از حسابی دیگر یا کلید بازیابی 12 کلمه ای برای بازیابی استفاده کنید.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">به روز رسانی وضعیت پشتیبان</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">برای حذف مخاطب مورد اعتماد تأیید کنید</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">برای حذف کردن، کد عبور را وارد کنید</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">با مخاطبین مورد اعتماد پشتیبان گیری شود؟</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">همچنین می توانید Social Key Recovery را با مخاطبین مورد اعتماد تنظیم کنید تا بتوانید از کیف پول نسخه پشتیبان تهیه کنید.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">بيشتر توضيح داده شود</string><!--Tell me more-->
+    <string name="social_backup_not_now">حالا نه</string><!--Not now-->
+    <string name="social_backup_oops_inactive">بعضی از مخاطبین مورد اعتماد شما غیرفعال هستند.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">با مخاطب مورد اعتمادتان بررسی کنید و ارتباطات را ایمن کنید.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">در دستگاهی دیگر از این حساب استفاده کرده اید</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">هیچکدام داده های Social Key Recovery به صورت دائمی قابل استفاده نیستند. برای ادامه استفاده از Social Key Recovery باید به حساب دیگری وارد شوید.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">موافقم</string><!--Agree-->
+    <string name="social_key_recovery_disagree">مخالف</string><!--Disagree-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">با بعضی از مخاطبین مورد اعتماد باید دوباره مرتبط شوید</string><!--Some trusted contacts need to be re-/connected-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">به دلایل امنیتی لازم است دوباره دعوت مخاطب مورد اعتماد را برای %s، %s ارسال کنید.</string><!--For security concerns, you need to resend the trusted contact invitation to %s, %s again.-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">جزئیات تراکنش</string><!--Transaction details--> 
+    <string name="Amount">مبلغ کل</string><!--Total Amount-->
+    <string name="Date">تاریخ</string><!--Date-->
+    <string name="Send_to">ارسال به</string><!--Send to-->
+    <string name="Receive_From">دریافت از</string><!--Receive from-->
+    <string name="Memo">یادداشت</string><!--Memo-->
+    <string name="transaction_amount_send">مبلغ مورد نظر برای ارسال</string><!--Amount to send-->
+    <string name="transaction_amount_receive">مبلغ مورد نظر برای دریافت</string><!--Amount to receive-->
+    <string name="transaction_amount">مقدار</string><!--Value-->
+    <string name="Transaction_Fee">هزینه تراکنش</string><!--Transaction fee--> 
+    <string name="Status">وضعیت</string><!--Status-->
+    <string name="Transcation_ID">شناسه تراکنش</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">اسکن کد %1$s QR</string><!--Scan %1$s QR code-->
+    <string name="Settings">تنظیمات</string><!--Settings-->
+    <string name="Help">راهنمایی</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">درخواست</string><!--Request-->
+    <string name="WALLET_ADDRESS">آدرس WALLET</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">حساب مورد نظر برای ارائه اعتبار</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">درخواست مقدار (اختیاری)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">اشتراک گذاری کد QR</string><!--Share QR code-->
+    <string name="Copy_as_text">کپی به عنوان متن</string><!--Copy as text-->
+    <string name="copy_toast">آدرس کیف پول در كلیپ بورد كپی شد.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">بعضی از کیف های پول شخص ثالث ممکن است از مقدار درخواستی در لینک یا کدهای QR پشتیبانی نکنند.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">اسکن کد QR</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">برای استفاده از اسکنر کد QR لطفاً ابتدا به دوربین اجازه دسترسی بدهید.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">فعال کردن دسترسی دوربین</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Zion اجازه دارد عکس بگیرد و ویدیو ضبط کند</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">دوباره پرسیده نشود</string><!--Never ask again-->
+    <string name="DENY">رد کردن</string><!--DENY-->
+    <string name="ALLOW">اجازه دادن</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">اسکن آدرس کد %1$s(%2$s) QR</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">کد را با فریم هم تراز کنید</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">آدرس عمومی معتبر نیست</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">امكان اتصال وجود ندارد.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">براي استفاده از اين برنامه به يک اتصال شبكه نياز داريد. لطفاً داده های تلفن همراه یا Wi-Fi را در قسمت تنظیمات روشن کنید.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">لغو</string><!--Cancel-->
+    <string name="check">بررسی کنید</string><!--Check-->
+    <string name="You_have_no_transaction">هیچ تراکنشی ندارید.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">وقتی دارایی های دیجیتال را ارسال و دریافت می کنید، تراکنش هایتان در اینجا نمایش داده می شوند.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Social Key Recovery را امتحان می کنید؟</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">علاوه بر بازیابی با استفاده از عبارت بازیابی 12 کلمه ای، Social Key Recovery نیز می تواند به شما کمک کند تا کیف پولتان را به روشی ساده از طریق مخاطبین مورد اعتمادتان بازیابی کنید.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">به زودی برای IOS ارائه می شود</string><!--COMING SOON FOR IOS-->
+
+    <string name="socialkm_not_active_title">Social Key Recovery فعال نیست</string><!--Social Key Recovery is not active-->
+    <string name="socialkm_not_active_message">می توانید با مخاطبین مورد اعتمادتان تماس بگیرید و وضعیت پشتیبانی آنها را بررسی کرده یا مخاطب جدید را برای کمک به خودتان انتخاب کنید.</string><!--You can try to contact your trusted contacts and check their backup status or find a new contact to help you.-->
+
+    <string name="transaction_confirmation">تأییدیه ها</string><!--Confirmations-->
+
+<!-- iOS strings -->
+    <string name="ios_social_backup_regular_check_title">متشکریم که به پشتیبان گیری دوستانتان کمک کردید.</string><!--Thanks for helping your friends backup-->
+    <string name="ios_social_backup_regular_check_content">وضعیت پشتیبان گیری Social Key Recovery به همه دوستانتان گزارش شد.</string><!--The backup status of Social Key Recovery has been reported to all your friends.-->
+    <string name="ios_social_backup_notifications_settings_title">اعلان ها غیرفعال شدند</string><!--Notifications disabled-->
+    <string name="ios_social_backup_notifications_settings_content">لطفاً اعلان های Zion را در تنظیمات مجاز کنید.</string><!--Please allow Zion’s notifications in Settings.-->
+    <string name="ios_social_backup_notifications_settings">تنظیمات</string><!--Settings-->
+    <string name="transaction_pending">در انتظار تأیید</string><!--Wait for confirmation-->
+    <string name="complete">تکمیل</string><!--Complete-->
+</resources>

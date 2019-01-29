@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallet_background"
+    tools:context=".AllSetActivity">
+
+    <RelativeLayout
+        android:id="@+id/progressbar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="196px">
+        <ImageView
+            android:id="@+id/progressbar_a"
+            android:layout_width="300px"
+            android:layout_height="20px"
+            android:layout_marginEnd="@dimen/leading"
+            android:background="#ffffff"
+            />
+
+        <ImageView
+            android:id="@+id/progressbar_b"
+            android:layout_width="300px"
+            android:layout_height="20px"
+            android:layout_toEndOf="@id/progressbar_a"
+            android:layout_marginEnd="@dimen/leading"
+            android:background="#ffffff"
+            />
+
+        <ImageView
+            android:id="@+id/progressbar_c"
+            android:layout_width="300px"
+            android:layout_height="20px"
+            android:layout_toEndOf="@id/progressbar_b"
+            android:background="#ffffff"
+            />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/cong_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressbar_layout"
+        android:layout_marginTop="101px">
+
+        <FrameLayout
+            android:id="@+id/cong_title_set"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_l_2"
+                android:layout_marginEnd="@dimen/margin_l_2"
+                android:gravity="center"
+                android:textSize="100px"
+                android:textColor="@color/dark_primaryfont_color"
+                android:text="@string/create_wallet_cong"/>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/cong_title_restore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+            <TextView
+                android:id="@+id/cong_title_restore_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_l_2"
+                android:layout_marginEnd="@dimen/margin_l_2"
+                android:gravity="center"
+                android:textSize="100px"
+                android:textColor="@color/dark_primaryfont_color"
+                android:text="@string/restored_cong"/>
+            <TextView
+                android:id="@+id/cong_title_restore_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_l_2"
+                android:layout_marginEnd="@dimen/margin_l_2"
+                android:layout_below="@id/cong_title_restore_a"
+                android:gravity="center"
+                android:textSize="100px"
+                android:textColor="@color/dark_primaryfont_color"
+                android:text="@string/wallet_restored"/>
+        </RelativeLayout>
+
+
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/cong_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cong_title"
+        android:layout_marginTop="@dimen/margin_xs_2"
+        android:src="@drawable/wallet_oobe_finish"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layout_set_enable_fp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cong_image"
+        android:layout_marginTop="@dimen/margin_l"
+        android:layout_marginStart="@dimen/margin_l_2"
+        android:layout_marginEnd="@dimen/margin_l_2"
+        >
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox_enable_fp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#ffffff"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/text_enable_fp"
+            android:layout_toEndOf="@id/checkbox_enable_fp"
+            android:layout_marginStart="@dimen/margin_xs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/enable_fingerprint"
+            android:textColor="@color/dark_primaryfont_color"
+            android:textSize="@dimen/Wallet_42"
+            />
+        <!--CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" /-->
+
+    </RelativeLayout>
+
+    <Button style="?android:attr/borderlessButtonStyle"
+        android:textSize="@dimen/list_primary_xs"
+        android:textColor="#f7b66a"
+        android:id="@+id/cong_go_to_home_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/margin_l"
+        android:text="@string/go_to_wallet_home"
+        android:background="@drawable/button_create_wallet"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/margin_l_2"
+        android:layout_marginEnd="@dimen/margin_l_2"
+        />
+
+
+
+</RelativeLayout>

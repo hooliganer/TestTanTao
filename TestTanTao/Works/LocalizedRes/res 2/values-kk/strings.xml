@@ -1,0 +1,560 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Жоқ</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Негізгі экран</string><!--Home-->
+    <string name="Nav_collectible">Коллекциялайтын заттар</string><!--Collectibles--> 
+    <string name="Nav_request">Сұрау</string><!--Request-->
+    <string name="Nav_receive">Қабылдау</string><!--Receive-->
+    <string name="Nav_shop">Дүкен</string><!--Shop-->
+    <string name="home_recovering">Қалпына келтірілуде...</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">Қалпына келтіру орындалуда, күте тұрыңыз.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">Валюта бағамының қайнар көзі: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Ретін басқару</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">Параметрлер</string><!--Settings-->
+    <string name="tool_help">Анықтама</string><!--Help-->
+    <string name="tool_sort_by">Сұрыптау реті</string><!--Sort by-->
+    <string name="tool_sort_custom">Реттелген</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">Алфавиттік</string><!--Alphabetical-->
+    <string name="tool_sort_value">Мән</string><!--Value-->
+
+    <string name="Create_wallet">Жаңа әмиян жасау</string><!--Create a new wallet-->
+    <string name="total_assets">Жалпы активтер</string><!--Total assets--> 
+    <string name="last_update">Соңғы рет %1$d минут бұрын жаңартылды.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">Интернет байланысы жоқ</string><!--No internet connection-->
+    <string name="retry_button">Параметрлер</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">Менің тиындарым (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">Әлі әмиян қосылған жоқ</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">Әмиянды басқару</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Сатып алу/сату</string><!--Buy/Sell-->
+    <string name="shop_buy">Сатып алу</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Maicoin ішінен сатып алу/сату</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">Криптовалютаны сатып алу, сату немесе транкзациялау (“Транкзация”) үшінші тараптың айырбастау провайдерлерімен жүргізіледі.  Барлық мұндай транкзация сіз және үшінші тараптың айырбастау провайдерлері арасындағы тиісті шарттар мен ережелерге сәйкес болады. Үшінші тараптың айырбастау провайдерлерінен алынған қызметтерді пайдаланудан бұрын мұндай шарттарды және ережелерді мұқият оқуыңыз керек. HTC компаниясы сіз және үшінші тараптың айырбастау провайдерлері арасындағы кез келген әрекеттерге жауапты болмайды.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">Қайта еске салмаңыз.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">Жүйе</string><!--System-->
+    <string name="gen_wallet_title">Әмиян</string><!--Wallet-->
+    <string name="gen_now">қазір</string><!--now-->
+    <string name="gen_screenshot">Скриншот сақталмады</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">Қауіпсіздікке байланысты скриншотқа рұқсат етілмейді</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">Транкзация қабылдау</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">Сіз %1$s мына жерден алдыңыз</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">МӘЛІМЕТТІ КӨРУ</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">Транкзация аяқталды</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">%2$s сіздің %1$s транкзацияңыз расталды</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">Транкзация сәтсіз</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">%1$s транкзацияңыз %2$s %3$s %4$s жіберілген жоқ</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">Жаңа нұсқа қолжетімді</string><!--New version available-->
+    <string name="gen_new_version_hint">Жақсартылған қауіпсіздік және пайдаланушы тәжірибелері үшін қолданбаны жаңалау нұсқаға жаңартыңыз.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">Жаңа қауіпсіздік параметрлері шығарылды. Қорғанысыңыз үшін жүйелік жаңарту талап етіледі. Жалғастыру үшін жаңартыңыз.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">ҚАЗІР ЖАҢАРТУ</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">Қауіпсіздік параметрлері жүктелуде. Күте тұрыңыз.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">Телефоныңыздың root-қатынасы жасалды</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">Әмияныңыз құлыпталды, себебі телефоныңыздың root-қатынасы жасалды. Бұл қауіпсіздік шарасы. Келесі орындайтын әрекетті анықтау үшін тұтынушылар қызметіне хабарласыңыз.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">Телефоныңызда джейлбрейк орын алды</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">Әмияныңыз құлыпталды, себебі телефоныңызда джейлбрейк орын алды. Бұл қауіпсіздік шарасы. Келесі орындайтын әрекетті анықтау үшін тұтынушылар қызметіне хабарласыңыз.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">Маңызды ескерту мәтіні: Бұл блоктар тізбегі технологияларын пайдаланатын ерте қатынасу өнімі. Криптовалюта, таңбалауыштарды айырбастау және блоктар тізбегі деген жаңа технологиялар және күтпеген қауіптерге себеп болуы мүмкін. Мысалы: үшінші тараптар құрылғыларда, әмиян қолданбаларында немесе блоктар тізбегі желілерінде әлсіздік шығаруы мүмкін, ол блоктар тізбегі транкзацияларына кедергі келтіруі немесе криптовалютаның жоғалуына себеп болуы мүмкін. 12-сөздік сөз тіркесін (бастапқы мән) және құпия кодты барлық уақытта қауіпсіз сақтаңыз. Қалпына келтіру кілттеріңізді қорғауға тек өз басыңыз жауапты боласыз. Жалғастыру арқылы сіз осы барлық байланысты қауіптерді қабылдауды мойындайсыз және келісесіз.\n\nБіздің өнімдерді байқап көргеніңізге рақмет. Біз технологиямызды жақсартуға ұмтыламыз және сіздің <a href="mailto:exodus@htc.com">пікіріңізді құрметтейміз</a></string><!--Important disclaimer: This is an early access product utilizing blockchain technologies. Cryptocurrency, token exchange, and blockchain are new technologies and may carry unforeseen risks. For example: Third parties may introduce weaknesses in devices, wallet applications, or blockchain networks, which may interfere with blockchain transactions or result in the loss of your cryptocurrency. Keep your 12-/word recovery phrase (seed) and passcode secure at all times. You are solely responsible for safeguarding your recovery keys. By continuing, you acknowledge and agree to accept all these associated risks.\n\nThank you for trying our products. As we strive to improve our technology, we sincerely appreciate your <a href="mailto:exodus@htc.com">feedback</a>-->
+    <string name="gen_feedback">кері байланыс</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Коллекциялайтын заттар</string><!--Collectibles-->
+    <string name="no_collectible">Коллекциялайтын заттар әлі жоқ</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">Коллекциялайтын заттарыңыз осы жерде көрсетіледі.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">Таңбалауыштар сатып алу</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">Коллекциялайтын заттарды көру үшін түртіңіз</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Тағы қосу</string><!--Add more-->
+    <string name="addwallet_search_wallet">Әмиян іздеу</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">Тиындар сатып алу</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">Сұрау</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">Жіберу</string><!--Send-->
+    <string name="addwallet_hint">Транкзацияларыңыз осы жерде көрсетіледі.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">Сізде транкзациялар жоқ</string><!--You have no transactions-->
+    <string name="no_wallet_found">Әмиян табылмады</string><!--No wallet found-->
+    <string name="addwallet_add_btn">Қосу</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Әмиян тізімін басқару</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion"><b>Zion</b> қолданбасымен танысу</string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">Сіздің блоктар тізбегіндегі барлығы біреуіндегі қауіпсіз әмияныңыз.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Zion әмияныңызды жасаңыз</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">Әмияныңызды қалпына келтіру</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Social Key Recovery сұраулары</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">Жалғастыру арқылы мен %1$s және %2$s оқығанымды және келісетінімді растаймын.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">Пайдалану шарттары</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">HTC құпиялылық саясаты</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">Досыңызға көмектесесіз бе?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">Мен %1$s оқыдым және келісемін, %2$s мойындаймын.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Zion қызмет көрсету шарттары</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">Құпиялық саясаты</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Құпия кодыңызды жасаңыз.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">Жаңа құпия кодыңызды жасаңыз.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">Бұл құпия код барлық транкзациялар және әмиян құлпын ашу үшін қажет.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">Құпия коды растаңыз.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">Жаңа құпия кодыңызды растаңыз.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">Құпия кодтар сәйкес келмейді. Әрекетті қайталаңыз.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">Сақтық көшірме және қалпына келтіру үшін 12-сөздік қалпына келтіру сөз тіркесі</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">Бұл сөздер жинағы телефоныңызды жоғалтқан немесе құпия кодты ұмытқан жағдайда қалпына келтірудің бір ғана жолы.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">12-сөздік қалпына келтіру сөз тіркесін жасау</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">Қалпына келтіру сөз тіркесінің 12 сөзін ретімен жазып алыңыз</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">Барлық 12-сөздік қалпына келтіру сөз тіркесін дұрыс ретпен жазғаныңызға көз жеткізіңіз және оларды қауіпсіз орында сақтаңыз.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">Мен оларды жазып алдым</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">12-сөздік қалпына келтіру сөз тіркесіңізді тексеріңіз (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">Сөздер дұрыс жазылғанына көз жеткізу үшін сөздерді ретімен енгізіңіз.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">Келесі</string><!--Next-->
+    <string name="verify_key_1_not_match">Бір немесе бірнеше сөз сәйкес келмейді. Әрекетті қайталаңыз.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">12-сөздік қалпына келтіру сөз тіркесіңізді тексеріңіз (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">12-сөздік қалпына келтіру сөз тіркесіңізді тексеріңіз (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">Құттықтаймыз! Әмияныңыз орнатылды.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">Әмиян құлпын ашу үшін саусақ ізін қосыңыз.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">Әмияныңызға өтіңіз.</string><!--Go to your wallet.-->
+
+    <string name="restoring">Қалпына келтіру</string><!--Restoring-->
+    <string name="preparing_secure_ui">Қауіпсіз пайдаланушы интерфейсін дайындау</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">Әмияныңызды қалпына келтіру үшін 12-сөздік қалпына келтіру сөз тіркесін енгізіңіз (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">12-сөздік қалпына келтіру сөз тіркесіңізді дұрыс ретпен енгізіңіз.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">Әмияныңызды қалпына келтіру үшін 12-сөздік қалпына келтіру сөз тіркесін енгізіңіз (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">Әмияныңызды қалпына келтіру үшін 12-сөздік қалпына келтіру сөз тіркесін енгізіңіз (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">Құттықтаймыз!</string><!--Congratulations!-->
+    <string name="wallet_restored">Әмияныңыз қалпына келтірілді.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Әмиян құлпын ашу</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">Саусақ ізін пайдалану</string><!--Use fingerprint-->
+    <string name="use_passcode">Құпия код</string><!--Passcode-->
+    <string name="or">немесе</string><!--or-->
+    <string name="use_fingerprint_to_unlock">Құлыпты ашу үшін саусақ ізін пайдалану</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">Әрекетті қайталаңыз</string><!--Try again-->
+    <string name="use_passcode_to_unlock">Құлыпты ашу үшін құпия кодты пайдалану</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">Саусақ ізі параметрі өзгертілді</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">Сіз саусақ ізі параметрлерін жақында өзгерткен сияқты көрінесіз. Бұл мүмкіндікті пайдалану үшін жаңа саусақ ізін орнатыңыз.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">Қазір орнату</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">Әмиян құлпын ашу үшін құпия кодты енгізіңіз</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">Жаңа нұсқа қолжетімді</string><!--New version available-->
+    <string name="new_version_hint">Жақсартылған қауіпсіздік және пайдаланушы тәжірибелері үшін қолданбаны жаңалау нұсқаға жаңартыңыз.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">Кейінірек жаңарту</string><!--Update later-->
+    <string name="update_now">Қазір жаңарту</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Жіберу</string><!--Send-->
+    <string name="select_wallet">Әмиян таңдау</string><!--Select a wallet--> 
+    <string name="send_to">КІМГЕ</string><!--TO-->
+    <string name="send_amount">КӨЛЕМІ</string><!--AMOUNT-->
+    <string name="hint_amount">Көлемін енгізу</string><!--Enter amount-->
+    <string name="to_paste_addr">Мекенжайды қою</string><!--Paste address-->
+    <string name="to_scan_QR">QR кодын сканерлеу</string><!--Scan QR code-->
+    <string name="to_select_QR_image">Сақталған суретті таңдау</string><!--Select saved image-->
+    <string name="to_enter_address">Мекенжайды енгізу</string><!--Enter address-->
+    <string name="to_paste_addr2">Мекенжайды аралық сақтағыштан қою</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">Сақталған суреттер ішінен қосу</string><!--Add from saved images-->
+    <string name="enter_address_hint">Мекенжайды енгізу</string><!--Enter a address-->
+    <string name="send_address">Мекенжай</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">МАКС</string><!--MAX-->
+    <string name="send_review_btn">Транкзацияны қарап шығу</string><!--Review transaction-->
+    <string name="fee">Транкзация құны</string><!--Transaction Fee-->
+    <string name="select_wallet_error">Қаражат жеткіліксіз.</string><!--Insufficient funds.-->
+    <string name="amount_hint">Теңгерім:</string><!--Balance:-->
+    <string name="address_error">Жарамсыз %s мекенжайы.</string><!--Invalid %s address.-->
+    <string name="amount_input_error">Транкзация құны үшін қаражат жеткіліксіз.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">Енгізу көлемі ең кемінде %s болуы керек</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">БАС ТАРТУ</string><!--CANCEL-->
+    <string name="enteraddr_save">САҚТАУ</string><!--SAVE-->
+    <string name="payment_urgent">Шұғыл</string><!--Urgent-->
+    <string name="payment_priority">Басымдылық</string><!--Priority-->
+    <string name="payment_regular">Қалыпты</string><!--Regular-->
+    <string name="payment_economy">Үнемді</string><!--Economy-->
+    <string name="payment_title">Төлем басымдылығын таңдаңыз</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 минут</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 сағат</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 сағат</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 сағат</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">Транкзация ақысының сипаттамасы</string><!--Transaction fee description-->
+    <string name="send_review">Транкзацияңызды қарап шығу</string><!--Review your transaction-->
+    <string name="send_note">ЖАЗБА</string><!--MEMO-->
+    <string name="send_note_hint">(ҚОСЫМША)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">Транкзация жіберілді!.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">Транкзацияны аяқтау уақыты желі трафигіне және транкзация құнына байланысты.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">OK</string><!--OK-->
+    <string name="fee_error">Сервер қатесі: белгісіз ақы</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">Транкзация сәтсіз аяқталды</string><!--Transaction not successful--> 
+    <string name="review_send_to">КЕЛЕСІГЕ ЖІБЕРУ</string><!--SEND TO-->
+    <string name="review_fee">ҚҰНЫ</string><!--FEE-->
+    <string name="review_edit">Өңдеу</string><!--Edit-->
+    <string name="review_enter_pin">Құпия код</string><!--Passcode-->
+    <string name="review_cancel">Транкзациядан бас тарту</string><!--Cancel transaction-->
+    <string name="send_server_no_response">Сервер жауап бермейді. Әрекетті кейін қайталаңыз.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">Транкзация ақыларын HTC емес, үшінші тарап алады. Басымдылықтар неғұрлым жоғары болса, ақы соғұрлым жоғары болады. Басымдылық уақыт аралығының сипаттамасы шынайы уақыттағы блоктар тізбегі статистикасына негізделеді және тек анықтама үшін арналады. Басымдылықты таңдауыңыз транкзацияның тағайындалған мерзім ішінде сәтті аяқталатынына кепілдік бермейді.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%s сізді сенімді контакті ретінде қосты</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">1-қадам. Атыңызды енгізіңіз және %s тексеру кодын алыңыз.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">2-қадам: Растау кодыңызды %s сұраңыз және оны осы жерге енгізіңіз.</string><!--Step 2: Ask %s for your verification code and enter it here.--> 
+    <string name="ver_enter_name_hint">Атыңызды енгізіңіз</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Сұрау коды</string><!--Request code--> 
+    <string name="ver_remain_time">Қалған уақыт: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">Тексеру кодын жасау үшін құпия кодты енгізіңіз</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">Бұл кодты %s ортақтасу</string>
+    <string name="ver_sharing_recovery_remind_name">Жаңа сұрау алу</string>
+    <string name="ver_sharing_remind_name">%s жаңа сұрау</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">M: %s\nарқылы %s</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">ҚАБЫЛДАМАУ</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">%s жаңа сұрау</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">Тексеру кодын көру және оны %s ортақтасу үшін түртіңіз.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">ТЕКСЕРУ КОДЫН КӨРСЕТУ</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Жауап жоқ па? %s ішінде қайта сұраңыз.</string><!--No reply? Request again in %s.-->
+    <string name="ver_verify">Растау</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Сіз енді %s үшін сенімді контактісіз.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">Егер олардың әмияны жоғалса немесе ұрланса %s қалпына келтіруге көмектесе аласыз. Zion шифрланды және олардың әмиянды қалпына келтіру деректерінің бір бөлігін құрылғыңызға сақтады. Zion немесе Zion қолданба деректерін жоймағаныңызға көз жеткізіңіз, әйтпесе, бұл қалпына келтіру деректері жоғалады. Қалпына келтіру деректері әлі жарамды екенін тексеру үшін Zion %s бірге жүйелі түрде тексереді.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">Дайын</string><!--Done-->
+    <string name="ver_pin_error_hint">Бұл код жарамсыз, әрекетті қайталаңыз.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">Хабарландыру</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Сіз бұрыннан %s сенімді контактісісіз</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">%s деректерін сақтық көшіруге көмектескеніңіз үшін рақмет</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">Тексеру жіберілді</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Тексеру үшін күтуде. Тексеру аяқталған соң, сіз %s сенімді контактісі боласыз.</string><!--Waiting for verification. Once verification is completed, you will be %s’s trusted contact.-->
+    <string name="ver_dialog_restore_verifying_subtitle">Тексерілуде...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">Тексеру жіберілді</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">Тексерілуде...</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">Белгісіз</string><!--Unknown-->
+    <string name="ver_unknown_name">Белгісіз</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">Тексеру кодын сканерлеу</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">Көмегіңіз үшін рақмет!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s максималды 5 сенімді контактіге әлдеқашан жетті.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Бұл сілтеменің мерзімі аяқталды, жаңартылған сілтеме жіберуді %s сұраңыз.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">Сұрау үзілісі, әрекетті кейінірек қайталаңыз.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Әрекетті кейін қайталаңыз</string><!--Please try again later-->
+    <string name="try_too_often_message">Сіз тым жиі қайталадыңыз, әрекетті %d минуттан кейін қайталаңыз.</string><!--You are trying too often, please try again after %d minutes.-->
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Параметрлер</string><!--Settings-->
+    <string name="setting_tag1">Бапталымдар</string><!--Preferences--> 
+    <string name="setting_currency">Қалаған валюта</string><!--Preferred currency--> 
+    <string name="setting_usd">АҚШ доллары</string><!--USD-->
+    <string name="setting_tag2">Қауіпсіздік</string><!--Security--> 
+    <string name="setting_notification">Push хабарландыруларға рұқсат ету</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">Жіберілген және қабылданған транкзациялар туралы хабардар болу</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">Скриншоттар қосу</string><!--Enable screenshots--> 
+    <string name="setting_pin">PIN кодын өзгерту</string><!--Change PIN-->
+    <string name="setting_fingerprint">Саусақ ізі</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">Тек қолданба құлпын ашу үшін пайдаланылды</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">Әмиян</string><!--Wallet--> 
+    <string name="setting_show_key">12-сөздік қалпына келтіру сөз тіркесін көрсету</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Әмиянды қайта орнату</string><!--Reset wallet-->
+    <string name="setting_tag4">Мәлімет</string><!--About--> 
+    <string name="setting_learn_more">Қосымша ақпарат алу</string><!--Learn more-->
+    <string name="setting_service">Қызмет көрсету шарттары</string><!--Terms of service--> 
+    <string name="setting_policy">Құпиялылық саясаты</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Social Key Recovery деген не\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery әмияныңызды сенімді контактілерден немесе отбасынан ыңғайлы қалпына келтіруге көмектеседі.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Әмияныңызды қалпына келтіруге көмектесе алатын сенімді контактілер болатын 3 - 5 адам шақырыңыз.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Сенімді контактілеріңіз әмияныңызды қалпына келтіруге көмектесу үшін код жібере алады.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Орнату</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Қазір емес</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Сенімді контакті тізімін сақтық көшіру</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Әмияныңызды Social Key Recovery көмегімен қалпына келтіру үшін сенімді контактілеріңізді сақтық көшіру үшін Google тіркелгіңізді таңдаңыз. Сенімді контакті тізіміңіз Google Drive ішінде сақталады.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Тіркелгі қосу</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Бас тарту</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Жалғастыру</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">Сенімді контакті</string><!--Trusted contact--> 
+    <string name="backup_null_contact">Сіз әлі ешқандай сенімді контакті қосқан жоқсыз.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery сізде ең аз 3 сенімді контактіңіз (макс:5) болған кезде қолжетімді болады.</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Сенімді контактіңіз болатын \n достарыңызды шақырыңыз</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Сенімді контактілер болу және әмияныңызды қалпына келтіру үшін 3 - 5 досыңызды немесе отбасыңызды шақырыңыз.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">Атыңыз</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">Атыңызды енгізіңіз</string><!--Enter your name-->
+    <string name="backup_invitation_hi">Сәлем %s,</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">Ортақтасу шақыруы</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Белсенді емес</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Белсенді</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Сәлем, \n\n мен сізді Zion әмиянының Social Key Recovery мүмкіндігі үшін сенімді контактім ретінде тағайындадым. \n Менің қалпына келтіру деректерімді сақтық көшіруге көмектесу үшін \n төмендегі нұсқауларды орындаңыз.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Zion жүктеп алу және орнату үшін осы сілтемені түртіңіз:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Дайын болған кезде меннен тексеру \n кодын сұрауды ұмытпаңыз.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Рақмет!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Соңғы тексерілген уақыты: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">Код жасау үшін осы жерді түртіңіз.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Қайтадан жіберу</string><!--Resend-->
+    <string name="backup_bottom_request_show">Достардан сұраулар</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Сенімді контактіні жою</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">Бас тарту</string><!--Cancel-->
+    <string name="backup_remove_button_delete">Жою(%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">Сенімді контактіні жою</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Жүйеден шығу</string><!--Sign out-->
+    <string name="backup_pending_target_toolbar">Достардан сұраулар</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Бұл уақытта ешқандай сұрау жоқ.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Бірдей құрылғыда сақтық көшіруге қолдау көрсетілмейді.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Сенімді контактілермен сақтық көшіру керек пе?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">Сілтемені ортақтасу</string><!--Share link-->
+    <string name="restore_request">%s қалпына келтіру сұрауы</string><!--Restore request from %s-->
+    <string name="show">Көрсету</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Бұл тіркелгі басқа құрылғыда пайдаланылған</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Қауіпсіздік үшін әрбір контакті тек бір құрылғы үшін пайдаланылады.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Social Key Recovery бастау үшін әлі де осы тіркелгіні немесе басқа тіркелгіні пайдаланғыңыз келе ме?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Осы тіркелгіні пайдалану</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Сіздің алдыңғы сенімді контактіңіздің тізімі мүлдем жоғалады.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Басқа тіркелгі пайдалану</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Алдыңғы деректерді сақтаңыз және жаңасын жасаңыз.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Бұл тіркелгіні шынымен пайдаланғыңыз келе ме?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">Сіздің алдыңғы сенімді контактіңіздің тізімі мүлдем жоғалады.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">Жалғастыру үшін PIN кодты енгізіңіз</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">Әмияныңызды қалай қалпына келтіргіңіз келеді\?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">12-сөздік қалпына келтіру сөз тіркесін пайдалану</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">Social Key Recovery арқылы</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">Әмияныңызды жасаған кезде жазып алған 12-сөздік қалпына келтіру сөз тіркесін енгізіңіз.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">Сенімді контактілеріңізден көмек сұраңыз.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Сәлем, \n\n менің сенімді контактіңіз ретінде Zion әмиянымды қалпына келтіру үшін маған сіздің көмегіңіз қажет.\nҚалпына келтіру үшін маған сізден төмендегіні орындауыңыз қажет.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Осы сілтемені түртіңіз және тексеру кодын жасаңыз.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Маған код жіберіңіз.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Рақмет!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Күте тұрыңыз...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Кіру орындалуда...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Social Key Recovery деректері табылған жоқ</string><!--No Social Key Recovery data found-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Әмияныңызды қалпына келтіру үшін басқа тіркелгіні байқап көріңіз немесе 12-сөздік қалпына келтіру сөз тіркесін пайдаланыңыз.</string><!--Please try another account or use 12-/word recovery phrase to restore your wallet.-->
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Күте тұрыңыз...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Сілтеме жасалуда...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Тіркелгіңізге кіріңіз</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Әмияныңызды Social Key Recovery көмегімен қалпына келтіру үшін сенімді контакті тізімін бұрын сақтаған Google тіркелгіңізді таңдаңыз.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Ортақтасу сілтемесі жасалған жоқ</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Әрекетті кейін қайталаңыз.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Кірілген жоқ</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Әрекетті кейін қайталаңыз.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Сенімді контактілеріңізден көмек сұраңыз</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Үш сенімді контактіңізге байланысыңыз және олармен осы сілтемені ортақтасыңыз.</string><!--1. Reach out to three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Әрбір контакті сізге код береді. Әрбір кодты төменге енгізіңіз:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Бір немесе бірнеше код дұрыс емес. Әрекетті қайталаңыз.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Кодты енгізіңіз</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Бас тарту</string><!--Cancel-->
+    <string name="social_restore_btn_next">Келесі</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">Әрекетті кейін қайталаңыз</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">Сіз тым жиі қайталадыңыз, әрекетті %s минуттан кейін қайталаңыз</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">Бір немесе бірнеше код дұрыс емес.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">Барлық кодтар дұрыс екенін растап, әрекетті қайталаңыз.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">Құрылғыңызда %s үшін ешқандай сақтық көшірме жоқ.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Қалпына келтірілген жоқ</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Қалпына келтіру үшін басқа тіркелгіні немесе 12-сөздік қалпына келтіру сөз тіркесін пайдаланып көріңіз.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%s шақыруы</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Қабылдау үшін түртіңіз.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">%s қалпына келтіру қолдауын сұрау</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">Код жасау үшін түртіңіз.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">Бұл тіркелгімен ешқандай Social Key Recovery орнатылмаған.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">Қалпына келтіру үшін басқа тіркелгіні немесе 12-сөздік қалпына келтіру сөз тіркесін пайдаланып көріңіз.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">Сақтық көшірмені жаңарту күйі</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">Сенімді контактілерді жою үшін растау</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">Жою үшін құпия кодты енгізіңіз</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Сенімді контактілермен сақтық көшіру керек пе?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">Әмияныңызды сақтық көшіруге көмектесу үшін сенімді контактілермен Social Key Recovery орнатуға болады.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">Қосымша ақпарат</string><!--Tell me more-->
+    <string name="social_backup_not_now">Қазір емес</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Кешіріңіз, кейбір сенімді контактілеріңіз белсенді емес.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Байланыстарды қорғау үшін сенімді контактіңізбен тексеріңіз.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Бұл тіркелгіні басқа құрылғыда пайдаландыңыз</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Барлық Social Key Recovery деректері мүлдем пайдаланылмайды. Social Key Recovery пайдалануды жалғастыру үшін басқа тіркелгіге кіруіңіз керек.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">Келісемін</string><!--Agree-->
+    <string name="social_key_recovery_disagree">Келіспеймін</string><!--Disagree-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Кейбір сенімді контактілер қайта қосылуы керек</string><!--Some trusted contacts need to be re-/connected-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">Қауіпсіздік үшін сенімді контакті шақыруын %s, %s қайтадан жіберуіңіз керек.</string><!--For security concerns, you need to resend the trusted contact invitation to %s, %s again.-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">Транкзация мәліметтері</string><!--Transaction details--> 
+    <string name="Amount">Жалпы көлемі</string><!--Total Amount-->
+    <string name="Date">Күні</string><!--Date-->
+    <string name="Send_to">Келесіге жіберу</string><!--Send to-->
+    <string name="Receive_From">Мына жерден қабылдау</string><!--Receive from-->
+    <string name="Memo">Жазба</string><!--Memo-->
+    <string name="transaction_amount_send">Жіберетін көлем</string><!--Amount to send-->
+    <string name="transaction_amount_receive">Қабылдайтын көлем</string><!--Amount to receive-->
+    <string name="transaction_amount">Мән</string><!--Value-->
+    <string name="Transaction_Fee">Транкзация құны</string><!--Transaction fee--> 
+    <string name="Status">Күйі</string><!--Status-->
+    <string name="Transcation_ID">Транкзация идентификаторы</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">%1$s QR кодын сканерлеу</string><!--Scan %1$s QR code-->
+    <string name="Settings">Параметрлер</string><!--Settings-->
+    <string name="Help">Анықтама</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">Сұрау</string><!--Request-->
+    <string name="WALLET_ADDRESS">ӘМИЯН МЕКЕНЖАЙЫ</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">НЕСИЕЛЕУ ҮШІН ТІРКЕЛГІ</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">СҰРАУ МӨЛШЕРІ (ҚОСЫМША)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">QR кодын ортақтасу</string><!--Share QR code-->
+    <string name="Copy_as_text">Мәтін ретінде көшіру</string><!--Copy as text-->
+    <string name="copy_toast">Әмиян мекенжайы аралық сақтағышқа көшірілді.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">Кейбір үшінші тарап әмияндары сілтемелердегі немесе QR кодтардағы сұрау көлемін қолдамауы мүмкін.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">QR-кодын сканерлеу</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">QR код сканерін пайдалану үшін алдымен камераңызға кіру рұқсатын беріңіз.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">Камераға қатынасуды қосу</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Zion қолданбасына суреттер түсіруге және бейне жазуға рұқсат ету</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">Қайтадан сұрамаңыз</string><!--Never ask again-->
+    <string name="DENY">ТЫЙЫМ САЛУ</string><!--DENY-->
+    <string name="ALLOW">РҰҚСАТ ЕТУ</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">%1$s(%2$s) QR коды мекенжайын сканерлеу</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">Кодты жақтаумен туралаңыз</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">Жарамсыз жалпы мекенжай</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">Қосылу мүмкін емес.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Бұл қолданбаны пайдалану үшін желілік байланыс қажет. Параметрлер ішінде мобильді деректер немесе Wi-Fi функциясын қосыңыз.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Бас тарту</string><!--Cancel-->
+    <string name="check">Тексеру</string><!--Check-->
+    <string name="You_have_no_transaction">Сізде транкзациялар жоқ.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Сіз құпия активтер жібергенде және алғанда транкзацияңыз осы жерде көрсетіледі.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Social Key Recovery байқап көріңіз?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">12-сөздік қалпына келтіру сөз тіркесі арқылы қалпына келтіру жанында Social Key Recovery әмияныңызды сенімді контактілеріңізден оңай жолмен қалпына келтіруге көмектеседі.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">IOS ҮШІН ЖАҚЫНДА БОЛАДЫ</string><!--COMING SOON FOR IOS-->
+
+    <string name="socialkm_not_active_title">Social Key Recovery белсенді емес</string><!--Social Key Recovery is not active-->
+    <string name="socialkm_not_active_message">Сенімді контактілеріңізге байланысып, олардың сақтық көшірме күйін тексеруіңізге немесе сізге көмектесетін жаңа контакті табуыңызға болады.</string><!--You can try to contact your trusted contacts and check their backup status or find a new contact to help you.-->
+
+    <string name="transaction_confirmation">Растаулар</string><!--Confirmations-->
+
+<!-- iOS strings -->
+    <string name="ios_social_backup_regular_check_title">Достарыңызға сақтық көшіруге көмектескеніңіз үшін рақмет</string><!--Thanks for helping your friends backup-->
+    <string name="ios_social_backup_regular_check_content">Барлық достарыңызға Social Key Recovery сақтық көшірме күйі туралы есеп берілді.</string><!--The backup status of Social Key Recovery has been reported to all your friends.-->
+    <string name="ios_social_backup_notifications_settings_title">Хабарландырулар ажыратылды</string><!--Notifications disabled-->
+    <string name="ios_social_backup_notifications_settings_content">Параметрлер ішінде Zion хабарландыруларына рұқсат етіңіз.</string><!--Please allow Zion’s notifications in Settings.-->
+    <string name="ios_social_backup_notifications_settings">Параметрлер</string><!--Settings-->
+    <string name="transaction_pending">Растау үшін күту</string><!--Wait for confirmation-->
+    <string name="complete">Аяқтау</string><!--Complete-->
+</resources>

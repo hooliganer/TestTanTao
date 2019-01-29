@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		614660AD43DBA78B3D84F519 /* Pods_TestTanTao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6061CC3A1B41844C32258069 /* Pods_TestTanTao.framework */; };
+		B203ED5A21E4B1EF0090C8DB /* SampleTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203ED5921E4B1EF0090C8DB /* SampleTask.swift */; };
+		B203ED5E21E58BEE0090C8DB /* TestDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203ED5D21E58BEE0090C8DB /* TestDB.swift */; };
+		B208757E21EF0B6A002A213B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B208757D21EF0B6A002A213B /* AdSupport.framework */; };
+		B208758221EF2EBD002A213B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B208758121EF2EBD002A213B /* GoogleService-Info.plist */; };
+		B20875C721F06A02002A213B /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20875C621F06A02002A213B /* UIButtonExtension.swift */; };
 		B20BEEFE21A3EF5E00649DC9 /* MyFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BEEFD21A3EF5E00649DC9 /* MyFileManager.swift */; };
 		B228BA8321ABCDD0003C343C /* CoredataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BA8221ABCDD0003C343C /* CoredataManager.swift */; };
 		B260057F21C8912900C8EA18 /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260057D21C8912900C8EA18 /* LoadViewController.swift */; };
 		B260058021C8912900C8EA18 /* LoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B260057E21C8912900C8EA18 /* LoadViewController.xib */; };
 		B260058321C891BF00C8EA18 /* WebTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260058121C891BF00C8EA18 /* WebTableCell.swift */; };
 		B260058421C891BF00C8EA18 /* WebTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B260058221C891BF00C8EA18 /* WebTableCell.xib */; };
-		B260058621C8FB9E00C8EA18 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B260058521C8FB9E00C8EA18 /* Alamofire.framework */; };
 		B29FD9D521BE007000B6B0AD /* Publicer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FD9D421BE007000B6B0AD /* Publicer.swift */; };
 		B29FD9DC21C0A13900B6B0AD /* DynLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FD9DB21C0A13900B6B0AD /* DynLinkManager.swift */; };
 		B29FD9DE21C0D8B800B6B0AD /* EntityDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FD9DD21C0D8B800B6B0AD /* EntityDB.swift */; };
@@ -35,27 +39,32 @@
 		B2C0FF3721A3CF6600866C85 /* TestTanTao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2C0FF3521A3CF6600866C85 /* TestTanTao.xcdatamodeld */; };
 		B2C0FF3921A3CF6800866C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C0FF3821A3CF6800866C85 /* Assets.xcassets */; };
 		B2C0FF3C21A3CF6800866C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C0FF3A21A3CF6800866C85 /* LaunchScreen.storyboard */; };
-		B2C0FF4621A3D84600866C85 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2C0FF4521A3D84600866C85 /* GoogleService-Info.plist */; };
 		B2C299DE21AF82F400DC9576 /* LocalizedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C299DD21AF82F400DC9576 /* LocalizedManager.swift */; };
 		B2C299E321AF83AF00DC9576 /* TestOCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C299E221AF83AF00DC9576 /* TestOCManager.m */; };
 		B2C299E621AF83BB00DC9576 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C299E421AF83BB00DC9576 /* XMLReader.m */; };
-		B2C299E821AF849E00DC9576 /* android_res in Resources */ = {isa = PBXBuildFile; fileRef = B2C299E721AF849E00DC9576 /* android_res */; };
 		B2CB1E9221CB7AA4005E3501 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB1E9021CB7AA4005E3501 /* FirstViewController.swift */; };
 		B2CB1E9321CB7AA4005E3501 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CB1E9121CB7AA4005E3501 /* FirstViewController.xib */; };
 		B2CB1E9521CB7C5A005E3501 /* JSTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB1E9421CB7C5A005E3501 /* JSTool.swift */; };
+		B2E925EF21CCCF1600FBBC79 /* android_res in Resources */ = {isa = PBXBuildFile; fileRef = B2E925EE21CCCF1600FBBC79 /* android_res */; };
+		B2E925F121CCCF3800FBBC79 /* res 2 in Resources */ = {isa = PBXBuildFile; fileRef = B2E925F021CCCF3800FBBC79 /* res 2 */; };
+		B2F0BA2D21E33B8800C9DECE /* SLNTestTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F0BA2C21E33B8800C9DECE /* SLNTestTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		120CDE12FA203425F906D5C6 /* Pods-TestTanTao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTanTao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTanTao/Pods-TestTanTao.debug.xcconfig"; sourceTree = "<group>"; };
 		19D6CD0DD74FD2D584A12ED8 /* Pods-TestTanTao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTanTao.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTanTao/Pods-TestTanTao.release.xcconfig"; sourceTree = "<group>"; };
 		6061CC3A1B41844C32258069 /* Pods_TestTanTao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTanTao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B203ED5921E4B1EF0090C8DB /* SampleTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTask.swift; sourceTree = "<group>"; };
+		B203ED5D21E58BEE0090C8DB /* TestDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDB.swift; sourceTree = "<group>"; };
+		B208757D21EF0B6A002A213B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B208758121EF2EBD002A213B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B20875C621F06A02002A213B /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		B20BEEFD21A3EF5E00649DC9 /* MyFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFileManager.swift; sourceTree = "<group>"; };
 		B228BA8221ABCDD0003C343C /* CoredataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataManager.swift; sourceTree = "<group>"; };
 		B260057D21C8912900C8EA18 /* LoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
 		B260057E21C8912900C8EA18 /* LoadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadViewController.xib; sourceTree = "<group>"; };
 		B260058121C891BF00C8EA18 /* WebTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTableCell.swift; sourceTree = "<group>"; };
 		B260058221C891BF00C8EA18 /* WebTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebTableCell.xib; sourceTree = "<group>"; };
-		B260058521C8FB9E00C8EA18 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29FD9D421BE007000B6B0AD /* Publicer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publicer.swift; sourceTree = "<group>"; };
 		B29FD9DB21C0A13900B6B0AD /* DynLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynLinkManager.swift; sourceTree = "<group>"; };
 		B29FD9DD21C0D8B800B6B0AD /* EntityDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityDB.swift; sourceTree = "<group>"; };
@@ -78,7 +87,6 @@
 		B2C0FF3821A3CF6800866C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2C0FF3B21A3CF6800866C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2C0FF3D21A3CF6800866C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2C0FF4521A3D84600866C85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B2C0FF4721A3DA7200866C85 /* TestTanTao.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestTanTao.entitlements; sourceTree = "<group>"; };
 		B2C299DD21AF82F400DC9576 /* LocalizedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedManager.swift; sourceTree = "<group>"; };
 		B2C299E021AF83AF00DC9576 /* TestTanTao-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTanTao-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -86,10 +94,12 @@
 		B2C299E221AF83AF00DC9576 /* TestOCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOCManager.m; sourceTree = "<group>"; };
 		B2C299E421AF83BB00DC9576 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		B2C299E521AF83BB00DC9576 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
-		B2C299E721AF849E00DC9576 /* android_res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = android_res; sourceTree = "<group>"; };
 		B2CB1E9021CB7AA4005E3501 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		B2CB1E9121CB7AA4005E3501 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		B2CB1E9421CB7C5A005E3501 /* JSTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSTool.swift; sourceTree = "<group>"; };
+		B2E925EE21CCCF1600FBBC79 /* android_res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = android_res; sourceTree = "<group>"; };
+		B2E925F021CCCF3800FBBC79 /* res 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "res 2"; sourceTree = "<group>"; };
+		B2F0BA2C21E33B8800C9DECE /* SLNTestTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLNTestTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B260058621C8FB9E00C8EA18 /* Alamofire.framework in Frameworks */,
+				B208757E21EF0B6A002A213B /* AdSupport.framework in Frameworks */,
 				614660AD43DBA78B3D84F519 /* Pods_TestTanTao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,19 +127,28 @@
 		A0BFD232EE68CADF2D66EB58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B260058521C8FB9E00C8EA18 /* Alamofire.framework */,
+				B208757D21EF0B6A002A213B /* AdSupport.framework */,
 				6061CC3A1B41844C32258069 /* Pods_TestTanTao.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B20875C521F069EC002A213B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B20875C621F06A02002A213B /* UIButtonExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		B20BEEFB21A3EF2800649DC9 /* Works */ = {
 			isa = PBXGroup;
 			children = (
+				B20875C521F069EC002A213B /* Extension */,
+				B2F0BA2921E33AC700C9DECE /* Selene */,
 				B29FD9D121BE002A00B6B0AD /* Public */,
 				B29FD9D021BDFFF000B6B0AD /* Views */,
 				B2C299DC21AF82D400DC9576 /* LocalizedRes */,
-				B27CF28921AE94E100BDCEA9 /* Branch */,
 				B228BA8121ABCDB2003C343C /* CoreData */,
 				B260060621A64EA800FB2D80 /* FireBase */,
 				B20BEEFC21A3EF3900649DC9 /* Managers */,
@@ -153,15 +172,9 @@
 				B228BA8221ABCDD0003C343C /* CoredataManager.swift */,
 				B29FD9DD21C0D8B800B6B0AD /* EntityDB.swift */,
 				B29FD9DF21C0D9DA00B6B0AD /* WalletDB.swift */,
+				B203ED5D21E58BEE0090C8DB /* TestDB.swift */,
 			);
 			path = CoreData;
-			sourceTree = "<group>";
-		};
-		B228BA8421ABD28C003C343C /* AppDelegateExtension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AppDelegateExtension;
 			sourceTree = "<group>";
 		};
 		B260060621A64EA800FB2D80 /* FireBase */ = {
@@ -170,13 +183,6 @@
 				B29FD9DB21C0A13900B6B0AD /* DynLinkManager.swift */,
 			);
 			path = FireBase;
-			sourceTree = "<group>";
-		};
-		B27CF28921AE94E100BDCEA9 /* Branch */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Branch;
 			sourceTree = "<group>";
 		};
 		B29FD9D021BDFFF000B6B0AD /* Views */ = {
@@ -242,13 +248,12 @@
 			children = (
 				B2C0FF4721A3DA7200866C85 /* TestTanTao.entitlements */,
 				B2C0FF2E21A3CF6600866C85 /* AppDelegate.swift */,
-				B228BA8421ABD28C003C343C /* AppDelegateExtension */,
 				B2C0FF3021A3CF6600866C85 /* ViewController.swift */,
 				B2C0FF3221A3CF6600866C85 /* Main.storyboard */,
 				B2C0FF3821A3CF6800866C85 /* Assets.xcassets */,
 				B2C0FF3A21A3CF6800866C85 /* LaunchScreen.storyboard */,
 				B2C0FF3D21A3CF6800866C85 /* Info.plist */,
-				B2C0FF4521A3D84600866C85 /* GoogleService-Info.plist */,
+				B208758121EF2EBD002A213B /* GoogleService-Info.plist */,
 				B2C0FF3521A3CF6600866C85 /* TestTanTao.xcdatamodeld */,
 			);
 			path = TestTanTao;
@@ -257,7 +262,8 @@
 		B2C299DC21AF82D400DC9576 /* LocalizedRes */ = {
 			isa = PBXGroup;
 			children = (
-				B2C299E721AF849E00DC9576 /* android_res */,
+				B2E925F021CCCF3800FBBC79 /* res 2 */,
+				B2E925EE21CCCF1600FBBC79 /* android_res */,
 				B2C299DD21AF82F400DC9576 /* LocalizedManager.swift */,
 			);
 			path = LocalizedRes;
@@ -266,6 +272,7 @@
 		B2C299DF21AF839400DC9576 /* OC */ = {
 			isa = PBXGroup;
 			children = (
+				B2F0BA2821E32E4700C9DECE /* selene */,
 				B2C299E121AF83AF00DC9576 /* TestOCManager.h */,
 				B2C299E221AF83AF00DC9576 /* TestOCManager.m */,
 				B2C299E521AF83BB00DC9576 /* XMLReader.h */,
@@ -273,6 +280,22 @@
 				B2C299E021AF83AF00DC9576 /* TestTanTao-Bridging-Header.h */,
 			);
 			path = OC;
+			sourceTree = "<group>";
+		};
+		B2F0BA2821E32E4700C9DECE /* selene */ = {
+			isa = PBXGroup;
+			children = (
+				B203ED5921E4B1EF0090C8DB /* SampleTask.swift */,
+			);
+			path = selene;
+			sourceTree = "<group>";
+		};
+		B2F0BA2921E33AC700C9DECE /* Selene */ = {
+			isa = PBXGroup;
+			children = (
+				B2F0BA2C21E33B8800C9DECE /* SLNTestTask.swift */,
+			);
+			path = Selene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +334,12 @@
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1010;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
 							com.apple.SafariKeychain = {
 								enabled = 1;
 							};
@@ -347,10 +376,11 @@
 				B2A0CD5E21CB2EC30083DF4D /* BaseListViewController.xib in Resources */,
 				B260058421C891BF00C8EA18 /* WebTableCell.xib in Resources */,
 				B2C0FF3C21A3CF6800866C85 /* LaunchScreen.storyboard in Resources */,
-				B2C0FF4621A3D84600866C85 /* GoogleService-Info.plist in Resources */,
+				B2E925EF21CCCF1600FBBC79 /* android_res in Resources */,
+				B208758221EF2EBD002A213B /* GoogleService-Info.plist in Resources */,
 				B2A0CD6C21CB68FD0083DF4D /* UserInfoCell.xib in Resources */,
+				B2E925F121CCCF3800FBBC79 /* res 2 in Resources */,
 				B2C0FF3921A3CF6800866C85 /* Assets.xcassets in Resources */,
-				B2C299E821AF849E00DC9576 /* android_res in Resources */,
 				B2C0FF3421A3CF6600866C85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +400,8 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Selene/Selene.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -379,6 +411,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Selene.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +460,7 @@
 				B2C0FF3721A3CF6600866C85 /* TestTanTao.xcdatamodeld in Sources */,
 				B2A0CD6B21CB68FD0083DF4D /* UserInfoCell.swift in Sources */,
 				B2C0FF2F21A3CF6600866C85 /* AppDelegate.swift in Sources */,
+				B2F0BA2D21E33B8800C9DECE /* SLNTestTask.swift in Sources */,
 				B2A0CD6021CB325F0083DF4D /* FirstIGListCells.swift in Sources */,
 				B29FD9DE21C0D8B800B6B0AD /* EntityDB.swift in Sources */,
 				B20BEEFE21A3EF5E00649DC9 /* MyFileManager.swift in Sources */,
@@ -433,10 +468,13 @@
 				B29FD9E221C399FE00B6B0AD /* HTTPManager.swift in Sources */,
 				B2A0CD6F21CB6C9A0083DF4D /* ContentCell.swift in Sources */,
 				B2C299E621AF83BB00DC9576 /* XMLReader.m in Sources */,
+				B203ED5E21E58BEE0090C8DB /* TestDB.swift in Sources */,
 				B2C299E321AF83AF00DC9576 /* TestOCManager.m in Sources */,
 				B29FD9E421C7877700B6B0AD /* AlamoManager.swift in Sources */,
 				B2A0CD5921CB2CC20083DF4D /* IGListView.swift in Sources */,
+				B20875C721F06A02002A213B /* UIButtonExtension.swift in Sources */,
 				B29FD9DC21C0A13900B6B0AD /* DynLinkManager.swift in Sources */,
+				B203ED5A21E4B1EF0090C8DB /* SampleTask.swift in Sources */,
 				B2CB1E9221CB7AA4005E3501 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,7 +630,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSF8C32N4B;
 				INFOPLIST_FILE = TestTanTao/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -617,7 +655,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSF8C32N4B;
 				INFOPLIST_FILE = TestTanTao/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="googleplay_title">Zion – Social Key Recovery</string><!--Zion – Social Key recovery-->
+    <string name="googleplay_description_short">Достарыңызға күтпеген нәрсеге дайындалуға көмектеседі.</string><!--Help your friends prepare for the unexpected.-->
+    <string name="googleplay_description_app">Достарыңызға Zion әмияндарын Social Key Recovery көмегімен сақтық көшіруге және қалпына келтіруге көмектесеңіз. Оларға қалпына келтіру деректерінің бір бөлігін құрылғыңызға сақтау арқылы көмектесе аласыз. Олар әмияндарын қалпына келтіргісі келген кезде олардың деректерін өздеріне қайта жібере аласыз.</string><!--Help your friends back up and recover their Zion wallets with Social Key Recovery. You can help them by storing part of their recovery data on your device. When they need to recover their wallets, you can send their data back to them.-->
+</resources>

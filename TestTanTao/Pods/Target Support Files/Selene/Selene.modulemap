@@ -1,0 +1,6 @@
+framework module Selene {
+  umbrella header "Selene-umbrella.h"
+
+  export *
+  module * { export * }
+}

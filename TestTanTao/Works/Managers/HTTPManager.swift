@@ -52,17 +52,17 @@ class HTTPManager: NSObject {
 
         let task:URLSessionDataTask = session.dataTask(with: request) { (data, response, error)->Void in
             
-            if error == nil{
-                do{
-                    let responseData:NSDictionary = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.allowFragments) as! NSDictionary
-                    print("response:\(response)")
-                    print("responseData:\(responseData)")
-                }catch{
-                    print("catch")
-                }
-            }else{
-                print("error:\(error)")
-            }
+//            if error == nil{
+//                do{
+//                    let responseData:NSDictionary = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.allowFragments) as! NSDictionary
+//                    print("response:\(response)")
+//                    print("responseData:\(responseData)")
+//                }catch{
+//                    print("catch")
+//                }
+//            }else{
+//                print("error:\(error)")
+//            }
 
         }
 
@@ -142,7 +142,7 @@ class HTTPManager: NSObject {
             }
             if dataer != nil {
                 
-                let ss = String(data: dataer!, encoding: String.Encoding.utf8)
+//                let ss = String(data: dataer!, encoding: String.Encoding.utf8)
                 
                 success(dataer!);
             }

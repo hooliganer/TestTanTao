@@ -57,17 +57,21 @@ PODS:
   - IGListKit/Default (3.4.0):
     - IGListKit/Diffing
   - IGListKit/Diffing (3.4.0)
+  - MJExtension (3.0.15.1)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - Selene (2.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
   - Firebase/Core
   - Firebase/DynamicLinks
   - IGListKit
+  - MJExtension
+  - Selene
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -81,7 +85,9 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - IGListKit
+    - MJExtension
     - nanopb
+    - Selene
 
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
@@ -94,8 +100,10 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 98b71f5e04142793729a5ef23e5b96651ff4b70f
   GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
   IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Selene: 225ff0c91a7cce2c8fb44542d4a0bf92758b36c9
 
-PODFILE CHECKSUM: b6c03e9e977ffbf08a7d2b359a80968c7aebbae0
+PODFILE CHECKSUM: 2ef73f907a80466f29cca76c03a420b043dfe11c
 
 COCOAPODS: 1.5.3

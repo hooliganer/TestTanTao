@@ -1,0 +1,560 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">否</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">确定</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">首页</string><!--Home-->
+    <string name="Nav_collectible">收藏品</string><!--Collectibles--> 
+    <string name="Nav_request">请求</string><!--Request-->
+    <string name="Nav_receive">接收</string><!--Receive-->
+    <string name="Nav_shop">商店</string><!--Shop-->
+    <string name="home_recovering">正在恢复…</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">正在进行恢复，请稍候。</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">货币汇率来源：Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">管理顺序</string><!--Manage order-->
+    <string name="tool_social_backup">社交密钥恢复</string><!--Social Key Recovery-->
+    <string name="tool_settings">设置</string><!--Settings-->
+    <string name="tool_help">帮助</string><!--Help-->
+    <string name="tool_sort_by">排序方式</string><!--Sort by-->
+    <string name="tool_sort_custom">自定义</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">按字母顺序</string><!--Alphabetical-->
+    <string name="tool_sort_value">价值</string><!--Value-->
+
+    <string name="Create_wallet">创建新钱包</string><!--Create a new wallet-->
+    <string name="total_assets">总资产</string><!--Total assets--> 
+    <string name="last_update">上次更新是在 %1$d 分钟前。</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">无互联网连接</string><!--No internet connection-->
+    <string name="retry_button">设置</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">我的钱币 (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">尚未添加钱包</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">管理钱包</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">买/卖</string><!--Buy/Sell-->
+    <string name="shop_buy">购买</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">从 Maicoin 买/卖</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">加密数字货币的购买、销售或任何交易（“交易”）均将与第三方交易提供方共同完成。所有此类交易均受您与第三方交易提供方之间签订的相关服务条款和条件约束。在使用第三方交易提供方提供的服务之前，您应仔细阅读此类条款和条件。HTC 不承担您与第三方交易提供方之间任何活动的责任。</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">请勿再提醒。</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">系统</string><!--System-->
+    <string name="gen_wallet_title">钱包</string><!--Wallet-->
+    <string name="gen_now">立即</string><!--now-->
+    <string name="gen_screenshot">无法保存屏幕截图</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">出于安全原因，不允许截取屏幕</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">接收交易</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">您收到的 %1$s 来自</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">查看详情</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">交易完成</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">您于 %2$s 的 %1$s 交易已确认</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">交易失败</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">您于 %1$s 向 %4$s 发送的 %2$s %3$s 交易失败</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">有新版本可用</string><!--New version available-->
+    <string name="gen_new_version_hint">请将应用程序更新到最新版本以强化安全性和用户体验。</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">新的安全设置已发布。为了加强保护，需要进行系统更新。请更新以继续。</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">立即更新</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">正在加载安全设置。请稍候。</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">您的手机已超出原始权限设置</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">由于您的手机已超出原始权限设置，在安全预防措施之下，您的钱包已被锁定。请联系客服咨询下一步操作。</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">您的手机已越狱</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">由于您的手机已越狱，您的钱包被锁定。此措施为安全预防措施。请联系客服咨询下一步操作。</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">重要免责声明：本产品为应用区块链技术的初期产品。由于加密货币、代币交换和区块链属于新技术，可能存在未预见的风险。举例来说：第三方可能在设备、钱包应用程序或区块链网络中设下漏洞，从而可能干扰区块链交易或导致您损失加密货币。请务必妥善保管您的 12 组助记词组和密码。您将全权负责恢复密钥的安全。如果您继续以下步骤，说明您认可并同意接受与之关联的所有风险。\n\n感谢您使用我们的产品。我们正致力于改进技术，诚挚感谢您的<a href="mailto:exodus@htc.com">反馈</a></string><!--Important disclaimer: This is an early access product utilizing blockchain technologies. Cryptocurrency, token exchange, and blockchain are new technologies and may carry unforeseen risks. For example: Third parties may introduce weaknesses in devices, wallet applications, or blockchain networks, which may interfere with blockchain transactions or result in the loss of your cryptocurrency. Keep your 12-/word recovery phrase (seed) and passcode secure at all times. You are solely responsible for safeguarding your recovery keys. By continuing, you acknowledge and agree to accept all these associated risks.\n\nThank you for trying our products. As we strive to improve our technology, we sincerely appreciate your <a href="mailto:exodus@htc.com">feedback</a>-->
+    <string name="gen_feedback">反馈</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">收藏品</string><!--Collectibles-->
+    <string name="no_collectible">尚无收藏品</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">您的收藏品将显示在这里。</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">购买代币</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">点击查看您的收藏品</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">添加更多</string><!--Add more-->
+    <string name="addwallet_search_wallet">搜索钱包</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">购买钱币</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">请求</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">发送</string><!--Send-->
+    <string name="addwallet_hint">交易将显示在此处。</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">您没有交易</string><!--You have no transactions-->
+    <string name="no_wallet_found">未找到钱包</string><!--No wallet found-->
+    <string name="addwallet_add_btn">添加</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">管理钱包列表</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">认识 <b>Zion</b></string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">您区块链上的一站式安全钱包。</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">创建您的 Zion 钱包</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">恢复钱包</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>社交密钥恢复请求</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">继续操作说明我确认已阅读并同意 %1$s 和 %2$s。</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">使用条款</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">HTC 隐私政策</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">帮助朋友？</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">我已阅读并同意 %1$，并确认 %2$。</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Zion 服务条款</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">隐私政策</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">创建密码。</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">创建新密码。</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">进行所有交易和解锁钱包时均需要输入此密码。</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">请确认密码。</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">请确认新密码。</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">密码不符。请重试。</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">用于备份和还原的 12 组助记词组</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">这组词组是您在丢失手机或忘记密码时还原钱包的唯一方式。</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">生成 12 组助记词组</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">按顺序记下助记词组的 12 组词组</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">请确保按正确顺序记下全部 12 组助记词组，并保存在安全的地方。</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">我已记下词组</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">验证 12 组助记词组 (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">为确保已正确记下录词组，请按顺序输入词组。</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">下一步</string><!--Next-->
+    <string name="verify_key_1_not_match">一组或多组词组不匹配。请重试。</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">验证 12 组助记词组 (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">验证 12 组助记词组 (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">恭喜！ 您的钱包已设置完毕。</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">启用指纹解锁钱包。</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">进入钱包。</string><!--Go to your wallet.-->
+
+    <string name="restoring">正在还原</string><!--Restoring-->
+    <string name="preparing_secure_ui">正在准备高度安全用户界面</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">输入 12 组助记词组以还原钱包 (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">请按正确顺序输入 12 组助记词组。</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">输入 12 组助记词组以还原钱包 (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">输入 12 组助记词组以还原钱包 (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">恭喜！</string><!--Congratulations!-->
+    <string name="wallet_restored">您的钱包已恢复。</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">解锁钱包</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">使用指纹</string><!--Use fingerprint-->
+    <string name="use_passcode">密码</string><!--Passcode-->
+    <string name="or">或</string><!--or-->
+    <string name="use_fingerprint_to_unlock">用指纹来解锁</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">重试</string><!--Try again-->
+    <string name="use_passcode_to_unlock">使用密码解锁</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">指纹设置已更改</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">您最近似乎更改了指纹设置。请设置新指纹以使用此功能。</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">立即设置</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">输入密码以解锁钱包</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">有新版本可用</string><!--New version available-->
+    <string name="new_version_hint">请将应用程序更新到最新版本以强化安全性和用户体验。</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">稍后更新</string><!--Update later-->
+    <string name="update_now">立即更新</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">发送</string><!--Send-->
+    <string name="select_wallet">选择钱包</string><!--Select a wallet--> 
+    <string name="send_to">到</string><!--TO-->
+    <string name="send_amount">金额</string><!--AMOUNT-->
+    <string name="hint_amount">输入金额</string><!--Enter amount-->
+    <string name="to_paste_addr">粘贴地址</string><!--Paste address-->
+    <string name="to_scan_QR">扫描二维码</string><!--Scan QR code-->
+    <string name="to_select_QR_image">选择已保存图像</string><!--Select saved image-->
+    <string name="to_enter_address">输入地址</string><!--Enter address-->
+    <string name="to_paste_addr2">从剪贴板粘贴地址</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">从已保存图像添加</string><!--Add from saved images-->
+    <string name="enter_address_hint">输入地址</string><!--Enter a address-->
+    <string name="send_address">地址</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">最大值</string><!--MAX-->
+    <string name="send_review_btn">查看交易</string><!--Review transaction-->
+    <string name="fee">手续费</string><!--Transaction Fee-->
+    <string name="select_wallet_error">金额不足。</string><!--Insufficient funds.-->
+    <string name="amount_hint">余额：</string><!--Balance:-->
+    <string name="address_error">%s 地址无效。</string><!--Invalid %s address.-->
+    <string name="amount_input_error">资金不足以支付手续费。</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">输入金额不得少于 %s</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">取消</string><!--CANCEL-->
+    <string name="enteraddr_save">保存</string><!--SAVE-->
+    <string name="payment_urgent">紧急</string><!--Urgent-->
+    <string name="payment_priority">优先</string><!--Priority-->
+    <string name="payment_regular">一般</string><!--Regular-->
+    <string name="payment_economy">经济型</string><!--Economy-->
+    <string name="payment_title">选择支付优先程度</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 分钟</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 小时</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 小时</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 小时</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">手续费说明</string><!--Transaction fee description-->
+    <string name="send_review">查看交易</string><!--Review your transaction-->
+    <string name="send_note">备注</string><!--MEMO-->
+    <string name="send_note_hint">（可选）</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">交易已发送。</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">交易完成时间取决于网络通信量和手续费。</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">确定</string><!--OK-->
+    <string name="fee_error">服务器错误：未知收费</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">交易失败</string><!--Transaction not successful--> 
+    <string name="review_send_to">发送到</string><!--SEND TO-->
+    <string name="review_fee">费用</string><!--FEE-->
+    <string name="review_edit">编辑</string><!--Edit-->
+    <string name="review_enter_pin">密码</string><!--Passcode-->
+    <string name="review_cancel">取消交易</string><!--Cancel transaction-->
+    <string name="send_server_no_response">服务器无响应。请稍后再试。</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">交易费由第三方收取，HTC 不收取任何费用。优先级越高，费用越高。优先级时间表描述以实时区块链统计数据为准，此数据仅供参考。您选择的优先级不保证交易将成功完成或在指定时间段内完成。</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">社交密钥恢复</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%s 已将您添加为受信任联系人</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">步骤 1. 输入您的姓名，并从 %s 获取验证码。</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">第 2 步： 向 %s 索取您的验证码并在此输入。</string><!--Step 2: Ask %s for your verification code and enter it here.--> 
+    <string name="ver_enter_name_hint">输入您的名字</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">请求代码</string><!--Request code--> 
+    <string name="ver_remain_time">剩余时间：%02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">输入密码以生成验证码</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">将此代码分享给 %s</string>
+    <string name="ver_sharing_recovery_remind_name">新请求来自</string>
+    <string name="ver_sharing_remind_name">来自 %s 的新请求</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">移：%s 通过 %s \n</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">拒绝</string><!--REJECT-->
+    <string name="ver_notification_channel_name">社交密钥恢复</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">来自 %s 的新请求</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">点击以查看验证码并将它分享给 %s。</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">显示验证码</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">无回复？ 在 %s 后再次请求。</string><!--No reply? Request again in %s.-->
+    <string name="ver_verify">验证</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">您现在是 %s 的受信任联系人。</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">如果 %s 的钱包丢失或被盗，您现在可以帮助其恢复钱包。Zion 已加密并保存了部分钱包恢复数据到您的设备中。请务必不要删除 Zion 或 Zion 应用程序数据，否则该恢复数据将丢失。Zion 将定期与 %s 确认，以验证恢复数据是否仍然有效。</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">完成</string><!--Done-->
+    <string name="ver_pin_error_hint">此代码无效。请重试。</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">通知</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">确定</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">您已经成为 %s 的受信任联系人</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">感谢您帮助备份 %s 的数据</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">验证已发送</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">等待验证。验证完成后，您将成为 %s 的信任联系人。</string><!--Waiting for verification. Once verification is completed, you will be %s’s trusted contact.-->
+    <string name="ver_dialog_restore_verifying_subtitle">正在验证…</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">验证已发送</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">正在验证…</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">未知</string><!--Unknown-->
+    <string name="ver_unknown_name">未知</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">扫描验证码</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">感谢您的帮助！</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s 已达到最多 5 个受信任联系人。</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">此链接已过期，请要求 %s 发送更新的链接。</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">请求超时，请稍后再试。</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">请稍后再试</string><!--Please try again later-->
+    <string name="try_too_often_message">您的尝试过于频繁，请在 %d 分钟后重试。</string><!--You are trying too often, please try again after %d minutes.-->
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">设置</string><!--Settings-->
+    <string name="setting_tag1">首选项</string><!--Preferences--> 
+    <string name="setting_currency">首选货币</string><!--Preferred currency--> 
+    <string name="setting_usd">美元</string><!--USD-->
+    <string name="setting_tag2">安全性</string><!--Security--> 
+    <string name="setting_notification">允许推送通知</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">发送和接收交易时通知</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">启用屏幕截图</string><!--Enable screenshots--> 
+    <string name="setting_pin">更改 PIN 码</string><!--Change PIN-->
+    <string name="setting_fingerprint">指纹</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">仅用于解锁应用程序</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">钱包</string><!--Wallet--> 
+    <string name="setting_show_key">显示 12 组助记词组</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">重置钱包</string><!--Reset wallet-->
+    <string name="setting_tag4">关于</string><!--About--> 
+    <string name="setting_learn_more">了解更多</string><!--Learn more-->
+    <string name="setting_service">服务条款</string><!--Terms of service--> 
+    <string name="setting_policy">隐私政策</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">什么是“社交密钥恢复”？</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">“社交密钥恢复”可帮助您通过信任的朋友或家人快速恢复钱包。</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">邀请 3 到 5 人成为受信任联系人，帮助您恢复钱包。</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">您的受信任联系人可发送代码帮助您还原钱包。</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">设置</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>暂不</a></string>
+    <string name="backup_introduction_ok">确定</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">备份受信任联系人列表</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">要通过社交密钥恢复的方式恢复钱包，请选择用于备份受信任联系人的 Google 账户。您的受信任联系人列表将储存在 Google 云端硬盘中。</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">添加帐号</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">取消</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">继续</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">社交密钥恢复</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">受信任联系人</string><!--Trusted contact--> 
+    <string name="backup_null_contact">您尚未添加任何受信任联系人。</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">当您设置的受信任联系人不少于 3 个（最多 5 个），即可使用社交密钥恢复。</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">邀请好友成为您的受信任联系人</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">邀请 3 到 5 位好友或家人成为受信任联系人，帮助您恢复钱包。</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">您的姓名</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">输入您的名字</string><!--Enter your name-->
+    <string name="backup_invitation_hi">嗨，%s，</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">分享邀请</string><!--Share invitation-->
+    <string name="backup_toolbar_title">社交密钥恢复</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">尚未启用</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">已启用</string><!--Active-->
+    <string name="backup_invitation_message_first_part">嗨，\n\n我已指定您作为我 Zion 钱包“社交密钥恢复”功能的信任联系人。\n请按照以下说明\n帮助我备份我的恢复数据。\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) 点击此链接下载并安装 Zion：\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) 完成后，请务必向我索取验证码。\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">谢谢！</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">上次检查时间：%s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">点击此处生成代码。</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">重新发送</string><!--Resend-->
+    <string name="backup_bottom_request_show">来自好友的请求</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">删除受信任联系人</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">取消</string><!--Cancel-->
+    <string name="backup_remove_button_delete">删除(%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">删除受信任联系人</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">退出</string><!--Sign out-->
+    <string name="backup_pending_target_toolbar">来自好友的请求</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">目前无请求。</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">不支持在同一设备上进行备份。</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">通过受信任联系人进行备份？</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">分享链接</string><!--Share link-->
+    <string name="restore_request">来自 %s 的还原请求</string><!--Restore request from %s-->
+    <string name="show">显示</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">此账户已在另一设备中使用</string><!--This account has been used in another device-->
+    <string name="db_security_concern">出于安全方面的考虑，每个账户只能用于一台设备。</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">是否仍要使用此账户，还是使用另一账户启动“社交密钥恢复”？</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">使用此账户</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">您之前的受信任联系人列表将永久丢失。</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">使用另一账户</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">保留之前的数据并创建新数据。</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">确定使用此账户？</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">您之前的受信任联系人列表将永久丢失。</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">输入 PIN 码以继续</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">您希望如何恢复钱包？</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">使用 12 组助记词组</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">通过社交密钥恢复</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">请输入创建钱包时记下的 12 组助记词组。</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">向您的受信任联系人寻求帮助。</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">嗨，\n\n由于您是我的受信任联系人，我需要您的帮助来恢复我的 Zion 钱包。\n为完成还原，我需要您执行以下操作。\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) 点击此链接并生成验证码。\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) 将代码发送给我。\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">谢谢！</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">请稍候…</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">正在登录...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">未找到社交密钥恢复数据</string><!--No Social Key Recovery data found-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">请试着使用其他账户或 12 组助记词组来还原钱包。</string><!--Please try another account or use 12-/word recovery phrase to restore your wallet.-->
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">请稍候…</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">正在生成链接…</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">登录您的账户</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">要使用社交密钥恢复的方式恢复钱包，请选择之前用来保存受信任联系人列表的 Google 账户。</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">生成分享链接失败</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">请稍后再试。</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">登录失败</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">请稍后再试。</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">向您的受信任联系人寻求帮助</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. 联系您的三个信任联系人并将此链接分享给他们。</string><!--1. Reach out to three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. 每个联系人都将提供一组代码。请在下方输入代码：</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">一个或多个代码不正确。请重试。</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">输入代码</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">取消</string><!--Cancel-->
+    <string name="social_restore_btn_next">下一步</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">请稍后再试</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">您的尝试过于频繁，请在 %d 分钟后重试。</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">一个或多个代码不正确。</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">请确认所有代码正确无误并重试。</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">您的设备上没有 %s 的备份。</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">无法还原</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">请试着使用不同的账户或您的 12 组助记词组来还原。</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%s 的邀请</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">点击以接受。</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">来自 %s 的协助恢复请求</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">点击以生成代码。</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">未为此账户设置社交密钥恢复。</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">请试着使用不同的账户或您的 12 组助记词组来还原。</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">更新备份状态</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">确认删除受信任联系人</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">输入密码以删除</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">通过受信任联系人进行备份？</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">您也可以通过受信任联系人设置“社交密钥恢复”，以帮助您备份钱包。</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">了解详情</string><!--Tell me more-->
+    <string name="social_backup_not_now">暂不</string><!--Not now-->
+    <string name="social_backup_oops_inactive">很抱歉，您的某些受信任联系人处于无法联系状态。</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">请与您的受信任联系人确认您与其之间的联系状况。</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">您已在另一设备中使用此账户</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">您所有的社交密钥恢复数据均永久无法使用。您需要登录另一账户才能继续使用社交密钥恢复。</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">同意</string><!--Agree-->
+    <string name="social_key_recovery_disagree">不同意</string><!--Disagree-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">一些信任联系人需要重新连接</string><!--Some trusted contacts need to be re-/connected-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">出于安全考虑，您需要再次向%s和%s发送信任联系人邀请。</string><!--For security concerns, you need to resend the trusted contact invitation to %s, %s again.-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">交易详情</string><!--Transaction details--> 
+    <string name="Amount">总金额</string><!--Total Amount-->
+    <string name="Date">日期</string><!--Date-->
+    <string name="Send_to">发送到</string><!--Send to-->
+    <string name="Receive_From">发送人：</string><!--Receive from-->
+    <string name="Memo">备注</string><!--Memo-->
+    <string name="transaction_amount_send">要发送的金额</string><!--Amount to send-->
+    <string name="transaction_amount_receive">要接收的金额</string><!--Amount to receive-->
+    <string name="transaction_amount">价值</string><!--Value-->
+    <string name="Transaction_Fee">手续费</string><!--Transaction fee--> 
+    <string name="Status">状态</string><!--Status-->
+    <string name="Transcation_ID">交易 ID</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">扫描 %1$s 二维码</string><!--Scan %1$s QR code-->
+    <string name="Settings">设置</string><!--Settings-->
+    <string name="Help">帮助</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">请求</string><!--Request-->
+    <string name="WALLET_ADDRESS">钱包地址</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">要用来收款的账户</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">请求金额（可选）</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">分享二维码</string><!--Share QR code-->
+    <string name="Copy_as_text">复制为文本</string><!--Copy as text-->
+    <string name="copy_toast">钱包地址已复制到剪贴板。</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">某些第三方钱包可能不支持链接或二维码中的请求金额。</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">扫描二维码</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">要使用二维码扫描器，请先授予相机访问权限。</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">启用相机访问</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">允许 Zion 拍摄照片并录制视频</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">不再询问</string><!--Never ask again-->
+    <string name="DENY">拒绝</string><!--DENY-->
+    <string name="ALLOW">允许</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">扫描 %1$s(%2$s) 二维码地址</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">将二维码与外框对齐</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">公共地址无效</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">无法连接。</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">使用此应用程序需要网络连接。请在设置中开启移动数据连接或 WLAN。</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">取消</string><!--Cancel-->
+    <string name="check">检查</string><!--Check-->
+    <string name="You_have_no_transaction">您没有交易。</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">发送和接收加密资产时，您的交易将显示在此处。</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">尝试社交密钥恢复？</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">除了使用 12 组助记词组还原钱包之外，社交密钥恢复也可以让您轻松地通过您的受信任联系人恢复钱包。</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">iOS 即将呈现</string><!--COMING SOON FOR IOS-->
+
+    <string name="socialkm_not_active_title">社交密钥恢复未激活</string><!--Social Key Recovery is not active-->
+    <string name="socialkm_not_active_message">您可以尝试联系您的信任联系人并查看其备份状态，也可以找到新的联系人帮助您。</string><!--You can try to contact your trusted contacts and check their backup status or find a new contact to help you.-->
+
+    <string name="transaction_confirmation">确认</string><!--Confirmations-->
+
+<!-- iOS strings -->
+    <string name="ios_social_backup_regular_check_title">感谢您帮助好友进行备份</string><!--Thanks for helping your friends backup-->
+    <string name="ios_social_backup_regular_check_content">已向您所有的好友报告社交密钥恢复的备份状态。</string><!--The backup status of Social Key Recovery has been reported to all your friends.-->
+    <string name="ios_social_backup_notifications_settings_title">通知已禁用</string><!--Notifications disabled-->
+    <string name="ios_social_backup_notifications_settings_content">请在设置中允许 Zion 发送通知。</string><!--Please allow Zion’s notifications in Settings.-->
+    <string name="ios_social_backup_notifications_settings">设置</string><!--Settings-->
+    <string name="transaction_pending">等待确认</string><!--Wait for confirmation-->
+    <string name="complete">完成</string><!--Complete-->
+</resources>

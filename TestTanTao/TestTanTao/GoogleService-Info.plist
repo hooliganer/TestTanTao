@@ -7,34 +7,34 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>863081744404-8lv5hl3hsriatjssc4brslfqo40prmh1.apps.googleusercontent.com</string>
+	<string>662791086074-bthgtqsascp30re8kli8a10t9jki57mb.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.863081744404-8lv5hl3hsriatjssc4brslfqo40prmh1</string>
+	<string>com.googleusercontent.apps.662791086074-bthgtqsascp30re8kli8a10t9jki57mb</string>
 	<key>API_KEY</key>
-	<string>AIzaSyC7oQekwtJzlh079oWhxvdRt9nmaNx0zDY</string>
+	<string>AIzaSyDpmbRbTjhqT1LgbpK072BbA6fem0gZEqk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>863081744404</string>
+	<string>662791086074</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.testTan.MySwifter</string>
 	<key>PROJECT_ID</key>
-	<string>swift-tan</string>
+	<string>testbytantao</string>
 	<key>STORAGE_BUCKET</key>
-	<string>swift-tan.appspot.com</string>
+	<string>testbytantao.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
 	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:863081744404:ios:a0f81eccadc542b4</string>
+	<string>1:662791086074:ios:a0f81eccadc542b4</string>
 	<key>DATABASE_URL</key>
-	<string>https://swift-tan.firebaseio.com</string>
+	<string>https://testbytantao.firebaseio.com</string>
 </dict>
 </plist>

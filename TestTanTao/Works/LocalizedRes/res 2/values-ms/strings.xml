@@ -1,0 +1,560 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Tidak</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Tempatan</string><!--Home-->
+    <string name="Nav_collectible">Barang koleksi</string><!--Collectibles--> 
+    <string name="Nav_request">Permintaan</string><!--Request-->
+    <string name="Nav_receive">Terima</string><!--Receive-->
+    <string name="Nav_shop">Kedai</string><!--Shop-->
+    <string name="home_recovering">Memulihkan…</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">Pemulihan sedang berjalan, sila tunggu.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">Sumber kadar mata wang: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Atur turutan</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">Tetapan</string><!--Settings-->
+    <string name="tool_help">Bantuan</string><!--Help-->
+    <string name="tool_sort_by">Isih mengikut</string><!--Sort by-->
+    <string name="tool_sort_custom">Tersuai</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">Mengikut Abjad</string><!--Alphabetical-->
+    <string name="tool_sort_value">Nilai</string><!--Value-->
+
+    <string name="Create_wallet">Cipta dompet baharu</string><!--Create a new wallet-->
+    <string name="total_assets">Jumlah aset</string><!--Total assets--> 
+    <string name="last_update">Kali terakhir dikemas kini %1$d minit lalu.</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">Tiada sambungan Internet</string><!--No internet connection-->
+    <string name="retry_button">Tetapan</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">Syiling saya (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">Dompet belum ditambah</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">Urus dompet</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Beli/Jual</string><!--Buy/Sell-->
+    <string name="shop_buy">Beli</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Beli/jual daripada Maicoin</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">Pembelian, jualan atau sebarang transaksi (\&quot;Transaksi\&quot;) mata wang kripto akan ditolak dengan penyedia pertukaran pihak ketiga.  Semua Transaksi sedemikian akan tertakluk pada terma dan syarat perkhidmatan yang berkaitan antara anda dan penyedia pertukaran pihak ketiga. Anda hendaklah membaca terma dan syarat sedemikian dengan teliti sebelum anda menggunakan perkhidmatan daripada penyedia pertukaran pihak ketiga. HTC tidak mempunyai liabiliti atau tanggungjawab atas sebarang aktiviti antara anda dan penyedia pertukaran pihak ketiga.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">Jangan ingatkan saya lagi.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">Sistem</string><!--System-->
+    <string name="gen_wallet_title">Dompet</string><!--Wallet-->
+    <string name="gen_now">sekarang</string><!--now-->
+    <string name="gen_screenshot">Tidak dapat menyimpan petikan skrin</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">Petikan skrin tidak dibenarkan demi keselamatan</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">Terima transaksi</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">Anda telah menerima %1$s daripada</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">LIHAT BUTIRAN</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">Transaksi lengkap</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">Transaksi %1$s anda di %2$s telah disahkan</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">Transaksi gagal</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">Transaksi anda di %1$s menghantar %2$s %3$s kepada %4$s gagal</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">Versi baharu tersedia</string><!--New version available-->
+    <string name="gen_new_version_hint">Sila kemas kini aplikasi ke versi terbaru untuk keselamatan dan pengalaman pengguna yang dipertingkat.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">Tetapan keselamatan baharu dilancarkan. Untuk perlindungan anda, kemas kini sistem diperlukan. Sila kemas kini untuk teruskan.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">KEMAS KINI SEKARANG</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">Memuatkan tetapan keselamatan. Sila tunggu.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">Telefon anda telah diakarkan</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">Dompet anda dikunci kerana telefon anda telah diakarkan. Ini langkah berjaga-jaga keselamatan Sila hubungi khidmat pelanggan untuk mengetahui perkara yang anda boleh lakukan seterusnya.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">Telefon anda telah digodam</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">Dompet anda dikunci kerana telefon anda telah digodam. Ini langkah berjaga-jaga keselamatan Sila hubungi khidmat pelanggan untuk mengetahui perkara yang anda boleh lakukan seterusnya.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">Penafian penting: Ini produk akses awal yang menggunakan teknologi blok rantai. Mata wang kripto, pertukaran token dan blok rantai merupakan teknologi baharu dan mungkin membawa risiko yang tidak kelihatan. Sebagai contoh: Pihak ketiga mungkin memperkenalkan kelemahan dalam peranti, aplikasi dompet atau rangkaian blok rantai, yang boleh mengganggu dengan transaksi blok rantai atau menyebabkan kerugian mata wang kripto anda. Simpan 12 perkataan frasa dan kod laluan (suapan) pemulihan anda sepanjang masa. Anda bertanggungjawab sepenuhnya untuk melindungi kunci pemulihan anda. Dengan teruskan, anda mengakui dan bersetuju untuk menerima semua risiko yang berkaitan ini.\n\nTerima kasih kerana mencuba produk kami. Oleh sebab kami berusaha untuk meningkatkan teknologi kami, kami sangat menghargai <a href="mailto:exodus@htc.com">maklum balas</a></string><!--Important disclaimer: This is an early access product utilizing blockchain technologies. Cryptocurrency, token exchange, and blockchain are new technologies and may carry unforeseen risks. For example: Third parties may introduce weaknesses in devices, wallet applications, or blockchain networks, which may interfere with blockchain transactions or result in the loss of your cryptocurrency. Keep your 12-/word recovery phrase (seed) and passcode secure at all times. You are solely responsible for safeguarding your recovery keys. By continuing, you acknowledge and agree to accept all these associated risks.\n\nThank you for trying our products. As we strive to improve our technology, we sincerely appreciate your <a href="mailto:exodus@htc.com">feedback</a>-->
+    <string name="gen_feedback">maklum balas</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Barang koleksi</string><!--Collectibles-->
+    <string name="no_collectible">Tiada barang koleksi lagi</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">Barang koleksi anda akan muncul di sini.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">Beli token</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">Ketik untuk melihat barang koleksi anda</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Tambah lagi</string><!--Add more-->
+    <string name="addwallet_search_wallet">Cari dompet</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">Beli syiling</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">Permintaan</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">Hantar</string><!--Send-->
+    <string name="addwallet_hint">Transaksi anda akan ditunjukkan di sini.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">Anda tiada transaksi</string><!--You have no transactions-->
+    <string name="no_wallet_found">Tiada dompet ditemui</string><!--No wallet found-->
+    <string name="addwallet_add_btn">Tambah</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Urus senarai dompet</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">Temui <b>Zion</b></string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">Dompet selamat Semua Dalam Satu anda di Blockchain.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Cipta dompet Zion anda</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">Pulihkan dompet anda</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Permintaan Social Key Recovery</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">Dengan teruskan, saya mengesahkan bahawa saya telah membaca dan bersetuju dengan %1$s dan %2$s.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">Terma Penggunaan</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">Dasar Privasi HTC</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">Membantu rakan?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">Saya sudah membaca dan bersetuju dengan %1$s dan mengakui %2$s.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Terma Perkhidmatan Zion</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">Dasar Privasi</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Cipta kod laluan anda.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">Cipta kod laluan baharu anda.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">Kod laluan ini diperlukan untuk semua transaksi dan membuka kunci dompet anda.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">Sahkan kod laluan anda.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">Sahkan kod laluan baharu anda.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">Kod laluan tidak sepadan. Sila cuba lagi.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">12 perkataan frasa pemulihan untuk sandaran dan pemulihan</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">Set perkataan ini satu-satunya cara untuk memulihkan dompet anda jika anda kehilangan telefon anda atau terlupa kod laluan.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">Hasilkan 12 perkataan frasa pemulihan</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">Catatkan 12 perkataan frasa pemulihan anda mengikut susunan</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">Pastikan semua 12 perkataan frasa pemulihan dicatatkan dalam susunan yang betul dan kekalkannya di tempat yang selamat.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">Saya telah mencatatkannya</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">Sahkan 12 perkataan frasa pemulihan anda (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">Untuk memastikan perkataan telah dicatatkan dengan betul, sila masukkan perkataan mengikut susunan.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">Seterusnya</string><!--Next-->
+    <string name="verify_key_1_not_match">Satu atau banyak perkataan tidak sepadan. Sila cuba lagi.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">Sahkan 12 perkataan frasa pemulihan anda (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">Sahkan 12 perkataan frasa pemulihan anda (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">Tahniah! Dompet anda sudah sedia.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">Dayakan cap jari untuk membuka kunci dompet.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">Pergi ke dompet anda.</string><!--Go to your wallet.-->
+
+    <string name="restoring">Memulihkan</string><!--Restoring-->
+    <string name="preparing_secure_ui">Menyediakan UI selamat</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">Masukkan 12 perkataan frasa pemulihan untuk memulihkan dompet anda (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">Sila masukkan 12 perkataan frasa pemulihan anda dalam susunan yang betul.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">Masukkan 12 perkataan frasa pemulihan untuk memulihkan dompet anda (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">Masukkan 12 perkataan frasa pemulihan untuk memulihkan dompet anda (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">Tahniah!</string><!--Congratulations!-->
+    <string name="wallet_restored">Dompet anda telah dipulihkan.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Buka kunci dompet anda</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">Gunakan cap jari</string><!--Use fingerprint-->
+    <string name="use_passcode">Kod Laluan</string><!--Passcode-->
+    <string name="or">atau</string><!--or-->
+    <string name="use_fingerprint_to_unlock">Gunakan cap jari untuk membuka kunci</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">Cuba lagi</string><!--Try again-->
+    <string name="use_passcode_to_unlock">Gunakan kod laluan untuk membuka kunci</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">Tetapan cap jari berubah</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">Nampaknya anda telah mengubah tetapan cap jari anda baru-baru ini. Sila sediakan cap jari baharu untuk menggunakan ciri ini.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">Sediakan sekarang</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">Masukkan kod laluan untuk membuka kunci dompet anda</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">Versi baharu tersedia</string><!--New version available-->
+    <string name="new_version_hint">Sila kemas kini aplikasi ke versi terbaru untuk keselamatan dan pengalaman pengguna yang dipertingkat.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">Kemas kini kemudian</string><!--Update later-->
+    <string name="update_now">Kemas kini sekarang</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Hantar</string><!--Send-->
+    <string name="select_wallet">Pilih dompet</string><!--Select a wallet--> 
+    <string name="send_to">KE</string><!--TO-->
+    <string name="send_amount">JUMLAH</string><!--AMOUNT-->
+    <string name="hint_amount">Masukkan jumlah</string><!--Enter amount-->
+    <string name="to_paste_addr">Tampal alamat</string><!--Paste address-->
+    <string name="to_scan_QR">Imbas kod QR</string><!--Scan QR code-->
+    <string name="to_select_QR_image">Pilih imej yang disimpan</string><!--Select saved image-->
+    <string name="to_enter_address">Masukkan alamat</string><!--Enter address-->
+    <string name="to_paste_addr2">Tampal alamat daripada papan klip</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">Tambah daripada imej yang disimpan</string><!--Add from saved images-->
+    <string name="enter_address_hint">Masukkan alamat</string><!--Enter a address-->
+    <string name="send_address">Alamat</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">MAKS</string><!--MAX-->
+    <string name="send_review_btn">Semak semula transaksi</string><!--Review transaction-->
+    <string name="fee">Yuran Transaksi</string><!--Transaction Fee-->
+    <string name="select_wallet_error">Dana tidak mencukupi.</string><!--Insufficient funds.-->
+    <string name="amount_hint">Baki:</string><!--Balance:-->
+    <string name="address_error">Alamat %s tidak sah.</string><!--Invalid %s address.-->
+    <string name="amount_input_error">Dana tidak mencukupi untuk yuran transaksi.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">Jumlah input mesti sekurang-kurangnya %s</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">BATAL</string><!--CANCEL-->
+    <string name="enteraddr_save">SIMPAN</string><!--SAVE-->
+    <string name="payment_urgent">Segera</string><!--Urgent-->
+    <string name="payment_priority">Keutamaan</string><!--Priority-->
+    <string name="payment_regular">Tetap</string><!--Regular-->
+    <string name="payment_economy">Ekonomi</string><!--Economy-->
+    <string name="payment_title">Pilih keutamaan pembayaran</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 minit</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 jam</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 jam</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 jam</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">Huraian yuran transaksi</string><!--Transaction fee description-->
+    <string name="send_review">Semak semula transaksi anda</string><!--Review your transaction-->
+    <string name="send_note">MEMO</string><!--MEMO-->
+    <string name="send_note_hint">(PILIHAN)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">Transaksi dihantar.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">Masa pelengkapan transaksi bergantung pada trafik rangkaian dan yuran transaksi.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">OK</string><!--OK-->
+    <string name="fee_error">Ralat Pelayan: yuran tidak diketahui</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">Transaksi tidak berjaya</string><!--Transaction not successful--> 
+    <string name="review_send_to">HANTAR KE</string><!--SEND TO-->
+    <string name="review_fee">BAYARAN</string><!--FEE-->
+    <string name="review_edit">Edit</string><!--Edit-->
+    <string name="review_enter_pin">Kod Laluan</string><!--Passcode-->
+    <string name="review_cancel">Batalkan transaksi</string><!--Cancel transaction-->
+    <string name="send_server_no_response">Pelayan tidak memberikan respons. Sila cuba lagi kemudian.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">Yuran transaksi dikenakan caj oleh pihak ketiga, bukan HTC. Keutamaan lebih tinggi memerlukan yuran yang lebih tinggi. Huraian bingkai masa keutamaan berdasarkan statistik blok rantai masa nyata dan adalah untuk rujukan sahaja. Pilihan keutamaan anda tidak menjamin transaksi akan berjaya dilengkapkan atau dalam tempoh yang ditetapkan.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%s telah menambah anda sebagai kenalan yang dipercayai</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">Langkah 1. Masukkan nama anda dan dapatkan kod pengesahan daripada %s.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">Langkah 2: Minta %s untuk kod pengesahan anda dan masukkannya di sini.</string><!--Step 2: Ask %s for your verification code and enter it here.--> 
+    <string name="ver_enter_name_hint">Masukkan nama anda</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Minta kod</string><!--Request code--> 
+    <string name="ver_remain_time">Baki masa: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">Masukkan Kod Laluan untuk menghasilkan kod pengesahan</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">Kongsi kod ini dengan %s</string>
+    <string name="ver_sharing_recovery_remind_name">Permintaan baharu daripada</string>
+    <string name="ver_sharing_remind_name">Permintaan baharu daripada %s</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">M: %s melalui %s\n</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">TOLAK</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Permintaan baharu daripada %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">Ketik untuk melihat kod pengesahan dan kongsikannya dengan %s.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">TUNJUKKAN KOD PENGESAHAN</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Tiada balasan? Minta sekali lagi dalam %s.</string><!--No reply? Request again in %s.-->
+    <string name="ver_verify">Sahkan</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Anda kini kenalan yang dipercayai untuk %s.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">Kini anda boleh membantu %s memulihkan dompet mereka jika ia hilang atau dicuri. Zion telah menyulitkan dan menyimpan sebahagian data pemulihan dompet mereka ke peranti anda. Pastikan Zion atau data aplikasi Zion tidak dipadamkan, jika tidak data pemulihan ini akan hilang. Zion akan menyemak dengan %s secara berkala bagi mengesahkan data pemulihan tersebut masih sah.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">Selesai</string><!--Done-->
+    <string name="ver_pin_error_hint">Kod ini tidak sah, sila cuba lagi.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">Pemberitahuan</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Anda sudah menjadi kenalan %s yang dipercayai</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Terima kasih kerana membantu menyandarkan data %s</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">Pengesahan dihantar</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Menunggu penentusahan. Sebaik sahaja penentusahan lengkap, anda akan menjadi kenalan %s yang dipercayai.</string><!--Waiting for verification. Once verification is completed, you will be %s’s trusted contact.-->
+    <string name="ver_dialog_restore_verifying_subtitle">Mengesahkan...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">Pengesahan Dihantar</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">Mengesahkan…</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">Tidak diketahui</string><!--Unknown-->
+    <string name="ver_unknown_name">Tidak diketahui</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">Imbas kod pengesahan</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">Terima kasih kerana membantu!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s sudah mencapai maksimum 5 kenalan yang dipercayai.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Pautan ini tamat tempoh, sila minta %s menghantar pautan yang dikemas kini.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">Masa permintaan tamat, sila cuba lagi kemudian.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Sila cuba sebentar lagi</string><!--Please try again later-->
+    <string name="try_too_often_message">Anda sedang mencuba terlalu kerap, sila cuba lagi selepas %d minit.</string><!--You are trying too often, please try again after %d minutes.-->
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Helo cebisan kosong</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Tetapan</string><!--Settings-->
+    <string name="setting_tag1">Keutamaan</string><!--Preferences--> 
+    <string name="setting_currency">Mata wang pilihan</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">Keselamatan</string><!--Security--> 
+    <string name="setting_notification">Benarkan pemberitahuan tolak</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">Maklumkan transaksi dihantar dan diterima</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">Dayakan petikan skrin</string><!--Enable screenshots--> 
+    <string name="setting_pin">Tukar PIN</string><!--Change PIN-->
+    <string name="setting_fingerprint">Cap jari</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">Digunakan untuk membuka kunci aplikasi sahaja</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">Dompet</string><!--Wallet--> 
+    <string name="setting_show_key">Tunjukkan 12 perkataan frasa pemulihan</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Tetapkan semula dompet</string><!--Reset wallet-->
+    <string name="setting_tag4">Perihal</string><!--About--> 
+    <string name="setting_learn_more">Ketahui lebih lanjut</string><!--Learn more-->
+    <string name="setting_service">Terma perkhidmatan</string><!--Terms of service--> 
+    <string name="setting_policy">Dasar privasi</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Apakah itu Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery boleh membantu anda memulihkan dompet anda daripada rakan atau ahli keluarga anda yang dipercayai dengan mudah.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Jemput 3 hingga 5 orang menjadi kenalan dipercayai yang boleh membantu memulihkan dompet anda.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Kenalan anda yang dipercayai boleh menghantar kod bagi membantu anda memulihkan dompet anda.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Sediakan</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Bukan sekarang</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Sandarkan senarai kenalan anda yang dipercayai</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Untuk memulihkan dompet anda dengan Social Key Recovery, pilih akaun Google untuk menyandarkan kenalan anda yang dipercayai. Senarai kenalan anda yang dipercayai akan disimpan dalam Google Drive.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Tambah akaun</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Batal</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Teruskan</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">Kenalan dipercayai</string><!--Trusted contact--> 
+    <string name="backup_null_contact">Anda belum menambah sebarang kenalan yang dipercayai lagi.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery akan tersedia apabila anda mempunyai sekurang-kurangnya 3 kenalan yang dipercayai (Maks:5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Jemput rakan menjadi \n kenalan anda yang dipercayai</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Jemput 3 hingga 5 rakan atau ahli keluarga menjadi kenalan yang dipercayai dan bantu memulihkan dompet anda.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">Nama anda</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">Masukkan nama anda</string><!--Enter your name-->
+    <string name="backup_invitation_hi">Hai %s,</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">Kongsi jemputan</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Tidak aktif</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktif</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Hai, \n\n saya telah menetapkan anda sebagai kenalan saya yang dipercayai untuk ciri Social Key Recovery dompet Zion. \n Sila ikut arahan di bawah untuk \n membantu saya menyandarkan data pemulihan saya.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Ketik pautan ini untuk memuat turun dan memasang Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Apabila anda selesai, jangan lupa untuk \n meminta kod pengesahan daripada saya.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Terima Kasih!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Masa terakhir diperiksa: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">Ketik di sini untuk menghasilkan kod.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Hantar semula</string><!--Resend-->
+    <string name="backup_bottom_request_show">Permintaan daripada rakan-rakan</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Alih keluar kenalan yang dipercayai</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">Batal</string><!--Cancel-->
+    <string name="backup_remove_button_delete">Alih keluar(%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">Alih keluar kenalan yang dipercayai</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Daftar keluar</string><!--Sign out-->
+    <string name="backup_pending_target_toolbar">Permintaan daripada rakan-rakan</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Tiada permintaan buat masa ini.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Sandaran pada peranti yang sama tidak disokong.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Sandarkan dengan kenalan yang dipercayai?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">Kongsi pautan</string><!--Share link-->
+    <string name="restore_request">Permintaan pemulihan daripada %s</string><!--Restore request from %s-->
+    <string name="show">Tunjukkan</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Akaun ini telah digunakan dalam peranti lain</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Atas sebab keselamatan, setiap akaun boleh digunakan untuk satu peranti sahaja.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Adakah anda masih mahu menggunakan akaun ini atau menggunakan akaun lain untuk memulakan Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Gunakan akaun ini</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Senarai kenalan anda yang dipercayai sebelum ini akan hilang secara kekal.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Gunakan akaun lain</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Kekalkan data sebelumnya dan cipta data baharu.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Adakah anda pasti mahu menggunakan akaun ini?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">Senarai kenalan anda yang dipercayai sebelum ini akan hilang secara kekal.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">Masukkan PIN untuk teruskan</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">Bagaimanakah anda mahu memulihkan dompet anda?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">Gunakan 12 perkataan frasa pemulihan</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">Dengan Social Key Recovery</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">Masukkan 12 perkataan frasa pemulihan yang anda catatkan semasa anda mencipta dompet anda.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">Minta bantuan kenalan anda yang dipercayai.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Hai, \n\n Sebagai kenalan saya yang dipercayai, saya memerlukan bantuan anda untuk memulihkan dompet Zion saya.\nUntuk pemulihan, saya memerlukan anda melakukan perkara berikut.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Ketik pautan ini dan hasilkan kod pengesahan.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Hantarkan kod kepada saya.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Terima Kasih!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Sila tunggu...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Mengelog masuk...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Tiada data Social Key Recovery ditemui</string><!--No Social Key Recovery data found-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Sila cuba akaun lain atau gunakan 12 perkataan frasa pemulihan untuk memulihkan dompet anda.</string><!--Please try another account or use 12-/word recovery phrase to restore your wallet.-->
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Sila tunggu...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Menghasilkan pautan...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Daftar masuk ke akaun anda</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Untuk memulihkan dompet anda dengan Social Key Recovery, pilih akaun Google yang sebelum ini anda simpan senarai kenalan anda yang dipercayai.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Gagal menghasilkan pautan kongsi</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Sila cuba lagi kemudian.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Gagal untuk mengelog masuk</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Sila cuba lagi kemudian.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Minta bantuan kenalan anda yang dipercayai</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Hubungi tiga kenalan anda yang dipercayai dan kongsikan pautan ini dengan mereka.</string><!--1. Reach out to three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Setiap kenalan akan memberikan kod kepada anda. Masukkan setiap kod di bawah:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Satu atau banyak kod tidak betul. Cuba lagi.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Masukkan kod</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Batal</string><!--Cancel-->
+    <string name="social_restore_btn_next">Seterusnya</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">Sila cuba sebentar lagi</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">Anda sedang mencuba terlalu kerap, sila cuba lagi selepas %s minit</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">Satu atau banyak kod tidak betul.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">Sila sahkan semua kod adalah betul dan cuba lagi.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">Tiada sandaran untuk %s pada peranti anda.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Gagal memulih</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Cuba gunakan akaun yang berbeza atau 12 perkataan frasa pemulihan anda untuk memulihkannya.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Jemputan %s</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Ketik untuk terima.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Permintaan sokongan pemulihan daripada %s</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">Ketik untuk menghasilkan kod.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">Tiada Social Key Recovery yang telah disediakan dengan akaun ini.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">Cuba gunakan akaun yang berbeza atau 12 perkataan frasa pemulihan anda untuk memulihkannya.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">Kemas kini status sandaran</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">Sahkan untuk mengalih keluar kenalan yang dipercayai</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">Masukkan kod laluan untuk mengalih keluar</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Sandarkan dengan kenalan yang dipercayai?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">Anda juga boleh menyediakan Social Key Recovery dengan kenalan yang dipercayai untuk membantu anda menyandarkan dompet anda.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">Beritahu saya lebih lanjut</string><!--Tell me more-->
+    <string name="social_backup_not_now">Bukan sekarang</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Op, beberapa kenalan anda yang dipercayai sudah tidak aktif.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Semak dengan kenalan anda yang dipercayai untuk melindungi sambungan.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Anda telah menggunakan akaun ini pada peranti lain</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Semua data Social Key Recovery anda tidak boleh digunakan secara kekal. Anda perlu mengelog masuk akaun lain untuk terus menggunakan Social Key Recovery.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">Setuju</string><!--Agree-->
+    <string name="social_key_recovery_disagree">Tidak bersetuju</string><!--Disagree-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Beberapa kenalan yang dipercayai perlu disambungkan semula</string><!--Some trusted contacts need to be re-/connected-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">Atas sebab-sebab keselamatan, anda perlu menghantar semula jemputan kenalan anda yang dipercayai kepada %s, %s sekali lagi.</string><!--For security concerns, you need to resend the trusted contact invitation to %s, %s again.-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">Butiran transaksi</string><!--Transaction details--> 
+    <string name="Amount">Jumlah Amaun</string><!--Total Amount-->
+    <string name="Date">Tarikh</string><!--Date-->
+    <string name="Send_to">Hantar ke</string><!--Send to-->
+    <string name="Receive_From">Terima daripada</string><!--Receive from-->
+    <string name="Memo">Memo</string><!--Memo-->
+    <string name="transaction_amount_send">Jumlah akan dihantar</string><!--Amount to send-->
+    <string name="transaction_amount_receive">Jumlah akan diterima</string><!--Amount to receive-->
+    <string name="transaction_amount">Nilai</string><!--Value-->
+    <string name="Transaction_Fee">Yuran transaksi</string><!--Transaction fee--> 
+    <string name="Status">Status</string><!--Status-->
+    <string name="Transcation_ID">ID Transaksi</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">Imbas kod QR %1$s</string><!--Scan %1$s QR code-->
+    <string name="Settings">Tetapan</string><!--Settings-->
+    <string name="Help">Bantuan</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">Permintaan</string><!--Request-->
+    <string name="WALLET_ADDRESS">ALAMAT DOMPET</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">AKAUN UNTUK KREDIT</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">JUMLAH PERMINTAAN (PILIHAN)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">Kongsi kod QR</string><!--Share QR code-->
+    <string name="Copy_as_text">Salin sebagai teks</string><!--Copy as text-->
+    <string name="copy_toast">Alamat dompet disalin ke papan klip.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">Sesetengah dompet pihak ketiga mungkin tidak menyokong amaun permintaan dalam pautan atau kod QR.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">Imbas kod QR</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">Untuk menggunakan pengimbas kod QR, sila berikan akses kepada kamera anda dahulu.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">Dayakan akses kamera</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Benarkan Zion mengambil gambar dan merakam video</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">Jangan sesekali tanya lagi</string><!--Never ask again-->
+    <string name="DENY">TOLAK</string><!--DENY-->
+    <string name="ALLOW">BENARKAN</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">Imbas alamat Kod QR %1$s(%2$s)</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">Selaraskan kod tersebut dengan bingkai</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">Bukan alamat awam yang sah</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">Tidak dapat menyambung.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Anda memerlukan sambungan rangkaian untuk menggunakan apl ini. Sila hidupkan Data Mudah Alih atau Wi-Fi dalam Tetapan.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Batal</string><!--Cancel-->
+    <string name="check">Semak</string><!--Check-->
+    <string name="You_have_no_transaction">Anda tiada transaksi.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Transaksi anda akan ditunjukkan di sini apabila anda menghantar dan menerima aset kripto.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Cuba Social Key Recovery?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">Selain memulihkan dompet dengan 12 perkataan frasa pemulihan, Social Key Recovery boleh membantu anda memulihkan dompet anda daripada kenalan anda yang dipercayai dengan cara yang mudah.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">AKAN DATANG UNTUK IOS</string><!--COMING SOON FOR IOS-->
+
+    <string name="socialkm_not_active_title">Social Key Recovery tidak aktif</string><!--Social Key Recovery is not active-->
+    <string name="socialkm_not_active_message">Anda boleh cuba menghubungi kenalan anda yang dipercayai dan semak status sandaran mereka atau cari kenalan baharu untuk membantu anda.</string><!--You can try to contact your trusted contacts and check their backup status or find a new contact to help you.-->
+
+    <string name="transaction_confirmation">Pengesahan</string><!--Confirmations-->
+
+<!-- iOS strings -->
+    <string name="ios_social_backup_regular_check_title">Terima kasih kerana membantu sandaran rakan anda</string><!--Thanks for helping your friends backup-->
+    <string name="ios_social_backup_regular_check_content">Status sandaran Social Key Recovery telah dilaporkan kepada semua rakan anda.</string><!--The backup status of Social Key Recovery has been reported to all your friends.-->
+    <string name="ios_social_backup_notifications_settings_title">Pemberitahuan dinyahdayakan</string><!--Notifications disabled-->
+    <string name="ios_social_backup_notifications_settings_content">Sila benarkan pemberitahuan Zion dalam Tetapan.</string><!--Please allow Zion’s notifications in Settings.-->
+    <string name="ios_social_backup_notifications_settings">Tetapan</string><!--Settings-->
+    <string name="transaction_pending">Tunggu pengesahan</string><!--Wait for confirmation-->
+    <string name="complete">Lengkap</string><!--Complete-->
+</resources>

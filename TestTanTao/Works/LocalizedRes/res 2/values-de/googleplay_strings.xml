@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="googleplay_title">Zion – Social Key Recovery</string><!--Zion – Social Key recovery-->
+    <string name="googleplay_description_short">Helfen Sie Ihren Freunden, sich auf das Unerwartete vorzubereiten.</string><!--Help your friends prepare for the unexpected.-->
+    <string name="googleplay_description_app">Helfen Sie Ihren Freunden, ihre Zion Wallets mit Social Key Recovery zu sichern und wiederherzustellen. Sie können ihnen helfen, indem Sie einen Teil ihrer Wiederherstellungsdaten auf Ihrem Gerät speichern. Wenn sie ihre Wallets wiederherstellen müssen, können Sie ihre Daten an sie zurücksenden.</string><!--Help your friends back up and recover their Zion wallets with Social Key Recovery. You can help them by storing part of their recovery data on your device. When they need to recover their wallets, you can send their data back to them.-->
+</resources>

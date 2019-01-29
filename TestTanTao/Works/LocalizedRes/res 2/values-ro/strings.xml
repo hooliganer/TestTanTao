@@ -1,0 +1,560 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Nu</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Navigation Bar-->
+<!-- home page-->
+    <string name="Nav_home">Ecran principal</string><!--Home-->
+    <string name="Nav_collectible">Colecții</string><!--Collectibles--> 
+    <string name="Nav_request">Solicitare</string><!--Request-->
+    <string name="Nav_receive">Primire</string><!--Receive-->
+    <string name="Nav_shop">Magazin</string><!--Shop-->
+    <string name="home_recovering">Se recuperează...</string><!--Recovering…-->
+    <string name="home_recovering_please_wait">Recuperare în curs, vă rugăm să așteptați.</string><!--Recovery in progress, please wait.-->
+
+<!-- not to translate Blockfolio, it's name -->
+    <string name="home_rate_source">Sursa ratei de schimb: Blockfolio</string><!--Currency rate source: Blockfolio-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Home action bar-->
+    <string name="tool_manage_wallet">Gestionare ordine</string><!--Manage order-->
+    <string name="tool_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="tool_settings">Setări</string><!--Settings-->
+    <string name="tool_help">Ajutor</string><!--Help-->
+    <string name="tool_sort_by">Sortare după</string><!--Sort by-->
+    <string name="tool_sort_custom">Personalizată</string><!--Customized-->
+    <string name="tool_sort_currency_tpye">Alfabetic</string><!--Alphabetical-->
+    <string name="tool_sort_value">Valoare</string><!--Value-->
+
+    <string name="Create_wallet">Creare portofel nou</string><!--Create a new wallet-->
+    <string name="total_assets">Elemente totale</string><!--Total assets--> 
+    <string name="last_update">Ultima actualizare acum %1$d minut(e).</string><!--Last updated %1$d minute(s) ago.--> 
+    <string name="no_connection">Nicio conexiune la internet</string><!--No internet connection-->
+    <string name="retry_button">Setări</string><!--Settings-->
+
+    <string name="home_title">Zion</string><!--Zion--> 
+<!--subtitle that shows number of wallet-->
+    <string name="home_sub_title">Monedele mele (%1$d)</string><!--My coins (%1$d)--> 
+    <string name="home_no_wallet_hint">Niciun portofel adăugat încă</string><!--No wallet added yet-->
+    <string name="home_no_wallet_button">Gestionare portofel</string><!--Manage wallet-->
+<!-- End Home action bar-->
+
+<!-- Buy and Sell -->
+    <string name="shop_title">Cumpărare/vânzare</string><!--Buy/Sell-->
+    <string name="shop_buy">Cumpărare</string><!--Buy-->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+    <string name="trade_from_maicoin">Cumpărare/Vânzare de la Maicoin</string><!--Buy/sell from Maicoin--> 
+<!-- not to translate HTC-->
+    <string name="exchange_reminding_message">Cumpărarea, vânzarea sau orice tranzacție (“Tranzacție”) de criptomonede va fi realizată cu furnizorii terți de servicii de schimb.  Orice astfel de Tranzacție va face obiectul termenilor și condițiilor serviciului în cauză dintre dvs. și furnizorii terți de servicii de schimb. Trebuie să citiți cu atenție acești termeni și condiții înainte de a utiliza servicii oferite de furnizorii terți de servicii de schimb. HTC nu este responsabil de activitățile care au loc între dvs. și furnizorii terți de servicii de schimb.</string><!--The purchase, sale or any transaction (“Transaction”) of cryptocurrency will be conducted with the third-/party exchange providers.  All such Transaction will be subject to the relevant service terms and conditions between you and the third-/party exchange providers. You should read such terms and conditions carefully before you use services from the third-/party exchange providers. HTC is not liable or responsible for any activities between you and the third-/party exchange providers.-->
+    <string name="exchange_reminding_do_not_show_again">Nu-mi reaminti.</string><!--Don’t remind me again.-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_system_title">Sistem</string><!--System-->
+    <string name="gen_wallet_title">Portofel</string><!--Wallet-->
+    <string name="gen_now">acum</string><!--now-->
+    <string name="gen_screenshot">Nu s-a putut salva instantaneul</string><!--Couldn\'t save screenshot-->
+    <string name="gen_screenshot_hint">Captura de ecran nu este permisă din motive de securitate</string><!--Screenshot not allowed for security--> 
+    <string name="gen_receive_trans">Primiți o tranzacție</string><!--Receive a transaction-->
+    <string name="gen_receive_detail">Ați primit %1$s de la</string><!--You\'ve received %1$s from-->
+    <string name="gen_view_detail">VIZUALIZARE DETALII</string><!--VIEW DETAIL-->
+    <string name="gen_tran_complete">Tranzacție completă</string><!--Transaction complete-->
+    <string name="gen_tran_confirm">Tranzacția dvs. %1$s de pe %2$s a fost confirmată</string><!--Your %1$s transaction on %2$s has been confirmed--> 
+    <string name="gen_tran_fail">Tranzacție eșuată</string><!--Transaction fail-->
+    <string name="gen_tran_fail_detail">Tranzacția dvs. din %1$s în valoare de %2$s %3$s către %4$s a eșuat.</string><!--Your transaction on %1$s sent %2$s %3$s  to %4$s is failed-->
+    <string name="gen_new_version">Versiune nouă disponibilă</string><!--New version available-->
+    <string name="gen_new_version_hint">Actualizați-vă aplicația cu cea mai nouă versiune, pentru o mai bună securitate și experiență de utilizare.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="gen_new_version_hint_b">Noi setări de securitate lansate. Pentru protecția dvs. este necesară actualizarea sistemului. Pentru a continua, vă rugăm să actualizați.</string><!--New security settings released. For your protection, system update is required. Please update to proceed.-->
+    <string name="gen_update_now">ACTUALIZARE ACUM</string><!--UPDATE NOW-->
+    <string name="gen_please_wait_loading_security_settings">Se încarcă setările de securitate. Vă rugăm să aşteptaţi.</string><!--Loading security settings. Please wait.-->
+    <string name="gen_root_hint">Directorul rădăcină al telefonului tău a fost accesat</string><!--Your phone has been rooted-->
+    <string name="gen_root_message">Portofelul tău este blocat pentru că directorul rădăcină al telefonului tău a fost accesat. Aceasta este o măsură de precauție. Contactați serviciul de relații cu clienții, pentru a afla ce puteți face în continuare.</string><!--Your wallet is locked down because your phone was rooted. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_jailbroken_hint">Directorul rădăcină al telefonului tău a fost accesat</string><!--Your phone has been jailbroken-->
+    <string name="gen_jailbroken_message">Portofelul tău este blocat pentru că directorul rădăcină al telefonului tău a fost accesat. Aceasta este o măsură de precauție. Contactați serviciul de relații cu clienții, pentru a afla ce puteți face în continuare.</string><!--Your wallet is locked down because your phone was jailbroken. This is a safety precaution. Please contact customer service to find out what you can do next.-->
+    <string name="gen_enter_zion_warning">Notă importantă despre exonerarea de răspundere: Acesta este un produs de acces timpuriu ce utilizează tehnologiile blockchain. Criptomonedele, schimbul de tokenuri și blockchain reprezintă tehnologii noi ce pot prezenta riscuri neprevăzute. De exemplu: Terții pot introduce vulnerabilități în dispozitive, aplicații de tip portofel sau rețele blockchain ce pot interfera cu tranzacțiile blockchain sau pot duce la pierderea criptomonedelor dvs. Păstrați permanent în siguranță fraza dvs. de recuperare formată din 12 cuvinte (serie) și codul de acces. Doar dvs. sunteți responsabil pentru siguranța cheilor de recuperare. Continuând, dvs. confirmați că sunteți de acord să acceptați toate aceste riscuri asociate.\n\nVă mulțumim că încercați produsele noastre. Deoarece ne străduim să ne îmbunătățim tehnologia, apreciem cu sinceritate <a href="mailto:exodus@htc.com">feedback-ul dvs.</a></string><!--Important disclaimer: This is an early access product utilizing blockchain technologies. Cryptocurrency, token exchange, and blockchain are new technologies and may carry unforeseen risks. For example: Third parties may introduce weaknesses in devices, wallet applications, or blockchain networks, which may interfere with blockchain transactions or result in the loss of your cryptocurrency. Keep your 12-/word recovery phrase (seed) and passcode secure at all times. You are solely responsible for safeguarding your recovery keys. By continuing, you acknowledge and agree to accept all these associated risks.\n\nThank you for trying our products. As we strive to improve our technology, we sincerely appreciate your <a href="mailto:exodus@htc.com">feedback</a>-->
+    <string name="gen_feedback">feedback</string><!--feedback-->
+<!-- end general -->
+
+<!-- Collectible -->
+    <string name="collectible_title">Colecții</string><!--Collectibles-->
+    <string name="no_collectible">Nicio colecție încă</string><!--No collectibles yet--> 
+    <string name="no_collectible_hint">Colecțiile dvs. vor fi afișate aici.</string><!--Your collectibles will show up here.-->
+    <string name="collectible_buy_token">Cumpărare tokenuri</string><!--Buy tokens-->
+    <string name="collectible_tap_to_see_token">Apăsați pentru a vizualiza colecțiile dvs.</string><!--Tap to see your collectibles-->
+<!-- End Collectible -->
+
+<!-- Add wallet -->
+<!-- default string in search bar -->
+    <string name="addwallet_title">Adăugați mai multe</string><!--Add more-->
+    <string name="addwallet_search_wallet">Căutare portofel</string><!--Search wallet-->
+    <string name="addwallet_buy_coins">Cumpărare monede</string><!--Buy coins--> 
+<!-- go to request page -->
+    <string name="addwallet_request">Solicitare</string><!--Request-->
+<!-- go to send page -->
+    <string name="addwallet_send">Trimitere</string><!--Send-->
+    <string name="addwallet_hint">Tranzacțiile dvs. vor fi afișate aici.</string><!--Your transactions will be shown here.--> 
+    <string name="addwallet_notransaction">Nu aveți nicio tranzacție</string><!--You have no transactions-->
+    <string name="no_wallet_found">Nu a fost găsit niciun portofel</string><!--No wallet found-->
+    <string name="addwallet_add_btn">Adăugare</string><!--Add-->
+
+<!-- End add wallet-->
+
+<!-- Manage Wallet List -->
+    <string name="manage_list_title">Gestionare listă de activităţi</string><!--Manage wallet list-->
+<!-- End Manage Wallet List -->
+
+
+<!-- Welcome -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="welcome_to_zion">Acesta este <b>Zion</b></string><!--Meet <b>Zion</b>-->
+    <string name="welcome_intro">Portofelul tău multifuncțional securizat cu tehnologie blockchain.</string><!--Your All-/in-/One secure wallet on the Blockchain.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="create_a_new_wallet">Creați portofelul dvs. Zion</string><!--Create your Zion wallet-->
+    <string name="restore_from_backup">Recuperați-vă portofelul</string><!--Recover your wallet--> 
+    <string name="social_backup_requests"><u>Solicitări Social Key Recovery</u></string><!--<u>Social Key Recovery requests</u>-->
+    <string name="privacy_policy">Continuând, confirm că am citit și sunt de acord cu %1$s și %2$s.</string><!--By continuing, I confirm that I have read and agree to the %1$s and %2$s.-->
+    <string name="txt_terms_of_use">Termeni de utilizare</string><!--Terms of Use-->
+    <string name="txt_privacy_policy">Politica de confidenţialitate HTC</string><!--HTC Privacy Policy-->
+    <string name="welcome_help_friend_backup">Ajutați un prieten?</string><!--Helping a friend?--> 
+
+    <string name="privacy_policy_b">Am citit și sunt de acord cu %1$s și accept %2$s.</string><!--I have read and agree to %1$s, and acknowledge the %2$s.-->
+<!-- Zion is name, not to translate Zion-->
+    <string name="txt_zion_wallet_tou">Termenii serviciului Zion</string><!--Zion Terms of Services-->
+    <string name="txt_zion_wallet_privacy_policy">Politica de confidenţialitate</string><!--Privacy Policy-->
+<!-- End Welcome -->
+
+<!-- create Wallet -->
+    <string name="create_pin_code">Creați o parolă.</string><!--Create your passcode.-->
+    <string name="create_new_pin_code">Creați o parolă nouă.</string><!--Create your new passcode.-->
+    <string name="create_pin_code_hint">Această parolă este necesară pentru toate tranzacțiile și pentru deblocarea portofelului.</string><!--This passcode is required for all transactions and to unlock your wallet.-->
+    <string name="confirm_pin_code">Confirmați parola.</string><!--Confirm your passcode.-->
+    <string name="confirm_new_pin_code">Confirmați parola nouă.</string><!--Confirm your new passcode.-->
+    <string name="pin_code_not_match">Codurile de acces nu corespund. Încercaţi din nou.</string><!--The passcodes do not match. Please try again.--> 
+
+    <string name="backup_by_key">Frază de recuperare formată din 12 cuvinte pentru copiere de rezervă și restabilire</string><!--12-/word recovery phrase for backup and restore--> 
+    <string name="backup_by_key_hint">Acest set de cuvinte este singurul mod de a vă recupera portofelul în cazul în care vă pierdeți telefonul sau uitați codul de acces.</string><!--This set of words is the only way to restore your wallet if you lose your phone or forget the passcode.--> 
+    <string name="gen_recovery_key">Generează fraza de recuperare formată din 12 cuvinte</string><!--Generate 12-/word recovery phrase--> 
+    <string name="write_revocery_key">Notați în ordine cele 12 cuvinte ale frazei de recuperare</string><!--Write down the 12 words of your recovery phrase in order--> 
+    <string name="write_key_hint">Asigurați-vă că notați toate cele 12 cuvinte ale frazei de recuperare în ordinea corectă și păstrați-le într-un loc sigur.</string><!--Make sure to write all 12-/word recovery phrase down in the correct order and keep them in a safe place.--> 
+    <string name="finish_write_key">Le-am notat</string><!--I\'ve written them down--> 
+
+    <string name="verify_key_1">Verificați-vă fraza de recuperare formată din 12 cuvinte (1/3)</string><!--Verify your 12-/word recovery phrase (1/3)-->
+    <string name="verify_key_1_hint">Pentru a vă asigura că aceste cuvinte au fost notate corect, introduceți-le în ordine.</string><!--To make sure the words were written down correctly, please enter the words in order.--> 
+    <string name="verify_key_next">Următorul</string><!--Next-->
+    <string name="verify_key_1_not_match">Unul sau mai multe cuvinte nu se potrivesc. Încercaţi din nou.</string><!--One or more words don\'t match. Please try again.--> 
+
+    <string name="verify_key_2">Verificați-vă fraza de recuperare formată din 12 cuvinte (2/3)</string><!--Verify your 12-/word recovery phrase (2/3)-->
+    <string name="verify_key_3">Verificați-vă fraza de recuperare formată din 12 cuvinte (3/3)</string><!--Verify your 12-/word recovery phrase (3/3)-->
+
+    <string name="create_wallet_cong">Felicitări! Portofelul dvs. este setat.</string><!--Congratulations! Your wallet is all set.-->
+    <string name="enable_fingerprint">Activați amprenta pentru a vă debloca portofelul.</string><!--Enable fingerprint to unlock wallet.-->
+    <string name="go_to_wallet_home">Mergeți la portofel.</string><!--Go to your wallet.-->
+
+    <string name="restoring">Se restabileşte</string><!--Restoring-->
+    <string name="preparing_secure_ui">Se pregătește interfața cu utilizatorul securizată</string><!--Preparing secure UI--> 
+    <string name="restore_key_1">Introduceți fraza de recuperare formată din 12 cuvinte pentru recuperarea portofelului dvs. (1/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (1/3)-->
+    <string name="restore_key_hint">Introduceți fraza de recuperare formată din 12 cuvinte în ordinea corectă.</string><!--Please enter your 12-/word recovery phrase in the correct order.-->
+    <string name="restore_key_2">Introduceți fraza de recuperare formată din 12 cuvinte pentru recuperarea portofelului dvs. (2/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (2/3)-->
+    <string name="restore_key_3">Introduceți fraza de recuperare formată din 12 cuvinte pentru recuperarea portofelului dvs. (3/3)</string><!--Enter 12-/word recovery phrase to restore your wallet (3/3)-->
+    <string name="restored_cong">Felicitări!</string><!--Congratulations!-->
+    <string name="wallet_restored">Portofelul dvs. a fost recuperat.</string><!--Your wallet has been recovered.--> 
+
+
+<!-- End create Wallet -->
+
+<!--unlock wallet-->
+    <string name="unlock_your_wallet">Deblocați-vă portofelul</string><!--Unlock your wallet-->
+    <string name="use_fingerprint">Utilizare amprentă</string><!--Use fingerprint-->
+    <string name="use_passcode">Parolă</string><!--Passcode-->
+    <string name="or">sau</string><!--or-->
+    <string name="use_fingerprint_to_unlock">Utilizare amprentă pentru deblocare</string><!--Use fingerprint to unlock--> 
+    <string name="not_reconize_please_retry">Reîncercați</string><!--Try again-->
+    <string name="use_passcode_to_unlock">Utilizați codul de acces pentru deblocare</string><!--Use passcode to unlock-->
+    <string name="fingerprint_changed">Setarea amprentei a fost schimbată</string><!--Fingerprint setting changed-->
+    <string name="fingerprint_changed_hint">Se pare că ați schimbat recent setările amprentei dvs. Configurați o nouă amprentă pentru a utiliza această funcție.</string><!--It looks like you have changed your fingerprint settings recently. Please set up a new fingerprint to use this feature.--> 
+    <string name="fingerprint_ok">Configurare acum</string><!--Set up now-->
+    <string name="enter_pin_code_to_unlock">Introduceți parola pentru a vă debloca portofelul</string><!--Enter passcode to unlock your wallet-->
+    <string name="new_version_available">Versiune nouă disponibilă</string><!--New version available-->
+    <string name="new_version_hint">Actualizați-vă aplicația cu cea mai nouă versiune, pentru o mai bună securitate și experiență de utilizare.</string><!--Please update app to newer version for enhanced security and user experience.--> 
+    <string name="update_later">Actualizare mai târziu</string><!--Update later-->
+    <string name="update_now">Actualizare acum</string><!--Update now-->
+
+
+<!--End unlock wallet-->
+
+<!-- Strings related to Send -->
+    <string name="send_title">Trimitere</string><!--Send-->
+    <string name="select_wallet">Selectați un portofel</string><!--Select a wallet--> 
+    <string name="send_to">CĂTRE</string><!--TO-->
+    <string name="send_amount">SUMA</string><!--AMOUNT-->
+    <string name="hint_amount">Introduceți suma</string><!--Enter amount-->
+    <string name="to_paste_addr">Lipire adresă</string><!--Paste address-->
+    <string name="to_scan_QR">Scanare cod QR</string><!--Scan QR code-->
+    <string name="to_select_QR_image">Selectare imagine salvată</string><!--Select saved image-->
+    <string name="to_enter_address">Introducere adresă</string><!--Enter address-->
+    <string name="to_paste_addr2">Copiere adresă din clipboard</string><!--Paste address from clipboard-->
+    <string name="to_select_QR_image2">Adăugare din imagini salvate</string><!--Add from saved images-->
+    <string name="enter_address_hint">Introduceţi o adresă</string><!--Enter a address-->
+    <string name="send_address">Adresă</string><!--Address-->
+    <string name="amount_type">ETH</string><!--ETH-->
+    <string name="amount_max">MAX</string><!--MAX-->
+    <string name="send_review_btn">Analizare tranzacție</string><!--Review transaction-->
+    <string name="fee">Comision tranzacție</string><!--Transaction Fee-->
+    <string name="select_wallet_error">Fonduri insuficiente.</string><!--Insufficient funds.-->
+    <string name="amount_hint">Sold:</string><!--Balance:-->
+    <string name="address_error">Adresă %s nevalidă.</string><!--Invalid %s address.-->
+    <string name="amount_input_error">Fonduri insuficiente pentru comisionul tranzacției.</string><!--Insufficient funds for transaction fee.--> 
+    <string name="amount_input_error2">Suma introdusă trebuie să fie cel puțin %s</string><!--Input amount must at least %s-->
+    <string name="enteraddr_canel">REVOCARE</string><!--CANCEL-->
+    <string name="enteraddr_save">SALVARE</string><!--SAVE-->
+    <string name="payment_urgent">Urgent</string><!--Urgent-->
+    <string name="payment_priority">Prioritate</string><!--Priority-->
+    <string name="payment_regular">Obişnuit</string><!--Regular-->
+    <string name="payment_economy">Economic</string><!--Economy-->
+    <string name="payment_title">Selectați o prioritate a plății</string><!--Select a payment priority-->
+    <string name="payment_urgent_detail">&lt; 30 de minute</string><!--&lt; 30 minutes-->
+    <string name="payment_priority_detail">&lt; 1 oră</string><!--&lt; 1 hour-->
+    <string name="payment_regular_detail">&gt; 1 oră</string><!--&gt; 1 hour-->
+    <string name="payment_economy_detail">&gt; 3 ore</string><!--&gt; 3 hours-->
+    <string name="payment_info_title">Descrierea comisionului tranzacției</string><!--Transaction fee description-->
+    <string name="send_review">Revizuiți-vă tranzacția</string><!--Review your transaction-->
+    <string name="send_note">MEMENTO</string><!--MEMO-->
+    <string name="send_note_hint">(OPȚIONAL)</string><!--(OPTIONAL)-->
+    <string name="send_resoult_title">Tranzacție trimisă.</string><!--Transaction sent.--> 
+    <string name="send_resoult_desc">Durata de finalizare a tranzacției depinde de traficul din rețea și comisionul tranzacției.</string><!--Transaction completion time depends on the network traffic and transaction fee.--> 
+    <string name="send_resoult_btn">OK</string><!--OK-->
+    <string name="fee_error">Eroare server: comision necunoscut</string><!--Server Error: unknown fee-->
+    <string name="transaction_error">Tranzacție nereuşită</string><!--Transaction not successful--> 
+    <string name="review_send_to">TRIMITERE LA</string><!--SEND TO-->
+    <string name="review_fee">TAXĂ</string><!--FEE-->
+    <string name="review_edit">Editare</string><!--Edit-->
+    <string name="review_enter_pin">Cod de acces</string><!--Passcode-->
+    <string name="review_cancel">Revocare tranzacție</string><!--Cancel transaction-->
+    <string name="send_server_no_response">Serverul nu răspunde. Încercaţi din nou mai târziu.</string><!--Server not responding. Please try again later.-->
+
+<!-- not to translate [https://bitinfocharts.com & web3] -->
+    <string name="send_fee_hint">Comisioanele tranzacțiilor sunt percepute de terți, nu de HTC. Priorități mai mari necesită comisioane mai mari. Descrierea intervalului de timp prioritar se bazează pe statistici blockchain în timp real și are doar un caracter informativ. Alegerea dvs. privind prioritatea nu garantează că tranzacția se va finaliza cu succes sau în intervalul de timp alocat.</string><!--Transaction fees are charged by third parties, not HTC. Higher priorities require higher fees. The priority timeframe description is based on real-/time blockchain statistics, and is for reference only. Your choice of priority does not guarantee the transaction will be completed successfully or within the period designated.-->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%s v-a adăugat ca și contact de încredere</string><!--%s added you as a trusted contact-->
+    <string name="ver_step1">Pasul 1. Introduceți numele dvs. și obțineți codul de verificare de la %s.</string><!--Step 1. Enter your name and get the verification code from %s.--> 
+    <string name="ver_step2">Pasul 2: Cereți lui %s codul dvs. de verificare, și introduceți-l aici.</string><!--Step 2: Ask %s for your verification code and enter it here.--> 
+    <string name="ver_enter_name_hint">Introduceţi numele</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Solicitare cod</string><!--Request code--> 
+    <string name="ver_remain_time">Timp rămas: %02d:%02d</string><!--Remaining time: %02d:%02d--> 
+    <string name="ver_sharing_security_check">Introduceți codul de acces pentru generarea codului de verificare</string><!--Enter Passcode to generate verification code-->
+    <string name="ver_sharing_title">Partajează acest cod pe %s</string>
+    <string name="ver_sharing_recovery_remind_name">Solicitare nouă de la</string>
+    <string name="ver_sharing_remind_name">Solicitare nouă de la %s</string><!--New request from %s-->
+    <string name="ver_sharing_remind_route">M: %s\nprin %s</string><!--M: %s\nvia %s-->
+    <string name="ver_sharing_reject">RESPINGERE</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Solicitare nouă de la %s</string><!--New request from %s--> 
+    <string name="ver_notification_request_content">Apăsați pentru a vizualiza codul de verificare și partajați-l cu %s.</string><!--Tap to see the verification code and share it with %s.-->
+    <string name="ver_notification_request_button">AFIȘAȚI CODUL DE VERIFICARE</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Niciun răspuns? Solicitați din nou în %s.</string><!--No reply? Request again in %s.-->
+    <string name="ver_verify">Verificare</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Acum sunteți un contact de încredere pentru %s.</string><!--You are now a trusted contact for %s.--> 
+    <string name="ver_ok_congratulation_msg">Acum îl puteți ajuta pe %s să își recupereze portofelul în cazul în care acesta este pierdut sau furat. Zion a criptat și salvat pe dispozitivul dvs. o parte din datele de recuperare a portofelului. Vă rugăm să nu ștergeți Zion și nici datele aplicației Zion, altfel aceste date de recuperare se vor pierde. Zion va contacta periodic pe %s pentru a se asigura că datele de recuperare sunt în continuare valabile.</string><!--You can now help %s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %s periodically to verify the recovery data is still valid.--> 
+    <string name="ver_ok_done">Efectuat</string><!--Done-->
+    <string name="ver_pin_error_hint">Acest cod este nevalid, încercați din nou.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_title">Notificare</string><!--Notification-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Deja ești contactul de încredere al lui %s</string><!--You are already %s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Mulțumesc pentru ajutorul oferit la realizarea copiei de rezervă pentru datele lui %s</string><!--Thanks for helping back up %s’s data-->
+    <string name="ver_dialog_verifying_title">Verificare trimisă</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Se așteaptă verificarea. Odată verificarea finalizată, veți deveni contactul de încredere al lui %s.</string><!--Waiting for verification. Once verification is completed, you will be %s’s trusted contact.-->
+    <string name="ver_dialog_restore_verifying_subtitle">Se verifică...</string><!--Verifying...-->
+    <string name="ver_dialog_restore_verifying_title">Verificare trimisă</string><!--Verification Sent-->
+    <string name="ver_dialog_restore_verifying_content">Se verifică...</string><!--Verifying…-->
+    <string name="ver_unknown_phone_number">Necunoscut</string><!--Unknown-->
+    <string name="ver_unknown_name">Necunoscut</string><!--Unknown-->
+    <string name="ver_scan_a_verification_code">Scanați un cod de verificare</string><!--Scan a verification code-->
+    <string name="ver_dialog_trusted_contact_full_title">Vă mulţumim pentru ajutor!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%s a atins deja numărul maxim de 5 contacte de încredere.</string><!--%s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Acest link a expirat; solicitați lui %s să vă trimită linkul actualizat.</string><!--This link is expired, please ask %s to send the updated link.-->
+    <string name="ver_request_timeout">Solicitarea a expirat; încercaţi din nou mai târziu.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Încercaţi din nou mai târziu</string><!--Please try again later-->
+    <string name="try_too_often_message">Încercați prea des; reveniți după %d minute de pauză.</string><!--You are trying too often, please try again after %d minutes.-->
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string><!--Hello blank fragment-->
+
+<!-- Strings related to Settings -->
+    <string name="setting_title">Setări</string><!--Settings-->
+    <string name="setting_tag1">Preferinţe</string><!--Preferences--> 
+    <string name="setting_currency">Moneda preferată</string><!--Preferred currency--> 
+    <string name="setting_usd">USD</string><!--USD-->
+    <string name="setting_tag2">Securitate</string><!--Security--> 
+    <string name="setting_notification">Permiteți notificările push</string><!--Allow push notifications--> 
+    <string name="setting_notification_hint">Notificare pentru tranzacții trimise și primite</string><!--Notify for sent and received transactions--> 
+    <string name="setting_screenshot">Activare capturi de ecran</string><!--Enable screenshots--> 
+    <string name="setting_pin">Schimbare PIN</string><!--Change PIN-->
+    <string name="setting_fingerprint">Amprentă</string><!--Fingerprint-->
+    <string name="setting_fingerprint_hint">A se folosi doar pentru deblocarea aplicației</string><!--Used to unlock app only--> 
+    <string name="setting_tag3">Portofel</string><!--Wallet--> 
+    <string name="setting_show_key">Afișează fraza de recuperare formată din 12 cuvinte</string><!--Show 12-/word recovery phrase-->
+    <string name="setting_reset">Resetare portofel</string><!--Reset wallet-->
+    <string name="setting_tag4">Despre</string><!--About--> 
+    <string name="setting_learn_more">Mai multe informaţii</string><!--Learn more-->
+    <string name="setting_service">Termenii serviciului</string><!--Terms of service--> 
+    <string name="setting_policy">Politică de confidenţialitate</string><!--Privacy policy-->
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>ZAR</item>
+    </string-array>
+
+
+<!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Ce este Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery te poate ajuta să îți recuperezi cu ușurință portofelul de la rude sau prieteni de încredere.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Invită între 3 și 5 persoane ca să îți fie contacte de încredere, pentru a te putea ajuta să îți recuperezi portofelul.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Contactele tale de încredere pot trimite un cod pentru a te ajuta să îți recuperezi portofelul.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Configurare</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href='com.htc.wallet://'>Nu acum</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Faceți o copie de rezervă a listei cu contactele dvs. de încredere</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Pentru a vă recupera portofelul cu Social Key Recovery, selectați un cont Google pentru a vă crea copii de rezervă pentru contactele de încredere. Lista cu contactele de încredere va fi stocată pe Google Drive.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Adăugare cont</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Revocare</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Continuare</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="action_social_backup">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_trusted_contact">Contact de încredere</string><!--Trusted contact--> 
+    <string name="backup_null_contact">Încă nu ați adăugat niciun contact de încredere.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery va fi disponibilă atunci când aveți cel puțin 3 contacte de încredere (Max: 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Invită-ți prieteni pentru a-ți fi \n contacte de încredere</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Invită între 3 și 5 prieteni sau rude ca să îți fie contacte de încredere, pentru a te ajuta să îți recuperezi portofelul.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.--> 
+    <string name="backup_invitation_hint">Numele tău</string><!--Your name-->
+    <string name="backup_invitation_contact_hint">Introduceţi numele</string><!--Enter your name-->
+    <string name="backup_invitation_hi">Salut %s,</string><!--Hi %s,-->
+    <string name="backup_invitation_sharing">Invitație de partajare</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Inactiv</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Activ</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Salut, \n\n Te-am desemnat ca un contact de încredere pentru funcția Social Key Recovery a portofelului Zion. \n Urmează instrucțiunile de mai jos pentru \n a mă ajuta la copierea de rezervă a datelor mele de recuperare.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Apasă pe această legătură pentru a descărca și instala Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Când ai terminat, nu uita să-mi \n soliciți codul de verificare.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Mulţumesc!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Ultima verificare: %s</string><!--Last checked time: %s-->
+    <string name="backup_trust_item_sub2">Apăsați aici pentru generarea codului.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Retrimitere</string><!--Resend-->
+    <string name="backup_bottom_request_show">Solicitări de la prieteni</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Eliminare contact de încredere</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_cancel">Revocare</string><!--Cancel-->
+    <string name="backup_remove_button_delete">Eliminare(%d)</string><!--Remove(%d)-->
+    <string name="backup_menu_remove_trust_title">Eliminare contact de încredere</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Deconectare</string><!--Sign out-->
+    <string name="backup_pending_target_toolbar">Solicitări de la prieteni</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Nu există solicitări în acest moment.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Copierea de rezervă pe același dispozitiv nu este acceptată.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(maybe no matching ui)-->
+    <string name="backup_try_social_backup">Copiere de rezervă cu contacte de încredere?</string><!--Back up with trusted contacts?-->
+    <string name="backup_share_link">Partajare legătură</string><!--Share link-->
+    <string name="restore_request">Solicitare de restabilire de la %s</string><!--Restore request from %s-->
+    <string name="show">Afişare</string><!--Show-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Acest cont a fost utilizat într-un alt dispozitiv</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Din motive de securitate, fiecare cont poate fi utilizat doar pentru un singur dispozitiv.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Dorești să utilizezi acest cont sau un altul pentru a iniția Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Utilizează acest cont</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Lista anterioară cu contactele de încredere se va pierde definitiv.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Utilizează un alt cont</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Păstrează datele anterioare și creează unul nou.</string><!--Keep previous data and create a new one.-->
+
+<!--Social Key Recovery(Security check confirmation)-->
+    <string name="security_confirm_sure_to_use_account">Sigur doriți să utilizați acest cont?</string><!--Are you sure you want to use this account?-->
+    <string name="security_confirm_previous_cant_be_restore">Lista anterioară cu contactele de încredere se va pierde definitiv.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="security_confirm_enter_pin">Introduceţi PIN-ul pentru a continua</string><!--Enter PIN to continue-->
+
+
+<!-- Social Restore Dialog Chooser -->
+    <string name="restore_dialog_chooser_main_title">Cum dorești să îți recuperezi portofelul\?</string><!--How would you like to recover your wallet\?-->
+    <string name="restore_dialog_chooser_title_1">Utilizează fraza de recuperare formată din 12 cuvinte</string><!--Use 12-/word recovery phrase-->
+    <string name="restore_dialog_chooser_title_2">Prin Social Key Recovery</string><!--By Social Key Recovery-->
+    <string name="restore_dialog_chooser_sub_title_1">Introduceți fraza de recuperare formată din 12 cuvinte, pe care ați notat-o atunci când v-ați creat portofelul.</string><!--Enter 12-/word recovery phrase you wrote down when you created your wallet.-->
+    <string name="restore_dialog_chooser_sub_title_2">Solicitați ajutorul contactelor dvs. de încredere.</string><!--Ask your trusted contacts for help.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Salut, \n\n Fiind contactul meu de încredere, am nevoie de ajutorul tău pentru a-mi recupera portofelul Zion.\nPentru restaurare, trebuie să faci următoarele.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Apăsați această legătură și generați un cod de verificare.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Trimiteți-mi codul.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Mulţumesc!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Vă rugăm să așteptați...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Se conectează...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Nu au fost găsite date pentru Social Key Recovery</string><!--No Social Key Recovery data found-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Pentru restabilirea portofelului dvs., încercați un alt cont sau folosiți fraza de recuperare formată din 12 cuvinte.</string><!--Please try another account or use 12-/word recovery phrase to restore your wallet.-->
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Vă rugăm să așteptați...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Se generează legătura...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Conectare la contul dvs.</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Pentru a vă recupera portofelul cu Social Key Recovery, selectați acel cont Google unde v-ați salvat anterior lista cu contactele de încredere.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Generarea legăturii de partajare a eșuat</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Încercaţi din nou mai târziu.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Conectare eșuată</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Încercaţi din nou mai târziu.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Solicitați ajutorul contactelor dvs. de încredere.</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Partajați acest link cu trei dintre contactele dvs. de încredere.</string><!--1. Reach out to three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Fiecare contact vă va oferi un cod. Introduceți mai jos fiecare cod:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Unul sau mai multe coduri sunt incorecte. Încercaţi din nou.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Introduceţi codul</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Revocare</string><!--Cancel-->
+    <string name="social_restore_btn_next">Următorul</string><!--Next-->
+    <string name="social_restore_try_often_warning_title">Încercaţi din nou mai târziu</string><!--Please try again later-->
+    <string name="social_restore_try_often_warning_content">Încercați prea des; reveniți după %s minute de pauză.</string><!--You are trying too often, please try again after %s minutes-->
+    <string name="social_restore_verify_warning_title">Unul sau mai multe coduri sunt incorecte.</string><!--One or more codes incorrect.-->
+    <string name="social_restore_verify_warning_content">Asigurați-vă că toate codurile sunt corecte, apoi încercați din nou.</string><!--Please confirm all the codes are correct and try again.-->
+    <string name="social_restore_no_backup_on_device">Nu există nicio copie de rezervă pentru %s pe dispozitivul dvs.</string><!--There\'s no backup for %s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Restabilire eșuată</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Pentru restabilire, încercați să folosiți un alt cont sau fraza dvs. de recuperare formată din 12 cuvinte.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Invitația lui %s</string><!--%s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Apăsaţi pentru a accepta.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Solicitare de asistență recuperare de la %s</string><!--Recovery support request from %s-->
+    <string name="social_restore_backup_tap_to_generate_code">Apăsați pentru generarea codului.</string><!--Tap to generate code.-->
+    <string name="social_restore_no_social_key_Recovery">Cu acest cont nu a fost configurat niciun Social Key Recovery.</string><!--No Social Key Recovery was set up with this account.-->
+    <string name="social_restore_try_different_account">Pentru restabilire, încercați să folosiți un alt cont sau fraza dvs. de recuperare formată din 12 cuvinte.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+    <string name="social_backup_update_backup_status">Actualizare stare copiere de rezervă</string><!--Update backup status-->
+    <string name="social_backup_confirm_to_remove">Confirmați pentru a elimina contactul(le) de încredere</string><!--Confirm to remove the trusted contact(s)-->
+    <string name="social_backup_enter_passcode_to_remove">Introduceți codul de acces pentru eliminare</string><!--Enter passcode to remove-->
+    <string name="social_backup_protected_by_exodus_ui">Protected by Exodus Trusted UI</string>
+    <string name="social_backup_back_up_with_trusted_contacts">Copiere de rezervă cu contacte de încredere?</string><!--Back up with trusted contacts?-->
+    <string name="social_backup_back_you_can_set_up">Pentru a vă ajuta să efectuați copierea de rezervă a portofelului dvs., puteți configura Social Key Recovery cu contacte de încredere.</string><!--You can also set up Social Key Recovery with trusted contacts to help you back up your wallet.-->
+    <string name="social_backup_tell_me_more">Detalii</string><!--Tell me more-->
+    <string name="social_backup_not_now">Nu acum</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Ups, unele dintre contactele dvs. de încredere sunt inactive.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Consultați-vă cu contactul dvs. de încredere, pentru a securiza conexiunile.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Ați utilizat acest cont într-un alt dispozitiv</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Se va pierde definitiv posibilitatea de a utiliza datele dvs. pentru Social Key Recovery. Trebuie să vă conectați la un alt cont, pentru a continua să utilizați Social Key Recovery.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+    <string name="social_key_recovery_agree">De acord</string><!--Agree-->
+    <string name="social_key_recovery_disagree">Nu sunt de acord</string><!--Disagree-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Unele contacte de încredere trebuie reconectate</string><!--Some trusted contacts need to be re-/connected-->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">Din motive de securitate, trebuie să trimiteți din nou invitația pentru a deveni un contact de încredere lui %s, %s.</string><!--For security concerns, you need to resend the trusted contact invitation to %s, %s again.-->
+
+<!-- Wallet detail info -->
+    <string name="Transaction_detail">Detaliile tranzacției</string><!--Transaction details--> 
+    <string name="Amount">Suma totală</string><!--Total Amount-->
+    <string name="Date">Data</string><!--Date-->
+    <string name="Send_to">Trimitere la</string><!--Send to-->
+    <string name="Receive_From">Primire de la</string><!--Receive from-->
+    <string name="Memo">Memento</string><!--Memo-->
+    <string name="transaction_amount_send">Suma de trimis</string><!--Amount to send-->
+    <string name="transaction_amount_receive">Suma de primit</string><!--Amount to receive-->
+    <string name="transaction_amount">Valoare</string><!--Value-->
+    <string name="Transaction_Fee">Comisionul tranzacției</string><!--Transaction fee--> 
+    <string name="Status">Stare</string><!--Status-->
+    <string name="Transcation_ID">ID tranzacţie</string><!--Transaction ID-->
+<!-- Wallet detail Menu -->
+    <string name="Ethereum">Ethereum</string><!--Ethereum-->
+    <string name="Scan_ETH_QR_code">Scanați codul QR %1$s</string><!--Scan %1$s QR code-->
+    <string name="Settings">Setări</string><!--Settings-->
+    <string name="Help">Ajutor</string><!--Help-->
+<!-- Wallet Request page-->
+    <string name="Request">Solicitare</string><!--Request-->
+    <string name="WALLET_ADDRESS">ADRESĂ PORTOFEL</string><!--WALLET ADDRESS-->
+    <string name="ACCOUNT_TO_CREDIT">DE PE CONT PE CREDIT</string><!--ACCOUNT TO CREDIT-->
+    <string name="REQUEST_AMOUNT_OPTIONAL">SOLICITARE SUMĂ (OPȚIONAL)</string><!--REQUEST AMOUNT (OPTIONAL)-->
+    <string name="Share_QR_code">Partajare cod QR</string><!--Share QR code-->
+    <string name="Copy_as_text">Copiere ca text</string><!--Copy as text-->
+    <string name="copy_toast">Adresa portofelului a fost copiată în clipboard.</string><!--Wallet address copied to clipboard.-->
+    <string name="request_input_amount_hint">Este posibil ca unele portofele terțe să nu accepte solicitări de sume prin linkuri sau coduri QR.</string><!--Some third-/party wallets might not support request amounts in links or QR codes.-->
+<!-- Wallet QRcode page-->
+    <string name="Scan_QR_code">Scanați codul QR</string><!--Scan QR-/code-->
+    <string name="To_use_QR_code_scanner_please_give_access_to_your_camera_first.">Pentru a utiliza scanerul de coduri QR, permiteți mai întâi accesul la camera dvs.</string><!--To use the QR code scanner, please grant access to your camera first.--> 
+    <string name="Enable_camera_access">Activare acces cameră</string><!--Enable camera access-->
+<!-- Wallet QRcode permission-->
+    <string name="Allow_Wallet_to_take_pictures_and_record_video">Permiteți aplicației Zion să efectueze fotografii și să înregistreze videoclipuri</string><!--Allow Zion to take pictures and record video--> 
+    <string name="Never_ask_again">Nu mai întreba</string><!--Never ask again-->
+    <string name="DENY">REFUZARE</string><!--DENY-->
+    <string name="ALLOW">PERMITERE</string><!--ALLOW-->
+<!-- Wallet QRcode Scanner page-->
+    <string name="Scan_a_Etherum_ETH_QR_Code_address">Scanați o adresă de cod QR %1$s(%2$s)</string><!--Scan a %1$s(%2$s) QR Code address-->
+    <string name="Line_it_up_with_the_frame">Aliniați codul cu cadrul</string><!--Align the code with the frame--> 
+    <string name="Not_a_valid_public_address">Nu este o adresă de e-mail corectă</string><!--Not a valid public address-->
+
+    <string name="socialkm_network_connection_title">Conectare imposibilă.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Aveţi nevoie de o conexiune la reţea pentru a utiliza această aplicaţie. Activați Date mobile sau Wi-Fi din Setări.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Revocare</string><!--Cancel-->
+    <string name="check">Verificare</string><!--Check-->
+    <string name="You_have_no_transaction">Nu aveți nicio tranzacție.</string><!--You have no transactions.--> 
+    <string name="Your_transcation_will_be_shown_here_when_you_receive_and_send_coin.">Tranzacția dvs. va fi afișată aici, atunci când trimiteți și primiți criptoelemente.</string><!--Your transaction will be shown here when you send and receive crypto assets.--> 
+
+<!-- Try Social Key Recovery dialog -->
+    <string name="db_try_social_key_recovery">Doriți să încercați Social Key Recovery\?</string><!--Try Social Key Recovery\?-->
+    <string name="db_try_social_key_recovery_msg">Pe lângă restabilirea portofelului cu fraza de recuperare formată din 12 cuvinte, Social Key Recovery vă poate ajuta să vă recuperați cu ușurință portofelul de la contactele dvs. de încredere.</string><!--Beside restoring wallet by 12-/word recovery phrase, Social Key Recovery can help you to recover your wallet from your trusted contacts in an easy way.-->
+
+    <string name="entry_ios_coming_soon">ÎN CURÂND PE IOS</string><!--COMING SOON FOR IOS-->
+
+    <string name="socialkm_not_active_title">Social Key Recovery nu este activ</string><!--Social Key Recovery is not active-->
+    <string name="socialkm_not_active_message">Puteți încerca să luați legătura cu contactele dvs. de încredere și să verificați starea copierii de rezervă sau să găsiți un contact nou care să vă ajute.</string><!--You can try to contact your trusted contacts and check their backup status or find a new contact to help you.-->
+
+    <string name="transaction_confirmation">Confirmări</string><!--Confirmations-->
+
+<!-- iOS strings -->
+    <string name="ios_social_backup_regular_check_title">Vă mulțumim că vă ajutați prietenii să-și realizeze copierea de rezervă</string><!--Thanks for helping your friends backup-->
+    <string name="ios_social_backup_regular_check_content">Starea copierii de rezervă pentru Social Key Recovery a fost raportată tuturor prietenilor dvs.</string><!--The backup status of Social Key Recovery has been reported to all your friends.-->
+    <string name="ios_social_backup_notifications_settings_title">Notificările sunt dezactivate</string><!--Notifications disabled-->
+    <string name="ios_social_backup_notifications_settings_content">Permiteți notificările de la Zion în Setări.</string><!--Please allow Zion’s notifications in Settings.-->
+    <string name="ios_social_backup_notifications_settings">Setări</string><!--Settings-->
+    <string name="transaction_pending">Așteptați confirmarea</string><!--Wait for confirmation-->
+    <string name="complete">Finalizată</string><!--Complete-->
+</resources>
