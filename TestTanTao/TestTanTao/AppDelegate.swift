@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Firebase
+//import Firebase
 import CoreData
 import Selene
 import UserNotifications
@@ -21,13 +21,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
 //        FirebaseApp.configure(name: "TanTaoNamed", options: FirebaseOptions.defaultOptions()!)
-        FirebaseApp.configure();
+//        FirebaseApp.configure();
         
 //        Branch.setUseTestBranchKey(true)
 //        // listener for Branch Deep Link data
 //        Branch.getInstance()?.initSession(launchOptions: launchOptions, andRegisterDeepLinkHandler: { (params, error) in
 //            print(params as? [String: AnyObject] ?? {})
 //        })
+        let vc = ViewController()
+        let na = UINavigationController(rootViewController: vc)
+        self.window?.rootViewController = na
         
         return true
     }
@@ -131,14 +134,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     //处理收到的通用链接形式的链接：（在 iOS 9 及更高版本上）
     func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
         
-        sleep(1);
-                
-        let handled = DynamicLinks.dynamicLinks().handleUniversalLink(userActivity.webpageURL!) { (dynamiclink, error) in
-            
-            print("\n \(String(describing: dynamiclink?.url)) \n")
-            
-        }
-        return handled;
+//        sleep(1);
+//
+//        let handled = DynamicLinks.dynamicLinks().handleUniversalLink(userActivity.webpageURL!) { (dynamiclink, error) in
+//
+//            print("\n \(String(describing: dynamiclink?.url)) \n")
+//
+//        }
+//        return handled;
+        return true
     }
     
     /*

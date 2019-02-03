@@ -63,14 +63,21 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
   - Selene (2.0.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.7)
+  - Alamofire
   - Firebase/Core
   - Firebase/DynamicLinks
   - IGListKit
   - MJExtension
+  - RxCocoa
+  - RxSwift
   - Selene
 
 SPEC REPOS:
@@ -87,6 +94,9 @@ SPEC REPOS:
     - IGListKit
     - MJExtension
     - nanopb
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
     - Selene
 
 SPEC CHECKSUMS:
@@ -102,8 +112,11 @@ SPEC CHECKSUMS:
   IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
   Selene: 225ff0c91a7cce2c8fb44542d4a0bf92758b36c9
 
-PODFILE CHECKSUM: 2ef73f907a80466f29cca76c03a420b043dfe11c
+PODFILE CHECKSUM: 5275e75885abdb7495cdd266678509fef4f1c18a
 
 COCOAPODS: 1.5.3

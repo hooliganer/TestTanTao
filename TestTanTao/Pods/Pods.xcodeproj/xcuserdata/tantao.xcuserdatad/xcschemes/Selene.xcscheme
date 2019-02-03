@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5EBE5EF114042D881B71C65EC6984E9E"
+               BlueprintIdentifier = "4B0F3DDCB24CEEBD09F1D7D1CE361B63"
                BuildableName = "Selene.framework"
                BlueprintName = "Selene"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5EBE5EF114042D881B71C65EC6984E9E"
+            BlueprintIdentifier = "4B0F3DDCB24CEEBD09F1D7D1CE361B63"
             BuildableName = "Selene.framework"
             BlueprintName = "Selene"
             ReferencedContainer = "container:Pods.xcodeproj">

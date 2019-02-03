@@ -10,6 +10,8 @@ pod 'IGListKit'
 pod 'MJExtension'
 pod 'Selene'
 pod 'Alamofire'
+pod 'RxSwift'
+pod 'RxCocoa'
 
 target ‘TestTanTao' do
 end

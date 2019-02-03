@@ -10,10 +10,17 @@
 		614660AD43DBA78B3D84F519 /* Pods_TestTanTao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6061CC3A1B41844C32258069 /* Pods_TestTanTao.framework */; };
 		B203ED5A21E4B1EF0090C8DB /* SampleTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203ED5921E4B1EF0090C8DB /* SampleTask.swift */; };
 		B203ED5E21E58BEE0090C8DB /* TestDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203ED5D21E58BEE0090C8DB /* TestDB.swift */; };
+		B20709F422004FD5006D7A5B /* RxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20709F322004FD5006D7A5B /* RxManager.swift */; };
+		B20709F72200526B006D7A5B /* RxSwiftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20709F52200526B006D7A5B /* RxSwiftController.swift */; };
+		B20709F82200526B006D7A5B /* RxSwiftController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20709F62200526B006D7A5B /* RxSwiftController.xib */; };
+		B20709FA22005478006D7A5B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20709F922005478006D7A5B /* Constant.swift */; };
+		B20709FD22016F14006D7A5B /* FCMTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20709FC22016F14006D7A5B /* FCMTool.swift */; };
 		B208757E21EF0B6A002A213B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B208757D21EF0B6A002A213B /* AdSupport.framework */; };
 		B208758221EF2EBD002A213B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B208758121EF2EBD002A213B /* GoogleService-Info.plist */; };
 		B20875C721F06A02002A213B /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20875C621F06A02002A213B /* UIButtonExtension.swift */; };
 		B20BEEFE21A3EF5E00649DC9 /* MyFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BEEFD21A3EF5E00649DC9 /* MyFileManager.swift */; };
+		B2228F2422053112005F5FAF /* WebMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2228F2222053112005F5FAF /* WebMainController.swift */; };
+		B2228F2522053112005F5FAF /* WebMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2228F2322053112005F5FAF /* WebMainController.xib */; };
 		B228BA8321ABCDD0003C343C /* CoredataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BA8221ABCDD0003C343C /* CoredataManager.swift */; };
 		B260057F21C8912900C8EA18 /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260057D21C8912900C8EA18 /* LoadViewController.swift */; };
 		B260058021C8912900C8EA18 /* LoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B260057E21C8912900C8EA18 /* LoadViewController.xib */; };
@@ -56,10 +63,17 @@
 		6061CC3A1B41844C32258069 /* Pods_TestTanTao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTanTao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B203ED5921E4B1EF0090C8DB /* SampleTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTask.swift; sourceTree = "<group>"; };
 		B203ED5D21E58BEE0090C8DB /* TestDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDB.swift; sourceTree = "<group>"; };
+		B20709F322004FD5006D7A5B /* RxManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxManager.swift; sourceTree = "<group>"; };
+		B20709F52200526B006D7A5B /* RxSwiftController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftController.swift; sourceTree = "<group>"; };
+		B20709F62200526B006D7A5B /* RxSwiftController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftController.xib; sourceTree = "<group>"; };
+		B20709F922005478006D7A5B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B20709FC22016F14006D7A5B /* FCMTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCMTool.swift; sourceTree = "<group>"; };
 		B208757D21EF0B6A002A213B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		B208758121EF2EBD002A213B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B20875C621F06A02002A213B /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		B20BEEFD21A3EF5E00649DC9 /* MyFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFileManager.swift; sourceTree = "<group>"; };
+		B2228F2222053112005F5FAF /* WebMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMainController.swift; sourceTree = "<group>"; };
+		B2228F2322053112005F5FAF /* WebMainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebMainController.xib; sourceTree = "<group>"; };
 		B228BA8221ABCDD0003C343C /* CoredataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataManager.swift; sourceTree = "<group>"; };
 		B260057D21C8912900C8EA18 /* LoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
 		B260057E21C8912900C8EA18 /* LoadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadViewController.xib; sourceTree = "<group>"; };
@@ -133,6 +147,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B20709EF22004FA5006D7A5B /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B20709F322004FD5006D7A5B /* RxManager.swift */,
+				B20709F52200526B006D7A5B /* RxSwiftController.swift */,
+				B20709F62200526B006D7A5B /* RxSwiftController.xib */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		B20709FB22016EED006D7A5B /* FCM */ = {
+			isa = PBXGroup;
+			children = (
+				B20709FC22016F14006D7A5B /* FCMTool.swift */,
+			);
+			path = FCM;
+			sourceTree = "<group>";
+		};
 		B20875C521F069EC002A213B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +176,9 @@
 		B20BEEFB21A3EF2800649DC9 /* Works */ = {
 			isa = PBXGroup;
 			children = (
+				B2228F21220530F3005F5FAF /* Webview */,
+				B20709FB22016EED006D7A5B /* FCM */,
+				B20709EF22004FA5006D7A5B /* RxSwift */,
 				B20875C521F069EC002A213B /* Extension */,
 				B2F0BA2921E33AC700C9DECE /* Selene */,
 				B29FD9D121BE002A00B6B0AD /* Public */,
@@ -152,6 +187,7 @@
 				B228BA8121ABCDB2003C343C /* CoreData */,
 				B260060621A64EA800FB2D80 /* FireBase */,
 				B20BEEFC21A3EF3900649DC9 /* Managers */,
+				B20709F922005478006D7A5B /* Constant.swift */,
 			);
 			path = Works;
 			sourceTree = "<group>";
@@ -164,6 +200,15 @@
 				B29FD9E321C7877700B6B0AD /* AlamoManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		B2228F21220530F3005F5FAF /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				B2228F2222053112005F5FAF /* WebMainController.swift */,
+				B2228F2322053112005F5FAF /* WebMainController.xib */,
+			);
+			path = Webview;
 			sourceTree = "<group>";
 		};
 		B228BA8121ABCDB2003C343C /* CoreData */ = {
@@ -376,6 +421,8 @@
 				B2A0CD5E21CB2EC30083DF4D /* BaseListViewController.xib in Resources */,
 				B260058421C891BF00C8EA18 /* WebTableCell.xib in Resources */,
 				B2C0FF3C21A3CF6800866C85 /* LaunchScreen.storyboard in Resources */,
+				B20709F82200526B006D7A5B /* RxSwiftController.xib in Resources */,
+				B2228F2522053112005F5FAF /* WebMainController.xib in Resources */,
 				B2E925EF21CCCF1600FBBC79 /* android_res in Resources */,
 				B208758221EF2EBD002A213B /* GoogleService-Info.plist in Resources */,
 				B2A0CD6C21CB68FD0083DF4D /* UserInfoCell.xib in Resources */,
@@ -401,6 +448,9 @@
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Selene/Selene.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -412,6 +462,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Selene.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -452,6 +505,7 @@
 				B260057F21C8912900C8EA18 /* LoadViewController.swift in Sources */,
 				B2A0CD5D21CB2EC30083DF4D /* BaseListViewController.swift in Sources */,
 				B2C0FF3121A3CF6600866C85 /* ViewController.swift in Sources */,
+				B20709F422004FD5006D7A5B /* RxManager.swift in Sources */,
 				B2C299DE21AF82F400DC9576 /* LocalizedManager.swift in Sources */,
 				B260058321C891BF00C8EA18 /* WebTableCell.swift in Sources */,
 				B228BA8321ABCDD0003C343C /* CoredataManager.swift in Sources */,
@@ -463,13 +517,17 @@
 				B2F0BA2D21E33B8800C9DECE /* SLNTestTask.swift in Sources */,
 				B2A0CD6021CB325F0083DF4D /* FirstIGListCells.swift in Sources */,
 				B29FD9DE21C0D8B800B6B0AD /* EntityDB.swift in Sources */,
+				B20709F72200526B006D7A5B /* RxSwiftController.swift in Sources */,
 				B20BEEFE21A3EF5E00649DC9 /* MyFileManager.swift in Sources */,
+				B20709FA22005478006D7A5B /* Constant.swift in Sources */,
 				B29FD9E021C0D9DA00B6B0AD /* WalletDB.swift in Sources */,
+				B20709FD22016F14006D7A5B /* FCMTool.swift in Sources */,
 				B29FD9E221C399FE00B6B0AD /* HTTPManager.swift in Sources */,
 				B2A0CD6F21CB6C9A0083DF4D /* ContentCell.swift in Sources */,
 				B2C299E621AF83BB00DC9576 /* XMLReader.m in Sources */,
 				B203ED5E21E58BEE0090C8DB /* TestDB.swift in Sources */,
 				B2C299E321AF83AF00DC9576 /* TestOCManager.m in Sources */,
+				B2228F2422053112005F5FAF /* WebMainController.swift in Sources */,
 				B29FD9E421C7877700B6B0AD /* AlamoManager.swift in Sources */,
 				B2A0CD5921CB2CC20083DF4D /* IGListView.swift in Sources */,
 				B20875C721F06A02002A213B /* UIButtonExtension.swift in Sources */,
@@ -630,7 +688,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSF8C32N4B;
 				INFOPLIST_FILE = TestTanTao/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -655,7 +713,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSF8C32N4B;
 				INFOPLIST_FILE = TestTanTao/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

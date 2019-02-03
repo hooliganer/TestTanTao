@@ -7,22 +7,31 @@
 //
 
 import UIKit
-import Alamofire
-import Firebase
 
-class ViewController: UIViewController,UIPickerViewDelegate {
+class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
-    @IBOutlet var aBtn: UIButton!
-    @IBOutlet var bBtn: UIButton!
-    @IBOutlet var slider: UISlider!
-    @IBOutlet var picker: UIPickerView!
+    lazy var tabler: UITableView = {
+        let view = UITableView(frame: CGRect(x: 10, y: NavigationHeight, width: MainScreenWidth - 20, height: MainScreenHeight - NavigationHeight), style: .plain)
+        self.view.addSubview(view)
+        return view
+    }()
+    lazy var datasources: [MainModel] = {
+        let arr = [
+            MainModel(name: "RxSwift", controller: RxSwiftController()),
+            MainModel(name: "Webview", controller: WebMainController())
+        ]
+        return arr
+    }()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.view.backgroundColor = .white
         self.title = "主界面"
-        self.picker.delegate = self
-        
+        self.tabler.dataSource = self
+        self.tabler.delegate = self
+        self.tabler.backgroundColor = .clear
     }
     
     override func viewDidLayoutSubviews() {
@@ -30,44 +39,41 @@ class ViewController: UIViewController,UIPickerViewDelegate {
         
     }
     
-    @IBAction func clickUp(_ sender: UIButton) {
-        
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.datasources.count
     }
     
-    @IBAction func clickDown(_ sender: UIButton) {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let identifer = "MainCellID"
+        var cell = tableView.dequeueReusableCell(withIdentifier: identifer)
+        if cell == nil {
+            cell = UITableViewCell(style: .default, reuseIdentifier: identifer)
+            cell?.backgroundColor = .clear
+            if #available(iOS 8.2, *) {
+                cell?.textLabel?.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+            } else {
+                cell?.textLabel?.font = UIFont.systemFont(ofSize: 20)
+            }
+        }
+        cell?.textLabel?.text = self.datasources[indexPath.row].name
         
+        return cell!
     }
     
-    @IBAction func sliderChanged(_ sender: UISlider) {
-        print("\n \(sender) \n")
-    }
-    
-    
-    /// 添加创建并添加本地通知
-    func addANotification() {
-        
-        // 初始化一个通知
-        let localNoti = UILocalNotification()
-        
-        // 通知的触发时间，例如即刻起15分钟后
-        let fireDate = Date().addingTimeInterval(5)
-        localNoti.fireDate = fireDate
-        // 设置时区
-        localNoti.timeZone = NSTimeZone.default
-        // 通知上显示的主题内容
-        localNoti.alertBody = "通知上显示的提示内容"
-        // 收到通知时播放的声音，默认消息声音
-        localNoti.soundName = UILocalNotificationDefaultSoundName
-        //待机界面的滑动动作提示
-        localNoti.alertAction = "打开应用"
-        // 应用程序图标右上角显示的消息数
-        localNoti.applicationIconBadgeNumber = 0
-        // 通知上绑定的其他信息，为键值对
-        localNoti.userInfo = ["id": "1",  "name": "xxxx"]
-        
-        // 添加通知到系统队列中，系统会在指定的时间触发
-        UIApplication.shared.scheduleLocalNotification(localNoti)
-        
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let controller = self.datasources[indexPath.row].controller
+        self.navigationController?.pushViewController(controller!, animated: true)
+//        self.present(controller!, animated: true, completion: nil)
     }
 }
 
+class MainModel: NSObject {
+    var controller : UIViewController?
+    var name : String?
+    convenience init(name:String,controller:UIViewController) {
+        self.init()
+        self.controller = controller
+        self.name = name
+    }
+}
